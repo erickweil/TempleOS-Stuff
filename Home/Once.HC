@@ -6,8 +6,7 @@
 //See $LK,"Once",A="FF:~/HomeSys.HC,Once"$ and $LK,"Home Files",A="FF:::/Doc/GuideLines.DD,/Home Files"$.
 
 //Delete the rest from this file.
-#include "::/Home/erick/hello.HC.Z";
-
+
 U0 iniciar()
 {
  // " /  /  /  /  /  /  /  /  /  /  /\n";
@@ -24,7 +23,7 @@ U0 iniciar()
  // Type("::/Home/bomdia.DD");
  // "\n";
  // DocBottom;
- //Listdirs(1);
+ //Listdirs(1);
 }
 
 U0 Tmp()

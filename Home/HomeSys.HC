@@ -5,6 +5,7 @@ U0 UserStartUp()
 {//Run each time a user a spawned
   DocTermNew;
   Type("::/Doc/Start.DD");
+  Print("\n\n    $$MA+B-UL,\"Graphic Dir\",LM=\"#include \\\"::/Home/erick/hello.HC.Z\\\";\\nListdirs(1);\\n\"$$\n\n");
   LBts(&Fs->display_flags,DISPLAYf_SHOW);
   WinToTop;
   WinZBufUpdate;
@@ -35,7 +36,7 @@ U0 StartUpTasks()
   // Assim vai ter so 1 terminal
   CTask *user1;
   user1=User;
-  
+  
   WinToTop(user1);
   WinMax(user1);
   //WinTileVert;
