@@ -7,18 +7,18 @@
 //
 
 // Tem que dar Free quando usa MAlloc
-U8 *chars = NULL;
+//U8 *chars = NULL;
 
-U0 SU_initBuffer(I64 size)
-{
-  chars = MAlloc(size+1);
-  chars[size] = '\0';
-}
+//U0 SU_initBuffer(I64 size)
+//{
+//  chars = MAlloc(size+1);
+//  chars[size] = '\0';
+//}
 
-U0 SU_freeBuffer()
-{
-  if(chars) Free(chars);
-}
+//U0 SU_freeBuffer()
+//{
+//  if(chars) Free(chars);
+//}
 
 
 // Truncates src to max chars, taking row offset,
@@ -36,17 +36,17 @@ $FG$$BG$//abcdefgh0.000005s
 $FG$$BG$//  ijkl  0.000005s
 //C:/Home>
 //
-U8 *SU_centralize(U8 *src,I64 max,I64 row)
+U8 *SU_centralize(U8 *chars,U8 *src,I64 max,I64 row)
 {
   if(!chars)
   {
-    SU_initBuffer(max);
-  }
+    //SU_initBuffer(max);
+    throw('NOBUFF');
+  }
   else if(StrLen(chars) != max)
   {
-    //Print("Re-Creating");
-    SU_freeBuffer();
-    SU_initBuffer(max);  
+    Print("Wrong Buffer size: %d != %d \n",StrLen(chars),max);
+    throw('WRBUFFSZ');
   }
   
   I64 src_len = StrLen(src);

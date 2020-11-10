@@ -123,7 +123,10 @@ U0 PrintGraphicDirEntry(CDirEntry *dir,I64 row_step,I64 max_name)
   if (!dir) return;
    
   //I64 name_len = StrLen(dir->name);
-  U8 *str = NULL; 
+  U8 *str = NULL;
+  // 80 char buffer ( Without MAlloc )
+  U8 *chars = "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
+  chars[max_name] = '\0';
   if (dir->attr & RS_ATTR_DIR)
   {
     str = "$$MA-UL,T=\"%s\",LM=\"Cd(\\\"%s\\\");Listdirs(1);\n\"$$";  
@@ -141,7 +144,7 @@ U0 PrintGraphicDirEntry(CDirEntry *dir,I64 row_step,I64 max_name)
     {   
        // "%h*c",(max_name-name_len)/2,' ';       
         Print(str,
-        SU_centralize(dir->name,max_name,row_step-1),
+        SU_centralize(chars,dir->name,max_name,row_step-1),
         dir->full_name);
        // "%h*c",(max_name-name_len)/2 + (max_name-name_len)%2,' ';
     }
@@ -173,7 +176,7 @@ U0 PrintGraphicDirEntry(CDirEntry *dir,I64 row_step,I64 max_name)
     {
        //"%h*c",(max_name-name_len)/2,' ';       
         Print(str,
-        SU_centralize(dir->name,max_name,row_step-1),
+        SU_centralize(chars,dir->name,max_name,row_step-1),
         dir->full_name); 
        //"%h*c",(max_name-name_len)/2 + (max_name-name_len)%2,' ';      
     }
@@ -266,7 +269,7 @@ U0 Listdirs(I64 graphic = 0)
   else
   {
     "$$MA-UL,T=\"List Mode\",LM=\"Listdirs();\n\"$$";
-  }
+  }
 
   "    $$MA-UL,T=\"Clear Term\",LM=\"DocTermNew;Listdirs(%d);\n\"$$",graphic;
   
@@ -330,11 +333,22 @@ U0 Listdirs(I64 graphic = 0)
         count+=1;
       }
       if(row_step==0)
-      Print("\n\n");
+      {
+        Print("\n%h*c\n%h*c",max_count,' ',max_count,' ');
+        //Print("\n");
+        //for(count=0;count<columns;count++) {
+        //  Print("$$CM-RE,LE=1$$");Print("$$CM-RE,LE=%d$$",max_name);
+        //}
+        //Print("\n");
+        //for(count=0;count<columns;count++) {
+        //  Print("$$CM-RE,LE=1$$");Print("$$CM-RE,LE=%d$$",max_name);
+        //}
+      }
 
       Print("\n");
     }
-    Print("\n");
+    Print("%h*c\n",max_count,' ');
+
     // Deletando o result
     dirlist = rowHead;
     count = 0;
@@ -359,8 +373,8 @@ U0 Listdirs(I64 graphic = 0)
 
 
   // Libera a string
-  SU_freeBuffer;
+  //SU_freeBuffer; Nao usa mais MAlloc
   Free(st);
 }
 
-//Listdirs(1);
+//Listdirs(1);
