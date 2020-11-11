@@ -236,7 +236,7 @@ I64 PrintDirEntry(CDirEntry *dir)//,I64 count, I64 max_count)
 U0 Listdirs(I64 graphic = 0)
 {//List directory.
   // Para ficar limpo sempre
-  //DocTermNew;
+  DocTermNew;
 
   // Causa BADFREE
   // DocClear;
@@ -276,7 +276,7 @@ U0 Listdirs(I64 graphic = 0)
 
   // Carrega uma lista de diretorios
   CDirEntry *dirlist = FilesFind("*");
-  Print("\n");
+  Print("\n");
   I64 count = 0;
 
   Print("\n\n");
@@ -377,4 +377,4 @@ U0 Listdirs(I64 graphic = 0)
   Free(st);
 }
 
-//Listdirs(1);
+//Listdirs(1);

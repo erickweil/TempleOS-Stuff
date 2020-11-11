@@ -1,9 +1,10 @@
 
 // Defines and globals
 #define SCRN_SCALE		512
-#define MAN_HEIGHT		125
+#define SCRN_ZOFF		1
+#define MAN_HEIGHT		0   //125
 
-#define CAM_START_X	8
+#define CAM_START_X	4
 #define CAM_START_Y	8
 #define CAM_START_Z	8
 
@@ -30,7 +31,7 @@ I64 cam_blockx,cam_blocky,cam_blockz;
 F64 cam_é,cam_é2;
 
 I64 cam_vx,cam_vy,cam_vz;
-I64 gravity;
+I64 gravity = 1;
 
 
 U8 *mapgrid;
@@ -69,7 +70,7 @@ U0 CFTransform(CDC *dc,I64 *x,I64 *y,I64 *z)
 {
   I64 zz;
   Mat4x4MulXYZ(dc->r,x,y,z);
-  zz=SCRN_SCALE/3+*z;
+  zz=SCRN_ZOFF+*z;
   if (zz<1) zz=1;
   *x=SCRN_SCALE/2* *x/zz;
   *y=SCRN_SCALE/2* (*y+MAN_HEIGHT)/zz;
@@ -118,9 +119,44 @@ U0 draw_cube(CDC *dc,I64 Px,I64 Py,I64 Pz,I64 t,I64 flags=0xFFF)
 
 
 
+U0 Physics()
+{
+  if(cam_blockx >= 0 && cam_blockx < MAP_X &&
+    cam_blocky >= 1 && cam_blocky < MAP_Y &&
+    cam_blockz >= 0 && cam_blockz < MAP_Z)
+  {
+    
+    U8 ground = mapgrid[cam_blockz*MAP_Y*MAP_X + cam_blocky*MAP_X + cam_blockx];
+    U8 aboveground = mapgrid[cam_blockz*MAP_Y*MAP_X + (cam_blocky-1)*MAP_X + cam_blockx];
+    if(cam_vy < 0 || ground == AIR || ground == WATER)
+    {
+      cam_vy += gravity; 
+    }
+    else if(aboveground != AIR && aboveground != WATER)
+    {
+      cam_vy -= gravity*5;
+    }
+    else
+    {
+      cam_vy = 0;
+    }
+  }
+  else
+  {
+     cam_vy += gravity; 
+  }
+  
+  cam_y -= cam_vy;
+
+
+  cam_blocky = -(cam_y-MAP_SCALE/2)/MAP_SCALE + 2;
+
+}
+
 
 U0 DrawIt(CTask *task,CDC *dc)
 {
+  Physics;
   //I64 *s2w,
   
   I64 cx=task->pix_width/2;
@@ -133,10 +169,15 @@ U0 DrawIt(CTask *task,CDC *dc)
   // Transform Position
   //man_xx = ms.pos.x-Fs->pix_left-Fs->scroll_x -cx;
   //man_yy = ms.pos.y-Fs->pix_top-Fs->scroll_y -cy;
+  dc->flags|=DCF_TRANSFORMATION;
+  dc->transform=&CFTransform;
+  // Apply flags and Perspective transform
+  dc->x=cx;
+  dc->y=cy;
+  dc->z=0; // First Person
+  dc->color = RED;
 
 
-
-  
   Mat4x4TranslationEqu(dc->r,cam_x,cam_y,cam_z);
 
   cam_é = (-ms.pos.x/200.0) % ã*2;
@@ -144,29 +185,27 @@ U0 DrawIt(CTask *task,CDC *dc)
   Mat4x4RotY(dc->r,cam_é);
 
   Mat4x4RotX(dc->r,cam_é2+ã/2);
-  DCMat4x4Set(dc,dc->r);
+  //DCMat4x4Set(dc,dc->r);
 
+  
+  
+  //Mat4x4TranslationEqu(dc->r,0,0,0);
+  //DCMat4x4Set(dc,dc->r);
 
-  // Apply flags and Perspective transform
-  dc->flags|=DCF_TRANSFORMATION;
-  dc->transform=&CFTransform;
-  dc->x=cx;
-  dc->y=cy;
-  dc->z=130;
-  dc->color = RED;
   
   // Paint screen White
   DCFill(dc,WHITE);
 
   // 'Cam' Cube
-  draw_cube(dc,-cam_x,-cam_y,-cam_z,0);
+  //draw_cube(dc,-cam_x,-cam_y,-cam_z,0);
   // Draw elems With Global pos Offsets
+  
   I64 x,y,z;
   for(z=0;z<MAP_Z;z++){
   for(y=0;y<MAP_Y;y++){
   for(x=0;x<MAP_X;x++){
     U8 elem = mapgrid[(z*MAP_X*MAP_Y)+(y*MAP_X)+x];
-    I64 neighboors = 0xFFF;
+    I64 neighboors = 0xFFF;
     if(x>0&&mapgrid[((z)*MAP_X*MAP_Y)+((y)*MAP_X)+(x-1)]>0) neighboors &= 0xFFC;
     if(x<MAP_X-1&&mapgrid[((z)*MAP_X*MAP_Y)+((y)*MAP_X)+(x+1)]>0) neighboors &= 0xFF3;
    
@@ -176,11 +215,11 @@ U0 DrawIt(CTask *task,CDC *dc)
     if(z>0&&mapgrid[((z-1)*MAP_X*MAP_Y)+((y)*MAP_X)+(x)]>0) neighboors &= 0xCFF;
     if(z<MAP_Z-1&&mapgrid[((z+1)*MAP_X*MAP_Y)+((y)*MAP_X)+(x)]>0) neighboors &= 0x3FF;
    
-    if(cam_blockx == x && cam_blocky == y && cam_blockz == z)
-    {
-      elem = UNK1;
-      neighboors = 0xFFF;
-    }
+//    if(cam_blockx == x && cam_blocky == y && cam_blockz == z)
+//    {
+//      elem = UNK1;
+//      neighboors = 0xFFF;
+//    }
     
     if(elem>=1 && elem<(CUBE_TYPES/6) && neighboors != 0)
     {
@@ -192,6 +231,7 @@ U0 DrawIt(CTask *task,CDC *dc)
   }
   }
   }
+
 }
 
 
@@ -200,9 +240,14 @@ U0 Init()
 
   DocClear;
   "$$BG,BLACK$$%h*c",TEXT_ROWS/2,'\n';
-  cam_x=CAM_START_X;
-  cam_y=CAM_START_Y;
-  cam_z=CAM_START_Z;
+  cam_x=-CAM_START_X*MAP_SCALE;
+  cam_y=-CAM_START_Y*MAP_SCALE;
+  cam_z=-CAM_START_Z*MAP_SCALE;
+
+  cam_blockx = -(cam_x-MAP_SCALE/2)/MAP_SCALE;
+  cam_blocky = -(cam_y-MAP_SCALE/2)/MAP_SCALE + 2;
+  cam_blockz = -(cam_z-MAP_SCALE/2)/MAP_SCALE;
+
   cam_é=0;
   cam_é2=0;
   
@@ -348,10 +393,9 @@ U0 MoveCamera(I64 x,I64 y,I64 z)
   cam_z -= x*Sin(cam_é)+z*Cos(cam_é);
 
   cam_blockx = -(cam_x-MAP_SCALE/2)/MAP_SCALE;
-  cam_blocky = -(cam_y-MAP_SCALE/2)/MAP_SCALE;
+  cam_blocky = -(cam_y-MAP_SCALE/2)/MAP_SCALE + 2;
   cam_blockz = -(cam_z-MAP_SCALE/2)/MAP_SCALE;
 }
-
 
 U0 MainLoop()
 {
@@ -370,9 +414,10 @@ U0 MainLoop()
 
   try {
     while (TRUE) {
+     
       switch (GetKey(&sc)) {
 	case CH_SPACE:
-          MoveCamera(0,-1,0);
+          cam_vy = -18;
 	  break;
 	case '\n':
 	  Init;
@@ -392,11 +437,12 @@ U0 MainLoop()
 	      MoveCamera(0,0,1);
 	      break;
 	    case SC_CURSOR_DOWN:
-	      MoveCamera(0,1,0);
+	      MoveCamera(0,0,-1);
 	      break;
 	  }
 	  break;
       }
+      //Physics;
     }
   fs_done:
   } catch
