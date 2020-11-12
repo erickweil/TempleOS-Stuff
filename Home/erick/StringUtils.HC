@@ -42,7 +42,7 @@ U8 *SU_centralize(U8 *chars,U8 *src,I64 max,I64 row)
   {
     //SU_initBuffer(max);
     throw('NOBUFF');
-  }
+  }
   else if(StrLen(chars) != max)
   {
     Print("Wrong Buffer size: %d != %d \n",StrLen(chars),max);
@@ -62,7 +62,7 @@ U8 *SU_centralize(U8 *chars,U8 *src,I64 max,I64 row)
       rI = i+row*max;
       if(rI >= row*max && rI<src_len)
       chars[i] = src[rI];
-      else
+      else
       chars[i] = ' ';
     }
     //if(i<=max)
