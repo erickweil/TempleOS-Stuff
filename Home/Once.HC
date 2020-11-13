@@ -105,8 +105,8 @@ U0 iniciar()
  // Type("::/Home/bomdia.DD");
  // "\n";
  // DocBottom;
- //Listdirs(1);
-  
+ //Listdirs(1);
+  setPTBRKeyboard();
 }
 
 U0 Tmp()
