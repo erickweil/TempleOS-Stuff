@@ -69,7 +69,7 @@ U0 CommHndlr(I64 port)
       else
 	OutU8(c->base+UART_IER,1); //RX but no THR empty
     }
-    }while(stat & 4);
+    }while(stat & 4);
   }
 }
 
@@ -97,10 +97,15 @@ U0 CommInit()
   IntEntrySet(0x23,&IRQComm3);
   IntEntrySet(0x24,&IRQComm4);
 }
-CommInit;
+//CommInit;
 
+static I64 CALLED_COMM_INIT = FALSE;
 public CComm *CommInit8n1(I64 port,I64 baud)
 {
+  if(CALLED_COMM_INIT){Print("Should only Call a single time");throw('TWICE');}
+  CALLED_COMM_INIT = TRUE;
+  CommInit;
+  
   CComm *c=&comm_ports[port];
 
   PUSHFD

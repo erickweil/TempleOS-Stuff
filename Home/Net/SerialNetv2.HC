@@ -1,5 +1,5 @@
-// YOU NEEDTOTHISINCLUDEASADAM
-//#include "::/Home/Net/Comm"
+// YOU NEED TO INCLUDE THIS AS ADAM OR BAD FREE IF RUN TWICE
+#include "::/Home/Net/Comm"
 
 // See $LK,"Comm",A="FI:Comm.HC"$
 // static what that means??
@@ -15,10 +15,31 @@ I64 serial_port = -1;
  - Then use the functions below
 */
 
+
 // functions below need SerialBegin to work or throw error
 U0 SerialThrow(){ 
   Print("Need to call SerialBegin First\n"); throw('NOSERIAL'); 
 }
+
+
+U0 SerialWrite(U8 chr)
+{// Send byte values
+  CommPutChar(serial_port,chr);  
+}
+
+
+U0 SerialWriteString(U8 *chr)
+{// Send buffer
+  CommPutS(serial_port,chr);  
+}
+
+U0 SerialPrint(U8 *fmt,...)
+{// Print formated strings, just like Print, but on serial
+  U8 *buf=StrPrintJoin(NULL,fmt,argc,argv);
+  CommPutS(serial_port,buf);
+  Free(buf);
+}
+
 
 U0 SerialFlush()
 {// Clear incoming data buffer
@@ -44,53 +65,101 @@ U8 SerialRead()
   }
 }
 
-I64 SerialReadStringUntil(U8 *buffer,I64 buffersz,I64 terminator)
+I64 SerialReadString(U8 *buffer,I64 terminator,I64 k =0,I64 max=-1,I64 ack_chunk=-1)
 {// Reads the String into the buffer until terminator or buffersz
- // Returns the number of chars read
+ // Returns k (Not chars!)
   if(!serial)SerialThrow;
- 
-  I64 k=0;
-  while(k<buffersz)
+
+  I64 lchr;
+  U8 chr=0;
+  I64 tk = k;
+  while(max < 0 || (k-tk)<max)
   {
-    if(FifoU8Rem(serial->RX_fifo,buffer))
+    //Print("Fifo Count: %d\n",FifoU8Cnt(serial->RX_fifo));
+    lchr = chr; 
+    if(FifoU8Rem(serial->RX_fifo,&chr))
     {
-      if(*buffer == terminator)
+      if(lchr == 254)
       {
-        buffer++;
-        k++; 
+        if(chr == 254)
+        {
+          *buffer = chr;buffer++; 
+        }
+        else if(chr == terminator)
+        {
+          *buffer = chr;buffer++;
+        }
+        // else nothing 
+      }
+      else if(chr == 254){}
+      else if(chr == terminator)
+      {
+        if(ack_chunk > 0)
+        {
+          SerialPrint("OK%d%c",-1,terminator);   
+        }
         *buffer = '\0';
         return k;
       }
-      buffer++;
+      else
+      {
+        *buffer = chr;buffer++;
+      }
+      
       k++;
+   
+      if(ack_chunk > 0 && k >= ack_chunk && k % ack_chunk == 0)
+      {
+        SerialPrint("OK%d%c",k/ack_chunk,terminator);   
+      }
+      
     }
     else
     {
       Yield;
     }
   }
+  *buffer = '\0';
   return k;
 }
 
-U0 SerialReadStringOut(I64 terminator,I64 max=10000)
+U0 SerialReadStringOut(I64 terminator,I64 max=-1,I64 ack_chunk=-1)
 {// Print Serial data directly (may be slow on lots of data)
 // handlea the $$ thing
   if(!serial)SerialThrow;
 
-  U8 chr;
+  I64 lchr;
+  U8 chr=0;
   I64 k=0;
-  while(k<max)
+  while(max < 0 || k<max)
   {
     //Print("Fifo Count: %d\n",FifoU8Cnt(serial->RX_fifo));
-      
+    lchr = chr; 
     if(FifoU8Rem(serial->RX_fifo,&chr))
     {
-      if(chr == terminator)
+      if(lchr == 254)
       {
+        if(chr == 254)
+        {
+          Print("%c",chr); 
+        }
+        else if(chr == terminator)
+        {
+          Print("%c",chr);
+        }
+        // else nothing 
+      }
+      else if(chr == 254){}
+      else if(chr == terminator)
+      {
+        if(ack_chunk > 0)
+        {
+          SerialPrint("OK%d%c",-1,terminator);   
+        }
         return;
       }
-      if(chr < ' ' && chr != '\n' && chr != '\t' && chr != '\r')
-      {
+      else if(chr < ' ' && chr != '\n' && chr != '\t' && chr != '\r')
+      {
         Print("\\%d",chr);
       }
       else if(chr == '$$')
@@ -101,6 +170,12 @@ U0 SerialReadStringOut(I64 terminator,I64 max=10000)
         Print("%c",chr);
       
       k++;
+
+      if(ack_chunk > 0 && k >= ack_chunk && k % ack_chunk == 0)
+      {
+        SerialPrint("OK%d%c",k/ack_chunk,terminator);   
+      }
+      
     }
     else
     {
@@ -111,7 +186,10 @@ U0 SerialReadStringOut(I64 terminator,I64 max=10000)
 
 U0 SerialBegin(I64 port,I64 baudrate)
 {// Starts the Serial port with a baudrate
+  
   if(serial){
+    // To prevent BAD_FREE
+    // still happens if this file isn't included as adam
     Print("Serial Already Created \n");
     return;
   }
@@ -120,31 +198,13 @@ U0 SerialBegin(I64 port,I64 baudrate)
   SerialFlush();  
 }
 
-U0 SerialWrite(U8 chr)
-{// Send byte values
-  CommPutChar(serial_port,chr);  
-}
-
-
-U0 SerialWriteString(U8 *chr)
-{// Send buffer
-  CommPutS(serial_port,chr);  
-}
-
-U0 SerialPrint(U8 *fmt,...)
-{// Print formated strings, just like Print, but on serial
-  U8 *buf=StrPrintJoin(NULL,fmt,argc,argv);
-  CommPutS(serial_port,buf);
-  Free(buf);
-}
-
 /*
  $LK,"Tunnel protocol Only, need server waiting"$
 
  
 */
-U8 CHAR_END = '~';
-
+U8 CHAR_END = 255;
+I64 CHUNK_SIZE = 128;
 U0 TunnelPing()
 {
   SerialPrint("PING%c",CHAR_END);
@@ -157,6 +217,7 @@ U0 TunnelReadInput()
   SerialPrint("INPUT%c",CHAR_END);
   SerialReadStringOut(CHAR_END);    
 }
+
 
 // Internet!
 // Only works with a single request-response style of connection
@@ -179,23 +240,26 @@ U0 TunnelConnect(U8 *host, I64 port, U8 *messagefmt,...)
 
   U8 *buf=StrPrintJoin(NULL,messagefmt,argc,argv);
 
-  SerialPrint("%s%c",buf,CHAR_END);
+  SerialWriteString(buf);
   
   Free(buf);
 
-  Print("Start Response:\n");  
-  SerialReadStringOut(CHAR_END);
-  Print("\nEnd Response\n\n");  
+  SerialPrint("%c",CHAR_END);
+
+  //Print("Start Response:\n");  
+  //SerialReadStringOut(CHAR_END,-1,CHUNK_SIZE);
+  //Print("\nEnd Response\n\n");  
 }
 
 
+SerialBegin(1,9600);
 
-//SerialBegin(1,9600);
+//SerialPrint("PING%c",CHAR_END);
+//SerialReadStringOut(CHAR_END);
 
-//SerialPrint("PING~");
-//SerialReadStringOut('~');
 //Print("\n");
 
 //TunnelConnect("neverssl.com",80,
 //"GET /online HTTP/1.1\r\nHost: neverssl.com\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: TempleOS COM Port Wget like Internet\r\nAccept: */*\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n"
 //);
+//SerialReadStringOut(CHAR_END,-1,CHUNK_SIZE);
