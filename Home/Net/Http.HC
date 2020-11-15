@@ -1,4 +1,8 @@
-//#include "::/Home/Net/SerialNetv2.HC"
+// Uses Custom Memory
+// Adam include the following before this
+//#include "::/Home/Net/CustomMem"
+//#include "::/Home/Net/SerialNetv2"
+
 // Send HTTP requests
 // use 80 for HTTP and 443 for HTTPS.
 // The python tunnel uses a ssl wrapper when on port 443
@@ -12,14 +16,17 @@ U8 *USER_AGENT = "TempleOS COM Port Tunneled Internet";
 // Iterator
 // This way each buffer sized processing can take up to 5 secs
 // and no character will be lost, also no RX buffer overflow happens
-U8 *iterBuffer = CAlloc(ITER_SIZE);
+U8 *iterBuffer = NULL;
 I64 iter_i=0;
 I64 iter_k=0;
 I64 iter_len=0;
 I64 iter_read=-1;
 
-U0 HttpResetIter()
+U0 HttpResetIter()
 {
+  if(iterBuffer) CMFree(iterBuffer);
+
+  iterBuffer = CMCAlloc(ITER_SIZE+1);
   iter_i=0;
   iter_k=0;
   iter_len=0;
@@ -55,12 +62,15 @@ I64 HttpNextChar()
   return iterBuffer[iter_i++];
 }
 
-I64 HttpNextMatch(U8 *outBuffer,I64 max,U8 *matchfmt,...)
+// Uses Fmt... should re-avalie
+I64 HttpNextMatch(U8 *outBuffer,I64 max,U8 *match)
 {//Fills the null-terminated buffer
 // until find a multi-char case-insensitive match
 // returns last chr, or -1 when end of input
 
-U8 *match=StrPrintJoin(NULL,matchfmt,argc,argv);
+if(!match) throw('NULL');
+
+//U8 *match=StrPrintJoin(NULL,matchfmt,argc,argv);
 
 //Print("Matching '%s'... \n",match);
 
@@ -84,7 +94,7 @@ while((chr = HttpNextChar())!=-1 && k < max)
 
 *outBuffer = '\0';
 
-Free(match);
+//Free(match);
 
 //Print("Matched at %d/%d last '%c'\n",k,max,chr);
  
@@ -227,30 +237,30 @@ if(printOut  == 1)
 
 U0 HttpParseHeaders()
 {
-  U8 *buffer = CAlloc(4097);
+  U8 *buffer = CMCAlloc(1025);
   I64 last;
 
   Print("\nSTATUS: ");
   // Status
-  last = HttpNext(buffer,4096,'\r','\n','\n');  
-  Print(buffer);Print("\n\n");
+  last = HttpNext(buffer,1024,'\r','\n','\n');  
+  Print("%70ts\n\n",buffer);
 
   while(TRUE)
   {
     // One Header
-    last = HttpNext(buffer,4096,'\r',':','\n');
+    last = HttpNext(buffer,1024,'\r',':','\n');
     if(last == -1 || StrLen(buffer) == 0)
     {
       break;
     }
   
-    Print("HEADER: ");Print(buffer);Print(":");
+    Print("%20ts:",buffer);
   
-    last = HttpNext(buffer,4096,'\r','\n','\n');  
-    Print(buffer);Print("\n");
+    last = HttpNext(buffer,1024,'\r','\n','\n');  
+    Print("%49ts\n",buffer);
   }
 
   Print("\nEnd Headers\n\n");
 
-  Free(buffer);    
+  CMFree(buffer);    
 }

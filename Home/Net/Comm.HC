@@ -104,7 +104,7 @@ public CComm *CommInit8n1(I64 port,I64 baud)
 {
   if(CALLED_COMM_INIT){Print("Should only Call a single time");throw('TWICE');}
   CALLED_COMM_INIT = TRUE;
-  CommInit;
+  CommInit;
   
   CComm *c=&comm_ports[port];
 

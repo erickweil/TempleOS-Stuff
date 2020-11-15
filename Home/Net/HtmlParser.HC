@@ -1,10 +1,14 @@
-#include "::/Home/Net/Http"
-#define HTML_BZ	65536
+// Uses Custom Memory
 
+
+#include "::/Home/Net/Http"
+//#define HTML_BZ	65536
+#define HTML_BZ	32768
 
 
 I64 CheckN(U8 *buffer,...)
 {
+//  Print("CheckN(%s,...%d...)\n",buffer,argc);
   I64 i;
   for(i=0;i<argc;i++)
   {
@@ -102,11 +106,11 @@ public class DocNode {
 DocNodeAttr *DocNodeAttrNew(U8 *name)
 {// Create a new DocNodeAttr DocNodeAttrDel
   DocNodeAttr *res;
-  res=CAlloc(sizeof(DocNodeAttr),Fs);
+  res=CMCAlloc(sizeof(DocNodeAttr));
   
   if(name && StrLen(name)>0)
   {
-    res->name = CAlloc(StrLen(name)+1,Fs);
+    res->name = CMCAlloc(StrLen(name)+1);
     StrCpy(res->name,name);
   }
   else
@@ -121,7 +125,7 @@ DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
 {// Create a new DocNode, remember to call DocNodeDel
  //Don't forget these $MA-X+PU,"sizeof(DocNode)",LM="Find(\"sizeof(DocNode)\",\"/*\");View;"$.  CDC
   DocNode *res;
-  res=CAlloc(sizeof(DocNode),Fs);
+  res=CMCAlloc(sizeof(DocNode));
 
   res->parent = parent;  
   res->next = NULL;
@@ -130,14 +134,14 @@ DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
 
   if(name && StrLen(name)>0)
   {
-    res->name = CAlloc(StrLen(name)+1,Fs);
+    res->name = CMCAlloc(StrLen(name)+1);
     StrCpy(res->name,name);
   }
   else
     res->name = NULL;
   if(innerText && StrLen(innerText)>0)
   {
-    res->innerText = CAlloc(StrLen(innerText)+1,Fs);
+    res->innerText = CMCAlloc(StrLen(innerText)+1);
     StrCpy(res->innerText,innerText);
   }
   else
@@ -150,15 +154,17 @@ U0 DocNodeAttrDel(DocNodeAttr *dattr)
 {//Don't free the next
   if (!dattr) return;
 
-  dattr->next = NULL;
+//  dattr->next = NULL;
 
-  Free(dattr->name);
-  dattr->name = NULL;
+  if(dattr->name)
+    CMFree(dattr->name);
+//  dattr->name = NULL;
 
-  Free(dattr->value);
-  dattr->value = NULL;
+  if(dattr->value)
+    CMFree(dattr->value);
+//  dattr->value = NULL;
   
-  Free(dattr);
+  CMFree(dattr);
 }
 
 U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
@@ -171,7 +177,7 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
   {
     DocNodeDel(dc->child,depth+1,TRUE);
   }
-  dc->child = NULL;
+//  dc->child = NULL;
 
   DocNodeAttr *attr = dc->attr;
   DocNodeAttr *_attr;
@@ -181,13 +187,15 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
     attr = attr->next;
     DocNodeAttrDel(_attr);   
   }
-  dc->attr = NULL;
+//  dc->attr = NULL;
 
-  Free(dc->name);
-  dc->name = NULL;
+  if(dc->name)
+    CMFree(dc->name);
+//  dc->name = NULL;
 
-  Free(dc->innerText);
-  dc->innerText = NULL;
+  if(dc->innerText)
+    CMFree(dc->innerText);
+//  dc->innerText = NULL;
 
 
   //DocNode *dold = dc;
@@ -198,21 +206,27 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
   //}
   if(!doNext)
   {
-    Free(dc);
+    CMFree(dc);
   }
-  else while(dc)
+  else
   {
     _dc = dc;
     dc = dc->next;
-    DocNodeDel(dc,depth+1,FALSE);
+    CMFree(_dc); 
+
+    while(dc)
+    {
+      _dc = dc;
+      dc = dc->next;
+      DocNodeDel(_dc,depth+1,FALSE);
+    }
   }
-  //Free(dold);
 }
 
 U8 *DocNodeSearchAttr(DocNode *dc,U8 *name,U8 *ret=NULL)
 {
   DocNodeAttr *attr = dc->attr;
-  while(attr)
+  while(attr != NULL)
   {
     if(attr->name && StrICmp(attr->name,name)==0)
     {
@@ -226,21 +240,41 @@ U8 *DocNodeSearchAttr(DocNode *dc,U8 *name,U8 *ret=NULL)
 I64 _docprintnewline = FALSE;
 I64 _docprintlchr = -1;
 I64 _docprintindol = FALSE;
+I64 _docprintcount = 0;
 U0 HtmlTextPrint(U8 *str)
 {
+  if(!str) throw('NULL');
+
+  
   I64 k,lchr = _docprintlchr,klen=StrLen(str);
   for(k=0;k<klen;k++)
   {
-    if(str[k] == '\r' || str[k] == '\n'){}
-    else if(str[k]=='$$'){lchr=str[k];Print("$$$$");}
+  if(_docprintcount > 4000)
+  {
+    if(YorN)
+    {
+      _docprintcount = 0;
+      DocTermNew;
+    }
+    //else
+    //  throw('N');
+  }
+
+
+    if(str[k] != '\t' && (str[k] < ' ' || str[k] > '~')){}
+    else if(str[k]=='$$'){lchr=str[k];Print("S");}
     else if((lchr == ' ' && str[k] == ' ')
           || (lchr == '\t' && str[k] == '\t')          
           || (lchr == ' ' && str[k] == '\t')          
           || (lchr == '\t' && str[k] == ' ')
     ){}
     else{lchr=str[k];Print("%c",lchr);}
+
+    _docprintcount++;
   }
   _docprintlchr = lchr;
+
+   
 }
 
 
@@ -248,7 +282,9 @@ U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,I64 doNext=TRUE)
 {// up to 64 depth RECURSIVE. need to think twice
   if (!dc) return;
 
-  if(depth > 64){Print("Error Printing! Too Deep!");throw('TOODEEP');}
+//  Print("%d\n",depth);
+    
+  if(depth >= 64){Print("Error Printing! Too Deep!");throw('TOODEEP');}
 
   if(dc->name)
   {
@@ -274,8 +310,9 @@ U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,I64 doNext=TRUE)
       }
 
       if(dc->child)  
+      {
         DocNodePrint(dc->child,onlyText,depth+1);
-   
+      }
       if(!onlyText)
         Print("%h*c</%s>\n",depth*2,' ',dc->name);
     } 
@@ -290,8 +327,9 @@ U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,I64 doNext=TRUE)
   
   if(doNext) while((dc = dc->next) != NULL)
   {
-    DocNodePrint(dc,onlyText,depth,FALSE);
+    DocNodePrint(dc,onlyText,depth+1,FALSE);  
   }
+//  Sleep(10);
 }
 
 
@@ -329,7 +367,7 @@ I64 HtmlParseAttr(U8 *buffer,DocNode *parent)
     //Print("='%s'\n",buffer);
     if(StrLen(buffer)>0)
     {
-      newAttr->value = CAlloc(StrLen(buffer)+1,Fs);
+      newAttr->value = CMCAlloc(StrLen(buffer)+1);
       StrCpy(newAttr->value,buffer);
     }
 
@@ -358,6 +396,8 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
   {
     Print("Error Parsing! Too Deep!");throw('TOODEEP');
   }
+
+  Print(".");
 
   //Print("Parsing %s\n",parent->name);
   I64 autoClose;
@@ -439,17 +479,23 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
       else if(StrICmp(buffer+1,parent->name)==0)
       {
         //Print("Closing %s\n",parent->name);
+        Print(";");
         return 1;
       }
       else
       {
         Print("Wrong Closing:%s!=%s\n",buffer+1,parent->name);
-        return 2;
+        if(depth > 0)
+        {
+          Print(";");
+          return 2;
+        }
       }
     }   
     else
     {
       DocNode *new_node = DocNodeNew(parent,buffer,NULL);
+      if(!new_node->name) throw('NULL');
       if(node == NULL)
       {
         parent->child = new_node;
@@ -494,7 +540,11 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
       {
         if(CheckEscapedContent(node->name))
         {
-          last = HttpNextMatch(buffer,HTML_BZ,"</%s>",node->name);
+          if(StrICmp(node->name,"style")==0)
+            last = HttpNextMatch(buffer,HTML_BZ,"</style>");
+          else
+            last = HttpNextMatch(buffer,HTML_BZ,"</script>");
+          
           DocNode *escaped_node = DocNodeNew(node,NULL,buffer);
           node->child = escaped_node;
           
@@ -508,12 +558,13 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
           if(StrICmp(buffer+1,parent->name)==0)
           {
             //Print(".Closing %s\n",parent->name);
+            Print(";");
             return 1;
           }
           else
           {
-            Print("Wrong Closing:%s!=%s\n",buffer+1,parent->name);
-            return 2;
+            Print("Stoped, but yet Wrong Closing:%s!=%s\n",buffer+1,parent->name);
+            //return 2;
           }
         }
         }
@@ -523,11 +574,12 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
         //Print("AutoClosed %s\n",node->name);
       }
     }
-    Yield;
+    //Yield;
   }
   while(TRUE);
 
   // Should never return 0
+  Print("???????????????????");
   return 0;
 }
 
@@ -569,6 +621,7 @@ while((chr = HttpNextChar())!=-1)
 U0 test(U8 *HTML=NULL,...)
 {
 
+HttpResetIter();
 U8 *buf=NULL;
 
 
@@ -579,8 +632,10 @@ if(!HTML)
 
   TunnelPing();
   Print("\n");
+  HttpGet("www.google.com",443,"search?q=memory",0);
 
-  HttpGet("virtual.ifro.edu.br",443,"guajara/",0);
+//  HttpGet("www.google.com",443,"search?q=templeos",0);
+//  HttpGet("passapassa.com.br",443,"",0);
 
   HttpParseHeaders();
 }
@@ -594,17 +649,18 @@ else
 
 DocNode *root = DocNodeNew(NULL,"ROOT",NULL);
 
-U8 *buffer = CAlloc(HTML_BZ+1);//Max contiguous string (Later should depend on Content-Size)
+U8 *buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string (Later should depend on Content-Size)
 
 HtmlParse(root,buffer);
 
-Free(buffer);
+CMFree(buffer);
 
-Print("Finished Parsing\n\n$$BLACK$$");
+Print("\n\nFinished Parsing\n\n$$BLACK$$");
 
-DocNodePrint(root);
+DocNodePrint(root,FALSE);
 
-Free(root);
+DocNodeDel(root);
+//CMFree(root);
 
 //HtmlContent();
 
@@ -617,6 +673,16 @@ if(HTML)
   TestOffline = NULL;
 }
 
+CMFree(iterBuffer);
+iterBuffer=NULL;
+
+if(YorN){
+CustomMemoryPrint();
+}
+
+
+//CustomMemoryFree();
+CustomMemoryReset();
 }
 
 //test(
@@ -632,4 +698,4 @@ if(HTML)
 " <img src=\"http://2.bp.blogspot.com/-hEKKrXmwVRc/TfbLrNH5eEI/AAAAAAAAoj4/_xs0Z3qAOD8/s1600/article-1206973-06153D1D000005DC-213_468x267.jpg\"/><br/>",
 " <a href=\"TESTE\">Teste</a> </body> </html>"
 */
-//);
+//);

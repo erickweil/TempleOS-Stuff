@@ -252,7 +252,7 @@ U0 TunnelConnect(U8 *host, I64 port, U8 *messagefmt,...)
 }
 
 
-SerialBegin(1,9600);
+SerialBegin(1,9600);
 
 //SerialPrint("PING%c",CHAR_END);
 //SerialReadStringOut(CHAR_END);
@@ -262,4 +262,4 @@ U0 TunnelConnect(U8 *host, I64 port, U8 *messagefmt,...)
 //TunnelConnect("neverssl.com",80,
 //"GET /online HTTP/1.1\r\nHost: neverssl.com\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: TempleOS COM Port Wget like Internet\r\nAccept: */*\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n"
 //);
-//SerialReadStringOut(CHAR_END,-1,CHUNK_SIZE);
+//SerialReadStringOut(CHAR_END,-1,CHUNK_SIZE);
