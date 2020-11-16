@@ -1,0 +1,480 @@
+$WW,1$$FG,0$ 
+
+
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"NULL\");"$
+
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:Protection_policy#semi\");"$
+
+$FG,5$$ID,2$URL$FG,0$$UL,0$$ID,-2$
+ From Wikipedia, the free encyclopedia
+ 
+
+
+$MA,"Jump to navigation",LM="KCTest(\"en.wikipedia.org\",\"#mw-head\");"$ $MA,"Jump to search",LM="KCTest(\"en.wikipedia.org\",\"#searchInput\");"$ 
+
+
+Web address to a particular file or page
+ 
+For other uses, see $MA,"URL (disambiguation)",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL_(disambiguation)\");"$.
+ 
+URLUniform Resource LocatorStatusPublishedFirst published1994&#59;&#32;26&#160;years ago&#160;(1994)Latest version$MA,"Living Standard",LM="KCTest(\"en.wikipedia.org\",\"https://url.spec.whatwg.org\");"$
+2020Organization$MA,"Internet Engineering Task Force",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Engineering_Task_Force\");"$ (IETF)Committee$MA,"Web Hypertext Application Technology Working Group",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Web_Hypertext_Application_Technology_Working_Group\");"$ (WHATWG)Editors$MA,"Anne van Kesteren",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Anne_van_Kesteren\");"$Authors$MA,"Tim Berners-Lee",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$Base standards$MA,"RFC 3986",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc3986\");"$. Uniform Resource Identifier (URI): Generic Syntax. 
+
+$MA,"RFC 4248",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc4248\");"$. The telnet URI Scheme. 
+$MA,"RFC 4266",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc4266\");"$. The gopher URI Scheme. 
+$MA,"RFC 6068",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc6068\");"$. The mailto URI Scheme. 
+$MA,"RFC 6196",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc6196\");"$. Moving mailserver: URI Scheme to Historic. 
+
+$MA,"RFC 6270",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc6270\");"$. The tn3270 URI Scheme. 
+Related standards$MA,"URI",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Identifier\");"$ , $MA,"URN",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Name\");"$Domain$MA,"World Wide Web",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web\");"$License$MA,"CC BY 4.0",LM="KCTest(\"en.wikipedia.org\",\"https://creativecommons.org/licenses/by/4.0/\");"$AbbreviationURLWebsite$MA,"https://url.spec.whatwg.org",LM="KCTest(\"en.wikipedia.org\",\"https://url.spec.whatwg.org\");"$
+ A Uniform Resource Locator (URL), colloquially termed a web address,$MA,"&#91;1&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEW3C2009-1\");"$ is a reference to a $MA,"web resource",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Web_resource\");"$ that specifies its location on a $MA,"computer network",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Computer_network\");"$ and a mechanism for retrieving it. A URL is a specific type of $MA,"Uniform Resource Identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Identifier\");"$ (URI),$MA,"&#91;2&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-2\");"$$MA,"&#91;3&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_39862005-3\");"$ although many people use the two terms interchangeably.$MA,"&#91;4&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEJoint_W3C/IETF_URI_Planning_Interest_Group2002-4\");"$$MA,"&#91;a&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-7\");"$ URLs occur most commonly to reference $MA,"web pages",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Web_page\");"$ ($MA,"http",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Http\");"$), but are also used for file transfer ($MA,"ftp",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File_Transfer_Protocol\");"$), email ($MA,"mailto",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Mailto\");"$), database access ($MA,"JDBC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Java_Database_Connectivity\");"$), and many other applications. 
+Most $MA,"web browsers",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Web_browser\");"$ display the URL of a web page above the page in an $MA,"address bar",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Address_bar\");"$. A typical URL could have the form http://www.example.com/index.html, which indicates a protocol (http), a $MA,"hostname",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hostname\");"$ (www.example.com), and a file name (index.html). 
+
+
+$FG,5$$ID,2$Contents$FG,0$$UL,0$$ID,-2$
+
+ $MA,"1 History",LM="KCTest(\"en.wikipedia.org\",\"#History\");"$
+ $MA,"2 Syntax",LM="KCTest(\"en.wikipedia.org\",\"#Syntax\");"$
+ $MA,"3 Internationalized URL",LM="KCTest(\"en.wikipedia.org\",\"#Internationalized_URL\");"$
+ $MA,"4 Protocol-relative URLs",LM="KCTest(\"en.wikipedia.org\",\"#Protocol-relative_URLs\");"$
+ $MA,"5 See also",LM="KCTest(\"en.wikipedia.org\",\"#See_also\");"$
+ $MA,"6 Notes",LM="KCTest(\"en.wikipedia.org\",\"#Notes\");"$
+ $MA,"7 Citations",LM="KCTest(\"en.wikipedia.org\",\"#Citations\");"$
+ $MA,"8 References",LM="KCTest(\"en.wikipedia.org\",\"#References\");"$
+ $MA,"9 External links",LM="KCTest(\"en.wikipedia.org\",\"#External_links\");"$
+ 
+
+$FG,5$$ID,2$History$FG,0$$UL,0$$ID,-2$
+ $MA,"",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File:Uniform_Resource_Locator.svg\");"$
+
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File:Uniform_Resource_Locator.svg\");"$
+Uniform Resource Locator simple example
+
+
+ Uniform Resource Locators were defined in $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$&#160;$MA,"1738",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc1738\");"$ in 1994 by $MA,"Tim Berners-Lee",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$, the inventor of the $MA,"World Wide Web",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web\");"$, and the URI working group of the $MA,"Internet Engineering Task Force",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Engineering_Task_Force\");"$ (IETF),$MA,"&#91;7&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEW3C1994-8\");"$ as an outcome of collaboration started at the IETF Living Documents $MA,"birds of a feather",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Birds_of_a_feather_(computing)\");"$ session in 1992.$MA,"&#91;8&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEIETF1992-9\");"$$MA,"&#91;9&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEBerners-Lee1994-10\");"$ 
+The format combines the pre-existing system of $MA,"domain names",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Domain_name\");"$ (created in 1985) with $MA,"file path",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Path_(computing)\");"$ syntax, where $MA,"slashes",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Slash_(punctuation)\");"$ are used to separate $MA,"directory",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Folder_(computing)\");"$ and $MA,"filenames",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Filename\");"$. Conventions already existed where server names could be prefixed to complete file paths, preceded by a double slash (//).$MA,"&#91;10&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEBerners-Lee2000-11\");"$ 
+Berners-Lee later expressed regret at the use of dots to separate the parts of the $MA,"domain name",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Domain_name\");"$ within $MA,"URIs",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URI\");"$, wishing he had used slashes throughout,$MA,"&#91;10&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEBerners-Lee2000-11\");"$ and also said that, given the colon following the first component of a URI, the two slashes before the domain name were unnecessary.$MA,"&#91;11&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEBBC_News2009-12\");"$ 
+An early (1993) draft of the HTML Specification$MA,"&#91;12&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-13\");"$ referred to "Universal" Resource Locators. This was dropped some time between June 1994 (RFC&#160;$MA,"1630",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc1630\");"$) and October 1994 (draft-ietf-uri-url-08.txt).$MA,"&#91;13&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-14\");"$ 
+$FG,5$$ID,2$Syntax$FG,0$$UL,0$$ID,-2$
+ Main article: $MA,"Uniform Resource Identifier &#160;Generic syntax",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Identifier#Generic_syntax\");"$
+ Every HTTP URL conforms to the syntax of a generic URI. The URI generic syntax consists of a hierarchical sequence of five components:$MA,"&#91;14&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_3986,_section_32005-15\");"$ 
+URI = scheme:[//authority]path[?query][#fragment] 
+where the authority component divides into three subcomponents: 
+authority = [userinfo@]host[:port] 
+This is represented in a $MA,"syntax diagram",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Syntax_diagram\");"$ as: 
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File:URI_syntax_diagram.svg\");"$
+The URI comprises: 
+A non-empty scheme component followed by a colon (:), consisting of a sequence of characters beginning with a letter and followed by any combination of letters, digits, plus (+), period (.), or hyphen (-). Although schemes are case-insensitive, the canonical form is lowercase and documents that specify schemes must do so with lowercase letters. Examples of popular schemes include $MA,"http",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext_Transfer_Protocol\");"$, $MA,"https",LM="KCTest(\"en.wikipedia.org\",\"/wiki/HTTP_Secure\");"$, $MA,"ftp",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File_Transfer_Protocol\");"$, $MA,"mailto",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Mailto\");"$, $MA,"file",LM="KCTest(\"en.wikipedia.org\",\"/wiki/File_URI_scheme\");"$, $MA,"data",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Data_URI_scheme\");"$, and $MA,"irc",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Relay_Chat#URI_scheme\");"$. URI schemes should be registered with the $MA,"Internet Assigned Numbers Authority (IANA)",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Assigned_Numbers_Authority\");"$, although non-registered schemes are used in practice.$MA,"&#91;b&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-17\");"$
+ An optional authority component preceded by two slashes (//), comprising: 
+
+An optional userinfo subcomponent that may consist of a $MA,"user name",LM="KCTest(\"en.wikipedia.org\",\"/wiki/User_(computing)\");"$ and an optional $MA,"password",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Password\");"$ preceded by a colon (:), followed by an at symbol (@). Use of the format username:password in the userinfo subcomponent is deprecated for security reasons. Applications should not render as clear text any data after the first colon (:) found within a userinfo subcomponent unless the data after the colon is the empty string (indicating no password).
+ A host subcomponent, consisting of either a registered name (including but not limited to a $MA,"hostname",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hostname\");"$), or an $MA,"IP address",LM="KCTest(\"en.wikipedia.org\",\"/wiki/IP_address\");"$. $MA,"IPv4",LM="KCTest(\"en.wikipedia.org\",\"/wiki/IPv4\");"$ addresses must be in $MA,"dot-decimal notation",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Dot-decimal_notation\");"$, and $MA,"IPv6",LM="KCTest(\"en.wikipedia.org\",\"/wiki/IPv6\");"$ addresses must be enclosed in brackets ([]).$MA,"&#91;16&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_39862005§3.2.2-18\");"$$MA,"&#91;c&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-20\");"$
+ An optional port subcomponent preceded by a colon (:).
+
+
+ A path component, consisting of a sequence of path segments separated by a slash (/). A path is always defined for a URI, though the defined path may be empty (zero length). A segment may also be empty, resulting in two consecutive slashes (//) in the path component. A path component may resemble or map exactly to a $MA,"file system path",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Path_(computing)\");"$, but does not always imply a relation to one. If an authority component is present, then the path component must either be empty or begin with a slash (/). If an authority component is absent, then the path cannot begin with an empty segment, that is with two slashes (//), as the following characters would be interpreted as an authority component.$MA,"&#91;18&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_23961998§3.3-21\");"$ The final segment of the path may be referred to as a '$MA,"slug",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Clean_URL#Slug\");"$'.
+
+ Query delimiter Example Ampersand (&amp;) key1=value1&amp;key2=value2 Semicolon (;)$MA,"&#91;d&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-23\");"$ key1=value1;key2=value2 
+An optional query component preceded by a question mark (?), containing a $MA,"query string",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Query_string\");"$ of non-hierarchical data. Its syntax is not well defined, but by convention is most often a sequence of $MA,"attributevalue pairs",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Attribute%E2%80%93value_pair\");"$ separated by a $MA,"delimiter",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Delimiter\");"$.
+ An optional fragment component preceded by a $MA,"hash",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Number_sign\");"$ (#). The fragment contains a $MA,"fragment identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Fragment_identifier\");"$ providing direction to a secondary resource, such as a section heading in an article identified by the remainder of the URI. When the primary resource is an $MA,"HTML",LM="KCTest(\"en.wikipedia.org\",\"/wiki/HTML\");"$ document, the fragment is often an $MA,"id attribute",LM="KCTest(\"en.wikipedia.org\",\"/wiki/HTML#Attributes\");"$ of a specific element, and web browsers will scroll this element into view.
+
+ A web browser will usually $MA,"dereference",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Identifier#URI_resolution\");"$ a URL by performing an $MA,"HTTP",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext_Transfer_Protocol\");"$ request to the specified host, by default on port number 80. URLs using the https scheme require that requests and responses be made over a $MA,"secure connection to the website",LM="KCTest(\"en.wikipedia.org\",\"/wiki/HTTPS\");"$. 
+$FG,5$$ID,2$Internationalized URL$FG,0$$UL,0$$ID,-2$
+ Internet users are distributed throughout the world using a wide variety of languages and alphabets and expect to be able to create URLs in their own local alphabets. An Internationalized Resource Identifier (IRI) is a form of URL that includes Unicode characters. All modern browsers support IRIs. The parts of the URL requiring special treatment for different alphabets are the domain name and path.$MA,"&#91;20&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEW3C2008-24\");"$$MA,"&#91;21&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEW3C2014-25\");"$ 
+The domain name in the IRI is known as an $MA,"Internationalized Domain Name",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internationalized_Domain_Name\");"$ (IDN). Web and Internet software automatically convert the domain name into $MA,"punycode",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Punycode\");"$ usable by the Domain Name System; for example, the Chinese URL http://?.? becomes http://xn--fsqu00a.xn--3lr804guic/. The xn-- indicates that the character was not originally ASCII.$MA,"&#91;22&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEIANA2003-26\");"$ 
+The URL path name can also be specified by the user in the local writing system. If not already encoded, it is converted to $MA,"UTF-8",LM="KCTest(\"en.wikipedia.org\",\"/wiki/UTF-8\");"$, and any characters not part of the basic URL character set are escaped as $MA,"hexadecimal",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hexadecimal\");"$ using $MA,"percent-encoding",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Percent-encoding\");"$; for example, the Japanese URL http://example.com/??.html becomes http://example.com/%E5%BC%95%E3%81%8D%E5%89%B2%E3%82%8A.html. The target computer decodes the address and displays the page.$MA,"&#91;20&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEW3C2008-24\");"$ 
+$FG,5$$ID,2$Protocol-relative URLs$FG,0$$UL,0$$ID,-2$
+ Protocol-relative links (PRL), also known as protocol-relative URLs (PRURL), are URLs that have no protocol specified. For example, //example.com will use the protocol of the current page, typically HTTP or HTTPS.$MA,"&#91;23&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-27\");"$$MA,"&#91;24&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-28\");"$ 
+$FG,5$$ID,2$See also$FG,0$$UL,0$$ID,-2$
+ $MA,"Hyperlink",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hyperlink\");"$
+ $MA,"PURL",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Persistent_uniform_resource_locator\");"$ - Persistent URL
+ $MA,"CURIE",LM="KCTest(\"en.wikipedia.org\",\"/wiki/CURIE\");"$ (Compact URI)
+ $MA,"Fragment identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Fragment_identifier\");"$
+ $MA,"Internet Resource Locator",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Resource_Locator\");"$ (IRL)
+ $MA,"Internationalized resource identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internationalized_resource_identifier\");"$ (IRI)
+ $MA,"Semantic URL",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Semantic_URL\");"$
+ $MA,"Typosquatting",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Typosquatting\");"$
+ $MA,"Uniform Resource Identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_Resource_Identifier\");"$
+ $MA,"URL normalization",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL_normalization\");"$
+ $MA,"Use of slashes in networking",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Slash_(punctuation)#Networking\");"$
+
+ 
+$FG,5$$ID,2$Notes$FG,0$$UL,0$$ID,-2$
+ $MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-7\");"$ A URL implies the means to access an indicated resource and is denoted by a protocol or an access mechanism, which is not true of every URI.$MA,"&#91;5&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_23961998-5\");"$$MA,"&#91;4&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEJoint_W3C/IETF_URI_Planning_Interest_Group2002-4\");"$ Thus http://www.example.com is a URL, while www.example.com is not.$MA,"&#91;6&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-6\");"$ 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-17\");"$ The procedures for registering new URI schemes were originally defined in 1999 by $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$&#160;$MA,"2717",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc2717\");"$, and are now defined by RFC&#160;$MA,"7595",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc7595\");"$, published in June 2015.$MA,"&#91;15&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTEIETF2015-16\");"$ 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-20\");"$ For URIs relating to resources on the World Wide Web, some web browsers allow .0 portions of dot-decimal notation to be dropped or raw integer IP addresses to be used.$MA,"&#91;17&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTELawrence2014-19\");"$ 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-23\");"$ Historic $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$&#160;$MA,"1866",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc1866\");"$ (obsoleted by RFC&#160;$MA,"2854",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc2854\");"$) encourages CGI authors to support ';' in addition to '&amp;'.$MA,"&#91;19&#93;",LM="KCTest(\"en.wikipedia.org\",\"#cite_note-FOOTNOTERFC_18661995§8.2.1-22\");"$ 
+
+
+$FG,5$$ID,2$Citations$FG,0$$UL,0$$ID,-2$
+ $MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEW3C2009_1-0\");"$ $MA,"W3C (2009)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFW3C2009\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-2\");"$ $MA,""$. zzz.buzz. Retrieved 2018-09-19. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_39862005_3-0\");"$ $MA,"RFC 3986 (2005)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_39862005\");"$. 
+^ $MA,"a",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEJoint_W3C/IETF_URI_Planning_Interest_Group2002_4-0\");"$ $MA,"b",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEJoint_W3C/IETF_URI_Planning_Interest_Group2002_4-1\");"$ $MA,"Joint W3C/IETF URI Planning Interest Group (2002)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFJoint_W3C/IETF_URI_Planning_Interest_Group2002\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_23961998_5-0\");"$ $MA,"RFC 2396 (1998)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_23961998\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-6\");"$ Miessler, Daniel. $MA,""$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEW3C1994_8-0\");"$ $MA,"W3C (1994)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFW3C1994\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEIETF1992_9-0\");"$ $MA,"IETF (1992)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFIETF1992\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEBerners-Lee1994_10-0\");"$ $MA,"Berners-Lee (1994)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFBerners-Lee1994\");"$. sfnp error: no target: CITEREFBerners-Lee1994 ($MA,"help",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Harv_and_Sfn_template_errors\");"$) 
+^ $MA,"a",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEBerners-Lee2000_11-0\");"$ $MA,"b",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEBerners-Lee2000_11-1\");"$ $MA,"Berners-Lee (2000)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFBerners-Lee2000\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEBBC_News2009_12-0\");"$ $MA,"BBC News (2009)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFBBC_News2009\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-13\");"$ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$; $MA,"Connolly, Daniel "$ (March 1993). $MA,"Hypertext Markup Language (draft RFCxxx)",LM="KCTest(\"en.wikipedia.org\",\"https://www.ucc.ie/archive/curia/dtds/html-spec.ps\");"$ (Technical report). p.&#160;28. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-14\");"$ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$; $MA,"Masinter, Larry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Larry_Masinter\");"$; $MA,"McCahill, Mark Perry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Mark_Perry_McCahill\");"$ (October 1994). $MA,"Uniform Resource Locators (URL)",LM="KCTest(\"en.wikipedia.org\",\"http://ds.internic.net/internet-drafts/draft-ietf-uri-url-08.txt\");"$ (Technical report). cited in Ang, C. S.; Martin, D. C. (January 1995). $MA,"Constituent Component Interface++",LM="KCTest(\"en.wikipedia.org\",\"https://listserv.heanet.ie/cgi-bin/wa?A2=ind9501&amp;L=HTML-WG&amp;P=R23201&amp;X=C6F9505B05BC9A3B67\");"$ (Technical report). UCSF Library and Center for Knowledge Management. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_3986,_section_32005_15-0\");"$ $MA,"RFC 3986, section 3 (2005)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_3986,_section_32005\");"$. sfnp error: no target: CITEREF&#82;FC_3986,_section_32005 ($MA,"help",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Harv_and_Sfn_template_errors\");"$) 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEIETF2015_16-0\");"$ $MA,"IETF (2015)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFIETF2015\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_39862005§3.2.2_18-0\");"$ $MA,"RFC 3986 (2005)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_39862005\");"$, 3.2.2. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTELawrence2014_19-0\");"$ $MA,"Lawrence (2014)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFLawrence2014\");"$. sfnp error: no target: CITEREFLawrence2014 ($MA,"help",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Harv_and_Sfn_template_errors\");"$) 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_23961998§3.3_21-0\");"$ $MA,"RFC 2396 (1998)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_23961998\");"$, 3.3. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTERFC_18661995§8.2.1_22-0\");"$ $MA,"RFC 1866 (1995)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFRFC_18661995\");"$, 8.2.1. sfnp error: no target: CITEREF&#82;FC_18661995 ($MA,"help",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Harv_and_Sfn_template_errors\");"$) 
+^ $MA,"a",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEW3C2008_24-0\");"$ $MA,"b",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEW3C2008_24-1\");"$ $MA,"W3C (2008)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFW3C2008\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEW3C2014_25-0\");"$ $MA,"W3C (2014)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFW3C2014\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-FOOTNOTEIANA2003_26-0\");"$ $MA,"IANA (2003)",LM="KCTest(\"en.wikipedia.org\",\"#CITEREFIANA2003\");"$. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-27\");"$ Glaser, J. D. (2013). $MA,"Secure Development for Mobile Apps: How to Design and Code Secure Mobile Applications with PHP and JavaScript",LM="KCTest(\"en.wikipedia.org\",\"https://books.google.com/?id=6u2sBAAAQBAJ&amp;pg=PA193\");"$. $MA,"CRC Press",LM="KCTest(\"en.wikipedia.org\",\"/wiki/CRC_Press\");"$. p.&#160;193. $MA,"ISBN",LM="KCTest(\"en.wikipedia.org\",\"/wiki/ISBN_(identifier)\");"$&#160;$MA,"978-1-48220903-7",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:BookSources/978-1-48220903-7\");"$. Retrieved 2015-10-12. 
+$MA,"^",LM="KCTest(\"en.wikipedia.org\",\"#cite_ref-28\");"$ Schafer, Steven M. (2011). $MA,"HTML, XHTML, and CSS Bible",LM="KCTest(\"en.wikipedia.org\",\"https://books.google.com/?id=DW0uyBZzEDwC&amp;pg=PT124\");"$. $MA,"John Wiley &amp; Sons",LM="KCTest(\"en.wikipedia.org\",\"/wiki/John_Wiley_%26_Sons\");"$. p.&#160;124. $MA,"ISBN",LM="KCTest(\"en.wikipedia.org\",\"/wiki/ISBN_(identifier)\");"$&#160;$MA,"978-1-11808130-3",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:BookSources/978-1-11808130-3\");"$. Retrieved 2015-10-12. 
+
+
+$FG,5$$ID,2$References$FG,0$$UL,0$$ID,-2$
+ $MA,""$. $MA,"BBC News",LM="KCTest(\"en.wikipedia.org\",\"/wiki/BBC_News\");"$. 2009-10-14. Retrieved 2010-02-14.
+ $MA,""$. $MA,"World Wide Web Consortium",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web_Consortium\");"$. 1992-03-18. Retrieved 2011-12-26.
+ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$ (1994-03-21). $MA,""$. $MA,"World Wide Web Consortium",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web_Consortium\");"$. Retrieved 2015-09-13.
+ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$; $MA,"Masinter, Larry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Larry_Masinter\");"$; $MA,"McCahill, Mark Perry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Mark_Perry_McCahill\");"$ (August 1998). $MA,"Uniform Resource Locators (URL)",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc1738\");"$. $MA,"doi",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Doi_(identifier)\");"$:$MA,"10.17487/RFC1738",LM="KCTest(\"en.wikipedia.org\",\"https://doi.org/10.17487%2FRFC1738\");"$. $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$ $MA,"1738",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc1738\");"$. Retrieved 2015-08-31.
+ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$ (2015) [2000]. $MA,""$. Frequently asked questions. $MA,"World Wide Web Consortium",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web_Consortium\");"$. Retrieved 2010-02-03.
+ $MA,"Connolly, Daniel "$; $MA,"Sperberg-McQueen, C. Michael",LM="KCTest(\"en.wikipedia.org\",\"/wiki/C._Michael_Sperberg-McQueen\");"$, eds. (2009-05-21). $MA,""$. $MA,"World Wide Web Consortium",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web_Consortium\");"$. Retrieved 2015-09-13.
+ $MA,"Internet Assigned Numbers Authority",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internet_Assigned_Numbers_Authority\");"$ (2003-02-14). $MA,""$. IETF-Announce mailing list. Archived from $MA,"the original",LM="KCTest(\"en.wikipedia.org\",\"http://www.atm.tut.fi/list-archive/ietf-announce/msg13572.html\");"$ on 2004-12-08. Retrieved 2015-09-03.
+ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$; $MA,"Fielding, Roy T.",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Roy_T._Fielding\");"$; $MA,"Masinter, Larry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Larry_Masinter\");"$ (August 1998). $MA,"Uniform Resource Identifiers (URI): Generic Syntax",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc2396\");"$. $MA,"doi",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Doi_(identifier)\");"$:$MA,"10.17487/RFC2396",LM="KCTest(\"en.wikipedia.org\",\"https://doi.org/10.17487%2FRFC2396\");"$. $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$ $MA,"2396",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc2396\");"$. Retrieved 2015-08-31.
+ Hansen, Tony; Hardie, Ted (June 2015). Thaler, Dave (ed.). $MA,"Guidelines and Registration Procedures for URI Schemes",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc7595\");"$. $MA,"doi",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Doi_(identifier)\");"$:$MA,"10.17487/RFC7595",LM="KCTest(\"en.wikipedia.org\",\"https://doi.org/10.17487%2FRFC7595\");"$. $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$ $MA,"7595",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc7595\");"$.
+ $MA,"Mealling, Michael",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Michael_Mealling\");"$; Denenberg, Ray, eds. (August 2002). $MA,"Report from the Joint W3C/IETF URI Planning Interest Group: Uniform Resource Identifiers (URIs), URLs, and Uniform Resource Names (URNs): Clarifications and Recommendations",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc3305\");"$. $MA,"doi",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Doi_(identifier)\");"$:$MA,"10.17487/RFC3305",LM="KCTest(\"en.wikipedia.org\",\"https://doi.org/10.17487%2FRFC3305\");"$. $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$ $MA,"3305",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc3305\");"$. Retrieved 2015-09-13.
+ $MA,"Berners-Lee, Tim",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Tim_Berners-Lee\");"$; $MA,"Fielding, Roy T.",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Roy_T._Fielding\");"$; $MA,"Masinter, Larry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Larry_Masinter\");"$ (January 2005). $MA,"Uniform Resource Identifiers (URI): Generic Syntax",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc3986\");"$. $MA,"doi",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Doi_(identifier)\");"$:$MA,"10.17487/RFC3986",LM="KCTest(\"en.wikipedia.org\",\"https://doi.org/10.17487%2FRFC3986\");"$. $MA,"RFC",LM="KCTest(\"en.wikipedia.org\",\"/wiki/RFC_(identifier)\");"$ $MA,"3986",LM="KCTest(\"en.wikipedia.org\",\"https://tools.ietf.org/html/rfc3986\");"$. Retrieved 2015-08-31.
+ $MA,""$. 2008-05-09. Retrieved 2015-01-11.
+ Phillip, A. (2014). $MA,""$. $MA,"World Wide Web Consortium",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web_Consortium\");"$. Retrieved 2015-01-11.
+ Lawrence, Eric. $MA,""$. docs.microsoft.com. Archived from $MA,"the original",LM="KCTest(\"en.wikipedia.org\",\"https://docs.microsoft.com/en-us/archive/blogs/ieinternals/browser-arcana-ip-literals-in-urls\");"$ on 2020-06-22. Retrieved 2020-06-22.
+
+ 
+$FG,5$$ID,2$External links$FG,0$$UL,0$$ID,-2$
+ $MA,"URL specification",LM="KCTest(\"en.wikipedia.org\",\"https://url.spec.whatwg.org/\");"$ at $MA,"WHATWG",LM="KCTest(\"en.wikipedia.org\",\"/wiki/WHATWG\");"$
+ $MA,"The Components of a URL",LM="KCTest(\"en.wikipedia.org\",\"https://www.ibm.com/support/knowledgecenter/en/SSGMCP_4.1.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_uricomp.html\");"$ from $MA,"IBM",LM="KCTest(\"en.wikipedia.org\",\"/wiki/IBM\");"$
+
+ $MA,"v",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Template:Hypermedia\");"$
+$MA,"t",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Template_talk:Hypermedia\");"$
+$MA,"e",LM="KCTest(\"en.wikipedia.org\",\"https://en.wikipedia.org/w/index.php?title=Template:Hypermedia&amp;action=edit\");"$
+
+
+$MA,"Hypermedia",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypermedia\");"$
+Basics
+ 
+
+$MA,"Hypertext",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext\");"$
+ $MA,"Hyperlink",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hyperlink\");"$
+ $MA,"Hypertext fiction",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext_fiction\");"$
+ $MA,"Hypervideo",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypervideo\");"$
+ $MA,"Adaptive hypermedia",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Adaptive_hypermedia\");"$ 
+
+$MA,"educational",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Adaptive_educational_hypermedia\");"$
+ $MA,"authoring",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Authoring_of_adaptive_hypermedia\");"$
+
+
+ $MA,"Hyperlinks in virtual worlds",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hyperlinks_in_virtual_worlds\");"$
+
+ 
+Resource identifiers
+ 
+
+$MA,"Uniform resource identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_resource_identifier\");"$
+ $MA,"Internationalized resource identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internationalized_resource_identifier\");"$
+ $MA,"Uniform resource name",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_resource_name\");"$
+ $MA,"Uniform resource locator",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Uniform_resource_locator\");"$
+ $MA,"Extensible resource identifier",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Extensible_resource_identifier\");"$
+ $MA,"Persistent uniform resource locator",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Persistent_uniform_resource_locator\");"$
+ $MA,"Semantic URL",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Semantic_URL\");"$
+
+ 
+Concepts
+ 
+
+$MA,"anchor text",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Anchor_text\");"$
+ $MA,"click path",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Click_path\");"$
+ $MA,"Domain name",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Domain_name\");"$
+ $MA,"click here",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Mystery_meat_navigation#Related:_&quot;Click_here&quot;\");"$
+ $MA,"Copyright aspects of hyperlinking and framing",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Copyright_aspects_of_hyperlinking_and_framing\");"$
+ $MA,"deep linking",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Deep_linking\");"$
+ $MA,"Fat link",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Fat_link\");"$
+ $MA,"URI fragment",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URI_fragment\");"$
+ $MA,"Hostname",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hostname\");"$
+ $MA,"Hypertext",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext\");"$
+ $MA,"Inline linking",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Inline_linking\");"$
+ $MA,"inbound link",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Backlink\");"$/$MA,"backlink",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Backlink\");"$
+ $MA,"HTTP referer",LM="KCTest(\"en.wikipedia.org\",\"/wiki/HTTP_referer\");"$
+ $MA,"image map",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Image_map\");"$
+ $MA,"Internal link",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Internal_link\");"$
+ $MA,"Internet bookmark",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Bookmark_(World_Wide_Web)\");"$
+ $MA,"linkback",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Linkback\");"$
+ $MA,"Link relation",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Link_relation\");"$
+ $MA,"Link rot",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Link_rot\");"$
+ $MA,"Object hyperlinking",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Object_hyperlinking\");"$
+ $MA,"Path",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Path_(computing)\");"$
+ $MA,"Screen hotspot",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Screen_hotspot\");"$
+ $MA,"Source tracking",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Source_tracking\");"$
+ $MA,"transclusion",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Transclusion\");"$
+ $MA,"URI scheme",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URI_scheme\");"$
+ $MA,"URL normalization",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL_normalization\");"$
+ $MA,"URL redirection",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL_redirection\");"$
+ $MA,"Website",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Website\");"$
+ $MA,"Web page",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Web_page\");"$
+ $MA,"XML namespace",LM="KCTest(\"en.wikipedia.org\",\"/wiki/XML_namespace\");"$
+
+ 
+Technology
+ 
+
+$MA,"CURIE",LM="KCTest(\"en.wikipedia.org\",\"/wiki/CURIE\");"$
+ $MA,"Hypertext Transfer Protocol",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Hypertext_Transfer_Protocol\");"$
+ $MA,"XLink",LM="KCTest(\"en.wikipedia.org\",\"/wiki/XLink\");"$
+
+ 
+See also
+ 
+
+$MA,"Digital poetry",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Digital_poetry\");"$
+ $MA,"History of hypertext",LM="KCTest(\"en.wikipedia.org\",\"/wiki/History_of_hypertext\");"$
+ $MA,"Interactive novel",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Interactive_novel\");"$
+ $MA,"Interactive fiction",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Interactive_fiction\");"$
+ $MA,"Timeline of hypertext technology",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Timeline_of_hypertext_technology\");"$
+ $MA,"Copyright aspects of hyperlinking and framing",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Copyright_aspects_of_hyperlinking_and_framing\");"$
+ $MA,"World Wide Web",LM="KCTest(\"en.wikipedia.org\",\"/wiki/World_Wide_Web\");"$
+ $MA,"Domain Application Protocol",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Domain_Application_Protocol\");"$
+
+ 
+
+
+$MA,"Authority control",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Help:Authority_control\");"$ $MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://www.wikidata.org/wiki/Q42253#identifiers\");"$
+
+
+$MA,"GND",LM="KCTest(\"en.wikipedia.org\",\"/wiki/GND_(identifier)\");"$: $MA,"4753514-3",LM="KCTest(\"en.wikipedia.org\",\"https://d-nb.info/gnd/4753514-3\");"$
+
+ 
+
+
+
+
+Retrieved from "$MA,"https://en.wikipedia.org/w/index.php?title=URL&amp;oldid=977033977",LM="KCTest(\"en.wikipedia.org\",\"https://en.wikipedia.org/w/index.php?title=URL&amp;oldid=977033977\");"$"
+
+ $MA,"Categories",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Help:Category\");"$: 
+
+$MA,"URL",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:URL\");"$
+$MA,"Identifiers",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Identifiers\");"$
+$MA,"Computer-related introductions in 1994",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Computer-related_introductions_in_1994\");"$
+
+
+Hidden categories: $MA,"Harv and Sfn no-target errors",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Harv_and_Sfn_no-target_errors\");"$
+$MA,"Articles with short description",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Articles_with_short_description\");"$
+$MA,"Short description matches Wikidata",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Short_description_matches_Wikidata\");"$
+$MA,"Wikipedia indefinitely semi-protected pages",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Wikipedia_indefinitely_semi-protected_pages\");"$
+$MA,"Use dmy dates from May 2020",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Use_dmy_dates_from_May_2020\");"$
+$MA,"Wikipedia articles with GND identifiers",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Wikipedia_articles_with_GND_identifiers\");"$
+$MA,"Pages using RFC magic links",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Category:Pages_using_RFC_magic_links\");"$
+
+
+
+ 
+
+
+
+$FG,5$$ID,2$Navigation menu$FG,0$$UL,0$$ID,-2$
+ $FG,5$$ID,2$Personal tools $FG,0$$UL,0$$ID,-2$
+Not logged in
+$MA,"Talk",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:MyTalk\");"$
+$MA,"Contributions",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:MyContributions\");"$
+$MA,"Create account",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=Special:CreateAccount&amp;returnto=URL\");"$
+$MA,"Log in",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=Special:UserLogin&amp;returnto=URL\");"$
+
+ 
+
+$FG,5$$ID,2$Namespaces $FG,0$$UL,0$$ID,-2$
+$MA,"Article",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL\");"$
+$MA,"Talk",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Talk:URL\");"$
+
+ 
+
+
+$FG,5$$ID,2$Variants $FG,0$$UL,0$$ID,-2$
+
+
+
+
+$FG,5$$ID,2$Views $FG,0$$UL,0$$ID,-2$
+$MA,"Read",LM="KCTest(\"en.wikipedia.org\",\"/wiki/URL\");"$
+$MA,"View source",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=URL&amp;action=edit\");"$
+$MA,"View history",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=URL&amp;action=history\");"$
+
+ 
+
+
+$FG,5$$ID,2$More $FG,0$$UL,0$$ID,-2$
+
+
+
+$FG,5$$ID,2$Search $FG,0$$UL,0$$ID,-2$
+
+
+
+
+
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Main_Page\");"$
+$FG,5$$ID,2$Navigation $FG,0$$UL,0$$ID,-2$
+$MA,"Main page",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Main_Page\");"$
+$MA,"Contents",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:Contents\");"$
+$MA,"Current events",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Portal:Current_events\");"$
+$MA,"Random article",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:Random\");"$
+$MA,"About Wikipedia",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:About\");"$
+$MA,"Contact us",LM="KCTest(\"en.wikipedia.org\",\"//en.wikipedia.org/wiki/Wikipedia:Contact_us\");"$
+$MA,"Donate",LM="KCTest(\"en.wikipedia.org\",\"https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en\");"$
+
+ 
+
+$FG,5$$ID,2$Contribute $FG,0$$UL,0$$ID,-2$
+$MA,"Help",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Help:Contents\");"$
+$MA,"Learn to edit",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Help:Introduction\");"$
+$MA,"Community portal",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:Community_portal\");"$
+$MA,"Recent changes",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:RecentChanges\");"$
+$MA,"Upload file",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:File_Upload_Wizard\");"$
+
+ 
+
+$FG,5$$ID,2$Tools $FG,0$$UL,0$$ID,-2$
+$MA,"What links here",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:WhatLinksHere/URL\");"$
+$MA,"Related changes",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:RecentChangesLinked/URL\");"$
+$MA,"Upload file",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:File_Upload_Wizard\");"$
+$MA,"Special pages",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Special:SpecialPages\");"$
+$MA,"Permanent link",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=URL&amp;oldid=977033977\");"$
+$MA,"Page information",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=URL&amp;action=info\");"$
+$MA,"Cite this page",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=Special:CiteThisPage&amp;page=URL&amp;id=977033977&amp;wpFormIdentifier=titleform\");"$
+$MA,"Wikidata item",LM="KCTest(\"en.wikipedia.org\",\"https://www.wikidata.org/wiki/Special:EntityPage/Q42253\");"$
+
+ 
+
+$FG,5$$ID,2$Print/export $FG,0$$UL,0$$ID,-2$
+$MA,"Download as PDF",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=Special:DownloadAsPdf&amp;page=URL&amp;action=show-download-screen\");"$
+$MA,"Printable version",LM="KCTest(\"en.wikipedia.org\",\"/w/index.php?title=URL&amp;printable=yes\");"$
+
+ 
+
+$FG,5$$ID,2$In other projects $FG,0$$UL,0$$ID,-2$
+$MA,"Wikimedia Commons",LM="KCTest(\"en.wikipedia.org\",\"https://commons.wikimedia.org/wiki/Category:Uniform_Resource_Locator\");"$
+
+ 
+
+$FG,5$$ID,2$Languages $FG,0$$UL,0$$ID,-2$
+$MA,"Afrikaans",LM="KCTest(\"en.wikipedia.org\",\"https://af.wikipedia.org/wiki/Bronadres\");"$
+$MA,"Alemannisch",LM="KCTest(\"en.wikipedia.org\",\"https://als.wikipedia.org/wiki/URL\");"$
+$MA,"nglisc",LM="KCTest(\"en.wikipedia.org\",\"https://ang.wikipedia.org/wiki/Nettfrumfindend\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ar.wikipedia.org/wiki/%D9%8A%D9%88_%D8%A2%D8%B1_%D8%A5%D9%84\");"$
+$MA,"Arpetan",LM="KCTest(\"en.wikipedia.org\",\"https://frp.wikipedia.org/wiki/Mod%C3%A8lo:URL\");"$
+$MA,"Azrbaycanca",LM="KCTest(\"en.wikipedia.org\",\"https://az.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%AB%E0%A6%B0%E0%A7%8D%E0%A6%AE_%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8_%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A6%B0\");"$
+$MA,"Bn-lm-g",LM="KCTest(\"en.wikipedia.org\",\"https://zh-min-nan.wikipedia.org/wiki/URL\");"$
+$MA,"??",LM="KCTest(\"en.wikipedia.org\",\"https://be.wikipedia.org/wiki/URL\");"$
+$MA,"?? ()",LM="KCTest(\"en.wikipedia.org\",\"https://be-tarask.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://bg.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D1%84%D0%B8%D1%86%D0%B8%D1%80%D0%B0%D0%BD_%D0%BB%D0%BE%D0%BA%D0%B0%D1%82%D0%BE%D1%80_%D0%BD%D0%B0_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8\");"$
+$MA,"Bosanski",LM="KCTest(\"en.wikipedia.org\",\"https://bs.wikipedia.org/wiki/Veb-adresa\");"$
+$MA,"Catal",LM="KCTest(\"en.wikipedia.org\",\"https://ca.wikipedia.org/wiki/Localitzador_uniforme_de_recursos\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://cv.wikipedia.org/wiki/URL\");"$
+$MA,"etina",LM="KCTest(\"en.wikipedia.org\",\"https://cs.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Cymraeg",LM="KCTest(\"en.wikipedia.org\",\"https://cy.wikipedia.org/wiki/URL\");"$
+$MA,"Dansk",LM="KCTest(\"en.wikipedia.org\",\"https://da.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Deutsch",LM="KCTest(\"en.wikipedia.org\",\"https://de.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Eesti",LM="KCTest(\"en.wikipedia.org\",\"https://et.wikipedia.org/wiki/Internetiaadress\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://el.wikipedia.org/wiki/%CE%95%CE%BD%CE%B9%CE%B1%CE%AF%CE%BF%CF%82_%CE%95%CE%BD%CF%84%CE%BF%CF%80%CE%B9%CF%83%CF%84%CE%AE%CF%82_%CE%A0%CF%8C%CF%81%CF%89%CE%BD\");"$
+$MA,"Espaol",LM="KCTest(\"en.wikipedia.org\",\"https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme\");"$
+$MA,"Esperanto",LM="KCTest(\"en.wikipedia.org\",\"https://eo.wikipedia.org/wiki/URL\");"$
+$MA,"Euskara",LM="KCTest(\"en.wikipedia.org\",\"https://eu.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%A7%D9%86%DB%8C%D8%A7%D8%A8_%D9%85%D9%86%D8%A8%D8%B9_%DB%8C%DA%A9%D8%B3%D8%A7%D9%86\");"$
+$MA,"Franais",LM="KCTest(\"en.wikipedia.org\",\"https://fr.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Gaeilge",LM="KCTest(\"en.wikipedia.org\",\"https://ga.wikipedia.org/wiki/Aimsitheoir_Aonfhoirmeach_Acmhainne\");"$
+$MA,"Galego",LM="KCTest(\"en.wikipedia.org\",\"https://gl.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://inh.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://gu.wikipedia.org/wiki/%E0%AA%AF%E0%AB%81%E0%AA%A8%E0%AA%BF%E0%AA%AB%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%AE_%E0%AA%B0%E0%AA%BF%E0%AA%B8%E0%AB%8B%E0%AA%B0%E0%AB%8D%E0%AA%B8_%E0%AA%B2%E0%AB%8B%E0%AA%95%E0%AB%87%E0%AA%9F%E0%AA%B0\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ko.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%AE_%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%A4_%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%95_(%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%A8%E0%A4%BF)\");"$
+$MA,"Hrvatski",LM="KCTest(\"en.wikipedia.org\",\"https://hr.wikipedia.org/wiki/URL\");"$
+$MA,"Bahasa Indonesia",LM="KCTest(\"en.wikipedia.org\",\"https://id.wikipedia.org/wiki/Lokator_Sumber_Seragam\");"$
+$MA,"Interlingua",LM="KCTest(\"en.wikipedia.org\",\"https://ia.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"?slenska",LM="KCTest(\"en.wikipedia.org\",\"https://is.wikipedia.org/wiki/Netsl%C3%B3%C3%B0\");"$
+$MA,"Italiano",LM="KCTest(\"en.wikipedia.org\",\"https://it.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://he.wikipedia.org/wiki/URL\");"$
+$MA,"Jawa",LM="KCTest(\"en.wikipedia.org\",\"https://jv.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://kn.wikipedia.org/wiki/%E0%B2%AF%E0%B3%81.%E0%B2%86%E0%B2%B0%E0%B3%8D.%E0%B2%8E%E0%B2%B2%E0%B3%8D\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://kk.wikipedia.org/wiki/URL\");"$
+$MA,"Kiswahili",LM="KCTest(\"en.wikipedia.org\",\"https://sw.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ky.wikipedia.org/wiki/URL\");"$
+$MA,"Latvieu",LM="KCTest(\"en.wikipedia.org\",\"https://lv.wikipedia.org/wiki/Vienotais_resursu_vietr%C4%81dis\");"$
+$MA,"Ltzebuergesch",LM="KCTest(\"en.wikipedia.org\",\"https://lb.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Magyar",LM="KCTest(\"en.wikipedia.org\",\"https://hu.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://mk.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ml.wikipedia.org/wiki/%E0%B4%AF%E0%B5%82%E0%B4%A8%E0%B4%BF%E0%B4%AB%E0%B5%8B%E0%B4%82_%E0%B4%B1%E0%B4%BF%E0%B4%B8%E0%B5%8B%E0%B4%B4%E0%B5%8D%E0%B4%B8%E0%B5%8D_%E0%B4%B2%E0%B5%8A%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%87%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%BC\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://arz.wikipedia.org/wiki/%D9%8A%D9%88_%D8%A2%D8%B1_%D8%A5%D9%84\");"$
+$MA,"Bahasa Melayu",LM="KCTest(\"en.wikipedia.org\",\"https://ms.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://mn.wikipedia.org/wiki/URL\");"$
+$MA,"Nederlands",LM="KCTest(\"en.wikipedia.org\",\"https://nl.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ne.wikipedia.org/wiki/%E0%A4%AF%E0%A5%81%E0%A4%86%E0%A4%B0%E0%A4%8F%E0%A4%B2\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ja.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://ce.wikipedia.org/wiki/URL\");"$
+$MA,"Nordfriisk",LM="KCTest(\"en.wikipedia.org\",\"https://frr.wikipedia.org/wiki/URL\");"$
+$MA,"Norsk bokml",LM="KCTest(\"en.wikipedia.org\",\"https://no.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Norsk nynorsk",LM="KCTest(\"en.wikipedia.org\",\"https://nn.wikipedia.org/wiki/URL\");"$
+$MA," ",LM="KCTest(\"en.wikipedia.org\",\"https://mhr.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://or.wikipedia.org/wiki/%E0%AD%9F%E0%AD%81%E0%AC%A8%E0%AC%BF%E0%AC%AB%E0%AC%B0%E0%AD%8D%E0%AC%AE_%E0%AC%B0%E0%AC%BF%E0%AC%B8%E0%AD%8B%E0%AC%B0%E0%AD%8D%E0%AC%B8_%E0%AC%B2%E0%AD%8B%E0%AC%95%E0%AD%87%E0%AC%9F%E0%AC%B0\");"$
+$MA,"Ozbekcha/",LM="KCTest(\"en.wikipedia.org\",\"https://uz.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://pa.wikipedia.org/wiki/%E0%A8%AF%E0%A9%82_%E0%A8%85%E0%A8%BE%E0%A8%B0_%E0%A8%85%E0%A9%88%E0%A9%B1%E0%A8%B2\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://km.wikipedia.org/wiki/URL\");"$
+$MA,"Polski",LM="KCTest(\"en.wikipedia.org\",\"https://pl.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Portugus",LM="KCTest(\"en.wikipedia.org\",\"https://pt.wikipedia.org/wiki/URL\");"$
+$MA,"Romn",LM="KCTest(\"en.wikipedia.org\",\"https://ro.wikipedia.org/wiki/Localizator_uniform_de_resurse\");"$
+$MA,"??",LM="KCTest(\"en.wikipedia.org\",\"https://ru.wikipedia.org/wiki/URL\");"$
+$MA,"Shqip",LM="KCTest(\"en.wikipedia.org\",\"https://sq.wikipedia.org/wiki/URL\");"$
+$MA,"Simple English",LM="KCTest(\"en.wikipedia.org\",\"https://simple.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"Sloven?ina",LM="KCTest(\"en.wikipedia.org\",\"https://sk.wikipedia.org/wiki/Jednotn%C3%BD_vyh%C4%BEad%C3%A1va%C4%8D_prostriedku\");"$
+$MA,"Sloven?ina",LM="KCTest(\"en.wikipedia.org\",\"https://sl.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ckb.wikipedia.org/wiki/%D8%B4%D9%88%DB%8E%D9%86%D8%AF%DB%86%D8%B2%DB%8C_%D8%B3%DB%95%D8%B1%DA%86%D8%A7%D9%88%DB%95%DB%8C_%D8%AC%DB%8C%DA%BE%D8%A7%D9%86%DB%8C\");"$
+$MA,"? / srpski",LM="KCTest(\"en.wikipedia.org\",\"https://sr.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D1%84%D0%BE%D1%80%D0%BC%D0%BD%D0%B8_%D0%BB%D0%BE%D0%BA%D0%B0%D1%82%D0%BE%D1%80_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B0\");"$
+$MA,"Srpskohrvatski / ???",LM="KCTest(\"en.wikipedia.org\",\"https://sh.wikipedia.org/wiki/Web-adresa\");"$
+$MA,"Svenska",LM="KCTest(\"en.wikipedia.org\",\"https://sv.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://ta.wikipedia.org/wiki/%E0%AE%89%E0%AE%B0%E0%AE%B2%E0%AE%BF\");"$
+$MA,"??",LM="KCTest(\"en.wikipedia.org\",\"https://te.wikipedia.org/wiki/%E0%B0%AF%E0%B1%82%E0%B0%A8%E0%B0%BF%E0%B0%AB%E0%B0%BE%E0%B0%82_%E0%B0%B0%E0%B0%BF%E0%B0%B8%E0%B1%8B%E0%B0%B0%E0%B1%8D%E0%B0%B8%E0%B1%8D_%E0%B0%B2%E0%B1%8A%E0%B0%95%E0%B1%87%E0%B0%9F%E0%B0%B0%E0%B1%8D\");"$
+$MA,"Tetun",LM="KCTest(\"en.wikipedia.org\",\"https://tet.wikipedia.org/wiki/URL\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://th.wikipedia.org/wiki/%E0%B8%A2%E0%B8%B9%E0%B8%AD%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%AD%E0%B8%A5\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://tg.wikipedia.org/wiki/URL\");"$
+$MA,"Trke",LM="KCTest(\"en.wikipedia.org\",\"https://tr.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://uk.wikipedia.org/wiki/%D0%A3%D0%BD%D1%96%D1%84%D1%96%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%BB%D0%BE%D0%BA%D0%B0%D1%82%D0%BE%D1%80_%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%96%D0%B2\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://ur.wikipedia.org/wiki/%DB%8C%D9%88_%D8%A2%D8%B1_%D8%A7%DB%8C%D9%84\");"$
+$MA," / Uyghurche",LM="KCTest(\"en.wikipedia.org\",\"https://ug.wikipedia.org/wiki/URL\");"$
+$MA,"Vneto",LM="KCTest(\"en.wikipedia.org\",\"https://vec.wikipedia.org/wiki/URL\");"$
+$MA,"Ting Vit",LM="KCTest(\"en.wikipedia.org\",\"https://vi.wikipedia.org/wiki/URL\");"$
+$MA,"?",LM="KCTest(\"en.wikipedia.org\",\"https://wuu.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E7%AC%A6\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://yi.wikipedia.org/wiki/URL\");"$
+$MA,"Yorb",LM="KCTest(\"en.wikipedia.org\",\"https://yo.wikipedia.org/wiki/Uniform_Resource_Locator\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://zh-yue.wikipedia.org/wiki/%E7%B6%B2%E5%9D%80\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://zh.wikipedia.org/wiki/%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E5%AE%9A%E4%BD%8D%E7%AC%A6\");"$
+
+ $MA,"Edit links",LM="KCTest(\"en.wikipedia.org\",\"https://www.wikidata.org/wiki/Special:EntityPage/Q42253#sitelinks-wikipedia\");"$
+ 
+
+
+
+This page was last edited on 6 September 2020, at 14:57&#160;(UTC).
+ Text is available under the $MA,"Creative Commons Attribution-ShareAlike License",LM="KCTest(\"en.wikipedia.org\",\"//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\");"$$MA,"",LM="KCTest(\"en.wikipedia.org\",\"//creativecommons.org/licenses/by-sa/3.0/\");"$; additional terms may apply. By using this site, you agree to the $MA,"Terms of Use",LM="KCTest(\"en.wikipedia.org\",\"//foundation.wikimedia.org/wiki/Terms_of_Use\");"$ and $MA,"Privacy Policy",LM="KCTest(\"en.wikipedia.org\",\"//foundation.wikimedia.org/wiki/Privacy_policy\");"$. Wikipedia is a registered trademark of the $MA,"Wikimedia Foundation, Inc.",LM="KCTest(\"en.wikipedia.org\",\"//www.wikimediafoundation.org/\");"$, a non-profit organization.
+ 
+$MA,"Privacy policy",LM="KCTest(\"en.wikipedia.org\",\"https://foundation.wikimedia.org/wiki/Privacy_policy\");"$
+ $MA,"About Wikipedia",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:About\");"$
+ $MA,"Disclaimers",LM="KCTest(\"en.wikipedia.org\",\"/wiki/Wikipedia:General_disclaimer\");"$
+ $MA,"Contact Wikipedia",LM="KCTest(\"en.wikipedia.org\",\"//en.wikipedia.org/wiki/Wikipedia:Contact_us\");"$
+ $MA,"Mobile view",LM="KCTest(\"en.wikipedia.org\",\"//en.m.wikipedia.org/w/index.php?title=URL&amp;mobileaction=toggle_view_mobile\");"$
+ $MA,"Developers",LM="KCTest(\"en.wikipedia.org\",\"https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute\");"$
+ $MA,"Statistics",LM="KCTest(\"en.wikipedia.org\",\"https://stats.wikimedia.org/#/en.wikipedia.org\");"$
+ $MA,"Cookie statement",LM="KCTest(\"en.wikipedia.org\",\"https://foundation.wikimedia.org/wiki/Cookie_statement\");"$
+ 
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://wikimediafoundation.org/\");"$
+$MA,"",LM="KCTest(\"en.wikipedia.org\",\"https://www.mediawiki.org/\");"$
+
+
+
+$FG$

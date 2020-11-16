@@ -276,6 +276,13 @@ U0 CMFree(U8 *buffer)
   CMEM_Frees++;
 }
 
+U8 *CMStr(U8 *src)
+{
+  U8 *buf = CMCAlloc(StrLen(src)+1);
+  StrCpy(buf,src);
+  return buf;
+}
+
 U0 MyTestMem()
 {
 CustomMemoryAlloc(860,4);
@@ -304,4 +311,4 @@ CustomMemoryFree;
 
 
 CustomMemoryAlloc(16777215,4);
-//MyTestMem();
+//MyTestMem();

@@ -1,4 +1,4 @@
-// Uses Custom Memory
+// Uses Custom Memory
 
 
 #include "::/Home/Net/Http"
@@ -241,7 +241,37 @@ I64 _docprintnewline = FALSE;
 I64 _docprintlchr = -1;
 I64 _docprintindol = FALSE;
 I64 _docprintcount = 0;
-U0 HtmlTextPrint(U8 *str)
+
+U0 SingleHtmlPrintRaw(CDoc *doc,U8 *str)
+{
+  if(!str) throw('NULL');
+
+  
+  I64 k,lchr=_docprintlchr,klen=StrLen(str);
+  for(k=0;k<klen;k++)
+  {
+    lchr=str[k];
+    if(lchr == '$$')lchr='S';
+    if(lchr == '~'+1)lchr='?';
+    if( lchr < '' 
+    && lchr != '\r'
+    && lchr != '\n'
+    && lchr != '\t'
+    )
+    {
+      lchr='?';
+    }
+    
+    if(doc) DocPrint(doc,"%c",lchr); // should be Putkey?
+    else PutChars(lchr);
+
+    _docprintcount++;
+  }
+  _docprintlchr = lchr;   
+}
+
+
+U0 SingleHtmlPrint(CDoc *doc,U8 *str)
 {
   if(!str) throw('NULL');
 
@@ -249,36 +279,58 @@ U0 HtmlTextPrint(U8 *str)
   I64 k,lchr = _docprintlchr,klen=StrLen(str);
   for(k=0;k<klen;k++)
   {
-  if(_docprintcount > 4000)
-  {
-    if(YorN)
-    {
-      _docprintcount = 0;
-      DocTermNew;
-    }
-    //else
-    //  throw('N');
-  }
-
-
-    if(str[k] != '\t' && (str[k] < ' ' || str[k] > '~')){}
-    else if(str[k]=='$$'){lchr=str[k];Print("S");}
+    if(str[k] != '\t' &&
+    str[k] != '\n' &&
+    str[k] != '\r' && (str[k] < ' ' || str[k] > '~')){}
     else if((lchr == ' ' && str[k] == ' ')
-          || (lchr == '\t' && str[k] == '\t')          
           || (lchr == ' ' && str[k] == '\t')          
-          || (lchr == '\t' && str[k] == ' ')
+          || (lchr == ' ' && str[k] == '\r')          
+          || (lchr == ' ' && str[k] == '\n')          
     ){}
-    else{lchr=str[k];Print("%c",lchr);}
+    else
+    {
+      lchr=str[k];
+      if(lchr == '$$')lchr='S';
+      if(lchr == '\t')lchr=' ';
+      if(lchr == '\r')lchr=' ';
+      if(lchr == '\n')lchr=' ';
+      
+      if(doc) DocPrint(doc,"%c",lchr); // should be Putkey?
+      else PutChars(lchr);
+    }
 
     _docprintcount++;
   }
-  _docprintlchr = lchr;
+  _docprintlchr = lchr;   
+}
 
-   
+U0 HtmlPrint(CDoc *doc,...)
+{
+  I64 k;
+  for(k=0;k<argc;k++)
+  {
+    SingleHtmlPrint(doc,argv[k]);
+  }
+}
+
+U0 HtmlPrintRaw(CDoc *doc,...)
+{
+  I64 k;
+  for(k=0;k<argc;k++)
+  {
+    SingleHtmlPrintRaw(doc,argv[k]);
+  }
+}
+
+U0 HtmlPrintNewLine(CDoc *doc,I64 depth)
+{
+  if(doc) DocPrint(doc,"\n%h*c",depth*2,' '); // should be Putkey?
+  else Print("\n%h*c",depth*2,' ');
 }
 
 
-U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,I64 doNext=TRUE)
+
+U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,CDoc *doc=NULL,I64 doNext=TRUE)
 {// up to 64 depth RECURSIVE. need to think twice
   if (!dc) return;
 
@@ -292,42 +344,54 @@ U0 DocNodePrint(DocNode *dc,I64 onlyText=FALSE,I64 depth=0,I64 doNext=TRUE)
     {
       if(!onlyText)
       {
+        HtmlPrintNewLine(doc,depth);
+      
         if(dc->attr)
         {
-          Print("%h*c<%s",depth*2,' ',dc->name);
+          
+          HtmlPrint(doc,"<",dc->name);
           DocNodeAttr *attr = dc->attr;
           while(attr)
           {
             if(attr->name && attr->value)
-              Print(" %s=\"%s\"",attr->name,attr->value);   
+              HtmlPrintRaw(doc," ",attr->name,"=\"",attr->value,"\"");   
             else if(attr->name)
-              Print(" %s",attr->name);   
+              HtmlPrintRaw(doc," ",attr->name);   
             attr = attr->next;
           }
-          Print(">\n");
+          HtmlPrint(doc,">");
         }
-        else Print("%h*c<%s>\n",depth*2,' ',dc->name);
+        else HtmlPrint(doc,"<",dc->name,">");
       }
-
+      
+      //HtmlPrintNewLine(doc,depth);
+          
       if(dc->child)  
       {
-        DocNodePrint(dc->child,onlyText,depth+1);
+        DocNodePrint(dc->child,onlyText,depth+1,doc,TRUE);
       }
+      
+      HtmlPrintNewLine(doc,depth);
+          
       if(!onlyText)
-        Print("%h*c</%s>\n",depth*2,' ',dc->name);
+        HtmlPrint(doc,"</",dc->name,">");
     } 
   }
   else if(dc->innerText)
   {
-    Print("%h*c",depth*2,' ');
-    HtmlTextPrint(dc->innerText);
-    Print("\n");
+    HtmlPrintNewLine(doc,depth);
+    if(dc->parent 
+      && dc->parent->name 
+      && CheckEscapedContent(dc->parent->name))
+      HtmlPrintRaw(doc,dc->innerText);
+    else
+      HtmlPrint(doc,dc->innerText);
   }
-  else Print("\n<NULL></NULL>\n");
+  else HtmlPrint(doc,"<NULL></NULL>");
   
   if(doNext) while((dc = dc->next) != NULL)
   {
-    DocNodePrint(dc,onlyText,depth+1,FALSE);  
+    DocNodePrint(dc,onlyText,depth,doc,FALSE);  
   }
 //  Sleep(10);
 }
@@ -545,9 +609,11 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
           else
             last = HttpNextMatch(buffer,HTML_BZ,"</script>");
           
-          DocNode *escaped_node = DocNodeNew(node,NULL,buffer);
-          node->child = escaped_node;
-          
+          if(StrLen(buffer)>0)
+          {
+            DocNode *escaped_node = DocNodeNew(node,NULL,buffer);
+            node->child = escaped_node;
+          }
         }
         else {
         I64 code = HtmlParse(node,buffer,depth+1);
@@ -618,11 +684,10 @@ while((chr = HttpNextChar())!=-1)
 
 
 
-U0 test(U8 *HTML=NULL,...)
+U0 test(U8 *HTML=NULL)
 {
 
 HttpResetIter();
-U8 *buf=NULL;
 
 
 if(!HTML)
@@ -632,18 +697,16 @@ if(!HTML)
 
   TunnelPing();
   Print("\n");
-  HttpGet("www.google.com",443,"search?q=memory",0);
-
-//  HttpGet("www.google.com",443,"search?q=templeos",0);
-//  HttpGet("passapassa.com.br",443,"",0);
+//  HttpGet("www.google.com","443","/search?q=memory",0);
+//  HttpGet("www.google.com","443","/search?q=templeos",0);
+  HttpGet("passapassa.com.br","443","/",0);
 
   HttpParseHeaders();
 }
 else
 {
-  buf=StrPrintJoin(NULL,HTML,argc,argv);
-
-  TestOffline = buf;
+//  buf=StrPrintJoin(NULL,HTML,argc,argv);
+  TestOffline = HTML;
 }
 
 
@@ -657,7 +720,16 @@ CMFree(buffer);
 
 Print("\n\nFinished Parsing\n\n$$BLACK$$");
 
-DocNodePrint(root,FALSE);
+// Create DolDoc at filename location
+CDoc *doc=DocNew("::/Home/Net/out.HTML");    
+doc->flags|=DOCF_PLAIN_TEXT|DOCF_NO_CURSOR;
+
+DocNodePrint(root,FALSE,0,doc);
+
+DocWrite(doc,FALSE);
+
+
+DocDel(doc);
 
 DocNodeDel(root);
 //CMFree(root);
@@ -669,33 +741,49 @@ Print("$$FG$$\n\n");
 
 if(HTML)
 {
-  Free(buf);
   TestOffline = NULL;
 }
 
 CMFree(iterBuffer);
 iterBuffer=NULL;
 
-if(YorN){
+//if(YorN){
 CustomMemoryPrint();
-}
+//}
 
 
 //CustomMemoryFree();
 CustomMemoryReset();
 }
 
-//test(
-/*"%s%s%s%s%s%s%s%s%s%s",
-"<!DOCTYPE html><html>",
-"<head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
-"<title>Conexao BD< /title> <!--[if lt IE 9]> ",
-" <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script> ",
-" <![endif]--> <!--  --  A >B- >AAA-->\r\n<!--sdfsdfsdf--><p>Oi?</p>  ",
-" </head> <body> <h1>ERRO AO CARREGAR<span style=\"color:#FFFFFF\">",
-" (TEM ERRO NENHUM, SAIA DAQUI)</span></h1> ",
-" <h2>já foram enviados 13 macacos treinados para resolver o problema.</h2>",
-" <img src=\"http://2.bp.blogspot.com/-hEKKrXmwVRc/TfbLrNH5eEI/AAAAAAAAoj4/_xs0Z3qAOD8/s1600/article-1206973-06153D1D000005DC-213_468x267.jpg\"/><br/>",
-" <a href=\"TESTE\">Teste</a> </body> </html>"
+//test(
+/*"
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=\"utf-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>Conexao BD< /title> 
+  <!--[if lt IE 9]> 
+    <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script> 
+  <![endif]--> 
+  <!--  --  A >B- >AAA-->\r\n<!--sdfsdfsdf--><p>Oi?</p>  
+</head>
+<body>
+  <h1>
+    ERRO AO CARREGAR
+    <span style=\"color:#FFFFFF\">
+      (TEM ERRO NENHUM, SAIA DAQUI)
+    </span>
+  </h1> 
+  <h2>
+    já foram enviados 13 macacos treinados para resolver o problema.
+  </h2>
+  <img src=\"http://2.bp.blogspot.com/-hEKKrXmwVRc/TfbLrNH5eEI/AAAAAAAAoj4/_xs0Z3qAOD8/s1600/article-1206973-06153D1D000005DC-213_468x267.jpg\"/>
+  <br/>
+  <a href=\"TESTE\">Teste</a> 
+</body> 
+</html>
+"
 */
 //);

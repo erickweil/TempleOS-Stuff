@@ -1,5 +1,5 @@
 // Uses Custom Memory
-// Adam include the following before this
+// Adam include the following before this
 //#include "::/Home/Net/CustomMem"
 //#include "::/Home/Net/SerialNetv2"
 
@@ -217,11 +217,11 @@ while((chr = HttpNextChar())!=-1 && k < max)
 return chr;
 }
 
-U0 HttpGet(U8 *host,I64 port,U8 *path,I64 printOut=1)
+U0 HttpGet(U8 *host,U8 *port,U8 *path,I64 printOut=1)
 {
 
 TunnelConnect(host,port,
-"GET /%s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n",
+"GET %s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n",
 path,
 host,
 USER_AGENT
@@ -238,7 +238,7 @@ if(printOut  == 1)
 U0 HttpParseHeaders()
 {
   U8 *buffer = CMCAlloc(1025);
-  I64 last;
+  I64 last;
 
   Print("\nSTATUS: ");
   // Status

@@ -222,7 +222,7 @@ U0 TunnelReadInput()
 // Internet!
 // Only works with a single request-response style of connection
 // Like HTTP
-U0 TunnelConnect(U8 *host, I64 port, U8 *messagefmt,...)
+U0 TunnelConnect(U8 *host, U8 *port, U8 *messagefmt,...)
 {
 
 
@@ -234,7 +234,7 @@ U0 TunnelConnect(U8 *host, I64 port, U8 *messagefmt,...)
   SerialReadStringOut(CHAR_END);
 
 
-  SerialPrint("%d%c",port,CHAR_END);
+  SerialPrint("%s%c",port,CHAR_END);
   SerialReadStringOut(CHAR_END);
 
 
@@ -259,7 +259,7 @@ SerialBegin(1,9600);
 
 //Print("\n");
 
-//TunnelConnect("neverssl.com",80,
+//TunnelConnect("neverssl.com","80",
 //"GET /online HTTP/1.1\r\nHost: neverssl.com\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: TempleOS COM Port Wget like Internet\r\nAccept: */*\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n"
 //);
 //SerialReadStringOut(CHAR_END,-1,CHUNK_SIZE);
