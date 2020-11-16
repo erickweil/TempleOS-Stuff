@@ -59,9 +59,7 @@ U0 CommHndlr(I64 port)
     stat=InU8(c->base+UART_IIR);
     if (stat & 4)	//RX
     {
-      U8 read = InU8(c->base+UART_RDR);
-      
-      FifoU8Ins(c->RX_fifo,read);
+      FifoU8Ins(c->RX_fifo,InU8(c->base+UART_RDR));
     }
     if (stat & 2) {	//TX
       if (FifoU8Rem(c->TX_fifo,&b))
@@ -69,8 +67,8 @@ U0 CommHndlr(I64 port)
       else
 	OutU8(c->base+UART_IER,1); //RX but no THR empty
     }
-    }while(stat & 4);
-  }
+    }while(stat & 4);// Can this cause a Freeze of the system? Don't think so
+  }
 }
 
 interrupt U0 IRQComm3()

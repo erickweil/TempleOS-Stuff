@@ -1,5 +1,7 @@
 // use Custom Memory
 
+//Adam("#include \"C:/Home/Net/SerialNetv2.HC\"" );
+//Adam("#include \"C:/Home/Net/CustomMem.HC\"" );
 #include "::/Home/Net/HtmlParser"
 
 U8 *KC_PrevUrl = NULL;
@@ -21,43 +23,18 @@ URL *URLNew(U8 *scheme, U8 *host, U8 *port, U8 *path, U8 *query, U8 *fragment)
   URL *res;
   res=CMCAlloc(sizeof(URL));
   
-  res->scheme = NULL;
-  res->host = NULL;
-  res->port = NULL;
-  res->path = NULL;
-  res->query = NULL;
-  res->fragment = NULL;
+  res->scheme = CMStr(scheme);
+  res->host = CMStr(host);
+  res->port = CMStr(port);
+  res->path = CMStr(path);
+  res->query = CMStr(query);
+  res->fragment = CMStr(fragment);
 
-  if(scheme && StrLen(scheme) > 0)
-  {
-    res->scheme = CMCAlloc(StrLen(scheme)+1);
-    StrCpy(res->scheme,scheme);
-  }
-  if(host&& StrLen(host) > 0)
-  {
-    res->host = CMCAlloc(StrLen(host)+1);
-    StrCpy(res->host,host);
-  }
-  if(port && StrLen(port) > 0)
-  {
-    res->port = CMCAlloc(StrLen(port)+1);
-    StrCpy(res->port,port);
-  }
-  if(path && StrLen(path) > 0)
-  {
-    res->path = CMCAlloc(StrLen(path)+1);
-    StrCpy(res->path,path);
-  }
-  if(query && StrLen(query) > 0)
-  {
-    res->query = CMCAlloc(StrLen(query)+1);
-    StrCpy(res->query,query);
-  }
-  if(fragment && StrLen(fragment) > 0)
-  {
-    res->fragment = CMCAlloc(StrLen(fragment)+1);
-    StrCpy(res->fragment,fragment);
-  }
+//  if(scheme && StrLen(scheme) > 0)
+//  {
+//    res->scheme = CAlloc(StrLen(scheme)+1);
+//    StrCpy(res->scheme,scheme);
+//  }
 
   return res;
 }
@@ -196,14 +173,14 @@ URL *ParseUrl(U8 *str)
   {
     //  scheme://dgdfgdf
     //        0
-    match[0] = '\0';lchr=':';
+    match[0] = '\0';lchr='/';
     scheme = str;
    
     str = match + 3;
   }
   else if(StrNCmp("//",str,2) == 0)   
   {
-    str = str + 2;
+    str = str + 2;lchr='/';
   }  
 
   // host
@@ -241,7 +218,14 @@ URL *ParseUrl(U8 *str)
     host = str;
 
     str = match + 1;
-  } 
+  }
+  else if(str[0] != '/' && lchr == '/')
+  {
+    //dgdfgdf<EOF>
+    host = str;
+
+    str = str+StrLen(str); 
+  }
 
   //path
   if((match = StrMatch("?",str)) != NULL)   
@@ -326,7 +310,13 @@ U0 DocNodeBrowsePrint(DocNode *dc,I64 depth,CDoc *doc,I64 doNext=TRUE)
   if(depth > 64){Print("Error Printing! Too Deep!");throw('TOODEEP');}
 
   I64 changedColor = FALSE;
+  I64 changedUL = FALSE;
+  I64 changedIV = FALSE;
+  I64 changedWW = FALSE;
+
+
   I64 ident = 0;
+  I64 changedSY = FALSE;
   U8 *hrefValue;
     
   if(dc->name)
@@ -348,39 +338,129 @@ U0 DocNodeBrowsePrint(DocNode *dc,I64 depth,CDoc *doc,I64 doNext=TRUE)
         DocPrint(doc,"\n");
         _docprintnewline = TRUE;
       }
+      else if(CheckN(dc->name,"blockquote","ul","ol"))
+      {
+        DocPrint(doc,"$$ID,2$$\n");ident=2;HtmlPrint(doc," ");
+      }
+      else if(StrICmp(dc->name,"sub")==0)
+      {
+        DocPrint(doc,"$$SY,3$$");changedSY = TRUE;
+      }
+      else if(StrICmp(dc->name,"sup")==0)
+      {
+        DocPrint(doc,"$$SY,-3$$");changedSY = TRUE;
+      }
+      else if(CheckN(dc->name,"strong","b","th"))
+      {
+        DocPrint(doc,"$$IV,1$$");changedIV = TRUE;
+      }
+      else if(CheckN(dc->name,"i","cite"))
+      {
+        DocPrint(doc,"$$BLUE$$");changedColor = TRUE;
+      }
+      else if(StrICmp(dc->name,"li")==0)
+      {
+        DocPrint(doc,"˛ ");
+      }
+      else if(StrICmp(dc->name,"mark")==0)
+      {
+        DocPrint(doc,"$$BG,YELLOW$$");changedColor = TRUE;
+      }
+      else if(StrICmp(dc->name,"ins")==0)
+      {
+        DocPrint(doc,"$$UL,1$$");changedUL = TRUE;
+      }
+      else if(StrICmp(dc->name,"hr")==0)
+      {
+        DocPrint(doc,"%h78c",'-');
+      }
+      else if(StrICmp(dc->name,"title")==0)
+      {
+        DocPrint(doc,"$$PURPLE$$$$TX+CX,\"");changedColor=TRUE;_docprintindol=TRUE;
+      }
+      else if(StrICmp(dc->name,"table")==0)
+      {
+        DocPrint(doc,"$$ID,2$$$$WW,0$$");changedWW=TRUE;ident=2;
+      }
       else if(CheckN(dc->name,"h1","h2","h3","h4","h5","h6"))
       {
-        DocPrint(doc,"$$PURPLE$$$$ID,2$$");changedColor=TRUE;ident=2;
+        if(StrICmp(dc->name,"h1")==0){DocPrint(doc,"$$PURPLE$$$$ID,2$$");ident=2;}
+        if(StrICmp(dc->name,"h2")==0){DocPrint(doc,"$$RED$$$$ID,3$$");ident=3;}
+        if(StrICmp(dc->name,"h3")==0){DocPrint(doc,"$$BLUE$$$$ID,4$$");ident=4;}
+        if(StrICmp(dc->name,"h4")==0){DocPrint(doc,"$$DKGRAY$$$$ID,5$$");ident=5;}
+        if(StrICmp(dc->name,"h5")==0){DocPrint(doc,"$$ID,6$$");ident=6;}
+        if(StrICmp(dc->name,"h6")==0){DocPrint(doc,"$$ID,7$$");ident=6;}
+        
+        changedColor=TRUE;
       }
       else if(StrICmp(dc->name,"a")==0)
       {
-        DocPrint(doc,"$$MA,\"");_docprintindol=TRUE;
+        DocPrint(doc,"$$MA-X+PU,\"");_docprintindol=TRUE;
+      }
+      else if(StrICmp(dc->name,"iframe")==0)
+      {
+        DocPrint(doc,"(IFRAME)$$MA-X+PU,\"");_docprintindol=TRUE;
+        HtmlPrintRaw(doc,DocNodeSearchAttr(dc->attr,"src","NULL"));
+      }
+      else if(StrICmp(dc->name,"button")==0)
+      {
+        DocPrint(doc,"$$MA-UL+B,\"");_docprintindol=TRUE;
       }
       else if(StrICmp(dc->name,"img")==0)
       {
-        //hrefValue = DocNodeSearchAttr(dc,"alt","");
-        //Print("\n$$MA+B-UL,\"IMG%s\"$$\n",hrefValue);
+        hrefValue = DocNodeSearchAttr(dc->attr,"alt","");
+        DocPrint(doc,"$$LTBLUE$$");
+        HtmlPrint(doc,"(IMG ",hrefValue,")");changedColor=TRUE;
       }
       
       }
+
+      
 
       if(dc->child)  
         DocNodeBrowsePrint(dc->child,depth+1,doc);
-      
-
-      if(StrICmp(dc->name,"a")==0)
+         
+      if(_docprintindol)
       {
-        hrefValue = DocNodeSearchAttr(dc,"href","NULL");
-        DocPrint(doc,"\",LM=\"KCTest(\\\"%s\\\",\\\"%s\\\");\"$$",
-        hrefValue,KC_PrevUrl);
+      if(CheckN(dc->name,"a","iframe"))
+      {
+        hrefValue = DocNodeSearchAttr(dc->attr,"href",NULL);
+        if(!hrefValue) hrefValue = DocNodeSearchAttr(dc->attr,"src","NULL");
         
+        DocPrint(doc,"\",LM=\"KCTest(\\\"");
+        HtmlPrintRaw(doc,hrefValue);
+        DocPrint(doc,"\\\",\\\"");
+        HtmlPrintRaw(doc,KC_PrevUrl);
+        DocPrint(doc,"\\\");View;\n\"$$");
+        
         _docprintindol=FALSE;
+      }
+      else if(StrICmp(dc->name,"title")==0)
+      {
+        DocPrint(doc,"\"$$\n\n");
+        _docprintindol=FALSE;
+      }
+      else if(StrICmp(dc->name,"button")==0)
+      {
+        DocPrint(doc,"\"$$");_docprintindol=FALSE;
+      }
       }
 
       if(!_docprintindol){
       
-      if(changedColor)DocPrint(doc,"$$BLACK$$$$UL,0$$");
+      if(changedColor)DocPrint(doc,"$$BLACK$$$$BG$$");
+      if(changedUL)DocPrint(doc,"$$UL,0$$");
       if(ident>0)DocPrint(doc,"$$ID,-%d$$",ident);
+      if(changedSY)DocPrint(doc,"$$SY,0$$");
+      if(changedIV)DocPrint(doc,"$$IV,0$$");
+      if(changedWW)DocPrint(doc,"$$WW,1$$");
+
+
+      if(CheckN(dc->name,"th","td"))
+      {
+        DocPrint(doc,"\t");
+      }
+      
 
       if(block_level)
       {
@@ -422,16 +502,38 @@ U0 DocNodeBrowsePrint(DocNode *dc,I64 depth,CDoc *doc,I64 doNext=TRUE)
 
 
 //TestOffline = "<!DOCTYPE html><style>a>aa</style><script>bb</script> <html> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Conexao BD</title> <!--[if lt IE 9]> <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script> <![endif]--> <!--  --  A >B- >AAA-->\r\n<!--sdfsdfsdf--><p>Oi?</p>  </head> <body> <h1>ERRO AO CARREGAR<span style=\"color:#FFFFFF\">(TEM ERRO NENHUM, SAIA DAQUI)</span></h1> <h2>j√° foram enviados 13 macacos treinados para resolver o problema.</h2> <img src=\"http://2.bp.blogspot.com/-hEKKrXmwVRc/TfbLrNH5eEI/AAAAAAAAoj4/_xs0Z3qAOD8/s1600/article-1206973-06153D1D000005DC-213_468x267.jpg\"/><br/> <a href=\"TESTE\">Teste</a> </body> </html>";
+class FormUrl
+{//Use <CTRL-l> and sel "Data", "List" or "Check Box"
+//to generate the formats.
+  U8  *Url	format "$$DA+M,A=\"URL:%s\"$$\n"; //+M is unlimited len U8 *.
+};
 
 
-U0 KCTest(U8 *url,U8 *prev_url=NULL)
+U0 KCTest(U8 *url=NULL,U8 *prev_url=NULL,I64 PrintMemory=FALSE)
 {// path need to be relative
 
-URL *addr = ParseUrl(url);
+Print("\n\n$$WW,1$$$$PURPLE$$$$TX+CX,\"KC BROWSER\"$$$$FG$$\n\n");
+
+URL *addr = NULL;
 URL *prev_addr = NULL;
-if(prev_url)
-{
-  prev_addr = ParseUrl(prev_url);
+U8 *tmp = NULL;
+U8 *rdn = NULL;
+U8 *buffer = NULL;
+DocNode *root = NULL;
+CDoc *doc = NULL;
+U8 *DocFilename = NULL;
+I64 SUCCESS = FALSE;
+DocNodeAttr *headers = NULL;
+do {
+
+  if(url)
+  {
+    addr = ParseUrl(url);
+  }
+
+  if(url && prev_url)
+  {
+    prev_addr = ParseUrl(prev_url);
 
   if(!addr->scheme)
   {
@@ -472,147 +574,222 @@ if(prev_url)
         //                   0
         cropped[0] = '\0';
 
-        U8 *newpath = CMCAlloc(StrLen(prev_addr->path)+StrLen(addr->path)+1);
-        StrCpy(newpath,prev_addr->path);
-        StrCpy(newpath+StrLen(prev_addr->path),addr->path);
+        //U8 *newpath = CMCAlloc(StrLen(prev_addr->path)+StrLen(addr->path)+1);
+        //StrCpy(newpath,prev_addr->path);
+        //StrCpy(newpath+StrLen(prev_addr->path),addr->path);
+
+        U8 *newpath = CMStr(prev_addr->path,addr->path);
         CMFree(addr->path);
-      
         addr->path = newpath;
       }
     }
     }
   }
-  URLDel(prev_addr);
-}
+  }
 
 
-HttpResetIter;
-
-
-if(!TestOffline)
-{
-SerialBegin(1,9600);
-SerialFlush();
-
-TunnelPing();
-TunnelPing();
-Print("\n");
-
-U8 *host = addr->host;
-U8 *getPath = addr->path;
-U8 *port = addr->port;
-
-if(!host)
-{
-  Print("Invalid URL");return;
-}
-
-if(!getPath)
-{
-  addr->path = CMStr("/");
-}
-
-if(!port)
-{
-  if(addr->scheme)
+  if(!addr)
   {
-    if(StrICmp(addr->scheme,"http") == 0)
-    addr->port = CMStr("80");
-    else if(StrICmp(addr->scheme,"https") == 0)
-    addr->port = CMStr("443");
+    Print("?\n");
+
+    FormUrl fds;
+  
+    // CAN'T Use Custom Memory
+    fds.Url=StrNew("https://");
+
+    if (DocForm(&fds)) 
+    {
+      "Typed=%s\n\n",fds.Url;
+      
+      addr = ParseUrl(fds.Url);
+
+      
+      Free(fds.Url);
+    } 
     else
     {
-      Print("Invalid Scheme");return;   
+      "Cancel\n";
+
+      Free(fds.Url);
+      break;
     }
+
+    //"\n\nClassRep Example\n";  
+    //ClassRep(&fds);
+    
+  }  
+
+  if(!TestOffline)
+  {
+
+  if(!addr->host)
+  {
+    Print("Invalid URL, NULL host");break;
   }
-  else addr->port = CMStr("443");
+
+  if(!addr->path)
+  {
+    addr->path = CMStr("/");
+  }
+
+  if(!addr->port)
+  {
+    if(addr->scheme)
+    {
+      if(StrICmp(addr->scheme,"http") == 0)
+        addr->port = CMStr("80");
+      else if(StrICmp(addr->scheme,"https") == 0)
+        addr->port = CMStr("443");
+      else
+      {
+        Print("Invalid Scheme, must be https or http.");break;   
+      }
+    }
+    else addr->port = CMStr("443");
+  }
+
+
+  KC_PrevUrl = BuildUrl(addr);
+
+
+  tmp = BuildUrl(addr,TRUE);
+
+  if(addr->query)
+  {
+    rdn = CMCAlloc(7);//6 chars
+    I64 queryLen = StrLen(addr->query);
+    rdn[0] = (queryLen%26)+'A';
+    rdn[1] = ((queryLen/26)%26)+'A';
+    if(queryLen>3)
+    {
+      I64 sum = addr->query[0] ^ addr->query[1] ^ addr->query[2]; 
+      rdn[2] = (sum%26)+'A';
+      rdn[3] = ((sum/26)%26)+'A';
+    }
+
+    rdn[4] = (addr->query[queryLen-1]%26)+'A';
+
+    if(queryLen>1)
+      rdn[5] = (addr->query[queryLen-2]%26)+'A';
+  }
+  if(addr->path[StrLen(addr->path)-1] == '/')
+  {
+    DocFilename = CMStr("::/Home/Net/History/",addr->host,addr->path,rdn,"index.DD");
+  }
+  else
+  {
+    DocFilename = CMStr("::/Home/Net/History/",addr->host,addr->path,rdn,".DD");
+  }
+
+  Print("\nUrl: %s\n\n\n\nHost: %s\n\nPort: %s\n\nPath: %s\n\nFilename: %s\n\nVisit this Page? ",KC_PrevUrl,addr->host,addr->port,tmp,DocFilename);
+
+  if(!YorN){break;}
+
+  HttpResetIter;
+
+  SerialBegin(1,9600);
+  SerialFlush();
+
+  if(TunnelPing() && TunnelPing())
+  {
+    Print("\n");
+
+    
+      HttpGet(addr->host,addr->port,tmp,0);
+
+      headers = HttpParseHeaders();
+      
+      if(tmp)CMFree(tmp);
+      if((tmp=DocNodeSearchAttr(headers,"Location"))!=NULL)
+      {
+        Print("Click to Follow Redirect:\n$$MA,\"%s\",LM=\"KCTest(\\\"%s\\\");\n\"$$\n\n",
+        tmp,tmp);
+        tmp=NULL;
+
+        //break; 
+      }
+  }
+  else
+  {
+    Print("\nPing to Tunnel Failed!\n");break;
+  }
+}
+else
+{
+  HttpResetIter;
 }
 
-KC_PrevUrl = BuildUrl(addr);
 
+  root = DocNodeNew(NULL,"ROOT",NULL);
 
-U8 *tmp = BuildUrl(addr,TRUE);
+  buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string
 
+  HtmlParse(root,buffer);
 
-Print("\n%s\n\nHost:%s:%s\nPath:%s\n\n",KC_PrevUrl,addr->host,addr->port,tmp);
+  Print("\n\nFinished Parsing\n\n");
 
-if(!YorN){return;}
+  // Create DolDoc at filename location
+  doc=DocNew(DocFilename);    
+  doc->flags|=DOCF_PLAIN_TEXT|DOCF_NO_CURSOR;
 
+  DocNodeBrowsePrint(root,0,doc);
 
-HttpGet(addr->host,addr->port,tmp,0);
-
-URLDel(addr);
-CMFree(tmp);
-
-HttpParseHeaders();
-
+  DocWrite(doc,FALSE);
+  SUCCESS = TRUE;
 }
+while(FALSE);
 
+// Free Everything
 
-//DocTermNew;
+if(buffer)CMFree(buffer);
 
-//Print("Create Doc?:");if(ask && YorN){}
+if(addr)URLDel(addr);
 
-DocNode *root = DocNodeNew(NULL,"ROOT",NULL);
+if(prev_addr)URLDel(prev_addr);
 
-//Print("Alloc buff?:");if(ask && YorN){}
-//Print("Allocated Buffer\n");
-U8 *buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string
+if(tmp)CMFree(tmp);
 
-//Print("Parse?:");if(ask && YorN){}
+if(rdn)CMFree(rdn);
 
-HtmlParse(root,buffer);
+if(doc)DocDel(doc);
 
-//Print("Free buffer?");if(ask && YorN){}
-//Print("Free buffer\n");
-CMFree(buffer);
+if(root)DocNodeDel(root);
 
+if(headers)DocNodeAttrDel(headers,TRUE);
 
-Print("\n\nFinished Parsing\n\n");
+if(KC_PrevUrl)CMFree(KC_PrevUrl);
+KC_PrevUrl = NULL;
 
-//Print("Print Doc?:");if(YorN){}
-//DocNodePrint(root);
-//DocNodeBrowsePrint(root);
-
-
-// Create DolDoc at filename location
-CDoc *doc=DocNew("::/Home/Net/outbrowse.DD");    
-doc->flags|=DOCF_PLAIN_TEXT|DOCF_NO_CURSOR;
-
-DocNodeBrowsePrint(root,0,doc);
-
-DocWrite(doc,FALSE);
-
-DocDel(doc);
-
-
-
-
-
-CMFree(KC_PrevUrl);
-//Print("Free Doc?");if(ask && YorN){}
-DocNodeDel(root);
-
-//HtmlContent();
-
-Print("\n");
-Print("\n");
-
-CMFree(iterBuffer);
+if(iterBuffer)CMFree(iterBuffer);
 iterBuffer = NULL;
 
-//if(YorN){
-//CustomMemoryPrint();
-//}
+if(DocFilename)
+{
+  tmp = StrNew(DocFilename);
+  CMFree(DocFilename);
 
-CustomMemoryPrint();
+  DocFilename = tmp;
+  tmp = NULL;
+}
+
+Print("\n");
+Print("\n");
 
 
-//CustomMemoryFree();
+if(!SUCCESS || PrintMemory)
+  CustomMemoryPrint();
+else
+  CustomMemoryCheck();
+
 CustomMemoryReset();
 
 
-Ed("::/Home/Net/outbrowse.DD");
+if(SUCCESS && DocFilename)
+{
+  Ed(DocFilename);
+  Free(DocFilename);
+}
+
 }
 
 //while(YorN)
@@ -620,8 +797,10 @@ Ed("::/Home/Net/outbrowse.DD");
 //HttpResetIter();
 //KCTest("templeos.org","");
 
-KCTest("?q=Test","https://www.google.com/search");
+//KCTest("?q=COVID19","https://www.google.com/search");
 //KCTest("https://app.passapassa.com.br/passapassa/");
+
+KCTest(NULL,NULL,TRUE);
 //}
 //}
 
@@ -669,4 +848,4 @@ CustomMemoryReset();
 }
 
 
-//testURL();
+//testURL();

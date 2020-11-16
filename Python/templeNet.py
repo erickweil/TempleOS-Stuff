@@ -77,6 +77,11 @@ def sendall(sock,message,char_end,chunk_ack=False):
 		chunk = some_data[n_chunks*CZ:]
 		print(f"writing last chunk [{str(n_chunks*CZ)}:] with a len of {str(len(chunk))}.")
 		sendchunk(sock,chunk,chunk_ack)
+	#Just in case...
+	if n_remain == 1:
+		chunk = (char_end).encode(encoding=ENCODING,errors='replace')
+		print(f"writing a small char_end just in case.")
+		sendchunk(sock,chunk,False)
 
 def commandLoop(sock):
 	print("commandLoop. waiting...")

@@ -5,13 +5,13 @@ U0 UserStartUp()
 {//Run each time a user a spawned
   DocTermNew;
   Type("::/Doc/Start.DD");
-  Print("\n\n    $$MA+B-UL,\"Graphic Dir\",LM=\"#include \\\"::/Home/erick/hello.HC.Z\\\";\\nListdirs(1);\\n\"$$");
-  Print("    $$MA+B-UL,\"PT-BR Keyboard\",LM=\"setPTBRKeyboard();\\n\"$$\n\n");
+  Print("\n\n    $$MA+B-UL,\"Graphic Dir\",LM=\"#include \\\"::/Home/erick/hello.HC\\\";\\nListdirs(1);\\n\"$$");
+  Print("    $$MA+B-UL,\"KC Browser\",LM=\"#include \\\"::/Home/Net/KCBrowser.HC\\\";\\n\"$$\n\n");
   LBts(&Fs->display_flags,DISPLAYf_SHOW);
-  WinToTop;
+  WinToTop;
   WinZBufUpdate;
   Dir;
-}
+}
 
 U0 SrvStartUp()
 {//Run each time a srv task is spawned.

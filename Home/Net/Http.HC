@@ -13,6 +13,87 @@
 
 U8 *USER_AGENT = "TempleOS COM Port Tunneled Internet";
 
+public class DocNodeAttr {
+  // Name of the Attribute
+  U8 *name;
+  // value or NULL if empty
+  U8 *value;
+  // Next Attr of the list
+  DocNodeAttr *next;
+};
+
+DocNodeAttr *DocNodeAttrNew(U8 *name,U8 *value=NULL)
+{// Create a new DocNodeAttr DocNodeAttrDel
+  DocNodeAttr *res;
+  res=CMCAlloc(sizeof(DocNodeAttr));
+  
+  //if(name && StrLen(name)>0)
+  //{
+  //  res->name = CMCAlloc(StrLen(name)+1);
+  //  StrCpy(res->name,name);
+  //}
+  //else
+  //  res->name = NULL;
+  res->name = CMStr(name);
+  res->value = CMStr(value);
+
+  res->next=NULL;
+  return res;
+}
+
+U0 DocNodeAttrDel(DocNodeAttr *dattr,I64 doNext=FALSE)
+{//Don't free the next
+  if (!dattr) return;
+
+//  dattr->next = NULL;
+
+  if(dattr->name)
+    CMFree(dattr->name);
+//  dattr->name = NULL;
+
+  if(dattr->value)
+    CMFree(dattr->value);
+//  dattr->value = NULL;
+  
+//  CMFree(dattr);
+
+
+  DocNodeAttr *_dattr;
+  if(!doNext)
+  {
+    CMFree(dattr);
+  }
+  else
+  {
+    _dattr = dattr;
+    dattr = dattr->next;
+    CMFree(_dattr); 
+
+    while(dattr)
+    {
+      _dattr = dattr;
+      dattr = dattr->next;
+      DocNodeAttrDel(_dattr,FALSE);
+    }
+  }
+
+
+}
+
+U8 *DocNodeSearchAttr(DocNodeAttr *attr,U8 *name,U8 *ret=NULL)
+{
+  //DocNodeAttr *attr = dc->attr;
+  while(attr != NULL)
+  {
+    if(attr->name && StrICmp(attr->name,name)==0)
+    {
+      return attr->value;
+    }
+    attr = attr->next;
+  }
+  return ret;
+}
+
 // Iterator
 // This way each buffer sized processing can take up to 5 secs
 // and no character will be lost, also no RX buffer overflow happens
@@ -235,16 +316,17 @@ if(printOut  == 1)
 }
 
 
-U0 HttpParseHeaders()
+DocNodeAttr *HttpParseHeaders()
 {
   U8 *buffer = CMCAlloc(1025);
-  I64 last;
-
+  I64 last;
+  
   Print("\nSTATUS: ");
   // Status
   last = HttpNext(buffer,1024,'\r','\n','\n');  
   Print("%70ts\n\n",buffer);
-
+  DocNodeAttr *firstHeader=DocNodeAttrNew("STATUS",buffer);
+  DocNodeAttr *lastHeader=firstHeader;
   while(TRUE)
   {
     // One Header
@@ -255,12 +337,22 @@ U0 HttpParseHeaders()
     }
   
     Print("%20ts:",buffer);
+    DocNodeAttr *newHeader = DocNodeAttrNew(buffer);
   
     last = HttpNext(buffer,1024,'\r','\n','\n');  
     Print("%49ts\n",buffer);
+ 
+    if(buffer[0] == ' ')
+    newHeader->value = CMStr(buffer+1);
+    else
+    newHeader->value = CMStr(buffer);
+    
+    lastHeader->next = newHeader;
+    lastHeader = newHeader;
   }
 
   Print("\nEnd Headers\n\n");
 
   CMFree(buffer);    
+  return firstHeader;
 }

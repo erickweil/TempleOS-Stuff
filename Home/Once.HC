@@ -105,9 +105,11 @@ U0 iniciar()
  // Type("::/Home/bomdia.DD");
  // "\n";
  // DocBottom;
- //Listdirs(1);
+ //Listdirs(1);
   setPTBRKeyboard();
-}
+  Adam("#include \"C:/Home/Net/SerialNetv2.HC\"");
+  Adam("#include \"C:/Home/Net/CustomMem.HC\"");
+}
 
 U0 Tmp()
 {

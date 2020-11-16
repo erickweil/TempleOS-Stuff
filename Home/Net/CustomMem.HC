@@ -252,36 +252,94 @@ U0 CMFree(U8 *buffer)
     //CustomMemoryReset;
     throw('NFREE');
   }
+  if((buffer-6) < CMEM_BLOCK || buffer > CMEM_BLOCK+CMEM_SZ)
+  {
+    Print("Free Wrong\n");
+    //CustomMemoryReset;
+    throw('WRFREE');
+  }
   if(*(buffer-2) == 'F')
   {
     Print("Free Twice\n");
     //CustomMemoryReset;
     throw('TWFREE');
   }
-  if(buffer < CMEM_BLOCK || buffer > CMEM_BLOCK+CMEM_SZ)
+  if(*(buffer-2) != 'ÿ' || *(buffer-1) != 'ÿ')
   {
-    Print("Free Wrong\n");
+    Print("Free But Was Overwrited\n");
     //CustomMemoryReset;
-    throw('WRFREE');
+    throw('OVFREE');
   }
   
-  *(buffer-2)='F';
-
   U8 *_res=(buffer-6);  
   I64 sz=0;
   sz = _res[3] | _res[2]<<8 | _res[1]<<16 | _res[0]<<24;  
+
+  if(sz < 0 || sz > CMEM_SZ)
+  {
+    Print("Custom Memory Header Corrupted\n");
+    //CustomMemoryReset;
+    throw('OVFREE');
+  }
+
+  *(buffer-2)='F';
 
   CMEM_Used -= sz;
   
   CMEM_Frees++;
 }
 
-U8 *CMStr(U8 *src)
+
+U8 *_CMConcatStr(U8 *SEP,I64 argc,I64 *argv)
 {
-  U8 *buf = CMCAlloc(StrLen(src)+1);
-  StrCpy(buf,src);
+  I64 k;
+  I64 outLen = 1;//+1
+  I64 sepLen = StrLen(SEP);
+  for(k=0;k<argc;k++)
+  {
+    if(argv[k])
+    {
+      if(SEP && outLen > 1)
+      {
+        outLen += sepLen;
+      }
+      outLen += StrLen(argv[k]);
+    }
+  }
+  if(outLen <= 1)
+  {
+    return NULL; 
+  }
+
+  U8 *buf = CMCAlloc(outLen);  
+  I64 i=0,len=0;
+  for(k=0;k<argc;k++)
+  {
+    len = StrLen(argv[k]);
+    if(argv[k] && len > 0)
+    {
+      if(SEP && i > 0)
+      {
+        StrCpy(buf+i,SEP);
+        i += sepLen;
+      }
+      StrCpy(buf+i,argv[k]);
+      i+= len;
+    }
+  }
   return buf;
 }
+
+U8 *CMStr(...)
+{
+  return _CMConcatStr(NULL,argc,argv);
+}
+
+U8 *CMConcatStr(U8 *SEP,...)
+{
+  return _CMConcatStr(SEP,argc,argv);
+}
+
 
 U0 MyTestMem()
 {

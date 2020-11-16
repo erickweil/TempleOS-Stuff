@@ -2,8 +2,9 @@
 
 
 #include "::/Home/Net/Http"
-//#define HTML_BZ	65536
-#define HTML_BZ	32768
+#define HTML_BZ	131072
+////#define HTML_BZ	65536
+//#define HTML_BZ	32768
 
 
 I64 CheckN(U8 *buffer,...)
@@ -23,8 +24,12 @@ I64 CheckBlock(U8 *buffer)
   return CheckN(buffer,"address","article","aside","blockquote",
   "canvas","dd","div","dl","dt","fieldset","figcaption","figure",
   "footer","form","h1","h2","h3","h4","h5","h6","header","hr",
-  "hr","li","main","nav","noscript","ol","p","pre","section",
-  "table","tfoot","ul","video");
+  "li","main","nav","noscript","ol","p","pre","section",
+  "table","tfoot","ul","video",
+  
+  // Aren't block but whatever
+  "tr"
+  );
 }
 
 
@@ -57,7 +62,7 @@ I64 CheckAutoClose(U8 *buffer)
 I64 CheckIsHidden(U8 *buffer)
 {
 //  return CheckN(buffer,"head","script","style");
-  if(StrICmp(buffer,"head")==0
+  if(StrICmp(buffer,"meta")==0
   || StrICmp(buffer,"script")==0
   || StrICmp(buffer,"style")==0
   )
@@ -77,14 +82,6 @@ I64 CheckEscapedContent(U8 *buffer)
 }
 
 
-public class DocNodeAttr {
-  // Name of the Attribute
-  U8 *name;
-  // value or NULL if empty
-  U8 *value;
-  // Next Attr of the list
-  DocNodeAttr *next;
-};
 
 // HTML DOM
 // The U8* in this need to be FREE-able
@@ -102,24 +99,6 @@ public class DocNode {
   // when Raw-Text Tag, text content, NULL otherwise
   U8 *innerText;
 };
-
-DocNodeAttr *DocNodeAttrNew(U8 *name)
-{// Create a new DocNodeAttr DocNodeAttrDel
-  DocNodeAttr *res;
-  res=CMCAlloc(sizeof(DocNodeAttr));
-  
-  if(name && StrLen(name)>0)
-  {
-    res->name = CMCAlloc(StrLen(name)+1);
-    StrCpy(res->name,name);
-  }
-  else
-    res->name = NULL;
-
-  res->value = NULL;
-  res->next=NULL;
-  return res;
-}
 
 DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
 {// Create a new DocNode, remember to call DocNodeDel
@@ -150,22 +129,6 @@ DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
   return res;
 }
 
-U0 DocNodeAttrDel(DocNodeAttr *dattr)
-{//Don't free the next
-  if (!dattr) return;
-
-//  dattr->next = NULL;
-
-  if(dattr->name)
-    CMFree(dattr->name);
-//  dattr->name = NULL;
-
-  if(dattr->value)
-    CMFree(dattr->value);
-//  dattr->value = NULL;
-  
-  CMFree(dattr);
-}
 
 U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
 {//Free recursively RECURSIVE
@@ -223,19 +186,6 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
   }
 }
 
-U8 *DocNodeSearchAttr(DocNode *dc,U8 *name,U8 *ret=NULL)
-{
-  DocNodeAttr *attr = dc->attr;
-  while(attr != NULL)
-  {
-    if(attr->name && StrICmp(attr->name,name)==0)
-    {
-      return attr->value;
-    }
-    attr = attr->next;
-  }
-  return ret;
-}
 
 I64 _docprintnewline = FALSE;
 I64 _docprintlchr = -1;
@@ -273,8 +223,9 @@ U0 SingleHtmlPrintRaw(CDoc *doc,U8 *str)
 
 U0 SingleHtmlPrint(CDoc *doc,U8 *str)
 {
-  if(!str) throw('NULL');
-
+  if(!str) {Print("NULLSingleHTMLPRINT");
+  return;
+  }
   
   I64 k,lchr = _docprintlchr,klen=StrLen(str);
   for(k=0;k<klen;k++)
@@ -701,7 +652,8 @@ if(!HTML)
 //  HttpGet("www.google.com","443","/search?q=templeos",0);
   HttpGet("passapassa.com.br","443","/",0);
 
-  HttpParseHeaders();
+  DocNodeAttr *headers = HttpParseHeaders();
+  DocNodeAttrDel(headers,TRUE);
 }
 else
 {
@@ -756,7 +708,7 @@ CustomMemoryPrint();
 CustomMemoryReset();
 }
 
-//test(
+//test(
 /*"
 <!DOCTYPE html>
 <html>
