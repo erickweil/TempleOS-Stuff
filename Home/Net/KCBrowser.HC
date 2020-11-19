@@ -898,8 +898,8 @@ if(DocFilename)
 }
 
 }
-
-KCTest("templeos.org","");
+KCTest(NULL,NULL,TRUE);
+//KCTest("templeos.org","");
 //KCTest("?q=COVID19","https://www.google.com/search");
 //KCTest("https://www.old.reddit.com/",NULL,TRUE);
 
