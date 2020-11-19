@@ -282,7 +282,7 @@ U0 CMFree(U8 *buffer)
     throw('OVFREE');
   }
 
-  *(buffer-2)='F';
+  *(buffer-2)='F';
 
   CMEM_Used -= sz;
   
@@ -368,5 +368,5 @@ CustomMemoryFree;
 }
 
 
-CustomMemoryAlloc(16777215,4);
+CustomMemoryAlloc(16777215,4);
 //MyTestMem();

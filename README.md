@@ -8,6 +8,25 @@ then execute:
   #import "::/Home/erick/hello.HC"
 
   >Listdirs(1);
+  
+* PT-BR DolDoc Bible
+  ::/Home/erick/biblia.DD
+
+A long time ago I already downloaded and indexed the entire New World Translation of the PT-BR Bible, As a Scratch Project
+You can see the Scratch project "The Entire Bible on Scratch!" from erickweil at https://scratch.mit.edu/projects/102991620/
+
+So the entire bible is a giant blob of text and you have the index with numbers that give you offsets.
+
+With a bit of math and reverse engeneering, i'm arrived at biblia.DD, a complete Brazilian Portuguese Bible in DolDoc format.
+
+It uses the pseudo UTF-8 mapper.
+
+* Pseudo UTF-8
+  ::/Net/HtmlFunctions.HC
+  
+I'm not saying its full support, but it does work for most of the time.
+
+It's mainly used by the Browser and in the PT-BR DolDoc Bible project.
 
 * PT-BR Keyboard
 
@@ -33,14 +52,17 @@ and in my host machine I use a python script that acts as a server to read and w
 Data is chunked in slices and the python script waits a ACK to continue. that way
 processing can delay a lot and yet no data will be lost.
 
-* HTTP protocol, HTML Parsing and display
+* HTTP protocol, HTML Parsing and display, 'KC Browser'
 
 (depends on a way to access the internet, so depends on COM)
-"::/Home/Net/Http.HC", "::/Home/Net/HtmlParser.HC", "::/Home/Net/KCBrowser.HC"
+"::/Home/Net/Http.HC", "::/Home/Net/HtmlParser.HC", "::/Home/Net/HtmlFunctions.HC", "::/Home/Net/KCBrowser.HC"
 
 (Also because errors, it also depends on Custom Memory, unless you rename every CMCAlloc to CAlloc and CMFree to Free).
 
 You can basically use the internet. Don't work very well.
+
+All you need to do is to include the KC Browser file 
+(After ADAM Including CustomMemory and setting up COM Communication). 
 
 * Custom Memory
 
@@ -60,6 +82,7 @@ To use this, first include as Adam and them replace every Alloc to CMCAlloc and 
 Please note that is only valid to CMFree buffers allocated with CMCAlloc
 if call CMFree on CAlloc buffer throw a Exception.
 and if call Free on a CMCAlloc buffer is undefined behaviour.
+
 ---
 
 Saving them here so anyone can use and if I crash my machine, I'll not lose all.

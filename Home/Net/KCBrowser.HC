@@ -411,6 +411,8 @@ U0 DocNodeBrowsePrint(DocNode *dc,I64 depth,CDoc *doc,I64 doNext=TRUE)
         hrefValue = DocNodeSearchAttr(dc->attr,"alt","");
         DocPrint(doc,"$$LTBLUE$$");
         HtmlPrint(doc,"(IMG ",hrefValue,")");changedColor=TRUE;
+
+        DocPrint(doc,"$$MA-X+PU,\"Download Img");_docprintindol=TRUE;            
       }
       
       }
@@ -422,17 +424,17 @@ U0 DocNodeBrowsePrint(DocNode *dc,I64 depth,CDoc *doc,I64 doNext=TRUE)
          
       if(_docprintindol)
       {
-      if(CheckN(dc->name,"a","iframe"))
+      if(CheckN(dc->name,"a","iframe","img"))
       {
         hrefValue = DocNodeSearchAttr(dc->attr,"href",NULL);
-        if(!hrefValue) hrefValue = DocNodeSearchAttr(dc->attr,"src","NULL");
+        if(!hrefValue || StrLen(hrefValue)==0) hrefValue = DocNodeSearchAttr(dc->attr,"src","NULL");
         
         DocPrint(doc,"\",LM=\"KCTest(\\\"");
         HtmlPrintRaw(doc,hrefValue);
         DocPrint(doc,"\\\",\\\"");
         HtmlPrintRaw(doc,KC_PrevUrl);
         DocPrint(doc,"\\\");View;\n\"$$");
-        
+        
         _docprintindol=FALSE;
       }
       else if(StrICmp(dc->name,"title")==0)
@@ -509,7 +511,7 @@ class FormUrl
 };
 
 
-U0 KCTest(U8 *url=NULL,U8 *prev_url=NULL,I64 PrintMemory=FALSE)
+U0 KCTest(U8 *url=NULL,U8 *prev_url=NULL,I64 PrintMemory=FALSE,I64 PrintHTML=FALSE)
 {// path need to be relative
 
 Print("\n\n$$WW,1$$$$PURPLE$$$$TX+CX,\"KC BROWSER\"$$$$FG$$\n\n");
@@ -524,6 +526,8 @@ CDoc *doc = NULL;
 U8 *DocFilename = NULL;
 I64 SUCCESS = FALSE;
 DocNodeAttr *headers = NULL;
+
+U8 *headerContentType = NULL;
 do {
 
   if(url)
@@ -619,6 +623,10 @@ do {
     
   }  
 
+
+  buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string
+  
+
   if(!TestOffline)
   {
 
@@ -653,7 +661,7 @@ do {
 
 
   tmp = BuildUrl(addr,TRUE);
-
+  // to allow different caches for different queries
   if(addr->query)
   {
     rdn = CMCAlloc(7);//6 chars
@@ -672,15 +680,31 @@ do {
     if(queryLen>1)
       rdn[5] = (addr->query[queryLen-2]%26)+'A';
   }
+ 
+  // cut big paths
+  if(StrLen(addr->path)+StrLen(addr->host) > 66)
+  {
+    if(StrLen(addr->host)>32)
+    {
+      addr->host[32] = '\0';
+    }
+
+    addr->path[66-StrLen(addr->host)] = '\0';
+  }
+
   if(addr->path[StrLen(addr->path)-1] == '/')
   {
-    DocFilename = CMStr("::/Home/Net/History/",addr->host,addr->path,rdn,"index.DD");
+   
+    DocFilename = CMStr("::/NetH/",addr->host,addr->path,rdn,"index.DD");
   }
   else
   {
-    DocFilename = CMStr("::/Home/Net/History/",addr->host,addr->path,rdn,".DD");
+    DocFilename = CMStr("::/NetH/",addr->host,addr->path,rdn,".DD");
   }
 
+  // Remove %
+  StrFileSafe(DocFilename+3);
+  
   Print("\nUrl: %s\n\n\n\nHost: %s\n\nPort: %s\n\nPath: %s\n\nFilename: %s\n\nVisit this Page? ",KC_PrevUrl,addr->host,addr->port,tmp,DocFilename);
 
   if(!YorN){break;}
@@ -697,17 +721,19 @@ do {
     
       HttpGet(addr->host,addr->port,tmp,0);
 
-      headers = HttpParseHeaders();
+      headers = HttpParseHeaders(buffer,HTML_BZ);
       
       if(tmp)CMFree(tmp);
       if((tmp=DocNodeSearchAttr(headers,"Location"))!=NULL)
       {
-        Print("Click to Follow Redirect:\n$$MA,\"%s\",LM=\"KCTest(\\\"%s\\\");\n\"$$\n\n",
-        tmp,tmp);
+        Print("Click to Follow Redirect:\n$$MA,\"%s\",LM=\"KCTest(\\\"%s\\\",\\\"%s\\\");\n\"$$\n\n",
+        tmp,tmp,KC_PrevUrl);
         tmp=NULL;
 
         //break; 
       }
+
+      headerContentType = DocNodeSearchAttr(headers,"Content-Type");
   }
   else
   {
@@ -720,22 +746,103 @@ else
 }
 
 
-  root = DocNodeNew(NULL,"ROOT",NULL);
-
-  buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string
-
-  HtmlParse(root,buffer);
-
-  Print("\n\nFinished Parsing\n\n");
-
   // Create DolDoc at filename location
   doc=DocNew(DocFilename);    
   doc->flags|=DOCF_PLAIN_TEXT|DOCF_NO_CURSOR;
 
-  DocNodeBrowsePrint(root,0,doc);
 
-  DocWrite(doc,FALSE);
-  SUCCESS = TRUE;
+
+  I64 lchr;
+  if(headerContentType == NULL)
+  {// Unknown, a error?
+    Print("\n\nNULL CONTENT TYPE\n\n");
+    if(YorN){
+
+    lchr= HttpFill(buffer,HTML_BZ);
+    SingleHtmlPrintRaw(doc,buffer,TRUE);
+
+    SUCCESS = TRUE;    
+    }
+  }
+  else if(StrNICmp(headerContentType,"text/html;",10)==0)
+  {
+
+    root = DocNodeNew(NULL,"ROOT",NULL);
+
+    HtmlParse(root,buffer);
+
+    Print("\n\nFinished Parsing\n\n");
+
+    DocPrint(doc,"URL:\n$$MA-X+PU,\"%s\",LM=\"KCTest(\\\"%s\\\");View;\n\"$$\n\n\n",
+    KC_PrevUrl,KC_PrevUrl);
+
+    if(PrintHTML)
+      DocNodePrint(root,FALSE,0,doc);
+
+
+    DocNodeBrowsePrint(root,0,doc);
+
+    SUCCESS = TRUE;
+  }
+  else if(StrNICmp(headerContentType,"teeeeext",4)==0)
+  {
+    Print("\n\nPLAIN TEXT %s\n\n",headerContentType);
+    if(YorN){
+
+    lchr= HttpFill(buffer,HTML_BZ);
+
+    SingleHtmlPrintRaw(doc,buffer,TRUE);
+
+
+          
+    SUCCESS = TRUE;
+    }
+  }
+  //else  application/x-www-form-urlencoded 
+  //
+  //
+  else // Binary
+  {
+    Print("\n\nUNSUPORTED CONTENT TYPE %s\n\n",headerContentType);
+    if(YorN){
+
+    //SerialReadStringOut(CHAR_END);// TESTING
+    lchr= HttpFill(buffer,HTML_BZ);
+
+    DocFilename[StrLen(DocFilename)-4] = '.';
+    DocFilename[StrLen(DocFilename)-3] = 'B';
+    DocFilename[StrLen(DocFilename)-2] = 'I';
+    DocFilename[StrLen(DocFilename)-1] = 'N';
+
+    FileWrite(DocFilename,buffer,lchr);
+
+
+    SUCCESS = FALSE; // To not write the doc
+    }
+  }
+
+  if(SUCCESS)
+  {   
+    try
+    {
+      DocWrite(doc,FALSE);
+      SUCCESS = TRUE;
+    }
+    catch 
+    {
+      "Error: Ch:%c:%P\n",Fs->except_ch,Fs->except_callers[0];
+      if (Fs->except_ch=='Drv') {
+        "Filename...\n";
+      }
+      Fs->catch_except=TRUE;
+
+      // trying again...
+      
+      StrCpy(doc->filename.name,"::/Home/Net/out.DD");
+      DocWrite(doc,FALSE);
+      SUCCESS = FALSE;
+    }
+  }
 }
 while(FALSE);
 
@@ -784,7 +891,7 @@ else
 CustomMemoryReset();
 
 
-if(SUCCESS && DocFilename)
+if(DocFilename)
 {
   Ed(DocFilename);
   Free(DocFilename);
@@ -792,21 +899,10 @@ if(SUCCESS && DocFilename)
 
 }
 
-//while(YorN)
-//{
-//HttpResetIter();
-//KCTest("templeos.org","");
-
+KCTest("templeos.org","");
 //KCTest("?q=COVID19","https://www.google.com/search");
-//KCTest("https://app.passapassa.com.br/passapassa/");
+//KCTest("https://www.old.reddit.com/",NULL,TRUE);
 
-KCTest(NULL,NULL,TRUE);
-//}
-//}
-
-//test();
-
-//Print("END");
 
 U0 testURL()
 {
@@ -847,5 +943,89 @@ CustomMemoryPrint();
 CustomMemoryReset();
 }
 
+
+/*
+ 
+You can find every content type here:
+$MA-X+PU,"http://www.iana.org/assignments/media-types/media-types.xhtml",LM="KCTest(\"http://www.iana.org/assignments/media-types/media-types.xhtml\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;\n"$
+
+
+The most common type are:
+
+
+$ID,2$
+ þ Type application 
+application/java-archive
+application/EDI-X12 
+application/EDIFACT 
+application/javascript 
+application/octet-stream 
+application/ogg 
+application/pdf 
+application/xhtml+xml 
+application/x-shockwave-flash 
+application/json 
+application/ld+json 
+application/xml 
+application/zip 
+application/x-www-form-urlencoded 
+
+þ Type audio 
+audio/mpeg 
+audio/x-ms-wma 
+audio/vnd.rn-realaudio 
+audio/x-wav 
+
+þ Type image
+
+
+image/gif 
+image/jpeg 
+image/png 
+image/tiff 
+image/vnd.microsoft.icon 
+image/x-icon 
+image/vnd.djvu 
+image/svg+xml 
+
+þ Type multipart 
+multipart/mixed 
+multipart/alternative 
+multipart/related (using by MHTML (HTML mail).) 
+multipart/form-data 
+
+þ Type text 
+text/css 
+text/csv 
+text/html 
+text/javascript (obsolete) 
+text/plain 
+text/xml 
+
+þ Type video 
+video/mpeg 
+video/mp4 
+video/quicktime 
+video/x-ms-wmv 
+video/x-msvideo 
+video/x-flv 
+video/webm 
+
+þ Type vnd : 
+application/vnd.android.package-archive
+application/vnd.oasis.opendocument.text 
+application/vnd.oasis.opendocument.spreadsheet 
+application/vnd.oasis.opendocument.presentation 
+application/vnd.oasis.opendocument.graphics 
+application/vnd.ms-excel 
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet 
+application/vnd.ms-powerpoint 
+application/vnd.openxmlformats-officedocument.presentationml.presentation 
+application/msword 
+application/vnd.openxmlformats-officedocument.wordprocessingml.document 
+application/vnd.mozilla.xul+xml 
+
+$ID,-2$
+*/
 
 //testURL();

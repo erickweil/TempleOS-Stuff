@@ -79,9 +79,9 @@ I64 SerialReadString(U8 *buffer,I64 terminator,I64 k =0,I64 max=-1,I64 ack_chunk
     lchr = chr; 
     if(FifoU8Rem(serial->RX_fifo,&chr))
     {
-      if(lchr == 254)
+      if(lchr == 127)
       {
-        if(chr == 254)
+        if(chr == 127)
         {
           *buffer = chr;buffer++; 
         }
@@ -91,7 +91,7 @@ I64 SerialReadString(U8 *buffer,I64 terminator,I64 k =0,I64 max=-1,I64 ack_chunk
         }
         // else nothing 
       }
-      else if(chr == 254){}
+      else if(chr == 127){}
       else if(chr == terminator)
       {
         if(ack_chunk > 0)
@@ -137,9 +137,9 @@ U0 SerialReadStringOut(I64 terminator,I64 max=-1,I64 ack_chunk=-1)
     lchr = chr; 
     if(FifoU8Rem(serial->RX_fifo,&chr))
     {
-      if(lchr == 254)
+      if(lchr == 127)
       {
-        if(chr == 254)
+        if(chr == 127)
         {
           Print("%c",chr); 
         }
@@ -149,7 +149,7 @@ U0 SerialReadStringOut(I64 terminator,I64 max=-1,I64 ack_chunk=-1)
         }
         // else nothing 
       }
-      else if(chr == 254){}
+      else if(chr == 127){}
       else if(chr == terminator)
       {
         if(ack_chunk > 0)
@@ -203,11 +203,11 @@ U0 SerialBegin(I64 port,I64 baudrate)
 
  
 */
-U8 CHAR_END = 255;
+U8 CHAR_END = 11;
 I64 CHUNK_SIZE = 128;
 I64 TunnelPing()
 {
-  SerialPrint("PING%c",CHAR_END);
+  SerialPrint("PING%c",CHAR_END);
   if(SerialRead() == 'O' && SerialRead() == 'K' && SerialRead() == CHAR_END)
   {
     return TRUE;
@@ -260,8 +260,9 @@ U0 TunnelConnect(U8 *host, U8 *port, U8 *messagefmt,...)
 }
 
 
-SerialBegin(1,9600);
-
+//SerialBegin(1,9600);
+SerialBegin(1,115200);
+
 //SerialPrint("PING%c",CHAR_END);
 //SerialReadStringOut(CHAR_END);
 

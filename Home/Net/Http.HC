@@ -145,26 +145,46 @@ I64 HttpNextChar()
 
 // Uses Fmt... should re-avalie
 I64 HttpNextMatch(U8 *outBuffer,I64 max,U8 *match)
-{//Fills the null-terminated buffer
+{
+// $IV,1$StrLen(match) should be < max$IV,0$
+
+//Fills the null-terminated buffer
 // until find a multi-char case-insensitive match
 // returns last chr, or -1 when end of input
+
+// Also, may go beyond max. restarting the buffer then...
 
 if(!match) throw('NULL');
 
 //U8 *match=StrPrintJoin(NULL,matchfmt,argc,argv);
 
 //Print("Matching '%s'... \n",match);
-
+U8 *outBufferOrig = outBuffer;
 I64 chr;
 I64 k = 0, matchlen = StrLen(match);
-while((chr = HttpNextChar())!=-1 && k < max)
+while((chr = HttpNextChar())!=-1)
 {
-  *outBuffer=chr;
-  outBuffer++;
-  *outBuffer = '\0';  
+  if(k == max)
+  { 
+    Print("Next Match matching '%s' Reached Max!\n",match);
+    // this should work...
+//    StrCpy(outBuffer-k,outBuffer-matchlen);
+
+    // It may lose the end if it happens to be split...
+    outBuffer = outBufferOrig;
+    k=0;
+  }
+
+  if(k < max)
+  {
+    *outBuffer=chr;
+    outBuffer++;
+    *outBuffer = '\0';  
+  }  
+   
 
   k++;
-  
+
   if(k >= matchlen && StrICmp(outBuffer-matchlen,match)==0)
   {
     //Print("Matched! '%s' == '%s' \n",outBuffer-matchlen,match);
@@ -298,11 +318,36 @@ while((chr = HttpNextChar())!=-1 && k < max)
 return chr;
 }
 
+
+I64 HttpFill(U8 *outBuffer,I64 max=4096)
+{//Fills the binary buffer till max or EOF
+// returns size
+// also null-terminates just in case.
+I64 chr;
+I64 k = 0;
+while((chr = HttpNextChar())!=-1 && k < max)
+{
+  *outBuffer=chr;
+  outBuffer++;
+
+  k++;
+}
+
+*outBuffer = '\0';
+
+return k;
+}
+
+
+
+
+
+
 U0 HttpGet(U8 *host,U8 *port,U8 *path,I64 printOut=1)
 {
 
 TunnelConnect(host,port,
-"GET %s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n",
+"GET %s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nAccept-Charset:utf-8\r\n\r\n",
 path,
 host,
 USER_AGENT
@@ -316,21 +361,25 @@ if(printOut  == 1)
 }
 
 
-DocNodeAttr *HttpParseHeaders()
+DocNodeAttr *HttpParseHeaders(U8 *_buffer=NULL,I64 max=1024)
 {
-  U8 *buffer = CMCAlloc(1025);
+  U8 *buffer;
+  if(!_buffer)
+    buffer = CMCAlloc(1025);
+  else
+    buffer = _buffer;
   I64 last;
   
   Print("\nSTATUS: ");
   // Status
-  last = HttpNext(buffer,1024,'\r','\n','\n');  
+  last = HttpNext(buffer,max,'\r','\n','\n');  
   Print("%70ts\n\n",buffer);
   DocNodeAttr *firstHeader=DocNodeAttrNew("STATUS",buffer);
   DocNodeAttr *lastHeader=firstHeader;
   while(TRUE)
   {
     // One Header
-    last = HttpNext(buffer,1024,'\r',':','\n');
+    last = HttpNext(buffer,max,'\r',':','\n');
     if(last == -1 || StrLen(buffer) == 0)
     {
       break;
@@ -339,13 +388,13 @@ DocNodeAttr *HttpParseHeaders()
     Print("%20ts:",buffer);
     DocNodeAttr *newHeader = DocNodeAttrNew(buffer);
   
-    last = HttpNext(buffer,1024,'\r','\n','\n');  
+    last = HttpNext(buffer,max,'\r','\n','\n');  
     Print("%49ts\n",buffer);
  
     if(buffer[0] == ' ')
     newHeader->value = CMStr(buffer+1);
     else
-    newHeader->value = CMStr(buffer);
+    newHeader->value = CMStr(buffer);
     
     lastHeader->next = newHeader;
     lastHeader = newHeader;
@@ -353,6 +402,8 @@ DocNodeAttr *HttpParseHeaders()
 
   Print("\nEnd Headers\n\n");
 
-  CMFree(buffer);    
+  if(!_buffer)
+    CMFree(buffer);    
+
   return firstHeader;
 }

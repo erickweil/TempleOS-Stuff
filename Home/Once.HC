@@ -16,14 +16,14 @@ asm {
 PTBR_NORMAL_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_ESC,"1234567890-=",CH_BACKSPACE,'\t'; //16
 	DU8	"qwertyuiop[[",'\n',0,"as";                //32
-	DU8	"dfghjkl;~'",'\\',"]zxcv";                 //48
-	DU8	"bnm,.;/",'*',0,CH_SPACE,0,0,0,0,0,0;      //64
+	DU8	"dfghjkl;~'",0,"]zxcv";                 //48
+	DU8	"bnm,.;",0,'*',0,CH_SPACE,0,0,0,0,0,0;      //64
 	DU8	0,0,0,0,0,0,0,0,0,0,'-',0,0,0,'+',0;       //80
 PTBR_SHIFT_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_SHIFT_ESC,"!@#$$%^&*()_+",CH_BACKSPACE,'\t';
 	DU8	"QWERTYUIOP`{",'\n',0,"AS";
 	DU8	"DFGHJKL:^\"",0,"}ZXCV";
-	DU8	"BNM<>:?",'*',0,CH_SHIFT_SPACE,0,0,0,0,0,0;
+	DU8	"BNM<>:",0,'*',0,CH_SHIFT_SPACE,0,0,0,0,0,0;
 	DU8	0,0,0,0,0,0,0,0,0,0,'-',0,0,0,'+',0;
 PTBR_CTRL_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_ESC,"1234567890-=",CH_BACKSPACE,'\t';
@@ -34,6 +34,24 @@ PTBR_CTRL_KEY_SCAN_DECODE_TABLE::
 	DU8	CH_CTRLB,CH_CTRLN,CH_CTRLM,",./",0,'*',0,CH_SPACE,0,0,0,0,0,0;
 	DU8	0,0,0,0,0,0,0,0,0,0,'-',0,0,0,'+',0;
 }
+//              LShift	 Shift	Div	Mul	-
+//NUM:0, CAPS:0 	 	;	*	-
+//NUM:1, CAPS:0 	/	;	*	-
+//NUM:0, CAPS:1 \	\	:	*	-
+//NUM:1, CAPS:1 \	?	:	*	-
+
+//              LShift	 Shift	Div	Mul	-
+//NUM:0, CAPS:0 	 	;	*	-
+//NUM:1, CAPS:0 		;	*	-
+//NUM:0, CAPS:1 \	\	:	*	-
+//NUM:1, CAPS:1 \		:	*	-
+
+//              LShift	 Shift	Div	Mul	-
+//NUM:0, CAPS:0 	 	;	*	-
+//NUM:1, CAPS:0 		/	*	-
+//NUM:0, CAPS:1 		:	*	-
+//NUM:1, CAPS:1 		/	*	-
+
 
 
 /*
@@ -109,7 +127,7 @@ U0 iniciar()
   setPTBRKeyboard();
   Adam("#include \"C:/Home/Net/SerialNetv2.HC\"");
   Adam("#include \"C:/Home/Net/CustomMem.HC\"");
-}
+}
 
 U0 Tmp()
 {

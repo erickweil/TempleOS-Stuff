@@ -1,88 +1,11 @@
 // Uses Custom Memory
 
-
+#include "::/Home/Net/HtmlFunctions"
 #include "::/Home/Net/Http"
-#define HTML_BZ	131072
-////#define HTML_BZ	65536
+//#define HTML_BZ	131072
+////#define HTML_BZ	65536
 //#define HTML_BZ	32768
-
-
-I64 CheckN(U8 *buffer,...)
-{
-//  Print("CheckN(%s,...%d...)\n",buffer,argc);
-  I64 i;
-  for(i=0;i<argc;i++)
-  {
-    if(StrICmp(buffer,argv[i])==0)
-      return TRUE;
-  }
-  return FALSE;
-}
-
-I64 CheckBlock(U8 *buffer)
-{
-  return CheckN(buffer,"address","article","aside","blockquote",
-  "canvas","dd","div","dl","dt","fieldset","figcaption","figure",
-  "footer","form","h1","h2","h3","h4","h5","h6","header","hr",
-  "li","main","nav","noscript","ol","p","pre","section",
-  "table","tfoot","ul","video",
-  
-  // Aren't block but whatever
-  "tr"
-  );
-}
-
-
-I64 CheckAutoClose(U8 *buffer)
-{
-  if(StrICmp(buffer,"br")==0
-  || StrICmp(buffer,"img")==0
-  || StrICmp(buffer,"meta")==0
-  || StrICmp(buffer,"hr")==0
-  || StrICmp(buffer,"input")==0
-  || StrICmp(buffer,"area")==0
-  || StrICmp(buffer,"base")==0
-  || StrICmp(buffer,"col")==0
-  || StrICmp(buffer,"embed")==0
-  || StrICmp(buffer,"link")==0
-  || StrICmp(buffer,"param")==0
-  || StrICmp(buffer,"source")==0
-  || StrICmp(buffer,"track")==0
-  || StrICmp(buffer,"wbr")==0
-  || StrICmp(buffer,"command")==0
-  || StrICmp(buffer,"keygen")==0
-  || StrICmp(buffer,"menuitem")==0
-  || StrICmp(buffer,"iframe")==0
-  )
-  return TRUE;
-  else
-  return FALSE;
-}
-
-I64 CheckIsHidden(U8 *buffer)
-{
-//  return CheckN(buffer,"head","script","style");
-  if(StrICmp(buffer,"meta")==0
-  || StrICmp(buffer,"script")==0
-  || StrICmp(buffer,"style")==0
-  )
-  return TRUE;
-  else
-  return FALSE;
-}
-
-I64 CheckEscapedContent(U8 *buffer)
-{
-  if(StrICmp(buffer,"script")==0
-  || StrICmp(buffer,"style")==0
-  )
-  return TRUE;
-  else
-  return FALSE;
-}
-
-
-
+#define HTML_BZ 6000000
 // HTML DOM
 // The U8* in this need to be FREE-able
 public class DocNode {
@@ -184,99 +107,6 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
       DocNodeDel(_dc,depth+1,FALSE);
     }
   }
-}
-
-
-I64 _docprintnewline = FALSE;
-I64 _docprintlchr = -1;
-I64 _docprintindol = FALSE;
-I64 _docprintcount = 0;
-
-U0 SingleHtmlPrintRaw(CDoc *doc,U8 *str)
-{
-  if(!str) throw('NULL');
-
-  
-  I64 k,lchr=_docprintlchr,klen=StrLen(str);
-  for(k=0;k<klen;k++)
-  {
-    lchr=str[k];
-    if(lchr == '$$')lchr='S';
-    if(lchr == '~'+1)lchr='?';
-    if( lchr < '' 
-    && lchr != '\r'
-    && lchr != '\n'
-    && lchr != '\t'
-    )
-    {
-      lchr='?';
-    }
-    
-    if(doc) DocPrint(doc,"%c",lchr); // should be Putkey?
-    else PutChars(lchr);
-
-    _docprintcount++;
-  }
-  _docprintlchr = lchr;   
-}
-
-
-U0 SingleHtmlPrint(CDoc *doc,U8 *str)
-{
-  if(!str) {Print("NULLSingleHTMLPRINT");
-  return;
-  }
-  
-  I64 k,lchr = _docprintlchr,klen=StrLen(str);
-  for(k=0;k<klen;k++)
-  {
-    if(str[k] != '\t' &&
-    str[k] != '\n' &&
-    str[k] != '\r' && (str[k] < ' ' || str[k] > '~')){}
-    else if((lchr == ' ' && str[k] == ' ')
-          || (lchr == ' ' && str[k] == '\t')          
-          || (lchr == ' ' && str[k] == '\r')          
-          || (lchr == ' ' && str[k] == '\n')          
-    ){}
-    else
-    {
-      lchr=str[k];
-      if(lchr == '$$')lchr='S';
-      if(lchr == '\t')lchr=' ';
-      if(lchr == '\r')lchr=' ';
-      if(lchr == '\n')lchr=' ';
-      
-      if(doc) DocPrint(doc,"%c",lchr); // should be Putkey?
-      else PutChars(lchr);
-    }
-
-    _docprintcount++;
-  }
-  _docprintlchr = lchr;   
-}
-
-U0 HtmlPrint(CDoc *doc,...)
-{
-  I64 k;
-  for(k=0;k<argc;k++)
-  {
-    SingleHtmlPrint(doc,argv[k]);
-  }
-}
-
-U0 HtmlPrintRaw(CDoc *doc,...)
-{
-  I64 k;
-  for(k=0;k<argc;k++)
-  {
-    SingleHtmlPrintRaw(doc,argv[k]);
-  }
-}
-
-U0 HtmlPrintNewLine(CDoc *doc,I64 depth)
-{
-  if(doc) DocPrint(doc,"\n%h*c",depth*2,' '); // should be Putkey?
-  else Print("\n%h*c",depth*2,' ');
 }
 
 
@@ -560,7 +390,7 @@ I64 HtmlParse(DocNode *parent,U8 *buffer,I64 depth=0)
           else
             last = HttpNextMatch(buffer,HTML_BZ,"</script>");
           
-          if(StrLen(buffer)>0)
+          if(buffer[0] !='\0')
           {
             DocNode *escaped_node = DocNodeNew(node,NULL,buffer);
             node->child = escaped_node;
@@ -650,8 +480,7 @@ if(!HTML)
   Print("\n");
 //  HttpGet("www.google.com","443","/search?q=memory",0);
 //  HttpGet("www.google.com","443","/search?q=templeos",0);
-  HttpGet("passapassa.com.br","443","/",0);
-
+  HttpGet("stackoverflow.com","443","/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header/",0);
   DocNodeAttr *headers = HttpParseHeaders();
   DocNodeAttrDel(headers,TRUE);
 }
@@ -677,6 +506,10 @@ CDoc *doc=DocNew("::/Home/Net/out.HTML");
 doc->flags|=DOCF_PLAIN_TEXT|DOCF_NO_CURSOR;
 
 DocNodePrint(root,FALSE,0,doc);
+
+
+DocNodePrint(root,FALSE,0,NULL);
+
 
 DocWrite(doc,FALSE);
 
@@ -708,8 +541,10 @@ CustomMemoryPrint();
 CustomMemoryReset();
 }
 
-//test(
-/*"
+//test;
+/*
+test(
+"
 <!DOCTYPE html>
 <html>
 <head>
@@ -729,13 +564,14 @@ CustomMemoryReset();
     </span>
   </h1> 
   <h2>
-    já foram enviados 13 macacos treinados para resolver o problema.
+    já foram enviados 13 macacos &quot;treinados&quot; para resolver o problema.
   </h2>
   <img src=\"http://2.bp.blogspot.com/-hEKKrXmwVRc/TfbLrNH5eEI/AAAAAAAAoj4/_xs0Z3qAOD8/s1600/article-1206973-06153D1D000005DC-213_468x267.jpg\"/>
   <br/>
-  <a href=\"TESTE\">Teste</a> 
+  <a href=\"TESTE\">Teste&lt;&gt;&le;&ge;</a> 
 </body> 
 </html>
 "
-*/
-//);
+
+);
+*/

@@ -38,10 +38,10 @@ Print(chars);
 
 
 //Print(readMemory(0xFF)[0]); // FAULT, GENERALPROTECTION
-
+/*
 U8 *address = MAlloc(10);
 I64 i;
-for(i=0;i<2000;i++)
+for(i=0;i<2000;i++)
 {
   if(i % 80== 0)
   {
@@ -52,3 +52,57 @@ for(i=0;i<2000;i++)
   
   Print("%s",address[i]);
 }
+
+
+Normal
+Caps Off: 
+';' '227633266741'
+
+Caps On:
+':' '17819819315253'
+
+Num On:
+';' '35412005363765'
+
+Num and Caps:
+':' '53004191412277'
+
+
+NumPad
+Caps Off:
+';' '777389080629'
+
+Caps On:
+':' '18369575129141'
+
+Num On:
+';' '35961761177653'
+
+Num and Caps:
+':' '53553947226165'
+
+*/
+
+U0 testKey()
+{
+
+
+
+
+Print("%c %X\n\n",';',227633266741);
+Print("%c %X\n\n",';',17819819315253);
+Print("%c %X\n\n",';',35412005363765);
+Print("%c %X\n\n",':',53004191412277);
+
+Print("\n\n");
+
+Print("%c %X\n\n",';',777389080629);
+Print("%c %X\n\n",';',18369575129141);
+Print("%c %X\n\n",';',35961761177653);
+Print("%c %X\n\n",':',53553947226165);
+
+
+}
+
+
+testKey;
