@@ -4,7 +4,12 @@
 //Adam("#include \"C:/Home/Net/CustomMem.HC\"" );
 #include "::/Home/Net/HtmlParser"
 
+//#include "::/Home/Net/KCBrowserCookies"
+
+
 U8 *KC_PrevUrl = NULL;
+
+
 
 public class URL {
 // scheme://host:port/path?query#fragment
@@ -21,14 +26,14 @@ public class URL {
 URL *URLNew(U8 *scheme, U8 *host, U8 *port, U8 *path, U8 *query, U8 *fragment)
 {
   URL *res;
-  res=CMCAlloc(sizeof(URL));
+  res=CAlloc(sizeof(URL));
   
-  res->scheme = CMStr(scheme);
-  res->host = CMStr(host);
-  res->port = CMStr(port);
-  res->path = CMStr(path);
-  res->query = CMStr(query);
-  res->fragment = CMStr(fragment);
+  res->scheme = StrNew2(NULL,scheme);
+  res->host = StrNew2(NULL,host);
+  res->port = StrNew2(NULL,port);
+  res->path = StrNew2(NULL,path);
+  res->query = StrNew2(NULL,query);
+  res->fragment = StrNew2(NULL,fragment);
 
 //  if(scheme && StrLen(scheme) > 0)
 //  {
@@ -43,20 +48,20 @@ U0 URLDel(URL *res)
 {//Don't free the next
   if (!res) return;
 
-  if(res->scheme)CMFree(res->scheme);
-  if(res->host)CMFree(res->host);
-  if(res->port)CMFree(res->port);
-  if(res->path)CMFree(res->path);
-  if(res->query)CMFree(res->query);
-  if(res->fragment)CMFree(res->fragment);
+  if(res->scheme)Free(res->scheme);
+  if(res->host)Free(res->host);
+  if(res->port)Free(res->port);
+  if(res->path)Free(res->path);
+  if(res->query)Free(res->query);
+  if(res->fragment)Free(res->fragment);
   
-  CMFree(res);
+  Free(res);
 };
 
 
 U8 *BuildUrl(URL *a,I64 GetOnly=FALSE)
 {
-  U8 *buf = CMCAlloc(
+  U8 *buf = CAlloc(
   StrLen(a->scheme)+3+StrLen(a->host)+1+StrLen(a->port)+StrLen(a->path)
   + 1 +StrLen(a->query)+1+StrLen(a->fragment) +1); // DONTFORGETTHE+1
   
@@ -279,7 +284,7 @@ URL *ParseUrl(U8 *str)
 
   if(absPath)
   {
-    tmp = CMCAlloc(StrLen(path)+2);
+    tmp = CAlloc(StrLen(path)+2);
     StrCpy(tmp+1,path);
     tmp[0] = '/';
     path = tmp;
@@ -289,14 +294,14 @@ URL *ParseUrl(U8 *str)
   URL *address = URLNew(scheme,host,port,path,query,fragment);
 
 
-  if(tmp) CMFree(tmp);
+  if(tmp) Free(tmp);
   
   return address;
 
 }
 
 
-
+
 
 
 
@@ -578,12 +583,12 @@ do {
         //                   0
         cropped[0] = '\0';
 
-        //U8 *newpath = CMCAlloc(StrLen(prev_addr->path)+StrLen(addr->path)+1);
+        //U8 *newpath = CAlloc(StrLen(prev_addr->path)+StrLen(addr->path)+1);
         //StrCpy(newpath,prev_addr->path);
         //StrCpy(newpath+StrLen(prev_addr->path),addr->path);
 
-        U8 *newpath = CMStr(prev_addr->path,addr->path);
-        CMFree(addr->path);
+        U8 *newpath = StrNew2(NULL,prev_addr->path,addr->path);
+        Free(addr->path);
         addr->path = newpath;
       }
     }
@@ -624,7 +629,7 @@ do {
   }  
 
 
-  buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string
+  buffer = CAlloc(HTML_BZ+1);//Max contiguous string
   
 
   if(!TestOffline)
@@ -637,7 +642,7 @@ do {
 
   if(!addr->path)
   {
-    addr->path = CMStr("/");
+    addr->path = StrNew("/");
   }
 
   if(!addr->port)
@@ -645,15 +650,15 @@ do {
     if(addr->scheme)
     {
       if(StrICmp(addr->scheme,"http") == 0)
-        addr->port = CMStr("80");
+        addr->port = StrNew("80");
       else if(StrICmp(addr->scheme,"https") == 0)
-        addr->port = CMStr("443");
+        addr->port = StrNew("443");
       else
       {
         Print("Invalid Scheme, must be https or http.");break;   
       }
     }
-    else addr->port = CMStr("443");
+    else addr->port = StrNew("443");
   }
 
 
@@ -664,7 +669,7 @@ do {
   // to allow different caches for different queries
   if(addr->query)
   {
-    rdn = CMCAlloc(7);//6 chars
+    rdn = CAlloc(7);//6 chars
     I64 queryLen = StrLen(addr->query);
     rdn[0] = (queryLen%26)+'A';
     rdn[1] = ((queryLen/26)%26)+'A';
@@ -695,11 +700,11 @@ do {
   if(addr->path[StrLen(addr->path)-1] == '/')
   {
    
-    DocFilename = CMStr("::/NetH/",addr->host,addr->path,rdn,"index.DD");
+    DocFilename = StrNew2(NULL,"::/NetH/",addr->host,addr->path,rdn,"index.DD");
   }
   else
   {
-    DocFilename = CMStr("::/NetH/",addr->host,addr->path,rdn,".DD");
+    DocFilename = StrNew2(NULL,"::/NetH/",addr->host,addr->path,rdn,".DD");
   }
 
   // Remove %
@@ -719,11 +724,11 @@ do {
     Print("\n");
 
     
-      HttpGet(addr->host,addr->port,tmp,0);
+      HttpGet(addr->host,addr->port,tmp,KCookiesGenCookieLine(),0);
 
       headers = HttpParseHeaders(buffer,HTML_BZ);
       
-      if(tmp)CMFree(tmp);
+      if(tmp)Free(tmp);
       if((tmp=DocNodeSearchAttr(headers,"Location"))!=NULL)
       {
         Print("Click to Follow Redirect:\n$$MA,\"%s\",LM=\"KCTest(\\\"%s\\\",\\\"%s\\\");\n\"$$\n\n",
@@ -734,6 +739,8 @@ do {
       }
 
       headerContentType = DocNodeSearchAttr(headers,"Content-Type");
+
+      KCookiesParseHeaders(headers);
   }
   else
   {
@@ -764,7 +771,7 @@ else
     SUCCESS = TRUE;    
     }
   }
-  else if(StrNICmp(headerContentType,"text/html;",10)==0)
+  else if(StrNICmp(headerContentType,"text/html",9)==0)
   {
 
     root = DocNodeNew(NULL,"ROOT",NULL);
@@ -784,7 +791,7 @@ else
 
     SUCCESS = TRUE;
   }
-  else if(StrNICmp(headerContentType,"teeeeext",4)==0)
+  else if(StrNICmp(headerContentType,"text",4)==0)
   {
     Print("\n\nPLAIN TEXT %s\n\n",headerContentType);
     if(YorN){
@@ -848,15 +855,15 @@ while(FALSE);
 
 // Free Everything
 
-if(buffer)CMFree(buffer);
+if(buffer)Free(buffer);
 
 if(addr)URLDel(addr);
 
 if(prev_addr)URLDel(prev_addr);
 
-if(tmp)CMFree(tmp);
+if(tmp)Free(tmp);
 
-if(rdn)CMFree(rdn);
+if(rdn)Free(rdn);
 
 if(doc)DocDel(doc);
 
@@ -864,16 +871,16 @@ if(root)DocNodeDel(root);
 
 if(headers)DocNodeAttrDel(headers,TRUE);
 
-if(KC_PrevUrl)CMFree(KC_PrevUrl);
+if(KC_PrevUrl)Free(KC_PrevUrl);
 KC_PrevUrl = NULL;
 
-if(iterBuffer)CMFree(iterBuffer);
+if(iterBuffer)Free(iterBuffer);
 iterBuffer = NULL;
 
 if(DocFilename)
 {
   tmp = StrNew(DocFilename);
-  CMFree(DocFilename);
+  Free(DocFilename);
 
   DocFilename = tmp;
   tmp = NULL;
@@ -883,12 +890,11 @@ Print("\n");
 Print("\n");
 
 
-if(!SUCCESS || PrintMemory)
-  CustomMemoryPrint();
-else
-  CustomMemoryCheck();
-
-CustomMemoryReset();
+//if(!SUCCESS || PrintMemory)
+//  CustomMemoryPrint();
+//else
+//  CustomMemoryCheck();
+//CustomMemoryReset();
 
 
 if(DocFilename)
@@ -898,11 +904,25 @@ if(DocFilename)
 }
 
 }
-KCTest(NULL,NULL,TRUE);
-//KCTest("templeos.org","");
-//KCTest("?q=COVID19","https://www.google.com/search");
-//KCTest("https://www.old.reddit.com/",NULL,TRUE);
 
+KCTest(NULL,NULL,TRUE);
+
+//KCTest("?q=COVID19","https://www.google.com/search");
+//KCTest("https://app.passapassa.com.br/passapassa/");
+
+//KCTest("https://www.jw.org/pt/",NULL,TRUE);
+//KCTest("https://stackoverflow.com/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header",NULL,TRUE);
+//KCTest("https://raw.githubusercontent.com/erickweil/TempleOS-Stuff/main/Home/bomdia.DD",NULL,TRUE);
+//KCTest("https://www.google.com/search?q=cats&tbm=isch",NULL,TRUE);
+//KCTest("https://www.old.reddit.com/",NULL,TRUE);
+//KCTest("https://www.reddit.com/",NULL,TRUE);
+
+//}
+//}
+
+//test();
+
+//Print("END");
 
 U0 testURL()
 {

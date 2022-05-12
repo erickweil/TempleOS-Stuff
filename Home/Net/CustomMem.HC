@@ -290,7 +290,7 @@ U0 CMFree(U8 *buffer)
 }
 
 
-U8 *_CMConcatStr(U8 *SEP,I64 argc,I64 *argv)
+U8 *_CMConcatStr(U8 *SEP,I64 argc,I64 *argv,I64 CM=TRUE,CTask *mem_task=NULL)
 {
   I64 k;
   I64 outLen = 1;//+1
@@ -311,7 +311,12 @@ U8 *_CMConcatStr(U8 *SEP,I64 argc,I64 *argv)
     return NULL; 
   }
 
-  U8 *buf = CMCAlloc(outLen);  
+  U8 *buf;
+  if(CM)
+    buf = CMCAlloc(outLen);  
+  else
+    buf = CAlloc(outLen,mem_task);  
+
   I64 i=0,len=0;
   for(k=0;k<argc;k++)
   {
@@ -329,6 +334,12 @@ U8 *_CMConcatStr(U8 *SEP,I64 argc,I64 *argv)
   }
   return buf;
 }
+
+U8 *StrNew2(CTask *mem_task=NULL,...)
+{
+  return _CMConcatStr(NULL,argc,argv,FALSE,mem_task);
+}
+
 
 U8 *CMStr(...)
 {
@@ -368,5 +379,5 @@ CustomMemoryFree;
 }
 
 
-CustomMemoryAlloc(16777215,4);
+CustomMemoryAlloc(16777215,4);
 //MyTestMem();

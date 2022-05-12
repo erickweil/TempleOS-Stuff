@@ -1,0 +1,1124 @@
+URL:
+$MA-X+PU,"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt",LM="KCTest(\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+
+$WW,1$$BLACK$
+
+ $PURPLE$$TX+CX,"Como usar o Cron para automatizar tarefas no Ubuntu 18.04 | DigitalOcean"$
+
+$BLACK$$BG$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+X
+ Contents
+ 
+
+
+
+
+
+
+X
+ Share this Tutorial
+ 
+$RED$$ID,3$Where would you like to share this to?$BLACK$$BG$$ID,-3$
+
+
+ $ID,2$
+˛ $MA-X+PU,"",LM="KCTest(\"http://twitter.com/share?text=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=twshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Twitter
+ ",LM="KCTest(\"http://twitter.com/share?text=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=twshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://www.reddit.com/submit?title=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=rdshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Reddit
+ ",LM="KCTest(\"https://www.reddit.com/submit?title=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=rdshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://news.ycombinator.com/submitlink?t=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=hnshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Hacker News
+ ",LM="KCTest(\"https://news.ycombinator.com/submitlink?t=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=hnshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://www.facebook.com/sharer/sharer.php?u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=fbshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Facebook
+ ",LM="KCTest(\"https://www.facebook.com/sharer/sharer.php?u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=fbshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Share link
+
+
+ Tutorial share link
+ 
+
+
+
+
+
+
+
+
+X
+ Share this Tutorial
+ 
+$RED$$ID,3$Where would you like to share this to?$BLACK$$BG$$ID,-3$
+
+
+ $ID,2$
+˛ $MA-X+PU,"",LM="KCTest(\"http://twitter.com/share?text=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=twshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Twitter
+ ",LM="KCTest(\"http://twitter.com/share?text=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=twshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://www.reddit.com/submit?title=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=rdshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Reddit
+ ",LM="KCTest(\"https://www.reddit.com/submit?title=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;url=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=rdshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://news.ycombinator.com/submitlink?t=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=hnshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Hacker News
+ ",LM="KCTest(\"https://news.ycombinator.com/submitlink?t=Como%20usar%20o%20Cron%20para%20automatizar%20tarefas%20no%20Ubuntu%2018.04&amp;u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=hnshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"https://www.facebook.com/sharer/sharer.php?u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=fbshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Facebook
+ ",LM="KCTest(\"https://www.facebook.com/sharer/sharer.php?u=https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt?utm_content=how-to-use-cron-to-automate-tasks-ubuntu-1804-pt&amp;utm_medium=community&amp;utm_source=fbshare\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Share link
+
+
+ Tutorial share link
+ 
+
+
+
+
+
+$MA-X+PU,"X",LM="KCTest(\"javascript:;\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+$DKGRAY$$ID,5$Sign up for our newsletter
+ $BLACK$$BG$$ID,-5$
+Get the latest tutorials on SysAdmin and open source topics.
+ 
+
+
+$MA-UL+B,"Sign Up
+ "$
+
+
+$MA-X+PU,"X",LM="KCTest(\"javascript:;\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ 
+Thanks for signing up! 
+
+
+$PURPLE$$TX+CX,"DigitalOcean home"$
+
+$BLACK$$BG$ 
+$ID,2$
+˛ 
+˛ $MA-X+PU,"Products",LM="KCTest(\"/products/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Pricing",LM="KCTest(\"/pricing/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ Docs
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"Product Docs",LM="KCTest(\"/docs/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"API Docs",LM="KCTest(\"https://developers.digitalocean.com/documentation/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+˛ Sign in
+ 
+
+Sign in to
+
+ $ID,2$
+˛ $MA-X+PU,"Community",LM="KCTest(\"/community/auth/digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Control Panel",LM="KCTest(\"https://cloud.digitalocean.com/registrations/new\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"",LM="KCTest(\"https://www.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"",LM="KCTest(\"/community\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ 
+˛ $MA-X+PU,"Tutorials",LM="KCTest(\"/community/tutorials\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Questions",LM="KCTest(\"/community/questions\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ Get Involved
+ 
+
+
+Participate
+
+ $ID,2$
+˛ $MA-X+PU,"Hub for Good
+ Supporting each other to make an impact
+ ",LM="KCTest(\"https://www.digitalocean.com/community/pages/hub-for-good\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Write for DigitalOcean
+ You get paid, we donate to tech non-profits.
+ ",LM="KCTest(\"/community/pages/write-for-digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ 
+˛ $MA-X+PU,"Hacktoberfest
+ Contribute to Open Source
+ ",LM="KCTest(\"https://hacktoberfest.digitalocean.com\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Build with DigitalOcean
+ 
+$ID,2$
+˛ $MA-X+PU,"Community Tools and Integrations",LM="KCTest(\"/community/tools\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Hatch Startup Program
+ ",LM="KCTest(\"https://www.digitalocean.com/hatch/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Marketplace Partner Program
+ ",LM="KCTest(\"https://marketplace.digitalocean.com/vendors/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Solutions Partner Program
+ ",LM="KCTest(\"https://www.digitalocean.com/partners/solutions-partners/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Presentation Grants
+ ",LM="KCTest(\"https://www.digitalocean.com/droplets-for-demos/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"DigitalOcean on GitHub
+ ",LM="KCTest(\"https://github.com/digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+
+˛ $MA-X+PU,"",LM="KCTest(\"javascript:void(0);\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-UL+B,"Search DigitalOcean
+ /
+ "$
+˛ $MA-X+PU,"Sign Up",LM="KCTest(\"/community/auth/digitalocean?display=sessionless+register+button\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+
+
+
+
+$DKGRAY$$ID,5$Tutorial$BLACK$$BG$$ID,-5$
+
+ $PURPLE$$ID,2$Como usar o Cron para automatizar tarefas no Ubuntu 18.04$BLACK$$BG$$ID,-2$
+
+
+ $MA-X+PU,"System Tools",LM="KCTest(\"/community/tags/system-tools\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$$MA-X+PU,"Ubuntu 18.04",LM="KCTest(\"/community/tags/ubuntu-18-04\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$$MA-X+PU,"Automated Setups",LM="KCTest(\"/community/tags/automated-setups\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+
+
+ 
+
+
+
+$ID,2$
+
+˛ $MA-X+PU,"",LM="KCTest(\"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/vtnVCy1A4cHabZh6twSoYSYW/6a540d0de9b44df9962f62205489ba6e2a5beab748fa47e816b60597a256ba9b\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+
+ 
+˛ By $MA-X+PU,"Mark Drake",LM="KCTest(\"/community/users/mdrake\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+
+ PostedMarch 19, 2020
+ 1 version
+
+
+ 
+$ID,-2$
+
+
+English
+Deutsch
+Espa§ol
+FranÄais
+Portuguâs
+–†—É—Å—Å–∫–∏–π
+ 
+
+Shaun Lewis escreveu uma versÉo anterior deste tutorial.
+
+
+$BLUE$$ID,4$IntroduÄÉo$BLACK$$BG$$ID,-4$
+
+
+O $MA-X+PU,"Cron",LM="KCTest(\"https://en.wikipedia.org/wiki/Cron\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ Ç um programa daemon de agendamento de trabalhos baseado em tempo, encontrado em sistemas operacionais do tipo Unix, incluindo as distribuiÄìes do Linux. O Cron executa em segundo plano e as tarefas agendadas com o cron, conhecidas como "cron jobs" (trabalhos do cron), sÉo executadas automaticamente, o que torna o cron £til para automatizar tarefas relacionadas Ö manutenÄÉo.
+
+
+Este guia fornece uma visÉo geral sobre como programar tarefas usando a sintaxe especial do cron. Ele tambÇm revisa alguns atalhos que vocâ pode usar para tornar as agendas de trabalho mais f†ceis de escrever e de entender.
+
+
+$RED$$ID,3$PrÇ-requisitos$BLACK$$BG$$ID,-3$
+
+
+Para completar este guia, vocâ precisar† de acesso a um computador executando o Ubuntu 18.04. Esse equipamento pode ser seu computador local, uma m†quina virtual, ou um servidor privado virtual.
+
+
+Independentemente do tipo de computador que vocâ usar para acompanhar este guia, ele deve possuir um usu†rio nÉo raiz com privilÇgios administrativos configurados. Para configurar isso, siga nosso guia $MA-X+PU,"ConfiguraÄÉo inicial de servidor para o Ubuntu 18.04",LM="KCTest(\"https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$.
+
+
+$RED$$ID,3$Instalando o Cron$BLACK$$BG$$ID,-3$
+
+
+Por padrÉo, quase toda distribuiÄÉo do Linux tem alguma forma do cron instalada. No entanto, se estiver usando uma m†quina com Ubuntu na qual o cron nÉo estiver instalado, instale-o usando a APT.
+
+
+Antes de instalar o cron em uma m†quina com Ubuntu, atualize o °ndice de pacotes local do computador:
+
+$ID,2$
+ ˛ sudo apt update
+
+$ID,-2$
+
+
+Depois, instale o cron com o seguinte comando:
+
+$ID,2$
+ ˛ sudo apt install cron
+
+$ID,-2$
+
+
+Vocâ precisar† garantir que ele tambÇm esteja configurado para executar em segundo plano:
+
+$ID,2$
+ ˛ sudo systemctl enable cron
+
+$ID,-2$
+
+Output
+Synchronizing state of cron.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable cron
+
+
+Em seguida, o cron estar† instalado no seu sistema e pronto para que vocâ comece a agendar trabalhos.
+
+
+$RED$$ID,3$Entendendo como o Cron funciona$BLACK$$BG$$ID,-3$
+
+
+Os trabalhos do cron sÉo registrados e gerenciados em um arquivo especial conhecido como crontab. Cada perfil de usu†rio no sistema pode ter seu pr¢prio arquivo crontab - onde o usu†rio poder† agendar trabalhos - que fica armazenado em /var/spool/cron/crontabs/.
+
+
+Para agendar um trabalho, simplesmente abra seu crontab para ediÄÉo e adicione uma tarefa escrita na forma de uma expressÉo cron. A sintaxe das expressìes cron pode ser desdobrada em dois elementos: o agendamento e o comando a executar.
+
+
+O comando pode ser praticamente qualquer comando que vocâ executaria normalmente na linha de comando. O componente de agendamento da sintaxe Ç dividido em 5 campos diferentes, os quais vâm escritos na seguinte ordem:
+
+
+$ID,2$$WW,0$
+
+$IV,1$Campo$IV,0$	
+$IV,1$Valores permitidos$IV,0$	
+
+
+
+
+
+minuto	
+0-59	
+
+
+
+hora	
+0-23	
+
+
+
+Dia do mâs	
+1-31	
+
+
+
+mâs	
+1-12 ou JAN-DEC	
+
+
+
+Dia da semana	
+0-6 ou SUN-SAT	
+
+
+$ID,-2$$WW,1$
+
+
+Juntas, as tarefas agendadas em um arquivo crontab sÉo estruturadas da seguinte forma:
+
+minute hour day_of_month month day_of_week command_to_run
+
+
+Apresentamos aqui um exemplo funcional de uma expressÉo cron. Essa expressÉo executa o comando curl para http://www.google.com, toda terÄa-feira, Ös 5:30 PM:
+
+30 17 * * 2 curl http://www.google.com
+
+
+TambÇm existem alguns caracteres especiais que vocâ pode incluir no componente da agenda de uma expressÉo cron para facilitar o agendamento:
+
+
+$ID,2$
+ ˛ *: em expressìes cron, um asterisco Ç uma vari†vel curinga que representa "todos". Assim, uma tarefa agendada com * * * * * ... ser† executada a cada minuto, de cada hora, de cada dia, de cada mâs.
+
+˛ ,: v°rgulas fragmentam os valores do agendamento para formarem uma lista. Se quiser executar uma tarefa no in°cio e na metade de cada hora, em vez de escrever duas tarefas separadas (por exemplo, 0 * * * * ... e 30 * * * * ...), poderia conseguir a mesma funcionalidade com um (0,30 * * * * ...).
+
+˛ -: um h°fen representa um intervalo de valores no campo da agenda. Em vez de ter 30 tarefas agendadas separadamente em relaÄÉo a um comando que vocâ quer executar nos primeiros 30 minutos de cada hora (como em 0 * * * * ..., 1 * * * * ..., 2 * * * * ... e assim por diante), bastaria que vocâ as agendasse como 0-29 * * * * ....
+
+˛ /: utilize uma barra com um asterisco para expressar um valor de etapa. Por exemplo, em vez de escrever oito tarefas cron separadas para executar um comando a cada trâs horas (como em: 0 0 * * * ..., 0 3 * * * ..., 0 6 * * * ... e assim por diante), vocâ poderia agend†-las para executar da seguinte maneira: 0 */3 * * * ....
+
+$ID,-2$
+
+
+$IV,1$Nota:$IV,0$ vocâ nÉo pode expressar valores de etapa de modo arbitr†rio; vocâ s¢ pode usar n£meros inteiros que se dividam de maneira uniforma no intervalo permitido pelo campo em questÉo. Por exemplo, ap¢s campo "horas" vocâ s¢ poderia usar uma barra com 1, 2, 3, 4, 6, 8 ou 12.
+
+
+
+Apresentamos a seguir, outros exemplos de como usar o componente de agendamento do cron:
+
+
+$ID,2$
+ ˛ * * * * * - Executar o comando a cada minuto.
+
+˛ 12 * * * * - Executar o comando 12 minutos ap¢s cada hora.
+
+˛ 0,15,30,45 * * * * - Executar o comando a cada 15 minutos.
+
+˛ */15 * * * * - Executar o comando a cada 15 minutos.
+
+˛ 0 4 * * * - Executar o comando todo dia Ös 4:00 AM.
+
+˛ 0 4 * * 2-4 - Executar o comando toda terÄa-feira, quarta-feira e quinta-feira Ös 4:00 AM.
+
+˛ 20,40 */8 * 7-12 * - Executar o comando no vigÇsimo e quadragÇsimo minuto de cada oitava hora, todos os dias dos £ltimos 6 meses do ano.
+
+$ID,-2$
+
+
+Se acha isso tudo um pouco confuso ou se quiser ajuda sobre como escrever os agendamentos de suas pr¢prias tarefas cron, o $MA-X+PU,"Cronito",LM="KCTest(\"https://cronitor.io/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$r fornece um editor de expressÉo da agenda do cron bastante £til, chamado $MA-X+PU,""Crontab Guru"",LM="KCTest(\"https://crontab.guru/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$, que vocâ pode usar para verificar se seus agendamentos do cron sÉo v†lidos.
+
+
+$RED$$ID,3$Gerenciando os crontabs$BLACK$$BG$$ID,-3$
+
+
+Assim que tiver escolhido uma agenda e souber o trabalho que deseja executar, vocâ precisar† coloc†-lo em um lugar onde seu daemon consiga lâ-lo.
+
+
+Como mencionado anteriormente, um crontab Ç um arquivo especial que mantÇm a agenda de trabalhos que o cron executar†. No entanto, esses agendamentos nÉo foram planejados para ediÄÉo direta. Em vez disso, Ç recomend†vel que vocâ utilize o comando crontab. Isso permite que vocâ edite o crontab do perfil do seu usu†rio, sem alterar seus privilÇgios com o sudo. O comando crontab tambÇm revelar† se h† erros de sintaxe no crontab, ao passo que edit†-lo diretamente nÉo revelar†.
+
+
+E poss°vel editar seu crontab com o seguinte comando:
+
+$ID,2$
+ ˛ crontab -e
+
+$ID,-2$
+
+
+Se essa for a primeira vez que executa o comando crontab no perfil desse usu†rio, vocâ ser† solicitado a escolher um editor de texto padrÉo para usar ao editar seu crontab:
+
+Output
+no crontab for sammy - using an empty one
+
+Select an editor. To change later, run 'select-editor'.
+ 1. /bin/nano <---- easiest
+ 2. /usr/bin/vim.basic
+ 3. /usr/bin/vim.tiny
+ 4. /bin/ed
+
+Choose 1-4 [1]:
+
+
+Digite o n£mero que corresponde ao editor de sua escolha. Como alternativa, vocâ pode simplesmente pressionar ENTER para aceitar a opÄÉo padrÉo, o nano.
+
+
+Ap¢s fazer sua escolha, vocâ ser† levado para um novo crontab contendo algumas instruÄìes com coment†rios sobre como us†-lo:
+
+# Edit this file to introduce tasks to be run by cron.
+#
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+# m h dom mon dow command
+
+
+Quando executar o crontab -e no futuro, ele ir† trazer seu crontab neste editor de texto automaticamente. Assim que estiver no editor, vocâ pode preencher sua agenda com cada trabalho em uma nova linha. Caso contr†rio, vocâ pode salvar e fechar o crontab por enquanto (CTRL + X, Y, entÉo ENTER - se tiver escolhido o editor nano).
+
+
+
+$IV,1$Nota:$IV,0$ em sistemas Linux, h† outro crontab armazenado no diret¢rio /etc/. Trata-se de um crontab que abrange o sistema todo e que tem um campo adicional para o perfil de usu†rio sob o qual cada trabalho do cron deve ser executado. Este tutorial se concentra em crontabs espec°ficos do usu†rio. PorÇm, se vocâ quisesse editar o crontab no Ñmbito do sistema, poderia fazer isso com o seguinte comando:
+
+$ID,2$
+ ˛ sudo nano /etc/crontab
+
+$ID,-2$
+
+
+
+
+
+
+Se quiser visualizar o conte£do do seu crontab, mas nÉo edit†-lo, utilize o seguinte comando:
+
+$ID,2$
+ ˛ crontab -l
+
+$ID,-2$
+
+
+E poss°vel apagar seu crontab com o seguinte comando:
+
+
+$IV,1$Aviso:$IV,0$ o comando a seguir nÉo ir† pedir que vocâ confirme se deseja apagar seu crontab. $IV,1$Apenas execute-o caso tenha certeza de que deseja apag†-lo$IV,0$.
+
+
+$ID,2$
+ ˛ crontab -r
+
+$ID,-2$
+
+
+Esse comando excluir† o crontab do usu†rio imediatamente. No entanto, vocâ pode incluir o sinalizador -i para fazer com que o comando peÄa para vocâ confirmar se realmente deseja excluir o crontab do usu†rio:
+
+$ID,2$
+ ˛ crontab -r -i
+
+$ID,-2$
+
+Output
+crontab: really delete sammy's crontab? (y/n)
+
+
+Quando solicitado, vocâ deve digitar y para excluir o crontab ou n para cancelar a exclusÉo.
+
+
+$RED$$ID,3$Gerenciando o resultado do trabalho do cron$BLACK$$BG$$ID,-3$
+
+
+Como os trabalhos do cron sÉo executados em segundo plano, nem sempre fica aparente se eles foram executados com sucesso. Agora que sabe como usar o comando crontab e como agendar um trabalho do cron, vocâ pode comeÄar a experimentar maneiras diferentes de redirecionar o resultado dos trabalhos do cron para ajudar vocâ a monitorar se eles foram executados com sucesso.
+
+
+Se tiver um $MA-X+PU,"agente de transferância de e-mail",LM="KCTest(\"https://en.wikipedia.org/wiki/Message_transfer_agent\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ ƒ como o $MA-X+PU,"Sendmail",LM="KCTest(\"https://www.proofpoint.com/us/products/open-source-email-solution\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ ƒ instalado e configurado corretamente no seu servidor, vocâ pode enviar o resultado das tarefas do cron para o endereÄo de e-mail associado ao seu perfil de usu†rio do Linux. TambÇm Ç poss°vel especificar manualmente um endereÄo de e-mail, colocando uma definiÄÉo MAILTO no topo do crontab.
+
+
+Por exemplo, vocâ poderia adicionar as linhas a seguir a um crontab. Tais linhas incluem uma instruÄÉo MAILTO, seguida de um exemplo de endereÄo de e-mail, uma diretiva SHELL que indica o shell a executar (bash, neste exemplo), uma diretiva HOME apontando para o caminho no qual procurar o bin†rio do cron e uma £nica tarefa do cron:
+
+. . .
+
+MAILTO="example@digitalocean.com"
+SHELL=/bin/bash
+HOME=/
+
+* * * * * echo `Run this command every minute'
+
+
+Esse trabalho em particular retornar† "Run this command every minute" (Executar este comando a cada minuto) e tal resultado ser† enviado por e-mail a cada minuto para o endereÄo especificado ap¢s a diretiva MAILTO.
+
+
+TambÇm Ç poss°vel redirecionar o resultado de uma tarefa do cron para um arquivo de registro ou para um local vazio para evitar receber um e-mail com o resultado.
+
+
+Para anexar o resultado de um comando agendado a um arquivo de registro, adicione >> ao final do comando, seguido do nome e local de um arquivo de registro de sua escolha, como no exemplo abaixo:
+
+* * * * * echo `Run this command every minute' >> /directory/path/file.log
+
+
+Vamos supor que vocâ quer usar o cron para executar um script, mas mantâ-lo em execuÄÉo em segundo plano. Para fazer isso, poderia redirecionar o resultado do script para um local vazio, como /dev/null, o que excluir† prontamente quaisquer dados escritos nele. Por exemplo, o trabalho do cron a seguir executa um script PHP em segundo plano:
+
+* * * * * /usr/bin/php /var/www/domain.com/backup.php > /dev/null 2>&1
+
+
+Esse trabalho do cron tambÇm redireciona o $MA-X+PU,"erro padrÉo",LM="KCTest(\"https://en.wikipedia.org/wiki/Standard_streams#Standard_error_(stderr)\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ ƒ representado por 2 ƒ para o resultado padrÉo (>&1). Como o resultado padrÉo j† est† sendo redirecionado para /dev/null, isso permite essencialmente que o script seja executado silenciosamente. Mesmo se o crontab possuir uma instruÄÉo MAILTO, o resultado do comando nÉo ser† enviado para o endereÄo de e-mail especificado.
+
+
+$RED$$ID,3$Restringindo o acesso$BLACK$$BG$$ID,-3$
+
+
+E poss°vel gerenciar quais usu†rios tâm permissÉo para usar o comando crontab com os arquivos cron.allow e cron.deny, sendo que ambos ficam armazenados no diret¢rio /etc/. Se o arquivo cron.deny existir, qualquer usu†rio listado nele ser† impedido de editar seu crontab. Se o cron.allow existir, apenas os usu†rios listados nele poderÉo editar seus crontabs. Se ambos os arquivos existirem e o mesmo usu†rio estiver listado em cada um deles, o arquivo cron.allow ir† substituir o cron.deny e o usu†rio conseguir† editar seu crontab.
+
+
+Por exemplo, para negar acesso a todos os usu†rios e depois dar acesso ao usu†rio $IV,1$ishmael$IV,0$, vocâ poderia usar a seguinte sequância de comandos:
+
+$ID,2$
+ ˛ sudo echo ALL >>/etc/cron.deny
+
+˛ sudo echo ishmael >>/etc/cron.allow
+
+$ID,-2$
+
+
+Primeiro, bloqueamos todos os usu†rios, anexando ALL ao arquivo cron.deny. Em seguida, ao adicionar o nome de usu†rio ao arquivo cron.allow, damos acesso ao perfil do usu†rio $IV,1$ishmael$IV,0$ para executar trabalhos do cron.
+
+
+Note que se um usu†rio tiver privilÇgios sudo, ele pode editar o crontab de outro usu†rio com o seguinte comando:
+
+$ID,2$
+ ˛ sudo crontab -u user -e
+
+$ID,-2$
+
+
+No entanto, se o cron.deny existir e o usu†rio estiver listado nele, mas nÉo estiver listado no cron.allow, vocâ receber† o seguinte erro ap¢s executar o comando anterior:
+
+Output
+The user user cannot use this program (crontab)
+
+
+Por padrÉo, a maioria dos daemons do cron presumirÉo que todos os usu†rios tâm acesso ao cron, a menos que o cron.allow ou o cron.deny exista.
+
+
+$RED$$ID,3$Sintaxe especial$BLACK$$BG$$ID,-3$
+
+
+TambÇm existem v†rios comandos abreviados que vocâ pode usar no seu arquivo do crontab para ajudar a simplificar o agendamento de trabalhos. SÉo essencialmente atalhos para o equivalente numÇrico do agendamento especificado:
+
+
+$ID,2$$WW,0$
+
+$IV,1$Atalho$IV,0$	
+$IV,1$AbreviaÄÉo para$IV,0$	
+
+
+
+
+
+@hourly	
+0 * * * *	
+
+
+
+@daily	
+0 0 * * *	
+
+
+
+@weekly	
+0 0 * * 0	
+
+
+
+@monthly	
+0 0 1 * *	
+
+
+
+@yearly	
+0 0 1 1 *	
+
+
+$ID,-2$$WW,1$
+
+
+$IV,1$Nota$IV,0$: nem todos os daemons do cron podem analisar essa sintaxe (especialmente versìes mais antigas); entÉo, verifique novamente se ela funciona antes de confiar nela.
+
+
+
+AlÇm disso, a abreviaÄÉo @reboot ir† executar qualquer comando que venha depois dela, sempre que o servidor for iniciado:
+
+@reboot echo "System start up"
+
+
+Usar esses atalhos sempre que poss°vel pode ajudar a facilitar a interpretaÄÉo do agendamento de tarefas no seu crontab.
+
+
+$RED$$ID,3$ConclusÉo$BLACK$$BG$$ID,-3$
+
+
+O Cron Ç um utilit†rio flex°vel e eficaz, que pode reduzir a carga de trabalho de muitas tarefas associadas Ö administraÄÉo do sistema. Quando combinado com scripts de shell, Ç poss°vel automatizar tarefas que normalmente sÉo tediosas ou complicadas. Por exemplo, vocâ poderia $MA-X+PU,"escrever um script de shell para enviar backups de dados para uma soluÄÉo de armazenamento de objetos e, depois, automatiz†-lo com o cron",LM="KCTest(\"https://www.digitalocean.com/community/tutorials/how-to-automate-backups-digitalocean-spaces\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$.
+
+
+
+
+
+ 
+Vocâ classificou esta traduÄÉo como £til.
+ $MA-UL+B,"Undo"$
+ 
+Vocâ marcou esta traduÄÉo.
+ $MA-UL+B,"Undo"$
+ 
+Como vocâ avalia a qualidade da traduÄÉo?
+ $MA-UL+B,"üëç"$
+ $MA-UL+B,"üëé"$
+ 
+
+
+
+
+
+About the authors
+
+
+ $MA-X+PU,"",LM="KCTest(\"https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/vtnVCy1A4cHabZh6twSoYSYW/6a540d0de9b44df9962f62205489ba6e2a5beab748fa47e816b60597a256ba9b\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+
+ 
+
+
+$MA-X+PU,"Mark Drake
+",LM="KCTest(\"/community/users/mdrake\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$ 
+Technical Writer @ DigitalOcean
+
+ 
+
+
+
+
+
+$DKGRAY$$ID,5$Still looking for an answer?$BLACK$$BG$$ID,-5$
+
+ $MA-X+PU,"Ask a question
+ ",LM="KCTest(\"/community/questions/new?tags=System+Tools%2CUbuntu+18.04\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Search for more help
+ ",LM="KCTest(\"javascript:void(0)\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+
+
+
+$ID,2$
+˛ $MA-X+PU,"Comments",LM="KCTest(\"NULL\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Follow-Up Questions",LM="KCTest(\"NULL\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/assets/community/creativecommons-027bb7f065acf05ba3c0f84a040d2da641648afc81daa6ff5570301d4998bbb6.png\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+This work is licensed under a $MA-X+PU,"Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License",LM="KCTest(\"https://creativecommons.org/licenses/by-nc-sa/4.0/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://images.prismic.io/digitalocean/ca12c951cc76f33037f3384bba9942545d160d82_iaan_illo.jpg?auto=compress,format\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+Get our biweekly newsletter
+ 
+Sign up for Infrastructure as a Newsletter.
+ 
+$MA-X+PU,"",LM="KCTest(\"https://images.prismic.io/digitalocean/21ab4275-bcf3-42ac-b148-6f81d516ca1d_Twitter_graphic.png?auto=compress,format&amp;rect=0,61,1024,387&amp;w=370&amp;h=140\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+Hub for Good
+ 
+Working on improving health and education, reducing inequality, and spurring economic growth? We'd like to help.
+ 
+$MA-X+PU,"",LM="KCTest(\"https://images.prismic.io/digitalocean/70910e9fdeb57be46aaa209ce8d9b4dc8e117fab_w4do2.jpg?auto=compress,format\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+Become a contributor
+ 
+You get paid; we donate to tech nonprofits.
+ 
+
+Featured on Community
+ $MA-X+PU,"Kubernetes Course",LM="KCTest(\"https://www.digitalocean.com/community/curriculums/kubernetes-for-full-stack-developers\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Learn Python 3",LM="KCTest(\"https://www.digitalocean.com/community/tutorial_series/how-to-code-in-python-3\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Machine Learning in Python",LM="KCTest(\"https://www.digitalocean.com/community/tutorials/machine-learning-projects-python-a-digitalocean-ebook\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Getting started with Go",LM="KCTest(\"https://www.digitalocean.com/community/tutorials/how-to-write-your-first-program-in-go\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Intro to Kubernetes",LM="KCTest(\"https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+------------------------------------------------------------------------------
+DigitalOcean Products
+ $MA-X+PU,"Virtual Machines",LM="KCTest(\"https://www.digitalocean.com/products/droplets/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Managed Databases",LM="KCTest(\"https://www.digitalocean.com/products/managed-databases/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Managed Kubernetes",LM="KCTest(\"https://www.digitalocean.com/products/kubernetes/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Block Storage",LM="KCTest(\"https://www.digitalocean.com/products/block-storage/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Object Storage",LM="KCTest(\"https://www.digitalocean.com/products/spaces/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Marketplace",LM="KCTest(\"https://marketplace.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"VPC",LM="KCTest(\"https://www.digitalocean.com/products/vpc/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Load Balancers",LM="KCTest(\"https://www.digitalocean.com/products/load-balancer/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$MA-X+PU,"Welcome to the developer cloud
+ DigitalOcean makes it simple to launch in the cloud and scale up as you grow - whether you're running one virtual machine or ten thousand.
+ Learn More
+ ",LM="KCTest(\"/products\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$MA-X+PU,"",LM="KCTest(\"https://images.prismic.io/digitalocean/95c1215227aa7f39f2bd23076de28feb969741c7_cloud.digitalocean.com_projects_63f9252f-652b-4645-9c0c-bee96f2bc503_resources_ic0ce81-2.png?auto=compress,format\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+
+ 
+
+$MA-X+PU,"DigitalOcean Homepage"$
+
+
+
+ 
+
+
+(C) DigitalOcean, LLC. All rights reserved.
+ 
+Company
+ 
+$ID,2$
+
+˛ $MA-X+PU,"About",LM="KCTest(\"https://www.digitalocean.com/about/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Leadership",LM="KCTest(\"https://www.digitalocean.com/about/leadership/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Blog",LM="KCTest(\"https://www.digitalocean.com/blog/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Careers",LM="KCTest(\"https://www.digitalocean.com/careers/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Partners",LM="KCTest(\"https://www.digitalocean.com/partners/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Referral Program",LM="KCTest(\"https://www.digitalocean.com/referral-program/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Press",LM="KCTest(\"https://www.digitalocean.com/press/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Legal",LM="KCTest(\"https://www.digitalocean.com/legal/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Security & Trust Center",LM="KCTest(\"https://www.digitalocean.com/trust/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Products
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Pricing",LM="KCTest(\"https://www.digitalocean.com/pricing/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Products Overview",LM="KCTest(\"https://www.digitalocean.com/products/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Droplets",LM="KCTest(\"https://www.digitalocean.com/products/droplets/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Kubernetes",LM="KCTest(\"https://www.digitalocean.com/products/kubernetes/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Managed Databases",LM="KCTest(\"https://www.digitalocean.com/products/managed-databases/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Spaces",LM="KCTest(\"https://www.digitalocean.com/products/spaces/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Marketplace",LM="KCTest(\"https://www.digitalocean.com/products/marketplace/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Load Balancers",LM="KCTest(\"https://www.digitalocean.com/products/load-balancer/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Block Storage",LM="KCTest(\"https://www.digitalocean.com/products/block-storage/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"API Documentation",LM="KCTest(\"https://developers.digitalocean.com/documentation/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Documentation",LM="KCTest(\"https://www.digitalocean.com/docs\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Release Notes",LM="KCTest(\"https://www.digitalocean.com/docs/release-notes/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Community
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Tutorials",LM="KCTest(\"https://www.digitalocean.com/community/tutorials\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Q&A",LM="KCTest(\"https://www.digitalocean.com/community/questions\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Tools and Integrations",LM="KCTest(\"https://www.digitalocean.com/community/tools\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Tags",LM="KCTest(\"https://www.digitalocean.com/community/tags\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Product Ideas",LM="KCTest(\"https://ideas.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Write for DigitalOcean",LM="KCTest(\"https://www.digitalocean.com/write-for-donations/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Presentation Grants",LM="KCTest(\"https://www.digitalocean.com/droplets-for-demos/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Hatch Startup Program",LM="KCTest(\"https://www.digitalocean.com/hatch/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Shop Swag",LM="KCTest(\"http://store.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Research Program",LM="KCTest(\"https://www.digitalocean.com/research/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Open Source",LM="KCTest(\"https://www.digitalocean.com/open-source/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Code of Conduct",LM="KCTest(\"https://www.digitalocean.com/community/pages/code-of-conduct\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+Contact
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Get Support",LM="KCTest(\"https://www.digitalocean.com/support/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Trouble Signing In?",LM="KCTest(\"https://www.digitalocean.com/docs/getting-started/faq/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Sales",LM="KCTest(\"https://www.digitalocean.com/company/contact/sales/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Report Abuse",LM="KCTest(\"https://www.digitalocean.com/company/contact/#abuse\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"System Status",LM="KCTest(\"https://status.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+
+X
+ Join the Community
+ 
+$PURPLE$$ID,2$Before you can do that
+ To complete this action, sign in to your Community account or create a new one.
+ $BLACK$$BG$$ID,-2$
+$MA-X+PU,"Sign In",LM="KCTest(\"/community/auth/digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ $MA-X+PU,"Sign Up",LM="KCTest(\"/community/auth/digitalocean?display=sessionless+register\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+
+
+
+X
+ 
+Community
+
+ $ID,2$
+˛ $MA-X+PU,"Tutorials",LM="KCTest(\"/community/tutorials\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Questions",LM="KCTest(\"/community/questions\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Write for Us",LM="KCTest(\"/community/pages/write-for-digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Hacktoberfest",LM="KCTest(\"https://hacktoberfest.digitalocean.com\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Tools",LM="KCTest(\"/community/tools\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+Products
+
+ $ID,2$
+˛ $MA-X+PU,"Homepage",LM="KCTest(\"https://www.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Pricing",LM="KCTest(\"https://www.digitalocean.com/pricing\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Product Overview",LM="KCTest(\"https://www.digitalocean.com/products\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Marketplace",LM="KCTest(\"https://marketplace.digitalocean.com/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+Customers
+
+ $ID,2$
+˛ $MA-X+PU,"Control Panel",LM="KCTest(\"https://cloud.digitalocean.com/login\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Documentation",LM="KCTest(\"https://www.digitalocean.com/docs/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Contact Support",LM="KCTest(\"https://www.digitalocean.com/company/contact/#support\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+˛ $MA-X+PU,"Contact Sales",LM="KCTest(\"https://www.digitalocean.com/company/contact/sales/\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Sign In",LM="KCTest(\"/community/auth/digitalocean\",\"https://www.digitalocean.com:443/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-pt\");View;
+"$
+ 
+$ID,-2$
+
+
+
+$FG$

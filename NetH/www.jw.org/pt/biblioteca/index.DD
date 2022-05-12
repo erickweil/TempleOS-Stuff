@@ -1,0 +1,3471 @@
+URL:
+$MA-X+PU,"https://www.jw.org:443/pt/biblioteca/",LM="KCTest(\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+$WW,1$$BLACK$00006000
+
+
+
+ $PURPLE$$TX+CX,"Biblioteca de publicaÄìes | JW.ORG "$
+
+$BLACK$$BG$
+
+$MA-X+PU,"Pular para conte£do
+ ",LM="KCTest(\"/pt/biblioteca/#content\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+
+$MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-UL+B,"Mudar o idioma do site
+ "$
+
+$MA-UL+B,"FECHAR
+ "$
+$MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ 
+$MA-X+PU,"Buscar no JW.ORG
+ ",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-UL+B,"EXIBIR MENU
+ "$
+
+$MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas B°blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Textos B°blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Ajudas para Estudar a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"LiÄìes on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Casamento e Fam°lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"CrianÄas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"FÇ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"A Hist¢ria e a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"A Ciância e a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"B°blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Revistas
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"SÇries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Nosso MinistÇrio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"PeÄas Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Leituras B°blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"V°deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"JW Not°cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Casos Jur°dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"PeÄa uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Reuniìes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"CelebraÄÉo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/c
+
+00006000
+
+elebracao/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Relatos da Vida de Testemunhas de Jeov†
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-X+PU,"LOGIN
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-UL+B,"FECHAR
+ "$
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/a281a290e9/images/siteLogo-jworg-print.png\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$
+
+ $LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/a281a290e9/images/siteLogo-jworg-print-rtl.png\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$
+
+ $MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$RED$$ID,3$Testemunhas de Jeov†$BLACK$$BG$$ID,-3$
+
+ 
+$MA-X+PU,"Selecione o idioma
+ Portuguâs (Brasil)
+ ",LM="KCTest(\"/pt/choose-language?locale=pt&prefer=lang&docid=1011207\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$MA-UL+B,"Pesquisar
+ "$
+
+
+
+
+
+
+$ID,2$
+˛ $MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Ensinos B°blicos
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $ID,2$
+˛ $MA-X+PU,"Perguntas B°blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Textos B°blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Ajudas para Estudar a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"LiÄìes on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Casamento e Fam°lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"CrianÄas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"FÇ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"A Ciância e a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"A Hist¢ria e a B°blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+˛ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+˛ $MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Biblioteca
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $ID,2$
+˛ $MA-X+PU,"B°blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Revistas
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"SÇries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"V°deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"PeÄas Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leituras B°blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Nosso MinistÇrio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+˛ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+˛ $MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Imprensa
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $ID,2$
+˛ $MA-X+PU,"JW Not°cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Casos Jur°dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Recursos Jur°dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/recursos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,-2$
+
+˛ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+˛ $MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,2$
+
+˛ $MA-X+PU,"Quem SÉo as Testemunhas de Jeov†
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $ID,2$
+˛ $MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"PeÄa uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/con
+
+00006000
+
+tato/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Reuniìes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"CelebraÄÉo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov†
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+˛ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+$ID,-2$
+
+
+
+
+
+$PURPLE$$ID,2$Biblioteca$BLACK$$BG$$ID,-2$
+
+
+
+
+ Visite nossa biblioteca de publicaÄìes baseadas na B°blia. Leia on-line ou baixe as £ltimas revistas A Sentinela e Despertai! e outros itens em destaque abaixo. Escute †udios gratuitos de nossas publicaÄìes em muitos idiomas. Assista ou baixe v°deos em muitos idiomas, incluindo l°nguas de sinais.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+$BLUE$$BLACK$$BG$Escolher idioma
+ Abaknon
+ Abbey
+ Abc†zio
+ Abua
+ Abui
+ Acadiano
+ Acateco
+ Acholi
+ Achuar-Shiwiar
+ Ach°
+ Adhola
+ Adige
+ AfricÑner
+ Ahanta
+ Aimar†
+ Aja
+ Ajiâ
+ Akha
+ Albanâs
+ AlemÉo
+ AlemÉo da PensilvÑnia
+ Algonquino
+ Alsaciano
+ Altai
+ Alur
+ Ambae (leste)
+ Amis
+ Amuzgo (Guerrero)
+ Am†rico
+ Anal
+ Anyin (indenie)
+ Apma
+ Arhuaco
+ Armânio
+ Armânio (dialeto oriental)
+ Armânio (ocidental)
+ Arosi
+ Ashaninka
+ Assamâs
+ Ass°rio
+ Ass°rio-caldeu (silopi)
+ Atayal
+ Ateso
+ Attie
+ Aukan
+ Avar
+ Awadhi
+ Awaj£n
+ Awing
+ Ayiwo
+ Azerbaijano
+ Azerbaijano (cir°lico)
+ Azerbaijano (†rabe)
+ Ba
+ Badaga
+ Bafia
+ Baixo-alemÉo
+ Bakoko
+ Balinâs
+ Bambara
+ Bamum
+ Baniua
+ Banjar
+ Bari
+ Bariba
+ Basco
+ Basquir
+ Bassa (Camarìes)
+ Bassa (LibÇria)
+ Bataque (dairi)
+ Bataque (karo)
+ Bataque (simalungun)
+ Bataque (toba)
+ Baulâ
+ Bauro
+ Beas
+ Bembe
+ Bengali
+ Berom
+ Bete
+ Betsimisaraka (norte)
+ Betsimisaraka (sul)
+ Bhojpuri
+ Bhojpuri (Maur°cio)
+ Biak
+ Bicol
+ Bidayuh (bukar)
+ Bielo-russo
+ Birmanâs
+ Bisa (lebir)
+ Bislama
+ Blaan (sarangani)
+ Blackfoot
+ Bomu
+ Bribri
+ Budza
+ Bukusu
+ Bulo
+ Bunun (sul)
+ Bura
+ Buriato
+ Bushi
+ Bushongo
+ B¢snio
+ B£lgaro
+ B£naque
+ Cabila
+ Cabiâ
+ Cabo-verdiano
+ CabÇcar (Tayn°)
+ Cakchiquel (central)
+ Cakchiquel (ocidental)
+ Calenjin
+ Cambojano
+ Canarâs
+ Caonde
+ Carachai-balcar
+ Cara°ba
+ CatalÉo
+ Cazaque
+ Cazaque (†rabe)
+ Cebuano
+ Chamorro
+ Changana (MoÄambique)
+ Changana (Zimb†bue)
+ Chavacano
+ Cha'palaa
+ Checheno
+ Chedungun (litoral)
+ Cheroqui
+ Chhattisgarhi (devan†gari)
+ Chichewa
+ Chiga
+ Chin (falam)
+ Chin (hakha)
+ Chin (kuki)
+ Chin (mara)
+ Chin (matu)
+ Chin (tiddim)
+ Chin (zotung)
+ Chinanteco (ojitlan)
+ Chinâs (xangainâs)
+ Chinâs (yi, sichuan)
+ Chinâs (yunnanâs)
+ Chinâs cantonâs (simplificado)
+ Chinâs cantonâs (tradicional)
+ Chinâs mandarim (simplificado)
+ Chinâs mandarim (tradicional)
+ Chiquitano
+ Chitonga
+ Chitonga malauiano
+ Chitonga zimbabuano
+ Chitumbuka
+ Chiyao
+ Choctaw
+ Chokwe
+ Chol
+ Chontal (Oaxaca)
+ Chontal (Tabasco)
+ Chope
+ Choroti (iyojwa'ja)
+ Chuabo
+ Chuj
+ Chuuquâs
+ Chuvache
+ Cibemba
+ Cinamwanga
+ Cingalâs
+ Cinianja
+ Como Karim
+ Comorense (Ngazidja)
+ Concani (canarâs)
+ Concani (devan†gari)
+ Concani (latino)
+ Congo
+ Cora (El Nayar)
+ Coreano
+ Coreano (China)
+ Corso
+ Cree das florestas (latino)
+ Cree das florestas (sil†bico)
+ Cree das plan°cies (latino)
+ Cree das plan°cies (sil†bico)
+ Cree do sudeste (latino)
+ Cree dos pÑntanos ocidental (latino)
+ Cree dos pÑntanos ocidental (sil†bico)
+ Crioulo da Guiana
+ Crioulo da GuinÇ-Bissau
+ Crioulo da Jamaica
+ Crioulo da Martinica
+ Crioulo das Seychelles
+ Crioulo de Guadalupe
+ Crioulo de Maur°cio
+ Crioulo de ReuniÉo
+ Crioulo de Santa L£cia
+ Crioulo do Haiti
+ Crioulo do estreito de Torres
+ Crioulo inglâs da Guiana
+ Criî
+ Croata
+ Cuanhama
+ Cubeo
+ Curdo kurmanji
+ Curdo kurmanji (C†ucaso)
+ Curdo kurmanji (cir°lico)
+ Curdo sorani
+ Curripaco
+ Dacota
+ Dagaare
+ Dagbani
+ Daiaque ahe
+ Daiaque ngaju
+ Daiaque tomun
+ Damara
+ Dangme
+ Dari
+ Dendi
+ Denguese
+ Dida lakota
+ Digor
+ Dinamarquâs
+ Dinca
+ Diola
+ Ditamari
+ Di£la
+ Dogon (toro so)
+ Drehu
+ Duala
+ Dungano
+ Dusun
+ Dzonga (tibetano)
+ D†rgua
+ Ebira
+ Edo
+ Efate do norte
+ Efate do sul
+ Efique
+ Ember† (chami)
+ Ember† (norte)
+ Ember†-cat°o
+ Enga
+ Erzya
+ Esan
+ Eslovaco
+ Esloveno
+ Espanhol
+ Espanhol (Espanha)
+ Estoniano
+ Eton
+ Eve
+ Ewondo
+ Fang
+ Fanti
+ Faroâs
+ Fataluku
+ Fe'fe'
+ Fijiano
+ Finlandâs
+ Fom
+ Frafra
+ Francâs
+ Francâs (Benin)
+ Francâs (Canad†)
+ Fr°sio
+ Fulfulde (Camarìes)
+ Fulfulde (NigÇria)
+ Fulfulde maasina
+ Futuna (leste)
+ FwÑi
+ Ga
+ Gaga£zo
+ Gaga£zo (latino)
+ Galego
+ Galâs
+ Garhwali
+ Garifuna
+ Garo (abeng)
+ GaÇlico escocâs
+ Gbaia
+ Gedeo
+ Georgiano
+ Ghom†l†'
+ Gilbertâs
+ Giryama
+ Gitonga
+ Gogo
+ Gokana
+ Gourmanchema
+ Gouro
+ Grego
+ Groenlandâs
+ Groenlandâs (leste)
+ Guahibo
+ Guambiano
+ Guarani
+ Guarani (Bol°via)
+ Guarani (mby†)
+ Guarayu
+ Guerze
+ Gum
+ Gun (Benin)
+ Guna
+ Guzerate
+ GuÇrÇ
+ Haia
+ Hakka (IndonÇsia)
+ Hakka (Taiwan)
+ Halia
+ Hamshen (armânio)
+ Hamshen (cir°lico)
+ Hano
+ Haryanvi
+ HauÄ†
+ Havaiano
+ Havu
+ Hawu
+ Hebraico
+ Hehe
+ Herer¢
+ Hiligaino
+ Hindi
+ Hindi (Fiji)
+ Hiri motu
+ Hitnu
+ Hmong (branco)
+ Hmong (verde)
+ Holandâs
+ Holandâs (BÇlgica)
+ Holandâs (Suriname)
+ Hopi
+ Huasteco (San Luis Potosi)
+ Huasteco (Veracruz)
+ Huave (San Mateo del Mar)
+ Hula
+ Hunsrik
+ H£ngaro
+ Iaai
+ Iacuba
+ Iacuto
+ Ibaloi
+ Ibanag
+ Ibinda
+ Ibo
+ IbÉ
+ Idoma
+ Ifugao
+ Igala
+ Igede
+ Ignaciano
+ Ijaw
+ Ilocano
+ Inakeanon
+ IndonÇsio
+ Inga
+ Inglâs
+ Inglâs (NigÇria)
+ Inglâs liberiano
+ Inglâs zambiano
+ Inuktitut (latino)
+ Inuktitut (sil†bico)
+ Ioruba
+ Irlandâs
+ Islandâs
+ Isoko
+ Italiano
+ Itawit
+ Itsekiri
+ Iu mien
+ Ivatan
+ Ixil
+ Japonâs
+ Javanâs
+ Javanâs (oriental)
+ Jejueo
+ Jiwaka
+ Kabardin-cherkess
+ Kachin
+ Kadavu
+ Kadazan
+ Kaingang
+ Kaiw†
+ Kalanga (Botsuana)
+ Kalanga (Zimb†bue)
+ Kalmyk
+ Kamayo
+ Kamba
+ Kambera
+ Kamwe
+ Kana
+ Kangri (hamirpuri)
+ Kankanaey
+ Kanyok
+ Kapingamarangi
+ Karakalpak
+ Karen (pwo do norte)
+ Karen (pwo do oeste)
+ Karen (s'gaw)
+ Kassubiano
+ Kei
+ Kekchi
+ Kele
+ Khak†ssio
+ Khasi
+ Khmer (norte)
+ Kikongo
+ Kikongo ya Leta
+ Kiluba
+ Kimanyanga
+ Kimbundu
+ Kinande
+ Kinaray a
+ Kipende
+ Kirundi
+ Kisi
+ Kisii
+ Kisonge
+ Kituba
+ Kokola
+ Komi
+ Komi permyak
+ Kono
+ Kosreano
+ Koti
+ Kpelle
+ Kriol de Belize
+ Kryashen
+ Kuanua
+ Kuhane (subiya)
+ Kuman
+ Kumyk
+ Kunama
+ Kuria
+ Kutchi
+ Kuvale (mucubal)
+ Kuy
+ Kwaio
+ Kwangali
+ Kwara'ae
+ Kwasio
+ Kyangonde
+ Ladino gardenâs
+ Lahu
+ Lak
+ Lakota
+ Lala-Bisa
+ Lamba
+ Lambya
+ Lango
+ Laociano
+ Lari
+ Latg†lio
+ Lauan
+ Lega
+ Lele
+ Lenakel
+ Lendu
+ Lenje
+ LetÉo
+ Lezgian
+ Limba (oeste-central)
+ Limbum
+ Lingala
+ Lingombe
+ Lisu
+ Lituano
+ Logo
+ Lolo
+ Loma
+ Lomongo
+ Lomwe
+ Longuda
+ Luconzo
+ Luganda
+ Lugbara
+ Lunda
+ Luo
+ Lutchaze
+ Luvale
+ Luxemburguâs
+ L°ngua brasileira de sinais
+ L°
+
+00006000
+
+ngua de Sinais Botsuana
+ L°ngua de sinais albanesa
+ L°ngua de sinais alemÉ
+ L°ngua de sinais americana
+ L°ngua de sinais angolana
+ L°ngua de sinais argentina
+ L°ngua de sinais armânia
+ L°ngua de sinais australiana
+ L°ngua de sinais austr°aca
+ L°ngua de sinais belgo-francesa
+ L°ngua de sinais boliviana
+ L°ngua de sinais britÑnica
+ L°ngua de sinais b£lgara
+ L°ngua de sinais cambojana
+ L°ngua de sinais chilena
+ L°ngua de sinais chinesa
+ L°ngua de sinais colombiana
+ L°ngua de sinais congolesa
+ L°ngua de sinais coreana
+ L°ngua de sinais costa-marfinense
+ L°ngua de sinais costa-riquenha
+ L°ngua de sinais croata
+ L°ngua de sinais cubana
+ L°ngua de sinais da Rep£blica Centro-Africana
+ L°ngua de sinais de Burundi
+ L°ngua de sinais de Fiji
+ L°ngua de sinais de Hong Kong
+ L°ngua de sinais dinamarquesa
+ L°ngua de sinais do Sri Lanka
+ L°ngua de sinais equatoriana
+ L°ngua de sinais eslovaca
+ L°ngua de sinais eslovena
+ L°ngua de sinais espanhola
+ L°ngua de sinais estoniana
+ L°ngua de sinais et°ope
+ L°ngua de sinais filipina
+ L°ngua de sinais finlandesa
+ L°ngua de sinais flamenga
+ L°ngua de sinais francesa
+ L°ngua de sinais ganense
+ L°ngua de sinais grega
+ L°ngua de sinais guatemalteca
+ L°ngua de sinais holandesa
+ L°ngua de sinais hondurenha
+ L°ngua de sinais h£ngara
+ L°ngua de sinais indiana
+ L°ngua de sinais indonÇsia
+ L°ngua de sinais irlandesa
+ L°ngua de sinais israelense
+ L°ngua de sinais italiana
+ L°ngua de sinais jamaicana
+ L°ngua de sinais japonesa
+ L°ngua de sinais letÉ
+ L°ngua de sinais libanesa
+ L°ngua de sinais lituana
+ L°ngua de sinais madagascarense
+ L°ngua de sinais malauiana
+ L°ngua de sinais maltesa
+ L°ngua de sinais mal†sia
+ L°ngua de sinais melanÇsia
+ L°ngua de sinais mexicana
+ L°ngua de sinais mianmarense
+ L°ngua de sinais mongol
+ L°ngua de sinais moÄambicana
+ L°ngua de sinais namibiana
+ L°ngua de sinais neozelandesa
+ L°ngua de sinais nepalesa
+ L°ngua de sinais nicaraguense
+ L°ngua de sinais nigeriana
+ L°ngua de sinais norueguesa
+ L°ngua de sinais panamenha
+ L°ngua de sinais paraguaia
+ L°ngua de sinais peruana
+ L°ngua de sinais polonesa
+ L°ngua de sinais quebequense
+ L°ngua de sinais queniana
+ L°ngua de sinais romena
+ L°ngua de sinais ruandesa
+ L°ngua de sinais russa
+ L°ngua de sinais salvadorenha
+ L°ngua de sinais samoana
+ L°ngua de sinais sueca
+ L°ngua de sinais sul-africana
+ L°ngua de sinais surinamesa
+ L°ngua de sinais su†zi
+ L°ngua de sinais su°Äo-alemÉ
+ L°ngua de sinais sÇrvia
+ L°ngua de sinais tailandesa
+ L°ngua de sinais taiwanesa
+ L°ngua de sinais tanzaniana
+ L°ngua de sinais tcheca
+ L°ngua de sinais turca
+ L°ngua de sinais ugandense
+ L°ngua de sinais uruguaia
+ L°ngua de sinais venezuelana
+ L°ngua de sinais vietnamita
+ L°ngua de sinais zambiana
+ L°ngua de sinais zimbabuana
+ L°ngua gestual portuguesa
+ Macassai
+ Macassai (Ossu)
+ Macedînio
+ Maconde
+ Macua
+ Macua-meto
+ Macua-shirima
+ Macuata
+ Macuxi
+ Madi
+ Madurâs
+ Maguindanao
+ Maia
+ Maia (mop†n)
+ Maithili
+ Makaa
+ Malaiala
+ Malaio
+ Malaio (papua)
+ Malango
+ Malgaxe
+ Maltâs
+ Mam
+ Mamasa
+ Mambai (aileu)
+ Mambai (ainaro e same)
+ Mambai (ermera)
+ Mambwe-lungu
+ Manado malay
+ Mancanha
+ Mandinga
+ Mandjaco
+ Mangareva
+ Mangbetu
+ Maninkakan (oriental)
+ Manipuri
+ Manipuri (latino)
+ Mano
+ Mansi
+ Manyawa
+ Maori
+ Maoriano (latino)
+ Mapudungun
+ Maragoli
+ Maranaw
+ Marata
+ Marchalâs
+ Mari
+ Mari (hill)
+ Marquesiano (Hiva Oa)
+ Marquesiano (Nuku Hiva)
+ Mashi
+ Massai
+ Matengo
+ Mayangna
+ Mayo
+ Mazahua
+ Mazateco (Huautla)
+ Mbala
+ Mbo
+ Mbukushu
+ Mbunda
+ Medan hokkien
+ Medumba
+ Melpa
+ Mende
+ Mentawai
+ Meru
+ Meta'
+ Mi'kmaq
+ Min nan (Quanzhou)
+ Min nan (Taiwan)
+ MingrÇlio
+ Misquito
+ Misteca (costa)
+ Misteca (guerrero)
+ Misteca (huajuapan)
+ Misteca (tilantongo)
+ Misteca (tlaxiaco)
+ Mixe (norte central)
+ Mizo
+ Mnong central
+ Moba
+ Mohawk
+ Moklâs
+ Moksha
+ Mongol
+ Montenegrino
+ Moru
+ Mossi
+ Motu
+ Mundang
+ Nadi
+ Nadroga
+ Naga (rongmei)
+ Nama
+ Namakura
+ Nambya
+ Namosi-naitasiri-serua
+ NatÅgu
+ Nauete
+ Nauruano
+ Navajo
+ Ndali
+ Ndau
+ Ndongo
+ Nedebele
+ Nedebele (Zimb†bue)
+ Nenets
+ Nenets (floresta)
+ Nengone
+ Nepalâs
+ Newari
+ Ngabere
+ Ngambaye
+ Ngangela
+ Ngbaka
+ Ngbandi (norte)
+ Ngiemboon
+ Ngigua (San Marcos Tlacoyalco)
+ Ngombale
+ Nheengatu
+ Nias
+ Nicobarâs
+ Niueano
+ NivaclÇ
+ Njebi
+ Nkoya
+ Norueguâs
+ Nsenga (MoÄambique)
+ Nsenga (ZÑmbia)
+ Nuer
+ Nukumanu
+ Nukuoro
+ Numää kwenyii
+ Nyakyusa
+ Nyaneka
+ Nyungwe
+ Nzema
+ N†uatle (Veracruz)
+ N†uatle (central)
+ N†uatle (guerrero)
+ N†uatle (huasteca)
+ N†uatle (norte de Puebla)
+ Obolo
+ Odawa
+ Odia
+ Oj°bua do norte (latino)
+ Oj°bua do norte (sil†bico)
+ Okpe
+ Olunyole
+ Ombamba
+ Orokaiva
+ Oromo
+ Osseto
+ Osseto (chsan)
+ Osseto (kudar)
+ Otetela
+ Otomi (Estado do MÇxico)
+ Otomi (alto oriental)
+ Otomi (vale de Mezquital)
+ Pa'o
+ Paama
+ Paicã
+ Paiwan
+ Palauano
+ Palik£r
+ Pamona
+ Pangasino
+ Papel
+ Papiamento (Aruba)
+ Papiamento (CuraÄau)
+ Pashto
+ Pehuenche
+ Pemom
+ Persa
+ Phimbi
+ Piaroa
+ Pidgin (Camarìes)
+ Pidgin (Africa Ocidental)
+ Pidgin das Ilhas SalomÉo
+ Pidgin havaiano
+ Pidgin nigeriano
+ Pilag†
+ Pitjantjatjara
+ Pogomchi'
+ Polonâs
+ Pomerano
+ Ponapeano
+ Popoluca (do alto)
+ Popti
+ Portuguâs (Brasil)
+ Portuguâs (Portugal)
+ Pular
+ Punjabi
+ Punjabi shahmukhi
+ Punu
+ Puyuma
+ P†ez
+ Q'anjob'al
+ Quichua (Chibuleo)
+ QuichÇ
+ Quicuio
+ Quiniaruanda
+ Quirguiz
+ QuÇmaque
+ Qu°chua (Ancash)
+ Qu°chua (Ayacucho)
+ Qu°chua (Bol°via)
+ Qu°chua (Ca§ar)
+ Qu°chua (Chimborazo)
+ Qu°chua (Cotopaxi)
+ Qu°chua (Cuzco)
+ Qu°chua (Huallaga Hu†nuco)
+ Qu°chua (Huaylla Wanca)
+ Qu°chua (Imbabura)
+ Qu°chua (Lambayeque)
+ Qu°chua (Pastaza)
+ Qu°chua (Salasaca)
+ Qu°chua (Santiago del Estero)
+ Qu°chua (Tena)
+ Ra
+ Rapanui
+ Rarotongano
+ Romanche (ladino)
+ Romanche (sursilvano)
+ Romani (AlbÑnia)
+ Romani (Alemanha)
+ Romani (Argentina)
+ Romani (Bulg†ria)
+ Romani (Chile)
+ Romani (Crimeia)
+ Romani (Kalderash, R£ssia)
+ Romani (Macedînia)
+ Romani (Macedînia) (cir°lico)
+ Romani (Mold†via) (cir°lico)
+ Romani (Polînia)
+ Romani (România)
+ Romani (SÇrvia)
+ Romani (UcrÑnia)
+ Romani (leste da Eslov†quia)
+ Romani (lovari, chokeshi)
+ Romani (lovari, h£ngaro)
+ Romani (norte da GrÇcia)
+ Romani (norte da R£ssia)
+ Romani (sul da GrÇcia)
+ Romani (vlax, R£ssia)
+ Romeno
+ Romeno (bal†quio, baƒçka)
+ Romeno (val†quio)
+ Ronga
+ Rotumano
+ Roviana
+ Rukai
+ Rumanyo
+ Rungus
+ Runyankore
+ Russo
+ Ruteno (C†rpatos)
+ Rutoro
+ Saami (norte)
+ Sadri (devan†gari)
+ Sakalava
+ Saluan
+ Samburu
+ Samoano
+ Sanga
+ Sangir
+ Sango
+ Santali (devan†gari)
+ Santali (latino)
+ Sar
+ Saramacano
+ Sarnami
+ Sasak
+ Saterâ-mauâ
+ Seediq
+ Sehwi
+ Sena
+ Senufo (cebaara)
+ Sepedi
+ Sepulana
+ Serer
+ Sesoto (Lesotho)
+ Sesoto (Africa do Sul)
+ Shan
+ Shipibo-conibo
+ Shona
+ Shuar
+ Shughni
+ Sidamo
+ Silesiano
+ Silozi
+ Sindi (IndonÇsia)
+ Sindi (devan†gari)
+ Sindi (†rabe)
+ Soli
+ Somali
+ Songo
+ Songomeno
+ Soninquâ
+ Sranantongo
+ Suazi
+ Sua°li
+ Sua°li (Congo)
+ Sueco
+ Sukuma
+ Sundanâs
+ Surigaonon
+ Sussu
+ Su°Äo-alemÉo
+ Svan (alto)
+ Svan (baixo)
+ Sylheti (bengali)
+ SÉotomense
+ SÇrvio (cir°lico)
+ SÇrvio (latino)
+ Taabwa
+ Tabasaran
+ Tadjique
+ Tadjique samarcanda
+ Tagalo
+ Tailandâs
+ Tailandâs (korat)
+ Tailandâs (nordeste)
+ Tailandâs (norte)
+ Tailandâs (sul)
+ Tailandâs phu
+ Tailandâs song
+ Tairuma
+ Taita
+ Taitiano
+ Talian
+ Talysh
+ Talysh (cir°lico)
+ Tamazirte
+ Tandroy
+ Tangkhul
+ Tankarana
+ Tarahumara (central)
+ Tarahumara (ocidental)
+ Tarasco
+ Tarok
+ Taroko
+ Tat (latino)
+ Tausug
+ Tcheco
+ Tchiluba
+ Teke (Congo Brazzaville)
+ Teke (Congo Kinshasa)
+ Tem
+ Temne
+ Teochew
+ Teochew (IndonÇsia)
+ Terâna
+ Tewe
+ Tibetano
+ Ticuna
+ Tigr°nia
+ Tii
+ Tiv
+ Tlapaneco
+ To'abaita
+ Toaripi
+ Toba
+ Tojolabal
+ Tok pisin
+ Tonganâs
+ Toquelauano
+ Toradja
+ Totonaca
+ Tshwa
+ TsimanÇ
+ Tsonga
+ Tsuana
+ Tucano
+ Tunen
+ Tupuri
+ Turco
+ Turco (cir°lico)
+ Turco (mesquÇcio)
+ Turcomano
+ Turcomano (cir°lico)
+ Turkana
+ Tuvaluano
+ Tuv°nio
+ Tvi
+ Tvi (akuapem)
+ Tvi (axanti)
+ Tyrewuju
+ Tzeltal
+ Tzotzil
+ Tzutujil
+ T†rtaro
+ T†rtaro da Crimeia (cir°lico)
+ TÑmil
+ TÑmil (latino)
+ TÇlugo
+ TÇtum belu
+ TÇtum dili
+ Uab meto
+ Ucraniano
+ Udmurte
+ Uigur (cir°lico)
+ Uigur (†rabe)
+ Umbundu
+ Urdu
+ Urhobo
+ Uripiv
+ Uruund
+ Uzbeque
+ Uzbeque (horezm)
+ Uzbeque (latino)
+ Valenciano
+ Valisiano
+ Venda
+ Vezo
+ Vietnamita
+ Vìru
+ Wa
+ Waama
+ Waima
+ Waimoa
+ Wanga
+ Wapishana
+ Warao
+ Waray-waray
+ Wayuunaiki
+ Wejewa
+ Wichi
+ Wix†rika
+ Wolaita
+ Wolof
+ Xavante
+ Xosa
+ XÑrÑcóó
+ Yaka
+ Yambassa
+ Yami
+ Yansi
+ Yapâs
+ Yaqui
+ Yemba
+ Yombe
+ Yong
+ Yuanga
+ Yukpa
+ Yupik-do-alasca-central
+ Zande
+ Zapoteca (Guevea)
+ Zapoteca (Istmo)
+ Zapoteca (Ixtl†n)
+ Zapoteca (Lachiguiri)
+ Zapoteca (Loxicha)
+ Zapoteca (Quiatoni)
+ Zapoteca (Quiavicuzas)
+ Zapoteca (Villa Alta)
+ Zapoteca (del Valle)
+ Zarma
+ Zazaki do norte
+ Zulu
+ nagamâs
+ Arabe
+ Arabe (ArgÇlia)
+ Arabe (Egito)
+ Arabe (Iraque)
+ Arabe (JordÑnia)
+ Arabe (L°bano)
+ Arabe (Marrocos)
+ Arabe (S°ria)
+ Arabe (Tun°sia)
+ Arabe crioulo sudanâs
+ 
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/2020082/univ/wpub/2020082_univ_lsr_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+A SENTINELA
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"O que Ç o Reino de Deus?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-no2-2020-maio-jun/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+J† por muito tempo as pessoas querem saber a resposta a essa pergunta. A B°blia explica de forma muito clara o que Ç o Reino de Deus.
+
+
+
+
+ 
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/2020082/univ/wpub/2020082_univ_pnr_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+A SENTINELA
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"O que Ç o Reino de Deus?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-no2-2020-maio-jun/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+J† por muito tempo as pessoas querem saber a resposta a essa pergunta. A B°blia explica de forma muito clara o que Ç o Reino de Deus.
+
+
+
+
+ 
+
+
+
+
+$RED$$ID,3$Revistas$BLACK$$BG$$ID,-3$
+
+ 
+$MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/w/T/202101/wpub/w_T_202101_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Janeiro de 2021
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=w&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+
+
+ "$
+
+
+
+A SENTINELA (EDICAO DE ESTUDO)
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Janeiro de 2021
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-estudo-janeiro-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/w/T/202101/wpub/w_T_202101_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+
+
+ "$
+
+
+
+A SENTINELA (EDICAO DE ESTUDO)
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Janeiro de 2021
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-estudo-janeiro-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+A SENTINELA (EDICAO DE ESTUDO) Janeiro de 2021
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/w/T/202101/wpub/w_T_202101_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+A SENTINELA (EDICAO DE ESTUDO)
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Janeiro de 2021
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-estudo-janeiro-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/wp/T/202101/wpub/wp_T_202101_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+N.¯ 1 2021 | Ser† que Deus ouve nossas oraÄìes?
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202101&amp;output=html&amp;pub=wp&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+
+
+ "$
+
+
+
+A SENTINELA
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Ser† que Deus ouve nossas oraÄìes?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-no1-2021-jan-fev/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/wp/T/202101/wpub/wp_T_202101_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+
+
+ "$
+
+
+
+A SENTINELA
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Ser† que Deus ouve nossas oraÄìes?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-no1-2021-jan-fev/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+A SENTINELA Ser† que Deus ouve nossas oraÄìes?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/wp/T/202101/wpub/wp_T_202101_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+A SENTINELA
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Ser† que Deus ouve nossas oraÄìes?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/sentinela-no1-2021-jan-fev/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/g/T/202011/wpub/g_T_202011_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+N.¯ 3 2020 | O preconceito vai acabar?
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ DESPERTAI! O preconceito vai acabar?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ DESPERTAI! O preconceito vai acabar?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?issue=202011&amp;output=html&amp;pub=g&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ DESPERTAI! O preconceito vai acabar?
+
+
+ "$
+
+
+
+DESPERTAI!
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"O preconceito vai acabar?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/despertai-no3-2020-nov-dez/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+DESPERTAI! O preconceito vai acabar?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/g/T/202011/wpub/g_T_202011_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ DESPERTAI! O preconceito vai acabar?
+
+
+ "$
+
+
+
+DESPERTAI!
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"O preconceito vai acabar?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/despertai-no3-2020-nov-dez/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+DESPERTAI! O preconceito vai acabar?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/g/T/202011/wpub/g_T_202011_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+DESPERTAI!
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"O preconceito vai acabar?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/despertai-no3-2020-nov-dez/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+
+$MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+$RED$$ID,3$Livros e brochuras$BLACK$$BG$$ID,-3$
+
+ 
+$MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/fg/T/wpub/fg_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Boas Not°cias de Deus para Vocâ!
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Boas Not°cias de Deus para Vocâ!
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ Boas Not°cias de Deus para Vocâ!
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=fg&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Boas Not°cias de Deus para Vocâ!
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Boas Not°cias de Deus para Vocâ!
+ ",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Boas Not°cias de Deus para Vocâ!
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/fg/T/wpub/fg_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Boas Not°cias de Deus para Vocâ!
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Boas Not°cias de Deus para Vocâ!
+ ",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Boas Not°cias de Deus para Vocâ!
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/fg/T/wpub/fg_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Boas Not°cias de Deus para Vocâ!
+ ",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/jl/T/wpub/jl_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Quem Est† Fazendo a Vontade de Jeov† Hoje?
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Quem Est† Fazendo a Vontade de Jeov† Hoje?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+00006000
+
+ ˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ Quem Est† Fazendo a Vontade de Jeov† Hoje?
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=jl&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Quem Est† Fazendo a Vontade de Jeov† Hoje?
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Quem Est† Fazendo a Vontade de Jeov† Hoje?
+ ",LM="KCTest(\"/pt/biblioteca/livros/vontade-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Quem Est† Fazendo a Vontade de Jeov† Hoje?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/jl/T/wpub/jl_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Quem Est† Fazendo a Vontade de Jeov† Hoje?
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Quem Est† Fazendo a Vontade de Jeov† Hoje?
+ ",LM="KCTest(\"/pt/biblioteca/livros/vontade-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Quem Est† Fazendo a Vontade de Jeov† Hoje?
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/jl/T/wpub/jl_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Quem Est† Fazendo a Vontade de Jeov† Hoje?
+ ",LM="KCTest(\"/pt/biblioteca/livros/vontade-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/bhs/T/wpub/bhs_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Vocâ Pode Entender a B°blia!
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Vocâ Pode Entender a B°blia!
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ Vocâ Pode Entender a B°blia!
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=bhs&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Vocâ Pode Entender a B°blia!
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Vocâ Pode Entender a B°blia!
+ ",LM="KCTest(\"/pt/biblioteca/livros/estudo-da-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Vocâ Pode Entender a B°blia!
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/bhs/T/wpub/bhs_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Vocâ Pode Entender a B°blia!
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Vocâ Pode Entender a B°blia!
+ ",LM="KCTest(\"/pt/biblioteca/livros/estudo-da-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Vocâ Pode Entender a B°blia!
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/bhs/T/wpub/bhs_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Vocâ Pode Entender a B°blia!
+ ",LM="KCTest(\"/pt/biblioteca/livros/estudo-da-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/lvs/T/wpub/lvs_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Continue a Amar a Deus
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Continue a Amar a Deus
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ OpÄìes de download de †udio
+ Continue a Amar a Deus
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=lvs&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Continue a Amar a Deus
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Continue a Amar a Deus
+ ",LM="KCTest(\"/pt/biblioteca/livros/continue-a-amar-a-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Continue a Amar a Deus
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/lvs/T/wpub/lvs_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Continue a Amar a Deus
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Continue a Amar a Deus
+ ",LM="KCTest(\"/pt/biblioteca/livros/continue-a-amar-a-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Continue a Amar a Deus
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/lvs/T/wpub/lvs_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Continue a Amar a Deus
+ ",LM="KCTest(\"/pt/biblioteca/livros/continue-a-amar-a-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/es21/T/wpub/es21_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Examine as Escrituras Diariamente ƒ 2021
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Examine as Escrituras Diariamente ƒ 2021
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=es21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Examine as Escrituras Diariamente ƒ 2021
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Examine as Escrituras Diariamente ƒ 2021",LM="KCTest(\"/pt/biblioteca/livros/Examine-as-Escrituras-Diariamente-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Examine as Escrituras Diariamente ƒ 2021
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/es21/T/wpub/es21_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Examine as Escrituras Diariamente ƒ 2021
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Examine as Escrituras Diariamente ƒ 2021",LM="KCTest(\"/pt/biblioteca/livros/Examine-as-Escrituras-Diariamente-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Examine as Escrituras Diariamente ƒ 2021
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/es21/T/wpub/es21_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Examine as Escrituras Diariamente ƒ 2021",LM="KCTest(\"/pt/biblioteca/livros/Examine-as-Escrituras-Diariamente-2021/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/dx19/T/wpub/dx19_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Indice das PublicaÄìes da Torre de Vigia 2019
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Indice das PublicaÄìes da Torre de Vigia 2019
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=dx19&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=dx19&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Indice das PublicaÄìes da Torre de Vigia 2019
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Indice das PublicaÄìes da Torre de Vigia 2019",LM="KCTest(\"/pt/biblioteca/livros/%C3%8Dndice-das-Publica%C3%A7%C3%B5es-da-Torre-de-Vigia-2019/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Indice das PublicaÄìes da Torre de Vigia 2019
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/dx19/T/wpub/dx19_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Indice das PublicaÄìes da Torre de Vigia 2019
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Indice das PublicaÄìes da Torre de Vigia 2019",LM="KCTest(\"/pt/biblioteca/livros/%C3%8Dndice-das-Publica%C3%A7%C3%B5es-da-Torre-de-Vigia-2019/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Indice das PublicaÄìes da Torre de Vigia 2019
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/dx19/T/wpub/dx19_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Indice das PublicaÄìes da Torre de Vigia 2019",LM="KCTest(\"/pt/biblioteca/livros/%C3%8Dndice-das-Publica%C3%A7%C3%B5es-da-Torre-de-Vigia-2019/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/vrg/univ/wpub/vrg_univ_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Guia de referância em v°deo para estudo b°blico
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Guia de referância em v°deo para estudo b°blico
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=vrg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=vrg&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Guia de referância em v°deo para estudo b°blico
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Guia de referância em v°deo para estudo b°blico
+ ",LM="KCTest(\"/pt/biblioteca/livros/Guia-de-refer%C3%AAncia-em-v%C3%ADdeo-para-estudo-b%C3%ADblico/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Guia de referância em v°deo para estudo b°blico
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/vrg/univ/wpub/vrg_univ_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Guia de referância em v°deo para estudo b°blico
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Guia de referância em v°deo para estudo b°blico
+ ",LM="KCTest(\"/pt/biblioteca/livros/Guia-de-refer%C3%AAncia-em-v%C3%ADdeo-para-estudo-b%C3%ADblico/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Guia de referância em v°deo para estudo b°blico
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/vrg/univ/wpub/vrg_univ_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Guia de referância em v°deo para estudo b°blico
+ ",LM="KCTest(\"/pt/biblioteca/livros/Guia-de-refer%C3%AAncia-em-v%C3%ADdeo-para-estudo-b%C3%ADblico/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/ca-copgm21/T/wpub/CA-copgm21_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+
+
+
+
+ $MA-X+PU,"Texto
+ OpÄìes de download de publicaÄìes
+ Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=ca-copgm21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+$ID,2$
+
+˛ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=ca-copgm21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=ca-copgm21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=ca-copgm21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=ca-copgm21&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+ ",LM="KCTest(\"/pt/biblioteca/livros/assembleia-circuito-2021-sc/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/ca-copgm21/T/wpub/CA-copgm21_T_lg.jpg
+
+ 
+
+$ID,2$
+˛ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+
+
+ 00005E54
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+ ",LM="KCTest(\"/pt/biblioteca/livros/assembleia-circuito-2021-sc/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portuguâs (Brasil)
+ 
+Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/ca-copgm21/T/wpub/CA-copgm21_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Programa da Assembleia de Circuito de 2020-2021 ƒ Com o superintendente de circuito
+ ",LM="KCTest(\"/pt/biblioteca/livros/assembleia-circuito-2021-sc/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+
+$MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+
+
+
+AlteraÄìes feitas no conte£do de publicaÄìes em formato digital talvez nÉo apareÄam ainda nas ediÄìes impressas.
+
+
+
+ $RED$$ID,3$Outras ferramentas$BLACK$$BG$$ID,-3$
+
+
+ $MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/802013025/univ/wpub/802013025_univ_sqs_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"JW Library
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+Leia e estude a B°blia usando a TraduÄÉo do Novo Mundo. Veja como outras versìes da B°blia traduzem o mesmo vers°culo.
+
+
+
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/a281a290e9/images/logo-wol-sqs.png\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+Use as publicaÄìes das Testemunhas de Jeov† para pesquisar t¢picos b°blicos on-line.
+ 
+
+
+
+
+
+$ID,6$JW.ORG$SY,-3$(R)$SY,0$$IV,1$ SITE OFICIAL DAS TESTEMUNHAS DE JEOVA$IV,0$$BLACK$$BG$$ID,-6$
+
+ $ID,7$$MA-X+PU,"Ensinos B°blicos",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+˛ $MA-X+PU,"Perguntas B°blicas Respondidas",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Textos B°blicos Explicados",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Ajudas para Estudar a B°blia",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"LiÄìes on-line",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Paz e Felicidade",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Casamento e Fam°lia",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Adolescentes",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"CrianÄas",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"FÇ em Deus",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"A Hist¢ria e a B°blia",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"A Ciância e a B°blia",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Biblioteca",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+˛ $MA-X+PU,"B°blia On-line",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Revistas",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Livros e Brochuras",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"SÇries de artigos",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Apostilas",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Nosso MinistÇrio do Reino",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"M£sicas",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"PeÄas Teatrais em Audio",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Leituras B°blicas Dramatizadas",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"V°deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JW Broadcasting(R)",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Not°cias",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+˛ $MA-X+PU,"JW Not°cias",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Sala de Imprensa",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Casos Jur°dicos",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Quem Somos",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+˛ $MA-X+PU,"Perguntas Frequentes",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"PeÄa uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Reuniìes",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"CelebraÄÉo",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Congressos",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Atividades",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov†",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Em Todo o Mundo",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Visitas a Betel",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Fale Conosco",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$ID,7$Links r†pidos$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+˛ $MA-X+PU,"PeÄa uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ ˛ $MA-X+PU,"Encontre um local de reuniÉo
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SRCHMTGMAPS\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Encontre um local de congresso
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SEARCHCONV\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Novidades",LM="KCTest(\"/pt/Novidades/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ ˛ $MA-X+PU,"V°deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ ˛ $MA-X+PU,"Buscar",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ ˛ $MA-X+PU,"Ajuda",LM="KCTest(\"/pt/ajuda-online/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ ˛ $MA-X+PU,"InformaÄìes para mÇdicos",LM="KCTest(\"/pt/biblioteca-medica/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+
+ $ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+˛ $MA-X+PU,"Biblioteca On-line da Torre de Vigia‚Ñ¢
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JW Library(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JW Library Sign Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library-sign-language/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"Watchtower Library
+ ",LM="KCTest(\"/pt/ajuda-online/watchtower-library/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+˛ $MA-X+PU,"JW Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-language/\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Copyright",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$ (C) 2020 Watch Tower Bible and Tract Society of Pennsylvania.
+ $MA-X+PU,"TERMOS DE USO",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+   $MA-X+PU,"POLITICA DE PRIVACIDADE",LM="KCTest(\"https://www.jw.org/finder?docid=1011512&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+
+
+
+
+$PURPLE$$ID,2$Selecione seu idioma$BLACK$$BG$$ID,-2$
+
+ Idiomas:
+ 
+$MA-UL+B,""$
+IDIOMA
+
+ 
+$BLUE$$BLACK$$BG$Mostrar apenas l°nguas de sinais
+ $BLUE$$BLACK$$BG$Site dispon°vel
+ $BLUE$$BLACK$$BG$Apenas download de publicaÄìes
+ 
+
+
+
+
+
+
+
+$PURPLE$$ID,2$Compartilhar$BLACK$$BG$$ID,-2$
+
+ $MA-UL+B,""$
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$
+ 
+
+$BLUE$$ID,4$$BLACK$$BG$$ID,-4$
+
+$MA-UL+B,"Selecione o link
+ "$
+
+
+$MA-X+PU,"Compartilhar por e-mail
+ ",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$
+ 
+
+
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"themes/content-theme/images/insight.png?\",\"https://www.jw.org:443/pt/biblioteca/\");View;
+"$$BLACK$$BG$
+ 
+
+$FG$

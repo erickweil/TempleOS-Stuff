@@ -1,3 +1,109 @@
+#include "::/Home/Net/WString"
+
+public class DocNodeAttr {
+  // Name of the Attribute
+  U8 *name;
+  // value or NULL if empty
+  U8 *value;
+  // Next Attr of the list
+  DocNodeAttr *next;
+};
+
+DocNodeAttr *DocNodeAttrNew(U8 *name,U8 *value=NULL,CTask *mem_task=NULL)
+{// Create a new DocNodeAttr DocNodeAttrDel
+  DocNodeAttr *res;
+  res=CAlloc(sizeof(DocNodeAttr),mem_task);
+  
+  //if(name && StrLen(name)>0)
+  //{
+  //  res->name = CAlloc(StrLen(name)+1);
+  //  StrCpy(res->name,name);
+  //}
+  //else
+  //  res->name = NULL;
+  res->name = StrNew2(mem_task,name);
+  res->value = StrNew2(mem_task,value);
+
+  res->next=NULL;
+  return res;
+}
+
+U0 DocNodeAttrDel(DocNodeAttr *dattr,I64 doNext=FALSE)
+{//Don't free the next
+  if (!dattr) return;
+
+//  dattr->next = NULL;
+
+  if(dattr->name)
+    Free(dattr->name);
+//  dattr->name = NULL;
+
+  if(dattr->value)
+    Free(dattr->value);
+//  dattr->value = NULL;
+  
+//  CMFree(dattr);
+
+
+  DocNodeAttr *_dattr;
+  if(!doNext)
+  {
+    Free(dattr);
+  }
+  else
+  {
+    _dattr = dattr;
+    dattr = dattr->next;
+    Free(_dattr); 
+
+    while(dattr)
+    {
+      _dattr = dattr;
+      dattr = dattr->next;
+      DocNodeAttrDel(_dattr,FALSE);
+    }
+  }
+
+
+}
+
+U8 *DocNodeSearchAttr(DocNodeAttr *attr,U8 *name,U8 *ret=NULL)
+{
+  //DocNodeAttr *attr = dc->attr;
+  while(attr != NULL)
+  {
+    if(attr->name && StrICmp(attr->name,name)==0)
+    {
+      return attr->value;
+    }
+    attr = attr->next;
+  }
+  return ret;
+}
+
+
+DocNodeAttr *DocNodeSearchAttrNode(DocNodeAttr *attr,U8 *name)
+{
+  //DocNodeAttr *attr = dc->attr;
+  while(attr != NULL)
+  {
+    if(attr->name && StrICmp(attr->name,name)==0)
+    {
+      return attr;
+    }
+    attr = attr->next;
+  }
+  return NULL;
+}
+
+
+
+
+
+
+
+
+
 // Giant crappy looking code that just check things
 I64 convertUnicode(I64 code)
 {
@@ -426,7 +532,7 @@ I64 CheckAutoClose(U8 *buffer)
   || StrICmp(buffer,"base")==0
   || StrICmp(buffer,"col")==0
   || StrICmp(buffer,"embed")==0
-  || StrICmp(buffer,"link")==0
+  || StrICmp(buffer,"link")==0
   || StrICmp(buffer,"param")==0
   || StrICmp(buffer,"source")==0
   || StrICmp(buffer,"track")==0
@@ -789,6 +895,80 @@ else
 }
 }
 
+
+
+// Percent encoding
+U8 *PercentEncode(U8* src,I64 form=FALSE)
+{
+  WStrBuilder *sb = WStrBuilderNew();
+  I64 k,klen=StrLen(src);
+  for(k=0;k<klen;k++)
+  {
+    I64 chr = src[k];
+    if(
+    (chr >= '0' && chr <= '9')
+    || (chr >= 'A' && chr <= 'Z')
+    || (chr >= 'a' && chr <= 'z')
+    || chr == '_' || chr == '-' || chr == '.' || chr == '~'
+    )
+    {
+      WStrAddChr(sb,chr);
+    }
+    else if(form && chr == ' ')
+    {
+      WStrAddChr(sb,'+');
+    }   
+    else
+    {
+      U8 *buf=StrPrint(NULL,"%c%X",'%',chr);
+      WStrAddStr(sb,buf);
+      Free(buf);
+    }
+  }
+
+  U8 *result = WStrBuild(sb);
+
+  WStrBuilderDel(sb);
+
+  return result;  
+}
+
+U8 *FormUrlEncode(...)
+{// returns a x-www-form-urlencoded string
+  I64 k;
+  WStrBuilder *sb = WStrBuilderNew();
+  U8 *tmp;
+  for(k=0;k<argc/2;k++)
+  {
+    U8 *key = argv[k*2+0];
+    U8 *value = argv[k*2+1];
+    if(key)
+    {
+      if(sb->i>0)
+        WStrAddChr(sb,'&');
+     
+      tmp = PercentEncode(key,TRUE);
+      WStrAddStr(sb,tmp);
+      Free(tmp);
+
+      if(value)
+      {
+        WStrAddChr(sb,'=');
+
+        tmp = PercentEncode(value,TRUE);
+        WStrAddStr(sb,tmp);
+        Free(tmp);
+      }
+    }
+  }
+  tmp = WStrBuild(sb);
+
+  WStrBuilderDel(sb);
+
+  return tmp;
+}
+
+
 U0 StrFileSafe(U8 *f)
 {
   I64 lsep = 0;
@@ -873,7 +1053,7 @@ U0 SingleHtmlPrintRaw(CDoc *doc,U8 *str,I64 dollar=FALSE,I64 wrapW=-1)
     && (lchr == ' ' || lchr == '\t'
     || lchr == '-' || lchr == ','
     || lchr == ':' || lchr == 'Ä'
-    || lchr == '_' || lchr == '!'
+    || lchr == '_' || lchr == '!'
     || lchr == '?'
     || lchr == '.' || lchr == ';')
     )
@@ -980,6 +1160,3 @@ U0 HtmlPrintNewLine(CDoc *doc,I64 depth)
   if(doc) DocPrint(doc,"\n%h*c",depth*2,' '); // should be Putkey?
   else Print("\n%h*c",depth*2,' ');
 }
-
-
-

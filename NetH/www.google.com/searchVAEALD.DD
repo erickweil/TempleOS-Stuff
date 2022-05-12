@@ -1,0 +1,300 @@
+URL:
+$MA-X+PU,"https://www.google.com:443/search?q=How+HTML+Form+Works",LM="KCTest(\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+$WW,1$$BLACK$383e
+
+$PURPLE$$TX+CX,"How HTML Form Works - Pesquisa Google"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"Google",LM="KCTest(\"/?sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QOwgC\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+$MA-X+PU,"Google",LM="KCTest(\"/?output=search&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QPAgE\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+×
+
+
+
+$MA-UL+B,""$
+
+Clique $MA-X+PU,"aqui",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;gbv=1&amp;sei=Wzy8X8PcMZKH0AaF163wAg\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ se você não for redirecionado em alguns segundos.
+
+
+
+
+13d8
+
+ Todas$MA-X+PU,"Vídeos",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUICCgB\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$$MA-X+PU,"Imagens",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUICSgC\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$$MA-X+PU,"Shopping",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUICigD\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ $MA-X+PU,"Maps",LM="KCTest(\"https://maps.google.com/maps?q=How+HTML+Form+Works&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUICygE\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ $MA-X+PU,"Notícias",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUIDCgF\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ $MA-X+PU,"Livros",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q_AUIDSgG\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ 
+$MA-X+PU,"Ferramentas de pesquisa",LM="KCTest(\"/advanced_search\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+ 
+
+
+
+Em qualquer idioma
+
+$ID,2$
+ þ Em qualquer idioma
+þ $MA-X+PU,"Pesquisar páginas em Português",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIDw\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+$ID,-2$
+
+Em qualquer data
+
+$ID,2$
+ þ Em qualquer data
+þ $MA-X+PU," Na última hora",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIEQ\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+þ $MA-X+PU," Nas últimas 24 horas",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIEg\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+þ $MA-X+PU," Na última semana",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIEw\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+þ $MA-X+PU," No último mês",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIFA\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+þ $MA-X+PU," No último ano",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIFQ\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+$ID,-2$
+
+Todos os resultados
+
+$ID,2$
+ þ Todos os resultados
+þ $MA-X+PU,"Ao pé da letra",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QpwUIFw\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+Dica: $MA-X+PU,"Pesquisar somente resultados em português",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;lr=lang_pt-BR&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QuAF6BAgAEAE\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$. Especifique o idioma de pesquisa em $MA-X+PU,"Preferências",LM="KCTest(\"/url?q=https://www.google.com/preferences%3Fhl%3Dpt-BR&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QtwF6BAgAEAI&amp;usg=AOvVaw3Yafm6od82MP0KWuwF14-a\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+How does an HTML Form work?
+
+$ID,2$
+ þ Your visitor loads the form page in her web browser. The browser sends a request to the web server. ... 
+
+þ Your visitor fills the form and submits it. ... 
+
+þ The form submission data is sent to the web server. ... 
+
+þ The web server processes the request. ... 
+
+þ A response is sent back to the browser.
+
+$ID,-2$
+
+
+
+
+
+$MA-X+PU,"How does an HTML Form work? | Simfatic Forms 4.0 Helpsimfatic.com > forms > help > how_does_an_html_form_work_",LM="KCTest(\"/url?q=https://simfatic.com/forms/help/v40/how_does_an_html_form_work_.html&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFnoECAcQBA&amp;usg=AOvVaw2BU3n2awkWGqnAZxjbMKjk\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+$MA-X+PU,"Your first form - Learn web development | MDNdeveloper.mozilla.org > ... > Web forms Ä Working with user data",LM="KCTest(\"/url?q=https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjADegQIChAB&amp;usg=AOvVaw2hcNVfxaAnvz4wx3mVZWx0\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+Ok, let's have a go at creating the HTML for our ... Note: We'll look at how those attributes work in ...
+$MA-X+PU,"What are web forms?",LM="KCTest(\"/url?q=https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form%23What_are_web_forms&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwA3oECAoQAg&amp;usg=AOvVaw0R5Ie0DzYbwN5bLjMMkKax\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ · $MA-X+PU,"Designing your form",LM="KCTest(\"/url?q=https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form%23Designing_your_form&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwA3oECAoQAw&amp;usg=AOvVaw2kwQv3WfABZ34si5Ty7OV_\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ · $MA-X+PU,"Basic form styling",LM="KCTest(\"/url?q=https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form%23Basic_form_styling&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwA3oECAoQBA&amp;usg=AOvVaw1t3azwPRB4Ott6l-zpmZXe\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+
+
+
+
+
+$MA-X+PU,"Sending form data - Guia do desenvolvedor web | MDNdeveloper.mozilla.org > Web > Forms > Sending_and_retrieving_form_data",LM="KCTest(\"/url?q=https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Sending_and_retrieving_form_data&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAEegQIBhAB&amp;usg=AOvVaw0fghcOTCYEsefdIHG8olBE\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+23 de mar. de 2019 · Em muitos casos, a finalidade de HTML Form Um é enviar dados para um servidor. ... No lado do cliente, um formulário HTML é nada mais do que uma maneira conveniente e amigável ... So, how do you fight these threats?
+
+
+
+
+
+
+
+$MA-X+PU,"HTML Forms - W3Schoolswww.w3schools.com > html > html_forms",LM="KCTest(\"/url?q=https://www.w3schools.com/html/html_forms.asp&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAFegQICRAB&amp;usg=AOvVaw1bzVu5GV0uFJxQ_pUw1iWr\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java ...
+$MA-X+PU,"Try it Yourself",LM="KCTest(\"/url?q=https://www.w3schools.com/html/tryit.asp%3Ffilename%3Dtryhtml_form_submit&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwBXoECAkQAg&amp;usg=AOvVaw099absv97xoGmeBlt3DLT-\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ · $MA-X+PU,"Attributes",LM="KCTest(\"/url?q=https://www.w3schools.com/html/html_forms_attributes.asp&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwBXoECAkQAw&amp;usg=AOvVaw2R8Q2x72zYceeK7uSsjMue\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ · $MA-X+PU,"Radio Buttons",LM="KCTest(\"/url?q=https://www.w3schools.com/html/tryit.asp%3Ffilename%3Dtryhtml_form_radio&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwBXoECAkQBA&amp;usg=AOvVaw1CmTAfEVF12PL3SkxEXSH4\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$ · $MA-X+PU,"Input type checkbox",LM="KCTest(\"/url?q=https://www.w3schools.com/html/tryit.asp%3Ffilename%3Dtryhtml_input_checkbox&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q0gIwBXoECAkQBQ&amp;usg=AOvVaw1_vc8H_szBy_Fcv364ZG-T\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+
+
+
+
+
+
+$RED$$ID,3$As pessoas também perguntam
+$BLACK$$BG$$ID,-3$
+
+How do you submit a form in HTML?
+
+
+
+
+
+
+
+
+
+
+What happens when HTML form is submitted?
+
+
+
+
+
+
+
+
+
+
+What is HTML form posting?
+
+
+
+
+
+
+
+
+
+
+$MA-X+PU,"HTML Form Tutorial | JavaScript Coderwww.javascript-coder.com > html-form > html-form-tutorial-p1",LM="KCTest(\"/url?q=http://www.javascript-coder.com/html-form/html-form-tutorial-p1/&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAMegQICBAB&amp;usg=AOvVaw25j3Gr6bgFoMLCM-ZqDe2X\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+How does an HTML form work? A web form has two parts: the HTML 'front end' and a back end form processor. The HTML front end part handles the ...
+
+
+
+
+
+
+
+$MA-X+PU,"Form (HTML) - Wikipediaen.wikipedia.org > wiki > Form_(HTML)",LM="KCTest(\"/url?q=https://en.wikipedia.org/wiki/Form_(HTML)&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjANegQIBRAB&amp;usg=AOvVaw0EKXDs6AmcsKq83FvaImdN\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. Forms can resemble paper or database ...
+
+
+
+
+
+
+
+$MA-X+PU,"How does an HTML Form work? - Quorawww.quora.com > How-does-an-HTML-Form-work",LM="KCTest(\"/url?q=https://www.quora.com/How-does-an-HTML-Form-work&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAOegQIARAB&amp;usg=AOvVaw0xvUB5QjXJ_E_r7e-q3ieR\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+HTML forms are used to gather user input for example if you would like to ask the user for their last name and first name you can use a form to gather this input.
+
+
+
+
+
+
+
+$MA-X+PU,"HTML Form Code For Beginners (And When To Use It) » - HTML.comhtml.com > tags > form",LM="KCTest(\"/url?q=https://html.com/tags/form/&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAPegQIBBAB&amp;usg=AOvVaw0IslLNA3EOnZyr-_ZCZ5J6\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+And it is how HTML forms are designed to work. Each input inside a <form> element (and this includes ...
+
+
+
+
+
+
+
+$MA-X+PU,"A step-by-step guide to getting started with HTML formswww.freecodecamp.org > news > a-step-by-step-guide-to-getting-started-wi...",LM="KCTest(\"/url?q=https://www.freecodecamp.org/news/a-step-by-step-guide-to-getting-started-with-html-forms-7f77ae4522b5/&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjAQegQIAhAB&amp;usg=AOvVaw19BxbO5srHGE0uW7UIOofX\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+13 de nov. de 2018 · HTML forms are required when you want to collect some data from the ... and so my elements will look different, but they will work in exactly the same way. ... What's more important than memorization is learning how to look up ...
+
+
+
+
+
+
+
+$MA-X+PU,"HTML - Forms - Tutorialspointwww.tutorialspoint.com > html > html_forms",LM="KCTest(\"/url?q=https://www.tutorialspoint.com/html/html_forms.htm&amp;sa=U&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4QFjARegQICxAB&amp;usg=AOvVaw0TlGKLNSbosT1Zstez_xJe\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+Note &#8722; You can refer to Perl & CGI for a detail on how form data upload works. HTML Form Controls. There are different types of form controls that you can use to ...
+
+
+
+
+
+
+
+$RED$$ID,3$Pesquisas relacionadas
+$BLACK$$BG$$ID,-3$
+
+$MA-X+PU,"HTML form action",LM="KCTest(\"/search?ie=UTF-8&amp;q=HTML+form+action&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAI\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"Form HTML example",LM="KCTest(\"/search?ie=UTF-8&amp;q=Form+HTML+example&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAQ\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"HTML form post",LM="KCTest(\"/search?ie=UTF-8&amp;q=HTML+form+post&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAY\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"Form HTML5",LM="KCTest(\"/search?ie=UTF-8&amp;q=Form+HTML5&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAg\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"Form submit",LM="KCTest(\"/search?ie=UTF-8&amp;q=Form+submit&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAo\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"form action method=post",LM="KCTest(\"/search?ie=UTF-8&amp;q=form+action+method%3Dpost&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEAw\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"Formulário HTML",LM="KCTest(\"/search?ie=UTF-8&amp;q=Formul%C3%A1rio+HTML&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEA4\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+$MA-X+PU,"HTML form action POST parameters",LM="KCTest(\"/search?ie=UTF-8&amp;q=HTML+form+action+POST+parameters&amp;sa=X&amp;ved=2ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q1QJ6BAgDEBA\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+ $MA-X+PU,"Mais >",LM="KCTest(\"/search?q=How+HTML+Form+Works&amp;ie=UTF-8&amp;ei=Wzy8X8PcMZKH0AaF163wAg&amp;start=10&amp;sa=N\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+ 
+$MA-X+PU,"Fazer login",LM="KCTest(\"/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253DHow%252BHTML%252BForm%252BWorks%26hl%3Dpt-BR&amp;sa=U&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Qxs8CCGY&amp;usg=AOvVaw31zjHwDercOx8sOVDMzpAn\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+$MA-X+PU,"Configurações",LM="KCTest(\"https://www.google.com/preferences?hl=pt-BR&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwiD9v__35ntAhWSA9QKHYVrCy4Q5fUCCGc\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$$MA-X+PU,"Privacidade",LM="KCTest(\"https://policies.google.com/privacy?hl=pt-BR&amp;fg=1\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$$MA-X+PU,"Termos",LM="KCTest(\"https://policies.google.com/terms?hl=pt-BR&amp;fg=1\",\"https://www.google.com:443/search?q=How+HTML+Form+Works\");View;
+"$
+
+ 
+
+545b
+
+$FG$

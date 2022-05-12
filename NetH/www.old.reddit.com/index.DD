@@ -1,0 +1,1806 @@
+URL:
+$MA-X+PU,"https://www.old.reddit.com:443/",LM="KCTest(\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$WW,1$$BLACK$$PURPLE$$TX+CX,"reddit: the front page of the internet"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"jump to content",LM="KCTest(\"#content\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+my subreddits
+$MA-X+PU,"edit subscriptions",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"popular",LM="KCTest(\"https://old.reddit.com/r/popular/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"tudo",LM="KCTest(\"https://old.reddit.com/r/all/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"random",LM="KCTest(\"https://old.reddit.com/r/random/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"users",LM="KCTest(\"https://old.reddit.com/users/\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+ | 
+$ID,2$
+
+þ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"funny",LM="KCTest(\"https://old.reddit.com/r/funny/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"tifu",LM="KCTest(\"https://old.reddit.com/r/tifu/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"videos",LM="KCTest(\"https://old.reddit.com/r/videos/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"aww",LM="KCTest(\"https://old.reddit.com/r/aww/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"todayilearned",LM="KCTest(\"https://old.reddit.com/r/todayilearned/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"gifs",LM="KCTest(\"https://old.reddit.com/r/gifs/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Art",LM="KCTest(\"https://old.reddit.com/r/Art/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"explainlikeimfive",LM="KCTest(\"https://old.reddit.com/r/explainlikeimfive/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"movies",LM="KCTest(\"https://old.reddit.com/r/movies/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Jokes",LM="KCTest(\"https://old.reddit.com/r/Jokes/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"TwoXChromosomes",LM="KCTest(\"https://old.reddit.com/r/TwoXChromosomes/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"mildlyinteresting",LM="KCTest(\"https://old.reddit.com/r/mildlyinteresting/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"LifeProTips",LM="KCTest(\"https://old.reddit.com/r/LifeProTips/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"askscience",LM="KCTest(\"https://old.reddit.com/r/askscience/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"dataisbeautiful",LM="KCTest(\"https://old.reddit.com/r/dataisbeautiful/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"books",LM="KCTest(\"https://old.reddit.com/r/books/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"science",LM="KCTest(\"https://old.reddit.com/r/science/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Showerthoughts",LM="KCTest(\"https://old.reddit.com/r/Showerthoughts/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"gadgets",LM="KCTest(\"https://old.reddit.com/r/gadgets/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Futurology",LM="KCTest(\"https://old.reddit.com/r/Futurology/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"history",LM="KCTest(\"https://old.reddit.com/r/history/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"sports",LM="KCTest(\"https://old.reddit.com/r/sports/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"brasil",LM="KCTest(\"https://old.reddit.com/r/brasil/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"OldSchoolCool",LM="KCTest(\"https://old.reddit.com/r/OldSchoolCool/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"GetMotivated",LM="KCTest(\"https://old.reddit.com/r/GetMotivated/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"DIY",LM="KCTest(\"https://old.reddit.com/r/DIY/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"photoshopbattles",LM="KCTest(\"https://old.reddit.com/r/photoshopbattles/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"nosleep",LM="KCTest(\"https://old.reddit.com/r/nosleep/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Music",LM="KCTest(\"https://old.reddit.com/r/Music/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"space",LM="KCTest(\"https://old.reddit.com/r/space/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"food",LM="KCTest(\"https://old.reddit.com/r/food/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"UpliftingNews",LM="KCTest(\"https://old.reddit.com/r/UpliftingNews/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"EarthPorn",LM="KCTest(\"https://old.reddit.com/r/EarthPorn/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"Documentaries",LM="KCTest(\"https://old.reddit.com/r/Documentaries/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"InternetIsBeautiful",LM="KCTest(\"https://old.reddit.com/r/InternetIsBeautiful/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"WritingPrompts",LM="KCTest(\"https://old.reddit.com/r/WritingPrompts/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"creepy",LM="KCTest(\"https://old.reddit.com/r/creepy/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"philosophy",LM="KCTest(\"https://old.reddit.com/r/philosophy/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"announcements",LM="KCTest(\"https://old.reddit.com/r/announcements/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"listentothis",LM="KCTest(\"https://old.reddit.com/r/listentothis/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"blog",LM="KCTest(\"https://old.reddit.com/r/blog/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ -$MA-X+PU,"futbol",LM="KCTest(\"https://old.reddit.com/r/futbol/\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+$MA-X+PU,"mais ¯",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$MA-X+PU,"reddit.com",LM="KCTest(\"/\",\"https://www.old.reddit.com:443/\");View;
+"$ 
+$ID,2$
+
+þ $MA-X+PU,"populares",LM="KCTest(\"https://old.reddit.com/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"novos",LM="KCTest(\"https://old.reddit.com/new/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"subindo",LM="KCTest(\"https://old.reddit.com/rising/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"controversos",LM="KCTest(\"https://old.reddit.com/controversial/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"no topo",LM="KCTest(\"https://old.reddit.com/top/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"gilded",LM="KCTest(\"https://old.reddit.com/gilded/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"wiki",LM="KCTest(\"https://old.reddit.com/wiki/\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+Want to join? $MA-X+PU,"Log in",LM="KCTest(\"https://www.reddit.com/login\",\"https://www.old.reddit.com:443/\");View;
+"$ or $MA-X+PU,"sign up",LM="KCTest(\"https://www.reddit.com/login\",\"https://www.old.reddit.com:443/\");View;
+"$ in seconds.|
+$ID,2$
+ 
+þ $MA-X+PU,"portugu‰s (*)",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+use the following search parameters to narrow your results:
+subreddit:$BLUE$subreddit$BLACK$$BG$
+find submissions in "subreddit"
+author:$BLUE$username$BLACK$$BG$
+find submissions by "username"
+site:$BLUE$example.com$BLACK$$BG$
+find submissions from "example.com"
+url:$BLUE$text$BLACK$$BG$
+search for "text" in url
+selftext:$BLUE$text$BLACK$$BG$
+search for "text" in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+$MA-X+PU,"see the search faq for details.",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$MA-X+PU,"advanced search: by author, subreddit...",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+
+
+
+lembrar de mim$MA-X+PU,"redefinir senha",LM="KCTest(\"/password\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-UL+B,"login"$
+
+
+
+$MA-X+PU,"Submit a new link",LM="KCTest(\"https://old.reddit.com/submit\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Submit a new text post",LM="KCTest(\"https://old.reddit.com/submit?selftext=true\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Get an ad-free experience with special benefits, and directly support Reddit.get reddit premium"$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$MA-X+PU,"Welcome to Reddit,the front page of the internet.Become a Redditorand join one of thousands of communities.",LM="KCTest(\"/login\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"X",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+popular in: 
+Everywhere
+$MA-X+PU,"United States",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Argentina",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Australia",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Bulgaria",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Canada",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Chile",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Colombia",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Croatia",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Czech Republic",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Finland",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"France",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Germany",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Greece",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Hungary",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Iceland",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"India",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Ireland",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Italy",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Japan",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Malaysia",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Mexico",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"New Zealand",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Philippines",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Poland",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Portugal",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Puerto Rico",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Romania",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Serbia",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Singapore",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Spain",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Sweden",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Taiwan",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Thailand",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"Turkey",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"United Kingdom",LM="KCTest(\"https://old.reddit.com/prefs/update/geopopular\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"//www.redditstatic.com/announcement.svg\",\"https://www.old.reddit.com:443/\");View;
+"$$BLACK$$BG$
+Keep yourself safe and informed
+x
+
+
+
+Visit r/Coronavirus to talk about COVID-19, and visit www.who.int for more information.
+
+$MA-X+PU,"VISIT R/CORONAVIRUS",LM="KCTest(\"https://www.reddit.com/r/Coronavirus\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+1
+
+
+23.8k
+23.8k
+23.8k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/GBTdFzmYtiuo2Uaj4SgQrz_96VEv_bxc5RXhc9kCwKc.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Found in the window of my very small, very red, upstate NY town hardware store.",LM="KCTest(\"https://i.imgur.com/onFY683.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"i.imgur.com",LM="KCTest(\"/domain/i.imgur.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 4 horas ago by $MA-X+PU,"A_Booger_In_The_Hand",LM="KCTest(\"https://old.reddit.com/user/A_Booger_In_The_Hand\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+4
+$ID,2$
+ þ $MA-X+PU,"553 coment rios",LM="KCTest(\"https://old.reddit.com/r/pics/comments/jxvkil/found_in_the_window_of_my_very_small_very_red/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFPnMgjQxvI_JriRLuUZdnfbgA5IXnpd3lEbMF_D85aI-SgcWTrm38x4biIOvarOSPe5YRw--Yrk-9nsEGY9gSen2hVc5h6ejN56YT707SlP9ohVn5E3k7lqcG9lNMsoc_XLo3hgIKmh3ABzjGIAMI7HKjjW64nhC7eWISpozej1jXw=\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+2
+
+
+37.3k
+37.3k
+37.3k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/OcYDD4mcmiqil9J_KVZwSIUI5k0Jko2MDR6Vs8-L_2g.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Fauci says Santa has 'innate immunity,' won't spread COVID-19 for Christmas",LM="KCTest(\"https://www.wxhc.com/fauci-says-santa-has-innate-immunity-wont-spread-covid-19-for-christmas/\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"wxhc.com",LM="KCTest(\"/domain/wxhc.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 3 horas ago by $MA-X+PU,"academic96",LM="KCTest(\"https://old.reddit.com/user/academic96\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/cr1mq4yysv541_CoinGift.png?width=48&amp;height=48&amp;auto=webp&amp;s=a913bad178f017a572393be1fc36013a4fa59803\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/v1mxw8i6wnf51_Heartwarming.png?width=48&amp;height=48&amp;auto=webp&amp;s=8d7c7fa22e6ff3b1b0a347839e42f493eb5f6cbc\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/lcswc5d07hb51_WearingisCaring.png?width=48&amp;height=48&amp;auto=webp&amp;s=d19c39d1fcfc71fe7f4eb2ba1a52d18d8f063b6e\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"& 33 more",LM="KCTest(\"/r/nottheonion/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1128 coment rios",LM="KCTest(\"https://old.reddit.com/r/nottheonion/comments/jxw7hp/fauci_says_santa_has_innate_immunity_wont_spread/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+3
+
+
+43.8k
+43.8k
+43.8k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/K4AxOo_zfmGbUAiXVGWYGxOK4laZnGaE3INvzyMIjjo.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"This has got to be the WILDEST and CRAZIEST conspiracy theory up to date",LM="KCTest(\"/r/facepalm/comments/jxsoiy/this_has_got_to_be_the_wildest_and_craziest/\",\"https://www.old.reddit.com:443/\");View;
+"$Coronavirus ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 6 horas ago by $MA-X+PU,"super_monero",LM="KCTest(\"https://old.reddit.com/user/super_monero\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/facepalm",LM="KCTest(\"https://old.reddit.com/r/facepalm/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+4
+$ID,2$
+ þ $MA-X+PU,"2397 coment rios",LM="KCTest(\"https://old.reddit.com/r/facepalm/comments/jxsoiy/this_has_got_to_be_the_wildest_and_craziest/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+4
+
+
+14.4k
+14.4k
+14.4k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/ehVKzQGN_i2VMrYG8LZ46cgpf69aF0yMzsCkIfNevbg.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Trump accuses Pfizer and Moderna of working to stop his re-election",LM="KCTest(\"https://www.independent.co.uk/news/world/americas/us-election-2020/trump-vaccine-moderna-pfizer-election-b1759400.html?utm_content=Echobox&amp;utm_medium=Social&amp;utm_source=Twitter#Echobox=1605902369\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"independent.co.uk",LM="KCTest(\"/domain/independent.co.uk/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 3 horas ago by $MA-X+PU,"Teera_matt_1991",LM="KCTest(\"https://old.reddit.com/user/Teera_matt_1991\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/politics",LM="KCTest(\"https://old.reddit.com/r/politics/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/TableSlap_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/v1mxw8i6wnf51_Heartwarming.png?width=48&amp;height=48&amp;auto=webp&amp;s=8d7c7fa22e6ff3b1b0a347839e42f493eb5f6cbc\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"& 9 more",LM="KCTest(\"/r/politics/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1224 coment rios",LM="KCTest(\"https://old.reddit.com/r/politics/comments/jxwbg1/trump_accuses_pfizer_and_moderna_of_working_to/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+5
+
+
+58.3k
+58.3k
+58.3k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/PukPiuUEfaHwigJKc-WCXXOmRWp6YanmqazdR0KF0rw.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"More GOP Senators Have COVID Than Have Acknowledged That Joe Biden Won",LM="KCTest(\"https://www.huffpost.com/entry/republican-senators-covid-joe-biden-election_n_5fb7d9bbc5b6f6adf949f36b\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"huffpost.com",LM="KCTest(\"/domain/huffpost.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 4 horas ago by $MA-X+PU,"miked_mv",LM="KCTest(\"https://old.reddit.com/user/miked_mv\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/politics",LM="KCTest(\"https://old.reddit.com/r/politics/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/43zl6dfcg9e51_EvilCackle.png?width=48&amp;height=48&amp;auto=webp&amp;s=e598c03acb479ea319d4d9d6122a3f50f2a7f42e\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/lcswc5d07hb51_WearingisCaring.png?width=48&amp;height=48&amp;auto=webp&amp;s=d19c39d1fcfc71fe7f4eb2ba1a52d18d8f063b6e\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"& 14 more",LM="KCTest(\"/r/politics/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1143 coment rios",LM="KCTest(\"https://old.reddit.com/r/politics/comments/jxv4xn/more_gop_senators_have_covid_than_have/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+6
+
+
+19.8k
+19.8k
+19.8k
+
+
+$MA-X+PU,"",LM="KCTest(\"//a.thumbs.redditmedia.com/V4Ndp13CzBwRLABeFVEL_6c0BRm9CwtzEtdfVyAGoi4.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"White culture",LM="KCTest(\"/r/WhitePeopleTwitter/comments/jxvwav/white_culture/\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 4 horas ago by $MA-X+PU,"KosamSultan",LM="KCTest(\"https://old.reddit.com/user/KosamSultan\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/WhitePeopleTwitter",LM="KCTest(\"https://old.reddit.com/r/WhitePeopleTwitter/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"524 coment rios",LM="KCTest(\"https://old.reddit.com/r/WhitePeopleTwitter/comments/jxvwav/white_culture/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+7
+
+
+70.4k
+70.4k
+70.4k
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.timesofisrael.com/un-votes-163-5-in-support-of-palestinian-statehood-end-of-occupation/\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"UN panel votes 163-5 in support of Palestinian statehood, end of occupation",LM="KCTest(\"https://www.timesofisrael.com/un-votes-163-5-in-support-of-palestinian-statehood-end-of-occupation/\",\"https://www.old.reddit.com:443/\");View;
+"$Israel/Palestine ($MA-X+PU,"timesofisrael.com",LM="KCTest(\"/domain/timesofisrael.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"specificallyasking",LM="KCTest(\"https://old.reddit.com/user/specificallyasking\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+13$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+10$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+11$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"& 36 more",LM="KCTest(\"/r/worldnews/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"5550 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxtkxo/un_panel_votes_1635_in_support_of_palestinian/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+8
+
+
+9860
+9861
+9862
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/rbA4GdF7qPm538zRFYSZXQGvvgbVFmc3LGgvWDKMoLw.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Guest Request: Lets get Barack Obama on JRE, he's currently doing a press tour for his new book 'A Promised Land' (summary in link)",LM="KCTest(\"https://en.wikipedia.org/wiki/A_Promised_Land\",\"https://www.old.reddit.com:443/\");View;
+"$Guest Request ($MA-X+PU,"en.wikipedia.org",LM="KCTest(\"/domain/en.wikipedia.org/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 13 horas ago by $MA-X+PU,"letitbeaffirmed",LM="KCTest(\"https://old.reddit.com/user/letitbeaffirmed\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/JoeRogan",LM="KCTest(\"https://old.reddit.com/r/JoeRogan/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"2037 coment rios",LM="KCTest(\"https://old.reddit.com/r/JoeRogan/comments/jxmscy/guest_request_lets_get_barack_obama_on_jre_hes/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+9
+
+
+36.9k
+36.9k
+36.9k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/0mWzg5MPoizeMCtcsG5Y12NKb1AfyJgix-6k2-9CGNg.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+0:14
+
+
+
+$MA-X+PU,"ðŸ”¥ Two endangered golden monkeys hugging each other",LM="KCTest(\"https://v.redd.it/nqq15rqzsf061\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"v.redd.it",LM="KCTest(\"/domain/v.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"d3333p7",LM="KCTest(\"https://old.reddit.com/user/d3333p7\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/NatureIsFuckingLit",LM="KCTest(\"https://old.reddit.com/r/NatureIsFuckingLit/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/b9ks3a5k7jj41_WholesomeSealofApproval.png?width=48&amp;height=48&amp;auto=webp&amp;s=913e99a6f6688f26c08dcb411f043f71b17df931\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/j3azv69qjfn51_LOVE.png?width=48&amp;height=48&amp;auto=webp&amp;s=da1e45654f5acfb6be44fa07c168ad6420796f56\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+18$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+16$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+33$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/v1mxw8i6wnf51_Heartwarming.png?width=48&amp;height=48&amp;auto=webp&amp;s=8d7c7fa22e6ff3b1b0a347839e42f493eb5f6cbc\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+40$MA-X+PU,"& 99 more",LM="KCTest(\"/r/NatureIsFuckingLit/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"434 coment rios",LM="KCTest(\"https://old.reddit.com/r/NatureIsFuckingLit/comments/jxue5x/two_endangered_golden_monkeys_hugging_each_other/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+10
+
+
+16.3k
+16.3k
+16.3k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/lkqVHMRO8D_V2O_wfN0kOsVMQf4FCB4nJpPA_TDxYYo.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"G2 LoL Roster Announcement",LM="KCTest(\"https://www.youtube.com/watch?v=CtppDEEFKjM&amp;ab_channel=G2Esports\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"youtube.com",LM="KCTest(\"/domain/youtube.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 7 horas ago by $MA-X+PU,"reformed_22",LM="KCTest(\"https://old.reddit.com/user/reformed_22\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/leagueoflegends",LM="KCTest(\"https://old.reddit.com/r/leagueoflegends/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+43$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+26$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/45aeu8mzvsj51_IllDrinktoThat.png?width=48&amp;height=48&amp;auto=webp&amp;s=0763517837b22d5e414dd330d5006c0d89ccb499\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+23$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/rc5iesz2z8t41_Snek.png?width=48&amp;height=48&amp;auto=webp&amp;s=3d8d317fd0e68c3f2696425efb7a5bc85b6f7603\",\"https://www.old.reddit.com:443/\");View;
+"$
+32$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"& 93 more",LM="KCTest(\"/r/leagueoflegends/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1923 coment rios",LM="KCTest(\"https://old.reddit.com/r/leagueoflegends/comments/jxrna2/g2_lol_roster_announcement/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+11
+
+
+34.8k
+34.8k
+34.8k
+
+
+$MA-X+PU,"",LM="KCTest(\"//a.thumbs.redditmedia.com/bvErBUNIMe6bWL9VU6f4AHGhD0L22uHWoNwLz4vUGH8.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Trump's press secretary Kayleigh McEnany heckled in briefing: `When will you admit you lost?'",LM="KCTest(\"https://www.independent.co.uk/news/world/americas/us-election-2020/kayleigh-mcenany-white-house-briefing-election-b1759305.html\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"independent.co.uk",LM="KCTest(\"/domain/independent.co.uk/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"ohnoh18",LM="KCTest(\"https://old.reddit.com/user/ohnoh18\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/politics",LM="KCTest(\"https://old.reddit.com/r/politics/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClappingPremium_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Starstruck_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"& 4 more",LM="KCTest(\"/r/politics/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1873 coment rios",LM="KCTest(\"https://old.reddit.com/r/politics/comments/jxtgbd/trumps_press_secretary_kayleigh_mcenany_heckled/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+12
+
+
+27.5k
+27.5k
+27.5k
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/IAmA/comments/jxr4aj/i_just_spent_my_first_year_as_a_free_man_after/\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"I just spent my first year as a free man after being wrongfully convicted and incarcerated for 23 years. AMA",LM="KCTest(\"/r/IAmA/comments/jxr4aj/i_just_spent_my_first_year_as_a_free_man_after/\",\"https://www.old.reddit.com:443/\");View;
+"$Newsworthy Event ($MA-X+PU,"self.IAmA",LM="KCTest(\"/r/IAmA/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 8 horas ago * by $MA-X+PU,"NewsHour",LM="KCTest(\"https://old.reddit.com/user/NewsHour\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/j3azv69qjfn51_LOVE.png?width=48&amp;height=48&amp;auto=webp&amp;s=da1e45654f5acfb6be44fa07c168ad6420796f56\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Timeless_512.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/wg3lzllyg9n41_PotoCoins.png?width=48&amp;height=48&amp;auto=webp&amp;s=f8c095e695a7aed5181912f5485c822d16c6fe69\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/8ad2jffnclf41_Thanks.png?width=48&amp;height=48&amp;auto=webp&amp;s=4d85746d584b5494087da3561944d6d241f57674\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+10$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"& 80 more",LM="KCTest(\"/r/IAmA/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1658 coment rios",LM="KCTest(\"https://old.reddit.com/r/IAmA/comments/jxr4aj/i_just_spent_my_first_year_as_a_free_man_after/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+13
+
+
+88.3k
+88.3k
+88.3k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/MH3jgR1gCh6Nj5nYLveyg2iz7mNyaYGWtQwkKTX8IJc.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"How nails are orientated correctly prior to boxing",LM="KCTest(\"https://gfycat.com/glassfavorablegrebe\",\"https://www.old.reddit.com:443/\");View;
+"$/r/ALL ($MA-X+PU,"gfycat.com",LM="KCTest(\"/domain/gfycat.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 6 horas ago by $MA-X+PU,"Thund3rbolt",LM="KCTest(\"https://old.reddit.com/user/Thund3rbolt\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/interestingasfuck",LM="KCTest(\"https://old.reddit.com/r/interestingasfuck/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/j3azv69qjfn51_LOVE.png?width=48&amp;height=48&amp;auto=webp&amp;s=da1e45654f5acfb6be44fa07c168ad6420796f56\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+24$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/CrabRave_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+23$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+14$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/fck3iedi2ug51_Shocked.png?width=48&amp;height=48&amp;auto=webp&amp;s=c0cc6ae54fbf3e94516aaacef918834fd12030b3\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+13$MA-X+PU,"& 36 more",LM="KCTest(\"/r/interestingasfuck/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1318 coment rios",LM="KCTest(\"https://old.reddit.com/r/interestingasfuck/comments/jxtcrf/how_nails_are_orientated_correctly_prior_to_boxing/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+14
+
+
+55.9k
+55.9k
+55.9k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/u4fyukq0I7xeQdXIzoE9xC3nMiSbV2Ur_AWKQK0jzQs.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Believe in yourself",LM="KCTest(\"/r/SelfAwarewolves/comments/jxn724/believe_in_yourself/\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 12 horas ago by $MA-X+PU,"moodindicator",LM="KCTest(\"https://old.reddit.com/user/moodindicator\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/SelfAwarewolves",LM="KCTest(\"https://old.reddit.com/r/SelfAwarewolves/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/TakeMyPower_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/c1ll7h6zedq51_PumpkinSpice.png?width=48&amp;height=48&amp;auto=webp&amp;s=bf62f466c6eb6b70378c80a430270a38116b8754\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"& 16 more",LM="KCTest(\"/r/SelfAwarewolves/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1806 coment rios",LM="KCTest(\"https://old.reddit.com/r/SelfAwarewolves/comments/jxn724/believe_in_yourself/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+15
+
+
+22.3k
+22.3k
+22.3k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/CegdeEM8Jbb3IJ9-ujzwAgXU4dk8pxgb0fYHKs4z5Fw.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"What orthognathic surgery can do",LM="KCTest(\"/r/Damnthatsinteresting/comments/jxuyou/what_orthognathic_surgery_can_do/\",\"https://www.old.reddit.com:443/\");View;
+"$Image ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 4 horas ago by $MA-X+PU,"monsterup111",LM="KCTest(\"https://old.reddit.com/user/monsterup111\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/Damnthatsinteresting",LM="KCTest(\"https://old.reddit.com/r/Damnthatsinteresting/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"929 coment rios",LM="KCTest(\"https://old.reddit.com/r/Damnthatsinteresting/comments/jxuyou/what_orthognathic_surgery_can_do/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFPnHdcdbZRTubvXR64GsNl_vzVpL5aZypEieVnux-oKTHy_Eeqt1oQh2XVzd4vyuHEglNf4wFrI-nXsdMxlbJrKMvf0wIC6ESg1GBCf0yhtYQxHEkC5ST94h_uAAkZtpjvJVBp4tSqEUaVgEbRw5CK3RcJI4jCB2GD2kZgbFhi2xEw=\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+16
+
+
+43.2k
+43.2k
+43.2k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/AbJ7Q6bgL-mKyKC3LFoJo7IOoNtpb6EEUeFibSY8Jyw.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"My take on the console wars..",LM="KCTest(\"https://i.imgur.com/ayhtHnG.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"i.imgur.com",LM="KCTest(\"/domain/i.imgur.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"QueenJamesKingJordan",LM="KCTest(\"https://old.reddit.com/user/QueenJamesKingJordan\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/TakeMyPower_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClappingPremium_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClapping_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+13$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+32$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+15$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+20$MA-X+PU,"& 86 more",LM="KCTest(\"/r/gaming/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1596 coment rios",LM="KCTest(\"https://old.reddit.com/r/gaming/comments/jxu1c6/my_take_on_the_console_wars/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+17
+
+
+12.7k
+12.7k
+12.7k
+
+
+$MA-X+PU,"",LM="KCTest(\"//a.thumbs.redditmedia.com/T3vSfrGXBB3tUKE8aVtfYCrzYwEppb0ZjjOLxYxb3J4.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"Cloud9 Welcomes Perkz",LM="KCTest(\"https://youtu.be/t76hXBcKwys\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"youtu.be",LM="KCTest(\"/domain/youtu.be/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"Boba-tea-rs",LM="KCTest(\"https://old.reddit.com/user/Boba-tea-rs\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/leagueoflegends",LM="KCTest(\"https://old.reddit.com/r/leagueoflegends/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/zc4a9vk5zmc51_BuffDoge.png?width=48&amp;height=48&amp;auto=webp&amp;s=f10a2d3469f32ce0351da34e234a9955f80f7c1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+10$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/45aeu8mzvsj51_IllDrinktoThat.png?width=48&amp;height=48&amp;auto=webp&amp;s=0763517837b22d5e414dd330d5006c0d89ccb499\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"& 36 more",LM="KCTest(\"/r/leagueoflegends/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1588 coment rios",LM="KCTest(\"https://old.reddit.com/r/leagueoflegends/comments/jxu0tp/cloud9_welcomes_perkz/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+18
+
+
+18.7k
+18.7k
+18.7k
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.cnn.com/2020/11/20/us/kentucky-student-cancer-covid-trnd/index.html\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"A 15-year-old Kentucky girl who beat the odds against cancer last summer, died of Covid-19 this month",LM="KCTest(\"https://www.cnn.com/2020/11/20/us/kentucky-student-cancer-covid-trnd/index.html\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"cnn.com",LM="KCTest(\"/domain/cnn.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"Alyeskas_ghost",LM="KCTest(\"https://old.reddit.com/user/Alyeskas_ghost\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/2754pa5jvsj51_GlowUp.png?width=48&amp;height=48&amp;auto=webp&amp;s=b4d02dbb8dbe1c997fdafa8aa862ce0a5e1d4c25\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/deleted_award_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+5
+$ID,2$
+ þ $MA-X+PU,"1127 coment rios",LM="KCTest(\"https://old.reddit.com/r/news/comments/jxtgg1/a_15yearold_kentucky_girl_who_beat_the_odds/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+19
+
+
+49.6k
+49.6k
+49.6k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/HXfeGVThR0Vpc3j15wx1ISg1GTbNYvenzTyL7Ocf-1k.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"At White House, President George H.W. Bush welcomes President-elect Bill Clinton, who defeated him.",LM="KCTest(\"/r/pics/comments/jxsfwz/at_white_house_president_george_hw_bush_welcomes/\",\"https://www.old.reddit.com:443/\");View;
+"$Politics ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 6 horas ago by $MA-X+PU,"JDMortdecai",LM="KCTest(\"https://old.reddit.com/user/JDMortdecai\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/18mwqw5th9e51_MURICA.png?width=48&amp;height=48&amp;auto=webp&amp;s=7b7de78f9bb4ae6dfa33242cf3596647e4d00d2f\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"& 5 more",LM="KCTest(\"/r/pics/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1799 coment rios",LM="KCTest(\"https://old.reddit.com/r/pics/comments/jxsfwz/at_white_house_president_george_hw_bush_welcomes/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+20
+
+
+21.0k
+21.0k
+21.0k
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-submit-emergency-use-authorization\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"Pfizer and BioNTech to Submit Emergency Use Authorization Request Today to the U.S. FDA for COVID-19 Vaccine",LM="KCTest(\"https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-biontech-submit-emergency-use-authorization\",\"https://www.old.reddit.com:443/\");View;
+"$Vaccine News ($MA-X+PU,"pfizer.com",LM="KCTest(\"/domain/pfizer.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 11 horas ago by $MA-X+PU,"icloudbug",LM="KCTest(\"https://old.reddit.com/user/icloudbug\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/Coronavirus",LM="KCTest(\"https://old.reddit.com/r/Coronavirus/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1690 coment rios",LM="KCTest(\"https://old.reddit.com/r/Coronavirus/comments/jxno8m/pfizer_and_biontech_to_submit_emergency_use/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+21
+
+
+94.6k
+94.6k
+94.6k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/6cDL6Y7w0PTpY_Ii0L_agb5-mEzMIYUd3Cotgq8udfM.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+0:54
+
+
+
+$MA-X+PU,"Smart streamer recognizes a girls attempt at getting rid of a stalker",LM="KCTest(\"/r/nextfuckinglevel/comments/jxs5sb/smart_streamer_recognizes_a_girls_attempt_at/\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"v.redd.it",LM="KCTest(\"/domain/v.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 7 horas ago by $MA-X+PU,"NewCarthagea",LM="KCTest(\"https://old.reddit.com/user/NewCarthagea\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/nextfuckinglevel",LM="KCTest(\"https://old.reddit.com/r/nextfuckinglevel/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/b9ks3a5k7jj41_WholesomeSealofApproval.png?width=48&amp;height=48&amp;auto=webp&amp;s=913e99a6f6688f26c08dcb411f043f71b17df931\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClapping_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Superheart_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+51$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+81$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+48$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+41$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/v1mxw8i6wnf51_Heartwarming.png?width=48&amp;height=48&amp;auto=webp&amp;s=8d7c7fa22e6ff3b1b0a347839e42f493eb5f6cbc\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+67$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"& 291 more",LM="KCTest(\"/r/nextfuckinglevel/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"2419 coment rios",LM="KCTest(\"https://old.reddit.com/r/nextfuckinglevel/comments/jxs5sb/smart_streamer_recognizes_a_girls_attempt_at/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+22
+
+
+43.9k
+43.9k
+43.9k
+
+
+$MA-X+PU,"",LM="KCTest(\"//b.thumbs.redditmedia.com/1Z-Be1LfsobKfSODMFDsVrc6DdVUm1X50oHaWHf9bVo.jpg\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$MA-X+PU,"In our darkest hours he shall come again",LM="KCTest(\"/r/dankmemes/comments/jxuj6c/in_our_darkest_hours_he_shall_come_again/\",\"https://www.old.reddit.com:443/\");View;
+"$ hi mods  ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"VoidlessLove",LM="KCTest(\"https://old.reddit.com/user/VoidlessLove\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/dankmemes",LM="KCTest(\"https://old.reddit.com/r/dankmemes/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+17$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+25$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+32$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+21$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+27
+$ID,2$
+ þ $MA-X+PU,"507 coment rios",LM="KCTest(\"https://old.reddit.com/r/dankmemes/comments/jxuj6c/in_our_darkest_hours_he_shall_come_again/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+23
+
+
+26.1k
+26.1k
+26.1k
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.wptv.com/coronavirus/florida-sen-rick-scott-tests-positive-for-coronavirus\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"Florida Sen. Rick Scott tests positive for coronavirus",LM="KCTest(\"https://www.wptv.com/coronavirus/florida-sen-rick-scott-tests-positive-for-coronavirus\",\"https://www.old.reddit.com:443/\");View;
+"$ ($MA-X+PU,"wptv.com",LM="KCTest(\"/domain/wptv.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"Pikamander2",LM="KCTest(\"https://old.reddit.com/user/Pikamander2\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/lcswc5d07hb51_WearingisCaring.png?width=48&amp;height=48&amp;auto=webp&amp;s=d19c39d1fcfc71fe7f4eb2ba1a52d18d8f063b6e\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"& 5 more",LM="KCTest(\"/r/news/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1015 coment rios",LM="KCTest(\"https://old.reddit.com/r/news/comments/jxsb4g/florida_sen_rick_scott_tests_positive_for/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+24
+
+
+8559
+8560
+8561
+
+
+$MA-X+PU,"",LM="KCTest(\"https://twitter.com/ShamsCharania/status/1329846469168336897\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"[Charania] The Toronto Raptors will begin the 2020-21 NBA season playing in Tampa, Florida.",LM="KCTest(\"https://twitter.com/ShamsCharania/status/1329846469168336897\",\"https://www.old.reddit.com:443/\");View;
+"$News ($MA-X+PU,"twitter.com",LM="KCTest(\"/domain/twitter.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 5 horas ago by $MA-X+PU,"China_Made",LM="KCTest(\"https://old.reddit.com/user/China_Made\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/nba",LM="KCTest(\"https://old.reddit.com/r/nba/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+2
+$ID,2$
+ þ $MA-X+PU,"1034 coment rios",LM="KCTest(\"https://old.reddit.com/r/nba/comments/jxtybq/charania_the_toronto_raptors_will_begin_the/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+25
+
+
+2537
+2538
+2539
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.reddit.com/rpan/r/RedditSessions/jxxt1u\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+$MA-X+PU,"MURCI - LONG NIGHTS OUT NOW",LM="KCTest(\"https://www.reddit.com/rpan/r/RedditSessions/jxxt1u\",\"https://www.old.reddit.com:443/\");View;
+"$Broadcast ($MA-X+PU,"reddit.com",LM="KCTest(\"/domain/reddit.com/\",\"https://www.old.reddit.com:443/\");View;
+"$)
+submitted 2 horas ago by $MA-X+PU,"murci-music",LM="KCTest(\"https://old.reddit.com/user/murci-music\",\"https://www.old.reddit.com:443/\");View;
+"$ to $MA-X+PU,"r/RedditSessions",LM="KCTest(\"https://old.reddit.com/r/RedditSessions/\",\"https://www.old.reddit.com:443/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_2dptrd/kiilukhrmp751_TheDJHeroBadge.png?width=48&amp;height=48&amp;auto=webp&amp;s=24ddd61078e05ef4a6c75293f1511df7ee9a92a6\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClappingPremium_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/b9ks3a5k7jj41_WholesomeSealofApproval.png?width=48&amp;height=48&amp;auto=webp&amp;s=913e99a6f6688f26c08dcb411f043f71b17df931\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Starstruck_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/j3azv69qjfn51_LOVE.png?width=48&amp;height=48&amp;auto=webp&amp;s=da1e45654f5acfb6be44fa07c168ad6420796f56\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/b8xt4z8yajz31_Original.png?width=48&amp;height=48&amp;auto=webp&amp;s=0b046a5aa2d103ed9a1b7376df260292c1d33038\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/wa987k0p4v541_MindBlown.png?width=48&amp;height=48&amp;auto=webp&amp;s=a925fdb8ed532e7261b0dbc820e691423cba8ee6\",\"https://www.old.reddit.com:443/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_2dptrd/kqk0f42gvbk41_ThisiseffingLIT.png?width=48&amp;height=48&amp;auto=webp&amp;s=79b8dcebf2b0cc43169b34971edf8c88f51a5f61\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+25$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Updoot_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClapping_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Rocket_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Superheart_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://www.old.reddit.com:443/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/x52x5be57fd41_GOAT.png?width=48&amp;height=48&amp;auto=webp&amp;s=4a6669f710a159e308d70a09ad5d91bf26576801\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/CrabRave_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+9$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://www.old.reddit.com:443/\");View;
+"$
+13$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://www.old.reddit.com:443/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://www.old.reddit.com:443/\");View;
+"$
+23$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/2754pa5jvsj51_GlowUp.png?width=48&amp;height=48&amp;auto=webp&amp;s=b4d02dbb8dbe1c997fdafa8aa862ce0a5e1d4c25\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://www.old.reddit.com:443/\");View;
+"$
+24$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/lcswc5d07hb51_WearingisCaring.png?width=48&amp;height=48&amp;auto=webp&amp;s=d19c39d1fcfc71fe7f4eb2ba1a52d18d8f063b6e\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://www.old.reddit.com:443/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5nswjpyy44551_Ally.png?width=48&amp;height=48&amp;auto=webp&amp;s=723e4e932c9692ac61cf5b7509424c6ae1b5d220\",\"https://www.old.reddit.com:443/\");View;
+"$
+$MA-X+PU,"& 161 more",LM="KCTest(\"/r/RedditSessions/gilded\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"2814 coment rios",LM="KCTest(\"https://old.reddit.com/r/RedditSessions/comments/jxxt1u/murci_long_nights_out_now/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+ver mais: $MA-X+PU,"pr¢ximo >",LM="KCTest(\"https://old.reddit.com/?count=25&amp;after=t3_jxxt1u\",\"https://www.old.reddit.com:443/\");View;
+"$
+
+
+
+$ID,2$
+ þ sobre
+þ $MA-X+PU,"blog",LM="KCTest(\"https://redditblog.com\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"sobre",LM="KCTest(\"https://www.redditinc.com\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"advertising",LM="KCTest(\"https://www.redditinc.com/advertising\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"careers",LM="KCTest(\"https://www.redditinc.com/careers\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ ajuda
+þ $MA-X+PU,"site rules",LM="KCTest(\"https://old.reddit.com/rules/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"Reddit help center",LM="KCTest(\"https://www.reddithelp.com\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"redditiqueta",LM="KCTest(\"https://old.reddit.com/wiki/reddiquette/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"mod guidelines",LM="KCTest(\"https://old.reddit.com/help/healthycommunities/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"contact us",LM="KCTest(\"https://old.reddit.com/contact/\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ apps & tools
+þ $MA-X+PU,"Reddit for iPhone",LM="KCTest(\"https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"Reddit for Android",LM="KCTest(\"https://play.google.com/store/apps/details?id=com.reddit.frontpage\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"mobile website",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ <3
+þ $MA-X+PU,"reddit premium",LM="KCTest(\"https://old.reddit.com/premium/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"reddit coins",LM="KCTest(\"https://old.reddit.com/coins/\",\"https://www.old.reddit.com:443/\");View;
+"$
+þ $MA-X+PU,"redditgifts",LM="KCTest(\"https://redditgifts.com\",\"https://www.old.reddit.com:443/\");View;
+"$
+$ID,-2$
+
+
+O uso deste site constitui aceita€ƒo dos nossos $MA-X+PU,"User Agreement",LM="KCTest(\"https://old.reddit.com/help/useragreement\",\"https://www.old.reddit.com:443/\");View;
+"$ e $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://old.reddit.com/help/privacypolicy\",\"https://www.old.reddit.com:443/\");View;
+"$. (C) 2020 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"//reddit.com/static/pixel.png\",\"https://www.old.reddit.com:443/\");View;
+"$$BLACK$$BG$
+ã Rendered by PID 4476 on r2-app-0cfd2faf220e5b96b  at 2020-11-20 23:40:22.828325+00:00 running c04c886 country code: BR.
+$FG$

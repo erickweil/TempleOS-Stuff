@@ -1,0 +1,1576 @@
+URL:
+$MA-X+PU,"https://old.reddit.com:443/r/AskReddit/",LM="KCTest(\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+$WW,1$$BLACK$$PURPLE$$TX+CX,"Ask Reddit..."$
+
+$BLACK$$BG$
+
+$MA-X+PU,"jump to content",LM="KCTest(\"#content\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+my subreddits
+$MA-X+PU,"edit subscriptions",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"popular",LM="KCTest(\"https://old.reddit.com/r/popular/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"tudo",LM="KCTest(\"https://old.reddit.com/r/all/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"random",LM="KCTest(\"https://old.reddit.com/r/random/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"users",LM="KCTest(\"https://old.reddit.com/users/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+ | 
+$ID,2$
+
+þ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"funny",LM="KCTest(\"https://old.reddit.com/r/funny/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"tifu",LM="KCTest(\"https://old.reddit.com/r/tifu/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"videos",LM="KCTest(\"https://old.reddit.com/r/videos/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"aww",LM="KCTest(\"https://old.reddit.com/r/aww/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"todayilearned",LM="KCTest(\"https://old.reddit.com/r/todayilearned/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"gifs",LM="KCTest(\"https://old.reddit.com/r/gifs/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Art",LM="KCTest(\"https://old.reddit.com/r/Art/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"explainlikeimfive",LM="KCTest(\"https://old.reddit.com/r/explainlikeimfive/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"movies",LM="KCTest(\"https://old.reddit.com/r/movies/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Jokes",LM="KCTest(\"https://old.reddit.com/r/Jokes/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"TwoXChromosomes",LM="KCTest(\"https://old.reddit.com/r/TwoXChromosomes/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"mildlyinteresting",LM="KCTest(\"https://old.reddit.com/r/mildlyinteresting/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"LifeProTips",LM="KCTest(\"https://old.reddit.com/r/LifeProTips/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"askscience",LM="KCTest(\"https://old.reddit.com/r/askscience/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"dataisbeautiful",LM="KCTest(\"https://old.reddit.com/r/dataisbeautiful/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"books",LM="KCTest(\"https://old.reddit.com/r/books/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"science",LM="KCTest(\"https://old.reddit.com/r/science/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Showerthoughts",LM="KCTest(\"https://old.reddit.com/r/Showerthoughts/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"gadgets",LM="KCTest(\"https://old.reddit.com/r/gadgets/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Futurology",LM="KCTest(\"https://old.reddit.com/r/Futurology/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"history",LM="KCTest(\"https://old.reddit.com/r/history/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"sports",LM="KCTest(\"https://old.reddit.com/r/sports/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"brasil",LM="KCTest(\"https://old.reddit.com/r/brasil/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"OldSchoolCool",LM="KCTest(\"https://old.reddit.com/r/OldSchoolCool/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"GetMotivated",LM="KCTest(\"https://old.reddit.com/r/GetMotivated/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"DIY",LM="KCTest(\"https://old.reddit.com/r/DIY/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"photoshopbattles",LM="KCTest(\"https://old.reddit.com/r/photoshopbattles/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"nosleep",LM="KCTest(\"https://old.reddit.com/r/nosleep/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Music",LM="KCTest(\"https://old.reddit.com/r/Music/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"space",LM="KCTest(\"https://old.reddit.com/r/space/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"food",LM="KCTest(\"https://old.reddit.com/r/food/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"UpliftingNews",LM="KCTest(\"https://old.reddit.com/r/UpliftingNews/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"EarthPorn",LM="KCTest(\"https://old.reddit.com/r/EarthPorn/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"Documentaries",LM="KCTest(\"https://old.reddit.com/r/Documentaries/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"InternetIsBeautiful",LM="KCTest(\"https://old.reddit.com/r/InternetIsBeautiful/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"WritingPrompts",LM="KCTest(\"https://old.reddit.com/r/WritingPrompts/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"creepy",LM="KCTest(\"https://old.reddit.com/r/creepy/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"philosophy",LM="KCTest(\"https://old.reddit.com/r/philosophy/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"announcements",LM="KCTest(\"https://old.reddit.com/r/announcements/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"listentothis",LM="KCTest(\"https://old.reddit.com/r/listentothis/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"blog",LM="KCTest(\"https://old.reddit.com/r/blog/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ -$MA-X+PU,"futbol",LM="KCTest(\"https://old.reddit.com/r/futbol/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+$MA-X+PU,"mais ¯",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"//a.thumbs.redditmedia.com/IrfPJGuWzi_ewrDTBlnULeZsJYGz81hsSQoQJyw6LD8.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ 
+þ $MA-X+PU,"populares",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"novos",LM="KCTest(\"https://old.reddit.com/r/AskReddit/new/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"subindo",LM="KCTest(\"https://old.reddit.com/r/AskReddit/rising/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"controversos",LM="KCTest(\"https://old.reddit.com/r/AskReddit/controversial/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"no topo",LM="KCTest(\"https://old.reddit.com/r/AskReddit/top/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"gilded",LM="KCTest(\"https://old.reddit.com/r/AskReddit/gilded/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"wiki",LM="KCTest(\"https://old.reddit.com/r/AskReddit/wiki/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+Want to join? $MA-X+PU,"Log in",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ or $MA-X+PU,"sign up",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ in seconds.|
+$ID,2$
+ 
+þ $MA-X+PU,"portugu‰s (*)",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+limit my search to r/AskReddit
+
+use the following search parameters to narrow your results:
+subreddit:$BLUE$subreddit$BLACK$$BG$
+find submissions in "subreddit"
+author:$BLUE$username$BLACK$$BG$
+find submissions by "username"
+site:$BLUE$example.com$BLACK$$BG$
+find submissions from "example.com"
+url:$BLUE$text$BLACK$$BG$
+search for "text" in url
+selftext:$BLUE$text$BLACK$$BG$
+search for "text" in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+$MA-X+PU,"see the search faq for details.",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$MA-X+PU,"advanced search: by author, subreddit...",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+
+
+
+
+lembrar de mim$MA-X+PU,"redefinir senha",LM="KCTest(\"/password\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-UL+B,"login"$
+
+
+
+
+
+$MA-X+PU,"Ask a question",LM="KCTest(\"https://old.reddit.com/r/AskReddit/submit?selftext=true\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Get an ad-free experience with special benefits, and directly support Reddit.get reddit premium"$
+
+
+$PURPLE$$ID,2$$MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$BLACK$$BG$$ID,-2$
+$MA-X+PU,"join",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"sair",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$30.468.043 leitores
+132.791 users here now
+
+
+
+$ID,7$$MA-X+PU," [ SERIOUS ] ",LM="KCTest(\"http://www.reddit.com/r/askreddit/submit?selftext=true&amp;title=%5BSerious%5D\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+$ID,6$$MA-X+PU,"Rules",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_rules\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$:$BLACK$$BG$$ID,-6$
+
+
+$ID,2$
+ þ You must post a clear and direct question in the title. The title may contain two, short, necessary context sentences.
+No text is allowed in the textbox. Your thoughts/responses to the question can go in the comments section. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_1-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Any post asking for advice should be generic and not specific to your situation alone. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_2-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Askreddit is for open-ended discussion questions. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_3-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Posting, or seeking, any identifying personal information, real or fake, will result in a ban without a prior warning. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_4-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Askreddit is not your soapbox, personal army, or advertising platform. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_5-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ [Serious] tagged posts are off-limits to jokes or irrelevant replies. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_6-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Soliciting money, goods, services, or favours is not allowed. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_7-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Mods reserve the right to remove content or restrict users' posting privileges as necessary if it is deemed detrimental to the subreddit or to the experience of others. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_8-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+þ Comment replies consisting solely of images will be removed. $MA-X+PU,"more >>",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_9-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+$ID,-2$
+
+
+$ID,6$If you think your post has disappeared, see spam or an inappropriate post, please do not hesitate to $MA-X+PU,"contact the mods",LM="KCTest(\"https://www.reddit.com/message/compose?to=%2Fr%2FAskReddit\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$, we're happy to help.$BLACK$$BG$$ID,-6$
+
+
+------------------------------------------------------------------------------
+
+
+$DKGRAY$$ID,5$Tags to use:$BLACK$$BG$$ID,-5$
+
+
+$ID,2$
+ $RED$$ID,3$$MA-X+PU,"[Serious]",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/index#wiki_-rule_6-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$BLACK$$BG$$ID,-3$
+
+$ID,-2$
+
+
+$BLUE$$ID,4$Use a $IV,1$[Serious]$IV,0$ post tag to designate your post as a serious, on-topic-only thread.$BLACK$$BG$$ID,-4$
+
+
+$RED$$ID,3$$BLACK$$BG$$ID,-3$
+
+
+$DKGRAY$$ID,5$Filter posts by subject:$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"Mod posts",LM="KCTest(\"http://ud.reddit.com/r/AskReddit/#ud\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"Serious posts",LM="KCTest(\"http://dg.reddit.com/r/AskReddit/#dg\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"Megathread",LM="KCTest(\"http://bu.reddit.com/r/AskReddit/#bu\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"Breaking news",LM="KCTest(\"http://nr.reddit.com/r/AskReddit/#nr\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"Unfilter",LM="KCTest(\"/r/AskReddit\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+$RED$$ID,3$$BLACK$$BG$$ID,-3$
+
+
+$BLUE$$ID,4$Please use spoiler tags to hide spoilers. >!insert spoiler here!<$BLACK$$BG$$ID,-4$
+
+
+$RED$$ID,3$$BLACK$$BG$$ID,-3$
+
+
+$DKGRAY$$ID,5$Other subreddits you might like:$BLACK$$BG$$ID,-5$
+
+
+$ID,2$$WW,0$
+
+$IV,1$some$IV,0$	
+$IV,1$header$IV,0$	
+
+
+
+
+
+$MA-X+PU,"Ask Others",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_ask_others\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+$MA-X+PU,"Self & Others",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_self_.26amp.3B_others\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+
+
+
+$MA-X+PU,"Find a subreddit",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_find_a_subreddit\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+$MA-X+PU,"Learn something",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_learn_something\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+
+
+
+$MA-X+PU,"Meta Subs",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_meta\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+$MA-X+PU,"What is this ___",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_what_is_this______\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+
+
+
+$MA-X+PU,"AskReddit Offshoots",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_askreddit_offshoots\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+$MA-X+PU,"Offers & Assistance",LM="KCTest(\"https://www.reddit.com/r/AskReddit/wiki/sidebarsubs#wiki_offers_.26amp.3B_assistance\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$	
+
+
+$ID,-2$$WW,1$
+
+
+$RED$$ID,3$$BLACK$$BG$$ID,-3$
+
+
+$BLUE$$ID,4$Ever read the reddiquette? $MA-X+PU,"Take a peek!",LM="KCTest(\"/wiki/reddiquette\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"#/RES_SR_Config/NightModeCompatible\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+
+
+
+a community for 12 anos
+
+
+
+
+$PURPLE$$ID,2$MODERADORES$BLACK$$BG$$ID,-2$
+
+$ID,2$
+ þ $MA-X+PU,"message the mods",LM="KCTest(\"/message/compose/?to=/r/AskReddit\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"krispykrackers",LM="KCTest(\"https://old.reddit.com/user/krispykrackers\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"flyryan",LM="KCTest(\"https://old.reddit.com/user/flyryan\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"Ooer",LM="KCTest(\"https://old.reddit.com/user/Ooer\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"roastedbagel",LM="KCTest(\"https://old.reddit.com/user/roastedbagel\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ani625",LM="KCTest(\"https://old.reddit.com/user/ani625\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"TheJackal8",LM="KCTest(\"https://old.reddit.com/user/TheJackal8\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"sexrockandroll",LM="KCTest(\"https://old.reddit.com/user/sexrockandroll\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"e36",LM="KCTest(\"https://old.reddit.com/user/e36\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"IranianGenius",LM="KCTest(\"https://old.reddit.com/user/IranianGenius\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"-eDgAR-",LM="KCTest(\"https://old.reddit.com/user/-eDgAR-\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"...and 14 more ¯",LM="KCTest(\"/r/AskReddit/about/moderators\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$MA-X+PU,"Welcome to Reddit,the front page of the internet.Become a Redditorand join one of thousands of communities.",LM="KCTest(\"/login\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"X",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+
+
+69.0k
+69.0k
+69.0k
+
+
+$MA-X+PU,"Moratorium on questions related to US Politics",LM="KCTest(\"/r/AskReddit/comments/j44ppb/moratorium_on_questions_related_to_us_politics/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$Modpost ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+
+submitted 1 m‰s ago by $MA-X+PU,"AskRedditModerators",LM="KCTest(\"https://old.reddit.com/user/AskRedditModerators\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$[$MA-X+PU,"M",LM="KCTest(\"/r/AskReddit/about/moderators\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$]$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/b9ks3a5k7jj41_WholesomeSealofApproval.png?width=48&amp;height=48&amp;auto=webp&amp;s=913e99a6f6688f26c08dcb411f043f71b17df931\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Starstruck_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Timeless_512.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/vu6om0xnb7e41_This.png?width=48&amp;height=48&amp;auto=webp&amp;s=597adeb2d7ab45cc61a726b7c7d6877d264ee33d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/9r7hexe6pta41_SnooNice.png?width=48&amp;height=48&amp;auto=webp&amp;s=889cfffb8b939e7a670256c3030b1962ca1fc418\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Animated_Helpful_512.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClapping_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Awwsome2_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+47$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/CrabRave_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/2jd92wtn25g41_ImDeceased.png?width=48&amp;height=48&amp;auto=webp&amp;s=8edd0f4ef9ade0afbf0432c8e94a7dcd3cd1ccf2\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+68$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/trfv6ems1md41_BlessUp.png?width=48&amp;height=48&amp;auto=webp&amp;s=c740f7ef642fd2042d62c2bcba98734d08dfae6c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+44$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+26$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/45aeu8mzvsj51_IllDrinktoThat.png?width=48&amp;height=48&amp;auto=webp&amp;s=0763517837b22d5e414dd330d5006c0d89ccb499\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/x069ow7ewnf51_Excited.png?width=48&amp;height=48&amp;auto=webp&amp;s=63a8f5eff627778a221c58daffbfbbb87b7fe350\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+37$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/18mwqw5th9e51_MURICA.png?width=48&amp;height=48&amp;auto=webp&amp;s=7b7de78f9bb4ae6dfa33242cf3596647e4d00d2f\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+55$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/lcswc5d07hb51_WearingisCaring.png?width=48&amp;height=48&amp;auto=webp&amp;s=d19c39d1fcfc71fe7f4eb2ba1a52d18d8f063b6e\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://i.redd.it/award_images/t5_22cerq/k0qzautvyyk51_LookingBusy.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/3ekkailk5s551_Iamdisappoint.png?width=48&amp;height=48&amp;auto=webp&amp;s=2f60e5e9ab8e3b6ab2c9a79f73bd9335a4d76cbc\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/1m9abin81nc51_CoolSummer.png?width=48&amp;height=48&amp;auto=webp&amp;s=776256c47db66ef974dd2f054cdee57b7ff0bcb0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5nswjpyy44551_Ally.png?width=48&amp;height=48&amp;auto=webp&amp;s=723e4e932c9692ac61cf5b7509424c6ae1b5d220\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/qi4vlfhmnct51_CandyCornUpvote.png?width=48&amp;height=48&amp;auto=webp&amp;s=231e549320109d5f698fe8659987842b2ae05984\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"& 325 more",LM="KCTest(\"/r/AskReddit/gilded\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ - announcement
+$ID,2$
+ þ $MA-X+PU,"2 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/j44ppb/moratorium_on_questions_related_to_us_politics/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+1
+
+
+39.6k
+39.6k
+39.6k
+
+
+$MA-X+PU,"What do you think is stopping aliens from killing us all?",LM="KCTest(\"/r/AskReddit/comments/jxncwo/what_do_you_think_is_stopping_aliens_from_killing/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 12 horas ago by $MA-X+PU,"strawwberrii",LM="KCTest(\"https://old.reddit.com/user/strawwberrii\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Rocket_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+41$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+28$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+43$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+33$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+27$MA-X+PU,"& 60 more",LM="KCTest(\"/r/AskReddit/gilded\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"15486 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxncwo/what_do_you_think_is_stopping_aliens_from_killing/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+2
+
+
+13.4k
+13.4k
+13.4k
+
+
+$MA-X+PU,"What was your "oh shit I might not be straight" moment?",LM="KCTest(\"/r/AskReddit/comments/jxow2l/what_was_your_oh_shit_i_might_not_be_straight/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 10 horas ago by $MA-X+PU,"UnsettlingAura",LM="KCTest(\"https://old.reddit.com/user/UnsettlingAura\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Timeless_512.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5nswjpyy44551_Ally.png?width=48&amp;height=48&amp;auto=webp&amp;s=723e4e932c9692ac61cf5b7509424c6ae1b5d220\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"& 14 more",LM="KCTest(\"/r/AskReddit/gilded\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4041 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxow2l/what_was_your_oh_shit_i_might_not_be_straight/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+3
+
+
+2426
+2427
+2428
+
+
+$MA-X+PU,"What other food argument is as heated as pineapple on pizza?",LM="KCTest(\"/r/AskReddit/comments/jxqo58/what_other_food_argument_is_as_heated_as/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"smackjackss",LM="KCTest(\"https://old.reddit.com/user/smackjackss\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"3221 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxqo58/what_other_food_argument_is_as_heated_as/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFRDtjjTO67_AWsGNXlQ5h-h2c5Lc11nHzz-wO3gymlrHFv90PKaZsnEvbeZrqnHD2A1kpavisQevGcJ0CL4-jPb7aA8vXK7If0koiyHogCmDW0i7C-8LZWO6GnOOwd5AcOCL5ULbfd17kpgE19OmXWSFE5hpQ98oYoq4CXkZ9NXNy8=\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+4
+
+
+6396
+6397
+6398
+
+
+$MA-X+PU,"What has 2020 taught you?",LM="KCTest(\"/r/AskReddit/comments/jxnow0/what_has_2020_taught_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 10 horas ago by $MA-X+PU,"HumanSieve",LM="KCTest(\"https://old.reddit.com/user/HumanSieve\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3
+$ID,2$
+ þ $MA-X+PU,"3502 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxnow0/what_has_2020_taught_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+5
+
+
+2610
+2611
+2612
+
+
+$MA-X+PU,"[Serious]Since it was international men's day yesterday, what's one thing men struggle with?",LM="KCTest(\"/r/AskReddit/comments/jxpriu/serioussince_it_was_international_mens_day/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$Serious Replies Only ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 9 horas ago by $MA-X+PU,"LifeTopic",LM="KCTest(\"https://old.reddit.com/user/LifeTopic\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1858 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxpriu/serioussince_it_was_international_mens_day/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+6
+
+
+1911
+1912
+1913
+
+
+$MA-X+PU,"Microsoft comes out with Windows 2020, which is just as bad as this year. What are some of the problems with it?",LM="KCTest(\"/r/AskReddit/comments/jxpsyh/microsoft_comes_out_with_windows_2020_which_is/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 9 horas ago by $MA-X+PU,"mccrob22",LM="KCTest(\"https://old.reddit.com/user/mccrob22\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2
+$ID,2$
+ þ $MA-X+PU,"883 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxpsyh/microsoft_comes_out_with_windows_2020_which_is/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+7
+
+
+881
+882
+883
+
+
+$MA-X+PU,"What Youtube channel has the best content to get lost in for hours on end?",LM="KCTest(\"/r/AskReddit/comments/jxtrvr/what_youtube_channel_has_the_best_content_to_get/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 5 horas ago by $MA-X+PU,"Jumbo_Cactaur",LM="KCTest(\"https://old.reddit.com/user/Jumbo_Cactaur\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1167 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxtrvr/what_youtube_channel_has_the_best_content_to_get/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+8
+
+
+968
+969
+970
+
+
+$MA-X+PU,"Guys, if you found out your girl was lowkey your stalker before you were together, if she's a good person and respects your space(not stalkerish now) how would you feel?",LM="KCTest(\"/r/AskReddit/comments/jxnibq/guys_if_you_found_out_your_girl_was_lowkey_your/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 12 horas ago by $MA-X+PU,"RoyalCannabisLeaf",LM="KCTest(\"https://old.reddit.com/user/RoyalCannabisLeaf\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2
+$ID,2$
+ þ $MA-X+PU,"516 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxnibq/guys_if_you_found_out_your_girl_was_lowkey_your/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+9
+
+
+1437
+1438
+1439
+
+
+$MA-X+PU,"Who is your most hated character, not someone you `love-to-hate' or `badly written', but genuinely you want them to suffer and die in the worst way possible because of their character?",LM="KCTest(\"/r/AskReddit/comments/jxlw83/who_is_your_most_hated_character_not_someone_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 14 horas ago by $MA-X+PU,"DreamConsumerist",LM="KCTest(\"https://old.reddit.com/user/DreamConsumerist\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5nswjpyy44551_Ally.png?width=48&amp;height=48&amp;auto=webp&amp;s=723e4e932c9692ac61cf5b7509424c6ae1b5d220\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1965 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxlw83/who_is_your_most_hated_character_not_someone_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+10
+
+
+397
+398
+399
+
+
+$MA-X+PU,"Older Gamers of Reddit, when people say: "You're still playing video games!?", what do you tell them back?",LM="KCTest(\"/r/AskReddit/comments/jxr1ie/older_gamers_of_reddit_when_people_say_youre/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 8 horas ago by $MA-X+PU,"terenandceleste",LM="KCTest(\"https://old.reddit.com/user/terenandceleste\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"448 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxr1ie/older_gamers_of_reddit_when_people_say_youre/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+11
+
+
+523
+524
+525
+
+
+$MA-X+PU,"Redditers with body dysmorphia, what is it like?",LM="KCTest(\"/r/AskReddit/comments/jxolp3/redditers_with_body_dysmorphia_what_is_it_like/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 10 horas ago by $MA-X+PU,"yagirl_istired",LM="KCTest(\"https://old.reddit.com/user/yagirl_istired\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$[$MA-X+PU,"&#x1F370;",LM="KCTest(\"/user/yagirl_istired\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$]$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"252 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxolp3/redditers_with_body_dysmorphia_what_is_it_like/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+12
+
+
+517
+518
+519
+
+
+$MA-X+PU,"[Serious] What have you always wanted to ask a dwarf/little person, but have never been able to?",LM="KCTest(\"/r/AskReddit/comments/jxntkr/serious_what_have_you_always_wanted_to_ask_a/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$Serious Replies Only ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 11 horas ago by $MA-X+PU,"Usidore_",LM="KCTest(\"https://old.reddit.com/user/Usidore_\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"446 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxntkr/serious_what_have_you_always_wanted_to_ask_a/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+13
+
+
+5128
+5129
+5130
+
+
+$MA-X+PU,"Dr. Pepper drinkers of Reddit, if there is no Dr. Pepper available what is your next choice of drink?",LM="KCTest(\"/r/AskReddit/comments/jxf79d/dr_pepper_drinkers_of_reddit_if_there_is_no_dr/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 22 horas ago by $MA-X+PU,"jorinwonderland",LM="KCTest(\"https://old.reddit.com/user/jorinwonderland\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2
+$ID,2$
+ þ $MA-X+PU,"2618 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxf79d/dr_pepper_drinkers_of_reddit_if_there_is_no_dr/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+14
+
+
+183
+184
+185
+
+
+$MA-X+PU,"[Serious] People who fix computers for a living, what was the weirdest/scariest thing you've seen on somebody's computer?",LM="KCTest(\"/r/AskReddit/comments/jxrx0t/serious_people_who_fix_computers_for_a_living/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$Serious Replies Only ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"AnonymousBoyOnReddit",LM="KCTest(\"https://old.reddit.com/user/AnonymousBoyOnReddit\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"161 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxrx0t/serious_people_who_fix_computers_for_a_living/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+15
+
+
+669
+670
+671
+
+
+$MA-X+PU,"Have you ever suddenly realized you are driving when you're driving? Sometimes I just forget that I'm performing the function of driving. I think, "Oh shit, I'm actually driving a vehicle right now." Anybody else experience this?",LM="KCTest(\"/r/AskReddit/comments/jxlrcu/have_you_ever_suddenly_realized_you_are_driving/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 14 horas ago by $MA-X+PU,"parsamirz",LM="KCTest(\"https://old.reddit.com/user/parsamirz\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"146 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxlrcu/have_you_ever_suddenly_realized_you_are_driving/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+16
+
+
+5115
+5116
+5117
+
+
+$MA-X+PU,"Without providing the question, what's your answer?",LM="KCTest(\"/r/AskReddit/comments/jxebz8/without_providing_the_question_whats_your_answer/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 23 horas ago by $MA-X+PU,"oo_oo_ah_ah_",LM="KCTest(\"https://old.reddit.com/user/oo_oo_ah_ah_\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClappingPremium_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/j3azv69qjfn51_LOVE.png?width=48&amp;height=48&amp;auto=webp&amp;s=da1e45654f5acfb6be44fa07c168ad6420796f56\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"& 16 more",LM="KCTest(\"/r/AskReddit/gilded\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4604 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxebz8/without_providing_the_question_whats_your_answer/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+17
+
+
+98
+99
+100
+
+
+$MA-X+PU,"Window Cleaners of Reddit, what is the weirdest shit you've seen while cleaning someone's windows...?",LM="KCTest(\"/r/AskReddit/comments/jxushh/window_cleaners_of_reddit_what_is_the_weirdest/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 5 horas ago by $MA-X+PU,"Mad-Wings",LM="KCTest(\"https://old.reddit.com/user/Mad-Wings\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"44 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxushh/window_cleaners_of_reddit_what_is_the_weirdest/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+18
+
+
+99.4k
+99.4k
+99.4k
+
+
+$MA-X+PU,"Doctors of reddit, what's it like when you go in for a doctors appointment? Do you and your doctor discuss what's wrong with you like it's a group project? Do you not go at all because you're your own doctor?",LM="KCTest(\"/r/AskReddit/comments/jx6m5s/doctors_of_reddit_whats_it_like_when_you_go_in/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 1 dia ago by $MA-X+PU,"Still-Tangerine2782",LM="KCTest(\"https://old.reddit.com/user/Still-Tangerine2782\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Illuminati_512.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+56$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/cr1mq4yysv541_CoinGift.png?width=48&amp;height=48&amp;auto=webp&amp;s=a913bad178f017a572393be1fc36013a4fa59803\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+32$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+30$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+32$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+26$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"& 121 more",LM="KCTest(\"/r/AskReddit/gilded\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"5623 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jx6m5s/doctors_of_reddit_whats_it_like_when_you_go_in/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFRDg3soDfAXWQtn0XT3X-iNguUsnEj2rA34WPD9J52DaqYgIndyDnHpVhyCxUFFuDwRVDel1ESjjQKP8m6Eqo6MuQU_1xrEGyrbt_hk3ak0kHPSO8H4CLw45D_47p68eXOjrJ5r7r2q6AO9wJE5IEHJiIoKuT82r2qUv5cXo08RYDk=\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+19
+
+
+54
+55
+56
+
+
+$MA-X+PU,"What's the creepiest or scariest scene in a non-horror movie?",LM="KCTest(\"/r/AskReddit/comments/jxwtvt/whats_the_creepiest_or_scariest_scene_in_a/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 3 horas ago by $MA-X+PU,"Logical-Lawfulness-5",LM="KCTest(\"https://old.reddit.com/user/Logical-Lawfulness-5\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"118 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxwtvt/whats_the_creepiest_or_scariest_scene_in_a/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+20
+
+
+123
+124
+125
+
+
+$MA-X+PU,"What is something dark enough to make one lose his faith in humanity?",LM="KCTest(\"/r/AskReddit/comments/jxrkj5/what_is_something_dark_enough_to_make_one_lose/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"takoyabest",LM="KCTest(\"https://old.reddit.com/user/takoyabest\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"324 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxrkj5/what_is_something_dark_enough_to_make_one_lose/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+21
+
+
+57
+58
+59
+
+
+$MA-X+PU,"You are in a literal food fight to the death, what is your weapon?",LM="KCTest(\"/r/AskReddit/comments/jxw3js/you_are_in_a_literal_food_fight_to_the_death_what/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 3 horas ago by $MA-X+PU,"ChronicCatathreniac",LM="KCTest(\"https://old.reddit.com/user/ChronicCatathreniac\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"204 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxw3js/you_are_in_a_literal_food_fight_to_the_death_what/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+22
+
+
+3303
+3304
+3305
+
+
+$MA-X+PU,"If you died today, what regrets would you have about your life?",LM="KCTest(\"/r/AskReddit/comments/jxdenf/if_you_died_today_what_regrets_would_you_have/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 1 dia ago by $MA-X+PU,"chillin-goodvibes",LM="KCTest(\"https://old.reddit.com/user/chillin-goodvibes\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/nvfe4gyawnf51_Dread.png?width=48&amp;height=48&amp;auto=webp&amp;s=287f90bae451c50dfa5076e5e70c30f7396421b2\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+6
+$ID,2$
+ þ $MA-X+PU,"2060 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxdenf/if_you_died_today_what_regrets_would_you_have/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+23
+
+
+1958
+1959
+1960
+
+
+$MA-X+PU,"What's one thing your mom doesn't know about you?",LM="KCTest(\"/r/AskReddit/comments/jxf7zm/whats_one_thing_your_mom_doesnt_know_about_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 22 horas ago by $MA-X+PU,"Clean_Lice",LM="KCTest(\"https://old.reddit.com/user/Clean_Lice\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1463 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxf7zm/whats_one_thing_your_mom_doesnt_know_about_you/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+24
+
+
+174
+175
+176
+
+
+$MA-X+PU,"You get a lifetime supply of your username. How awesome/weird is your life now?",LM="KCTest(\"/r/AskReddit/comments/jxoodm/you_get_a_lifetime_supply_of_your_username_how/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 10 horas ago by $MA-X+PU,"Nemarott",LM="KCTest(\"https://old.reddit.com/user/Nemarott\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"666 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxoodm/you_get_a_lifetime_supply_of_your_username_how/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+25
+
+
+37
+38
+39
+
+
+$MA-X+PU,"You wake up on a silver table, in a UFO, with 5 grey aliens staring at you, what's your first words?",LM="KCTest(\"/r/AskReddit/comments/jxxb2c/you_wake_up_on_a_silver_table_in_a_ufo_with_5/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ ($MA-X+PU,"self.AskReddit",LM="KCTest(\"/r/AskReddit/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$)
+submitted 2 horas ago by $MA-X+PU,"LoverBoyhuh",LM="KCTest(\"https://old.reddit.com/user/LoverBoyhuh\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"114 coment rios",LM="KCTest(\"https://old.reddit.com/r/AskReddit/comments/jxxb2c/you_wake_up_on_a_silver_table_in_a_ufo_with_5/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+ver mais: $MA-X+PU,"pr¢ximo >",LM="KCTest(\"https://old.reddit.com/r/AskReddit/?count=25&amp;after=t3_jxxb2c\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+
+$ID,2$
+ þ sobre
+þ $MA-X+PU,"blog",LM="KCTest(\"https://redditblog.com\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"sobre",LM="KCTest(\"https://www.redditinc.com\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"advertising",LM="KCTest(\"https://www.redditinc.com/advertising\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"careers",LM="KCTest(\"https://www.redditinc.com/careers\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ ajuda
+þ $MA-X+PU,"site rules",LM="KCTest(\"https://old.reddit.com/rules/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"Reddit help center",LM="KCTest(\"https://www.reddithelp.com\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"redditiqueta",LM="KCTest(\"https://old.reddit.com/wiki/reddiquette/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"mod guidelines",LM="KCTest(\"https://old.reddit.com/help/healthycommunities/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"contact us",LM="KCTest(\"https://old.reddit.com/contact/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ apps & tools
+þ $MA-X+PU,"Reddit for iPhone",LM="KCTest(\"https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"Reddit for Android",LM="KCTest(\"https://play.google.com/store/apps/details?id=com.reddit.frontpage\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"mobile website",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ <3
+þ $MA-X+PU,"reddit premium",LM="KCTest(\"https://old.reddit.com/premium/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"reddit coins",LM="KCTest(\"https://old.reddit.com/coins/\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+þ $MA-X+PU,"redditgifts",LM="KCTest(\"https://redditgifts.com\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+$ID,-2$
+
+
+O uso deste site constitui aceita€ƒo dos nossos $MA-X+PU,"User Agreement",LM="KCTest(\"https://old.reddit.com/help/useragreement\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$ e $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://old.reddit.com/help/privacypolicy\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$. (C) 2020 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+$MA-X+PU,"Advertise - lifestyles",LM="KCTest(\"/advertising\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"//reddit.com/static/pixel.png\",\"https://old.reddit.com:443/r/AskReddit/\");View;
+"$$BLACK$$BG$
+ã Rendered by PID 2364 on r2-app-01cf157c5388cdc16  at 2020-11-20 23:41:55.167093+00:00 running c04c886 country code: BR.
+$FG$

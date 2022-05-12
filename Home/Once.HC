@@ -46,7 +46,7 @@ PTBR_CTRL_KEY_SCAN_DECODE_TABLE::
 //NUM:0, CAPS:1 \	\	:	*	-
 //NUM:1, CAPS:1 \		:	*	-
 
-//              LShift	 Shift	Div	Mul	-
+//              LShift	 Shift	Div	Mul	-
 //NUM:0, CAPS:0 	 	;	*	-
 //NUM:1, CAPS:0 		/	*	-
 //NUM:0, CAPS:1 		:	*	-
@@ -127,6 +127,8 @@ U0 iniciar()
   setPTBRKeyboard();
   Adam("#include \"C:/Home/Net/SerialNetv2.HC\"");
   Adam("#include \"C:/Home/Net/CustomMem.HC\"");
+  Adam("#include \"C:/Home/Net/HtmlFunctions.HC\"");
+
 }
 
 U0 Tmp()
@@ -164,7 +166,7 @@ U0 Tmp()
       //Type("::/Doc/Customize.DD");
       //if (FileFind("::/Misc/Tour")) {
 	//"\nTake Tour";
-	//if (YorN) {
+	//if (YorN) {
 	//  DocBottom;
 	//  Cd("::/Misc/Tour");
 	//  InFile("Tour");

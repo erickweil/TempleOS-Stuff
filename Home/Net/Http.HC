@@ -1,6 +1,4 @@
-// Uses Custom Memory
 // Adam include the following before this
-//#include "::/Home/Net/CustomMem"
 //#include "::/Home/Net/SerialNetv2"
 
 // Send HTTP requests
@@ -13,86 +11,7 @@
 
 U8 *USER_AGENT = "TempleOS COM Port Tunneled Internet";
 
-public class DocNodeAttr {
-  // Name of the Attribute
-  U8 *name;
-  // value or NULL if empty
-  U8 *value;
-  // Next Attr of the list
-  DocNodeAttr *next;
-};
 
-DocNodeAttr *DocNodeAttrNew(U8 *name,U8 *value=NULL)
-{// Create a new DocNodeAttr DocNodeAttrDel
-  DocNodeAttr *res;
-  res=CMCAlloc(sizeof(DocNodeAttr));
-  
-  //if(name && StrLen(name)>0)
-  //{
-  //  res->name = CMCAlloc(StrLen(name)+1);
-  //  StrCpy(res->name,name);
-  //}
-  //else
-  //  res->name = NULL;
-  res->name = CMStr(name);
-  res->value = CMStr(value);
-
-  res->next=NULL;
-  return res;
-}
-
-U0 DocNodeAttrDel(DocNodeAttr *dattr,I64 doNext=FALSE)
-{//Don't free the next
-  if (!dattr) return;
-
-//  dattr->next = NULL;
-
-  if(dattr->name)
-    CMFree(dattr->name);
-//  dattr->name = NULL;
-
-  if(dattr->value)
-    CMFree(dattr->value);
-//  dattr->value = NULL;
-  
-//  CMFree(dattr);
-
-
-  DocNodeAttr *_dattr;
-  if(!doNext)
-  {
-    CMFree(dattr);
-  }
-  else
-  {
-    _dattr = dattr;
-    dattr = dattr->next;
-    CMFree(_dattr); 
-
-    while(dattr)
-    {
-      _dattr = dattr;
-      dattr = dattr->next;
-      DocNodeAttrDel(_dattr,FALSE);
-    }
-  }
-
-
-}
-
-U8 *DocNodeSearchAttr(DocNodeAttr *attr,U8 *name,U8 *ret=NULL)
-{
-  //DocNodeAttr *attr = dc->attr;
-  while(attr != NULL)
-  {
-    if(attr->name && StrICmp(attr->name,name)==0)
-    {
-      return attr->value;
-    }
-    attr = attr->next;
-  }
-  return ret;
-}
 
 // Iterator
 // This way each buffer sized processing can take up to 5 secs
@@ -105,9 +24,9 @@ I64 iter_read=-1;
 
 U0 HttpResetIter()
 {
-  if(iterBuffer) CMFree(iterBuffer);
+  if(iterBuffer) Free(iterBuffer);
 
-  iterBuffer = CMCAlloc(ITER_SIZE+1);
+  iterBuffer = CAlloc(ITER_SIZE+1);
   iter_i=0;
   iter_k=0;
   iter_len=0;
@@ -341,16 +260,19 @@ return k;
 
 
 
+
 
-
-U0 HttpGet(U8 *host,U8 *port,U8 *path,I64 printOut=1)
+U0 HttpGet(U8 *host,U8 *port,U8 *path,U8 *cookies=NULL,I64 printOut=1)
 {
 
+if(!cookies) cookies = "_nullcookie=null";
+
 TunnelConnect(host,port,
-"GET %s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nAccept-Charset:utf-8\r\n\r\n",
+"GET %s HTTP/1.1\r\nHost: %s\r\nConnection: close\r\nCache-Control: max-age=0\r\nUser-Agent: %s\r\nAccept: */*\r\nUpgrade-Insecure-Requests: 0\r\nAccept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7\r\nAccept-Charset:utf-8\r\nCookie: %s\r\n\r\n",
 path,
 host,
-USER_AGENT
+USER_AGENT,
+cookies
 );
 
 if(printOut  == 1)
@@ -365,7 +287,7 @@ DocNodeAttr *HttpParseHeaders(U8 *_buffer=NULL,I64 max=1024)
 {
   U8 *buffer;
   if(!_buffer)
-    buffer = CMCAlloc(1025);
+    buffer = CAlloc(1025);
   else
     buffer = _buffer;
   I64 last;
@@ -392,9 +314,9 @@ DocNodeAttr *HttpParseHeaders(U8 *_buffer=NULL,I64 max=1024)
     Print("%49ts\n",buffer);
  
     if(buffer[0] == ' ')
-    newHeader->value = CMStr(buffer+1);
+    newHeader->value = StrNew(buffer+1);
     else
-    newHeader->value = CMStr(buffer);
+    newHeader->value = StrNew(buffer);
     
     lastHeader->next = newHeader;
     lastHeader = newHeader;
@@ -403,7 +325,7 @@ DocNodeAttr *HttpParseHeaders(U8 *_buffer=NULL,I64 max=1024)
   Print("\nEnd Headers\n\n");
 
   if(!_buffer)
-    CMFree(buffer);    
+    Free(buffer);    
 
   return firstHeader;
 }

@@ -1,0 +1,599 @@
+URL:
+$MA-X+PU,"https://www.google.com:443/search?q=Cookies",LM="KCTest(\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+$WW,1$$BLACK$37bd
+
+$PURPLE$$TX+CX,"Cookies - Pesquisa Google"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"Google",LM="KCTest(\"/?sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QOwgC\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"Google",LM="KCTest(\"/?output=search&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QPAgE\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+×
+
+
+
+$MA-UL+B,""$
+
+Clique $MA-X+PU,"a
+
+53
+
+qui",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;gbv=1&amp;sei=_7e3X5aXIuOc5OUP5du86A4\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$ se você não for redirecionado em alguns segundos.
+
+
+
+
+133c
+
+ Todas$MA-X+PU,"Imagens",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUICCgB\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$MA-X+PU,"Shopping",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnms&amp;tbm=shop&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUICSgC\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$MA-X+PU,"Vídeos",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUICigD\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$ $MA-X+PU,"Maps",LM="KCTest(\"https://maps.google.com/maps?q=Cookies&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUICygE\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$ $MA-X+PU,"Notícias",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUIDCgF\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$ $MA-X+PU,"Livros",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q_AUIDSgG\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$ 
+$MA-X+PU,"Ferramentas de pesquisa",LM="KCTest(\"/advanced_search\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+ 
+
+
+
+Em qualquer idioma
+
+$ID,2$
+ þ Em qualquer idioma
+þ $MA-X+PU,"Pesquisar páginas em Português",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIDw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$ID,-2$
+
+Em qualquer data
+
+$ID,2$
+ þ Em qualquer data
+þ $MA-X+PU," Na última hora",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIEQ\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+þ $MA-X+PU," Nas últimas 24 horas",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIEg\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+þ $MA-X+PU," Na última semana",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIEw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+þ $MA-X+PU," No último mês",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIFA\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+þ $MA-X+PU," No último ano",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIFQ\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$ID,-2$
+
+Todos os resultados
+
+$ID,2$
+ þ Todos os resultados
+þ $MA-X+PU,"Ao pé da letra",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QpwUIFw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+8000
+
+
+$MA-X+PU,"Cookie americano - TudoGostosowww.tudogostoso.com.br > Lanches",LM="KCTest(\"/url?q=https://www.tudogostoso.com.br/receita/94434-cookie-americano-perfeito.html&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAAegQIDBAB&amp;usg=AOvVaw1t2RFn-jQxpRk76nfC9Crw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+Classificação 4,0 
+
+(917) · 40 min
+
+Descubra como fazer cookie com gotas de chocolate aqui no TudoGostoso. ... Originalmente, os cookies eram pedaços de massa de bolo que iam ao forno ...
+
+
+
+
+
+
+
+
+$MA-X+PU,"Cookie de Chocolate | Receitas Gshow | Gshowgshow.globo.com > cookie-de-chocolate-536d30d04d38857f66000043",LM="KCTest(\"/url?q=https://gshow.globo.com/receitas-gshow/receitas/cookie-de-chocolate-536d30d04d38857f66000043.ghtml&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjABegQIDxAB&amp;usg=AOvVaw1Aacr2_1J4WgMz8XlXZTKn\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+Classificação 3,0 
+
+(9) · 40 min
+
+9 de mai. de 2014 · Nesta receita, você aprende a fazer um delicioso cookie com chocolate meio amargo, essência de baunilha e açúcar mascavo. Depois de ...
+
+
+
+
+
+
+
+
+$RED$$ID,3$As pessoas também perguntam
+$BLACK$$BG$$ID,-3$
+
+O que é os cookies do navegador?
+
+
+
+
+
+
+
+
+
+
+Por que se chama cookie?
+
+
+
+
+
+
+
+
+
+
+Como funcionam os cookies?
+
+
+
+
+
+
+
+
+
+
+Onde surgiram os cookies?
+
+
+
+
+
+
+
+
+
+
+$MA-X+PU,"MELHOR RECEITA DE COOKIES QUE VOCÊ VAI ACHAR - MUITO ...www.youtube.com > watch",LM="KCTest(\"/url?q=https://www.youtube.com/watch%3Fv%3DVt86KJlFrZY&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QtwIwCnoECAEQAQ&amp;usg=AOvVaw092z_4L6c0qTTpUD8J-rLt\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+
+
+
+19 de mar. de 2020 · MELHOR RECEITA DE COOKIES QUE VOCÊ VAI ACHAR - MUITO FÁCIL E RÁPIDO DE ...Duração: 4:15
+Data da postagem: 19 de mar. de 2020
+
+
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+Bolacha
+
+Informação Nutricional
+
+
+
+
+$ID,2$$WW,0$Quantidade por 100 gramas
+
+		
+Calorias 502
+
+		
+
+	
+
+% de valores diários*
+
+	
+Gorduras Totais 24 g
+
+	
+
+36%
+
+	
+Gorduras Saturadas 6 g
+
+	
+
+30%
+
+	
+Gorduras Poliinsaturadas 3,2 g
+
+		
+Gorduras Monoinsaturadas 13 g
+
+		
+Colesterol 20 mg
+
+	
+
+6%
+
+	
+Sódio 524 mg
+
+	
+
+21%
+
+	
+Potássio 100 mg
+
+	
+
+2%
+
+	
+Carboidratos 65 g
+
+	
+
+21%
+
+	
+Fibra Alimentar 1,8 g
+
+	
+
+7%
+
+	
+Açúcar 15 g
+
+		
+Proteínas 6 g
+
+	
+
+12%
+
+	
+Cafeína 0 mg
+
+		
+Vitamina A
+
+	
+
+1%
+
+	
+Vitamina C
+
+	
+
+0%
+
+	
+Cálcio
+
+	
+
+3%
+
+	
+Ferro
+
+	
+
+15%
+
+	
+Vitamina D
+
+	
+
+1%
+
+	
+Vitamina B6
+
+	
+
+5%
+
+	
+Cobalamina
+
+	
+
+1%
+
+	
+Magnésio
+
+	
+
+4%
+
+	
+$ID,-2$$WW,1$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$RED$$ID,3$Ver resultados relacionados
+$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"Cookie (Informática)Um cookie, no âmbito do protocolo de comunicação HTTP usado na Internet, é um pequeno arquivo de computador ou pacote de dados enviados por um site de Internet para o navegador do usuário, quando o utilizador visita o site.",LM="KCTest(\"/search?ie=UTF-8&amp;q=Cookie&amp;stick=H4sIAAAAAAAAAONgVuLUz9U3SDG0KM4GAIeECvsNAAAA&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q6RMwGXoECAIQAw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+$MA-X+PU,"Cookies com Gotas de Chocolate ao Leite Garoto | Receitas Nestléwww.receitasnestle.com.br > Receitas",LM="KCTest(\"/url?q=https://www.receitasnestle.com.br/receitas/cookies-com-gotas-de-chocolate-ao-leite-garoto&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAaegQIBRAB&amp;usg=AOvVaw0S4TZk_Ukf6Guuy9Or6K1Y\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+Classificação 4,0 
+
+(6) · 40 min
+
+Leve à geladeira por 10 minutos. Modele os cookies com o auxílio de 2 colheres e coloque em uma assadeira, deixando um espaço entre eles. Finalize com as ...
+
+
+
+
+
+
+
+
+
+
+
+$LTBLUE$(IMG Swap)$MA-X+PU,"Download Img",LM="KCTest(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAmUlEQVR4Ae3SsQrDMAyEYb/0zbbsJH3lDIFrByNMcSiUc5dK/56PWEoxv5gYGArStyV8qoKvbBXQwF5dAWzgUFMDO/jWpgQOcNKuAh7gTYcCyDg99k4vS8/UAf2ZBhAAewEE8A+AF0AAEiDj8ti7vKz4gwbeVFVPVMFJJtzBhDD1kg0cKvorGomy6kyLf14POFGQlgFeAAE8AfyDgM78w+0GAAAAAElFTkSuQmCC\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$BLACK$$BG$
+Detectar idiomaÄÄÄÄÄÄÄÄÄÄinglêsalemãoespanholfrancêsportuguêsÄÄÄÄÄÄÄÄÄÄVer todos os idiomas
+
+$LTBLUE$(IMG Clear)$MA-X+PU,"Download Img",LM="KCTest(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAzElEQVRYw+2WWwqEMAxFAy7S1zrugtQiLrKQ+RscKzZp0w+H3O/2HAjtJUQej+dvgw4Bvfj0jBWdDn+AEWUKzIhg7AoFAhgMRsQgxDMYm1wwfC9lFCd8lI9UrCjGJ4rRHE9EhPFJUY1/VpjgE8VkjiciwnRVmOJThTk+UdjjL2NpgU8U9vjmgsYj+nk5Ud60Jfhe3rRFeF2ZF+FlTVuFzzdtNd5Eke+c+6Y1w983rSm+QoFV/l9PikWzeO3qxStodzvd6rio8B6P52X5AO0Up+FtlvwxAAAAAElFTkSuQmCC\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$BLACK$$BG$
+
+
+------------------------------------------------------------------------------
+portuguêsalemãoespanholfrancêsinglêsÄÄÄÄÄÄÄÄÄÄVer todos os idiomas
+Tradução
+Biscoitos
+$MA-UL+B,"Traduzir"$
+
+
+
+
+
+$MA-X+PU,"Cookies com gotas de chocolate - Panelinhawww.panelinha.com.br > receita > cookie-com-gotas-de-chocolate",LM="KCTest(\"/url?q=https://www.panelinha.com.br/receita/cookie-com-gotas-de-chocolate&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAcegQICRAB&amp;usg=AOvVaw2VAu27EAGxW3_mR3tRTmso\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+Quem acompanha a Rita nas redes sociais vai vibrar com a novidade: a Dora, filha dela, passou a receita dos cookies perfeitos! Na casa da Rita, o preparo é ...
+
+
+
+
+
+
+
+$MA-X+PU,"Cookies de chocolate - Panelinhawww.panelinha.com.br > receita > Cookies-de-chocolate",LM="KCTest(\"/url?q=https://www.panelinha.com.br/receita/Cookies-de-chocolate&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAdegQIBhAB&amp;usg=AOvVaw2CHHPpGYP-x1DHCGtVeloR\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+Uma deliciosa contribuição da cozinha norte-americana para o mundo são os cookies. Biscoitos crocantes com gotas de chocolate que derretem na boca.
+
+
+
+
+
+
+
+$MA-X+PU,"6 segredos para fazer os melhores cookies do mundo - Eu como simwww.eucomosim.com > receitas > 6-segredos-para-fazer-o-cookie-perfeito",LM="KCTest(\"/url?q=https://www.eucomosim.com/receitas/6-segredos-para-fazer-o-cookie-perfeito/&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAeegQIDRAB&amp;usg=AOvVaw0KouEjEhqhkiQVhwbcIXnZ\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+Sal amplifica o sabor do chocolate e diminui a doçura, tornado o cookie mais equilibrado. Boas receitas de cookies pedem sal. 5 - Reconsidere a sua assadeira.
+
+
+
+
+
+
+
+
+
+$RED$$ID,3$Cookies
+$BLACK$$BG$$ID,-3$
+
+perto de St. 03, Guajará-Mirim - RO
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+$MA-X+PU,"Padaria Guajará 3,9 (11) Padaria · Av. Nossa Sra. de Fátima, 1632-1738",LM="KCTest(\"https://www.google.com/search?ie=UTF-8&amp;q=Padaria+Guajar%C3%A1+Guajar%C3%A1-Mirim+-+RO&amp;ludocid=8283810934402463311&amp;ibp=gwp;0,7&amp;lsig=AB86z5WrcBl_GrFPqj-m2ATqFQCC&amp;phdesc=l7odQC8CUbw&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QvS4wH3oECBcQBA\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+$MA-X+PU,"Supermercado Irmãos Gonçalves 4,3 (1.022) Açougue · Av. 15 de Novembro, 4425Aberto até às 21:00",LM="KCTest(\"https://www.google.com/search?ie=UTF-8&amp;q=Supermercado+Irm%C3%A3os+Gon%C3%A7alves+Guajar%C3%A1-Mirim+-+RO&amp;ludocid=9287437487009404120&amp;ibp=gwp;0,7&amp;lsig=AB86z5WYSwJ7MBi8kJfVDnl1mmJq&amp;phdesc=4uq6OSsYtuU&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QvS4wIHoECBcQBw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+$MA-X+PU,"Mercadinho E Geladinho Do Guerreiro 3,9 (43) Supermercado · Av. Nossa Sra. de Fátima, 1153-1271Aberto até às 21:00",LM="KCTest(\"https://www.google.com/search?ie=UTF-8&amp;q=Mercadinho+E+Geladinho+Do+Guerreiro+Guajar%C3%A1-Mirim+-+RO&amp;ludocid=3534870994848400431&amp;ibp=gwp;0,7&amp;lsig=AB86z5XuN9GgeytHvrBr66TfTv6i&amp;phdesc=Rp8J3iyP-g0&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QvS4wIXoECBcQCg\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAaklEQVRYw+2VOwqAQAwFcy0/13qFYLF6ZD1ALNxWUfSByEzqnSmykAgAuIkmFad+ViptCY3KOp6EGi0kSJAgsT/JB1PcgSuJbwfeX7Ra6z9y6zv0Z/oV/ZG+R38WGMzHJULFqq8Jpx7gp2wNbJTpL+jhtwAAAABJRU5ErkJggg==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+Mais lugares
+
+
+
+
+$MA-X+PU,"Cookie (informática) - Wikipédia, a enciclopédia livrept.wikipedia.org > wiki > Cookie_(informática)",LM="KCTest(\"/url?q=https://pt.wikipedia.org/wiki/Cookie_(inform%25C3%25A1tica)&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAiegQICBAB&amp;usg=AOvVaw1gf44TMYmCX5wlN_Xehzzx\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+Um cookie, no âmbito do protocolo de comunicação HTTP usado na Internet, é um pequeno arquivo de computador ou pacote de dados enviados por um site ...
+
+
+
+
+
+
+
+$MA-X+PU,"Cookies | Cookie de Chocolate | Cozinha Técnicacozinhatecnica.com > 2020/03 > cookies",LM="KCTest(\"/url?q=https://cozinhatecnica.com/2020/03/cookies/&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QtwIwI3oECAcQAQ&amp;usg=AOvVaw13TjKvGVoUku4XqyEWvNXJ\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"",LM="KCTest(\"data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+
+
+
+
+
+
+
+
+30 min
+
+26 de mar. de 2020 · Cookies | Cookie de Chocolate. Cookies (em inglês: chocolate chip cookies) é uma ...Duração: 6:43
+Data da postagem: 26 de mar. de 2020
+
+
+
+
+
+
+
+
+$MA-X+PU,"O que são Cookies? - TecMundowww.tecmundo.com.br > web > 1069-o-que-sao-cookies-",LM="KCTest(\"/url?q=https://www.tecmundo.com.br/web/1069-o-que-sao-cookies-.htm&amp;sa=U&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0QFjAkegQIBBAB&amp;usg=AOvVaw1qUsJh0fLENiH2Aj6T-flo\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+1 de dez. de 2008 · Cada Cookie em seu PC armazena dados para um endereço web ... nomes de usuários e senhas de email também fazem parte dos Cookies.
+
+
+
+
+
+
+
+$RED$$ID,3$Pesquisas relacionadas
+$BLACK$$BG$$ID,-3$
+
+$MA-X+PU,"Receita de cookies fácil",LM="KCTest(\"/search?ie=UTF-8&amp;q=Receita+de+cookies+f%C3%A1cil&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAI\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Cookies de chocolate",LM="KCTest(\"/search?ie=UTF-8&amp;q=Cookies+de+chocolate&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAQ\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Cookies com gotas de chocolate",LM="KCTest(\"/search?ie=UTF-8&amp;q=Cookies+com+gotas+de+chocolate&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAY\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Receita de cookies profissional",LM="KCTest(\"/search?ie=UTF-8&amp;q=Receita+de+cookies+profissional&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAg\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Cookies de chocolate simples",LM="KCTest(\"/search?ie=UTF-8&amp;q=Cookies+de+chocolate+simples&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAo\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Receita de cookies caseiro simples",LM="KCTest(\"/search?ie=UTF-8&amp;q=Receita+de+cookies+caseiro+simples&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEAw\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Receita de cookies de aveia",LM="KCTest(\"/search?ie=UTF-8&amp;q=Receita+de+cookies+de+aveia&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEA4\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+$MA-X+PU,"Receita cookies subway",LM="KCTest(\"/search?ie=UTF-8&amp;q=Receita+cookies+subway&amp;sa=X&amp;ved=2ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q1QJ6BAgAEBA\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+ $MA-X+PU,"Mais >",LM="KCTest(\"/search?q=Cookies&amp;ie=UTF-8&amp;ei=_7e3X5aXIuOc5OUP5du86A4&amp;start=10&amp;sa=N\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+ 
+$MA-X+PU,"Fazer login",LM="KCTest(\"/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253DCookies%26hl%3Dpt-BR&amp;sa=U&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Qxs8CCIUB&amp;usg=AOvVaw1Tn_4pPJWkIeB2578jYPu6\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+$MA-X+PU,"Configurações",LM="KCTest(\"https://www.google.com/preferences?hl=pt-BR&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwjWkt2akZHtAhVjDrkGHeUtD-0Q5fUCCIYB\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$MA-X+PU,"Privacidade",LM="KCTest(\"https://policies.google.com/privacy?hl=pt-BR&amp;fg=1\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$$MA-X+PU,"Termos",LM="KCTest(\"https://policies.google.com/terms?hl=pt-BR&amp;fg=1\",\"https://www.google.com:443/search?q=Cookies\");View;
+"$
+
+ 
+
+5f53
+
+$FG$

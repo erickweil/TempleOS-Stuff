@@ -1,0 +1,26 @@
+URL:
+$MA-X+PU,"https://www.unicode.scarfboy.com:443/s=E28099",LM="KCTest(\"https://www.unicode.scarfboy.com:443/s=E28099\");View;
+"$
+
+
+$WW,1$$BLACK$
+
+$PURPLE$$TX+CX,"401 Unauthorized"$
+
+$BLACK$$BG$
+
+
+$PURPLE$$ID,2$Unauthorized$BLACK$$BG$$ID,-2$
+
+This server could not verify that you
+are authorized to access the document
+requested. Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.
+
+------------------------------------------------------------------------------
+
+Apache/2.4.29 (Ubuntu) Server at www.unicode.scarfboy.com Port 443
+
+$FG$

@@ -1,0 +1,23 @@
+__________________________________
+|
+|
+|  Links rapidos
+|
+|  $$LK,"::/Home/erick/hello.HC.Z"$$ $$GREEN$$Programacao em HolyC$$FG$$
+|
+|  $$TR,"TR Tree Widget"$$
+$$ID,2$$A tree widget is a branch in a collapsable tree.  
+The domain of the branch extends from the first +indent 
+until enough -indents bring it back to where it started.
+Tree's begin collapsed unless a $$GREEN$$-C$$FG$$ flag is present.
+
+You might want to use $$LK,"DocPrintAtomic",A="MN:DocPrintAtomic"$$().
+
+See $$LK,"::/Demo/DolDoc/TreeDemo.HC"$$.
+
+$$ID,-2$$|
+__________________________________
+
+$$CM-RE,LE=2$$$$LK+B-UL,"PopUpPrint",A="MN:PopUpPrint"$$
+
+?

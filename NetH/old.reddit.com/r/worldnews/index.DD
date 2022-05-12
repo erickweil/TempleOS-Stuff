@@ -1,0 +1,1818 @@
+URL:
+$MA-X+PU,"https://old.reddit.com:443/r/worldnews/",LM="KCTest(\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$WW,1$$BLACK$$PURPLE$$TX+CX,"World News"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"jump to content",LM="KCTest(\"#content\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+my subreddits
+$MA-X+PU,"edit subscriptions",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"popular",LM="KCTest(\"https://old.reddit.com/r/popular/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"tudo",LM="KCTest(\"https://old.reddit.com/r/all/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"random",LM="KCTest(\"https://old.reddit.com/r/random/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"users",LM="KCTest(\"https://old.reddit.com/users/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+ | 
+$ID,2$
+
+þ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"funny",LM="KCTest(\"https://old.reddit.com/r/funny/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"tifu",LM="KCTest(\"https://old.reddit.com/r/tifu/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"videos",LM="KCTest(\"https://old.reddit.com/r/videos/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"aww",LM="KCTest(\"https://old.reddit.com/r/aww/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"todayilearned",LM="KCTest(\"https://old.reddit.com/r/todayilearned/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"gifs",LM="KCTest(\"https://old.reddit.com/r/gifs/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Art",LM="KCTest(\"https://old.reddit.com/r/Art/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"explainlikeimfive",LM="KCTest(\"https://old.reddit.com/r/explainlikeimfive/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"movies",LM="KCTest(\"https://old.reddit.com/r/movies/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Jokes",LM="KCTest(\"https://old.reddit.com/r/Jokes/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"TwoXChromosomes",LM="KCTest(\"https://old.reddit.com/r/TwoXChromosomes/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"mildlyinteresting",LM="KCTest(\"https://old.reddit.com/r/mildlyinteresting/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"LifeProTips",LM="KCTest(\"https://old.reddit.com/r/LifeProTips/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"askscience",LM="KCTest(\"https://old.reddit.com/r/askscience/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"dataisbeautiful",LM="KCTest(\"https://old.reddit.com/r/dataisbeautiful/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"books",LM="KCTest(\"https://old.reddit.com/r/books/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"science",LM="KCTest(\"https://old.reddit.com/r/science/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Showerthoughts",LM="KCTest(\"https://old.reddit.com/r/Showerthoughts/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"gadgets",LM="KCTest(\"https://old.reddit.com/r/gadgets/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Futurology",LM="KCTest(\"https://old.reddit.com/r/Futurology/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"history",LM="KCTest(\"https://old.reddit.com/r/history/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"sports",LM="KCTest(\"https://old.reddit.com/r/sports/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"brasil",LM="KCTest(\"https://old.reddit.com/r/brasil/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"OldSchoolCool",LM="KCTest(\"https://old.reddit.com/r/OldSchoolCool/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"GetMotivated",LM="KCTest(\"https://old.reddit.com/r/GetMotivated/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"DIY",LM="KCTest(\"https://old.reddit.com/r/DIY/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"photoshopbattles",LM="KCTest(\"https://old.reddit.com/r/photoshopbattles/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"nosleep",LM="KCTest(\"https://old.reddit.com/r/nosleep/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Music",LM="KCTest(\"https://old.reddit.com/r/Music/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"space",LM="KCTest(\"https://old.reddit.com/r/space/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"food",LM="KCTest(\"https://old.reddit.com/r/food/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"UpliftingNews",LM="KCTest(\"https://old.reddit.com/r/UpliftingNews/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"EarthPorn",LM="KCTest(\"https://old.reddit.com/r/EarthPorn/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"Documentaries",LM="KCTest(\"https://old.reddit.com/r/Documentaries/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"InternetIsBeautiful",LM="KCTest(\"https://old.reddit.com/r/InternetIsBeautiful/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"WritingPrompts",LM="KCTest(\"https://old.reddit.com/r/WritingPrompts/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"creepy",LM="KCTest(\"https://old.reddit.com/r/creepy/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"philosophy",LM="KCTest(\"https://old.reddit.com/r/philosophy/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"announcements",LM="KCTest(\"https://old.reddit.com/r/announcements/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"listentothis",LM="KCTest(\"https://old.reddit.com/r/listentothis/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"blog",LM="KCTest(\"https://old.reddit.com/r/blog/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ -$MA-X+PU,"futbol",LM="KCTest(\"https://old.reddit.com/r/futbol/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+$MA-X+PU,"mais ¯",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$MA-X+PU,"reddit.com",LM="KCTest(\"/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ $MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ 
+þ $MA-X+PU,"populares",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"novos",LM="KCTest(\"https://old.reddit.com/r/worldnews/new/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"subindo",LM="KCTest(\"https://old.reddit.com/r/worldnews/rising/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"controversos",LM="KCTest(\"https://old.reddit.com/r/worldnews/controversial/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"no topo",LM="KCTest(\"https://old.reddit.com/r/worldnews/top/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"gilded",LM="KCTest(\"https://old.reddit.com/r/worldnews/gilded/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"wiki",LM="KCTest(\"https://old.reddit.com/r/worldnews/wiki/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+Want to join? $MA-X+PU,"Log in",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ or $MA-X+PU,"sign up",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ in seconds.|
+$ID,2$
+ 
+þ $MA-X+PU,"portugu‰s (*)",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+limit my search to r/worldnews
+
+use the following search parameters to narrow your results:
+subreddit:$BLUE$subreddit$BLACK$$BG$
+find submissions in "subreddit"
+author:$BLUE$username$BLACK$$BG$
+find submissions by "username"
+site:$BLUE$example.com$BLACK$$BG$
+find submissions from "example.com"
+url:$BLUE$text$BLACK$$BG$
+search for "text" in url
+selftext:$BLUE$text$BLACK$$BG$
+search for "text" in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+$MA-X+PU,"see the search faq for details.",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$MA-X+PU,"advanced search: by author, subreddit...",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+
+
+
+
+lembrar de mim$MA-X+PU,"redefinir senha",LM="KCTest(\"/password\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-UL+B,"login"$
+
+
+
+
+
+$MA-X+PU,"Submit a new link",LM="KCTest(\"https://old.reddit.com/r/worldnews/submit\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Get an ad-free experience with special benefits, and directly support Reddit.get reddit premium"$
+
+
+$PURPLE$$ID,2$$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$BLACK$$BG$$ID,-2$
+$MA-X+PU,"join",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"sair",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$25.381.776 leitores
+40.052 users here now
+
+
+
+$ID,2$
+ 
+$ID,2$
+
+$ID,2$
+
+$ID,2$
+
+þ 
+$IV,1$Other Subs:$IV,0$
+
+
+þ $MA-X+PU,"Related",LM="KCTest(\"http://goo.gl/ztbbza\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/News",LM="KCTest(\"/r/News\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/PoliticalDiscussion",LM="KCTest(\"/r/PoliticalDiscussion\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/WorldEvents",LM="KCTest(\"/r/WorldEvents\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/GeoPolitics",LM="KCTest(\"/r/GeoPolitics\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/GlobalTalk",LM="KCTest(\"/r/GlobalTalk\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ 
+þ $MA-X+PU,"/r/Breakingnews",LM="KCTest(\"/r/Breakingnews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ 
+þ $MA-X+PU,"/r/Business",LM="KCTest(\"/r/Business\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Economics",LM="KCTest(\"/r/Economics\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Environment",LM="KCTest(\"/r/Environment\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/History",LM="KCTest(\"/r/History\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/HumanRights",LM="KCTest(\"/r/HumanRights\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Features",LM="KCTest(\"/r/Features\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/UpliftingNews",LM="KCTest(\"/r/UpliftingNews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/NewsOfTheWeird",LM="KCTest(\"/r/NewsOfTheWeird\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/FakeNews",LM="KCTest(\"/r/FakeNews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/ID_News",LM="KCTest(\"/r/ID_News\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ 
+$ID,-2$
+
+þ $MA-X+PU,"N. America",LM="KCTest(\"https://goo.gl/dkfVnB\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Politics",LM="KCTest(\"/r/Politics\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/USA",LM="KCTest(\"/r/USA\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/USANews",LM="KCTest(\"/r/USANews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Canada",LM="KCTest(\"/r/Canada\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/CanadaPolitics",LM="KCTest(\"/r/CanadaPolitics\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/OnGuardForThee",LM="KCTest(\"/r/OnGuardForThee\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Cuba",LM="KCTest(\"/r/Cuba\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Mexico",LM="KCTest(\"/r/Mexico\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/PuertoRico",LM="KCTest(\"/r/PuertoRico\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"S. America",LM="KCTest(\"https://goo.gl/DDaqmY\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Argentina",LM="KCTest(\"/r/Argentina\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Brasil",LM="KCTest(\"/r/Brasil\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Chile",LM="KCTest(\"/r/Chile\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Colombia",LM="KCTest(\"/r/Colombia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Ecuador",LM="KCTest(\"/r/Ecuador\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Guyana",LM="KCTest(\"/r/Guyana\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Nicaragua",LM="KCTest(\"/r/Nicaragua\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Uruguay",LM="KCTest(\"/r/Uruguay\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Venezuela",LM="KCTest(\"/r/vzla\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"Europe",LM="KCTest(\"https://goo.gl/ZF5rou\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Armenia",LM="KCTest(\"/r/Armenia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Austria",LM="KCTest(\"/r/Austria\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Azerbaijan",LM="KCTest(\"/r/Azerbaijan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Belgium",LM="KCTest(\"/r/Belgium\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Bosnia",LM="KCTest(\"/r/BiH\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Bulgaria",LM="KCTest(\"/r/Bulgaria\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Croatia",LM="KCTest(\"/r/Croatia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Denmark",LM="KCTest(\"/r/Denmark\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Europe",LM="KCTest(\"/r/Europe\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/France",LM="KCTest(\"/r/France\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Georgia",LM="KCTest(\"/r/sakartvelo\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Germany",LM="KCTest(\"/r/Germany\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Greece",LM="KCTest(\"/r/Greece\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Hungary",LM="KCTest(\"/r/Hungary\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Ireland",LM="KCTest(\"/r/Ireland\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Italy",LM="KCTest(\"/r/Italy\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Moldova",LM="KCTest(\"/r/Moldova\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/TheNetherlands",LM="KCTest(\"/r/TheNetherlands\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Poland",LM="KCTest(\"/r/Poland\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Polska",LM="KCTest(\"/r/Polska\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Portugal",LM="KCTest(\"/r/Portugal\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Romania",LM="KCTest(\"/r/Romania\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Russia",LM="KCTest(\"/r/Russia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Scotland",LM="KCTest(\"/r/Scotland\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Serbia",LM="KCTest(\"/r/Serbia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Spain",LM="KCTest(\"/r/Spain\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Sweden",LM="KCTest(\"/r/Sweden\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Switzerland",LM="KCTest(\"/r/Switzerland\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Turkey",LM="KCTest(\"/r/Turkey\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/UnitedKingdom",LM="KCTest(\"/r/UnitedKingdom\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/UKPolitics",LM="KCTest(\"/r/UKPolitics\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Ukraina",LM="KCTest(\"/r/Ukraina\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Ukraine",LM="KCTest(\"/r/Ukraine\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/UkrainianConflict",LM="KCTest(\"/r/UkrainianConflict\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"Asia",LM="KCTest(\"https://goo.gl/az3Ygk\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Afghanistan",LM="KCTest(\"/r/Afghanistan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Bangladesh",LM="KCTest(\"/r/Bangladesh\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/China",LM="KCTest(\"/r/China\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/India",LM="KCTest(\"/r/India\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Kazakhstan",LM="KCTest(\"/r/Kazakhstan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ 
+þ $MA-X+PU,"/r/Malaysia",LM="KCTest(\"/r/Malaysia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Nepal",LM="KCTest(\"/r/Nepal\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/NorthKoreaNews",LM="KCTest(\"/r/NorthKoreaNews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Pakistan",LM="KCTest(\"/r/Pakistan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Philippines",LM="KCTest(\"/r/Philippines\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Singapore",LM="KCTest(\"/r/Singapore\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Thailand",LM="KCTest(\"/r/Thailand\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Turkey",LM="KCTest(\"/r/Turkey\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"Middle East",LM="KCTest(\"https://goo.gl/Ut3syV\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Assyria",LM="KCTest(\"/r/Assyria\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Iran",LM="KCTest(\"/r/Iran\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Iranian",LM="KCTest(\"/r/Iranian\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Iraq",LM="KCTest(\"/r/Iraq\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Israel",LM="KCTest(\"/r/Israel\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Kurdistan",LM="KCTest(\"/r/Kurdistan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/LevantineWar",LM="KCTest(\"/r/LevantineWar\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/MiddleEastNews",LM="KCTest(\"/r/MiddleEastNews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/MideastPeace",LM="KCTest(\"/r/MideastPeace\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Palestine",LM="KCTest(\"/r/Palestine\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Syria",LM="KCTest(\"/r/Syria\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Yemen",LM="KCTest(\"/r/Yemen\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/YemeniCrisis",LM="KCTest(\"/r/YemeniCrisis\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"Africa",LM="KCTest(\"https://goo.gl/FgJ4Na\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Africa",LM="KCTest(\"/r/Africa\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Namibia",LM="KCTest(\"/r/Namibia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ 
+þ $MA-X+PU,"/r/SouthAfrica",LM="KCTest(\"/r/SouthAfrica\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+þ $MA-X+PU,"Oceania",LM="KCTest(\"https://goo.gl/5pz9uS\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ $MA-X+PU,"/r/Australia",LM="KCTest(\"/r/Australia\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Fijian",LM="KCTest(\"/r/Fijian\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/NewZealand",LM="KCTest(\"/r/NewZealand\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Oceania",LM="KCTest(\"/r/Oceania\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"/r/Westpapua",LM="KCTest(\"/r/Westpapua\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+$ID,-2$
+
+$ID,-2$
+
+$ID,-2$
+
+$ID,-2$
+
+
+$RED$$ID,3$$IV,1$Filter out dominant topics:$IV,0$$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"Display COVID-19 submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#nc\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter COVID-19",LM="KCTest(\"http://nc.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display Trump submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#nt\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter Trump",LM="KCTest(\"http://nt.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display Russia submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#nr\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter Russia",LM="KCTest(\"http://nr.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display North Korea submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#nk\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter North Korea",LM="KCTest(\"http://nk.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display Hong Kong submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#nh\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter Hong Kong",LM="KCTest(\"http://nh.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display Israel/Palestine submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#ni\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter Israel / Palestine",LM="KCTest(\"http://ni.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Display all submissions",LM="KCTest(\"http://www.reddit.com/r/worldnews#iu\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$MA-X+PU,"Filter all dominant topics",LM="KCTest(\"http://iu.reddit.com/r/worldnews#www\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$DKGRAY$$ID,5$$MA-X+PU,"",LM="KCTest(\"#h4-green\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$BLACK$$BG$$ID,-5$
+
+
+$ID,2$
+ $PURPLE$$ID,2$Welcome!$BLACK$$BG$$ID,-2$
+
+
+$MA-X+PU,"/r/worldnews",LM="KCTest(\"/r/worldnews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ is for major news from around the world except US-internal news / US politics
+
+
+$MA-X+PU,"See all of our AMA events here",LM="KCTest(\"http://www.reddit.com/r/worldnews/wiki/ama\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+$ID,7$$MA-X+PU,"",LM="KCTest(\"#h6-red\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+$ID,2$
+ $PURPLE$$ID,2$Worldnews Rules$BLACK$$BG$$ID,-2$
+
+
+$BLUE$$ID,4$$IV,1$Disallowed submissions$IV,0$$BLACK$$BG$$ID,-4$
+
+
+$ID,2$
+ þ US internal news/US politics
+
+þ Editorialized titles
+
+þ Misleading titles
+
+þ Editorials, opinion, analysis
+
+þ Feature stories
+
+þ Non-English articles
+
+þ Images, videos or audio clips
+
+þ Petitions, advocacy, surveys
+
+þ All caps words in titles
+
+þ Blogspam (if stolen content/direct copy)
+
+þ Twitter, Facebook, Tumblr
+
+þ Old news (â‰¥1 week old) articles
+
+$ID,-2$
+
+
+$MA-X+PU,"See the wiki",LM="KCTest(\"/r/worldnews/wiki/rules#wiki_disallowed_submissions\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ for details on each rule
+
+
+$BLUE$$ID,4$$IV,1$Disallowed comments$IV,0$$BLACK$$BG$$ID,-4$
+
+
+$ID,2$
+ þ Bigotry / Other offensive content
+
+þ Personal attacks on other users
+
+þ Memes/GIFs
+
+þ Unlabeled NSFW images/videos
+
+þ URL shorteners
+
+$ID,-2$
+
+
+$MA-X+PU,"See the wiki",LM="KCTest(\"/r/worldnews/wiki/rules#wiki_disallowed_comments\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ for details on each rule
+
+
+$IV,1$Continued or outstandingly blatant violation$IV,0$ of the submission or commenting rules will result in you being temporarily $IV,1$banned$IV,0$ from the subreddit without a warning.
+
+
+------------------------------------------------------------------------------
+
+
+$IV,1$Please don't ever feed the trolls.$IV,0$
+
+Downvote, report and move on.
+
+
+------------------------------------------------------------------------------
+
+
+$ID,2$
+ þ $MA-X+PU,"What moderators do and can't do",LM="KCTest(\"/r/worldnews/wiki/whatmodsdo\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"Message the moderators",LM="KCTest(\"http://www.reddit.com/message/compose?to=%2Fr%2Fworldnews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+$ID,-2$
+
+
+$DKGRAY$$ID,5$$MA-X+PU,"",LM="KCTest(\"#h4-green\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$BLACK$$BG$$ID,-5$
+
+
+$ID,2$
+ $PURPLE$$ID,2$Sticky Posts$BLACK$$BG$$ID,-2$
+
+
+þ $MA-X+PU,"A list of all recent stickied posts.",LM="KCTest(\"/r/worldnews/search?q=author%3AWorldNewsMods&amp;sort=new&amp;restrict_sr=on&amp;t=all\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,-2$
+
+
+
+
+
+a community for 12 anos
+
+
+
+
+$PURPLE$$ID,2$MODERADORES$BLACK$$BG$$ID,-2$
+
+$ID,2$
+ þ $MA-X+PU,"message the mods",LM="KCTest(\"/message/compose/?to=/r/worldnews\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"qgyh2",LM="KCTest(\"https://old.reddit.com/user/qgyh2\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"maxwellhill",LM="KCTest(\"https://old.reddit.com/user/maxwellhill\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"BritishEnglishPolice",LM="KCTest(\"https://old.reddit.com/user/BritishEnglishPolice\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"anutensil",LM="KCTest(\"https://old.reddit.com/user/anutensil\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"bennjammin",LM="KCTest(\"https://old.reddit.com/user/bennjammin\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"DoremusJessup",LM="KCTest(\"https://old.reddit.com/user/DoremusJessup\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"emmster",LM="KCTest(\"https://old.reddit.com/user/emmster\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"green_flash",LM="KCTest(\"https://old.reddit.com/user/green_flash\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"PraiseBeToScience",LM="KCTest(\"https://old.reddit.com/user/PraiseBeToScience\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"...and 95 more ¯",LM="KCTest(\"/r/worldnews/about/moderators\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$MA-X+PU,"Welcome to Reddit,the front page of the internet.Become a Redditorand join one of thousands of communities.",LM="KCTest(\"/login\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"X",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+1
+
+
+70.6k
+70.6k
+70.6k
+
+
+Israel/Palestine$MA-X+PU,"UN panel votes 163-5 in support of Palestinian statehood, end of occupation",LM="KCTest(\"https://www.timesofisrael.com/un-votes-163-5-in-support-of-palestinian-statehood-end-of-occupation/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"timesofisrael.com",LM="KCTest(\"/domain/timesofisrael.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"specificallyasking",LM="KCTest(\"https://old.reddit.com/user/specificallyasking\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/platinum_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+12$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+19$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+13$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+10$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+11$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+2$MA-X+PU,"& 36 more",LM="KCTest(\"/r/worldnews/gilded\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"5564 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxtkxo/un_panel_votes_1635_in_support_of_palestinian/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFQxoYmWjH7PqYWwK0P3ez9GP2vHmgt2o1g5HZfhxzWxcVItwkHlu3VxviCLGhVm-KtXrkWln8b3FsVO8MrwYuvsUkY4GsdPm6Hq2Mem4fB98wtNL6TTStNuvuihBpc0SoBjNWXoOT69TrEhmTWtTaNLqOtg89KcGaJG2bm75nHZ468=\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+2
+
+
+58.5k
+58.5k
+58.5k
+
+
+$MA-X+PU,"Scotland pulls up the drawbridge making it illegal to enter from rest of UK",LM="KCTest(\"https://metro.co.uk/2020/11/19/uk-lockdown-travel-to-and-from-scotland-made-illegal-13625330/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"metro.co.uk",LM="KCTest(\"/domain/metro.co.uk/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 14 horas ago by $MA-X+PU,"Kubrick_Fan",LM="KCTest(\"https://old.reddit.com/user/Kubrick_Fan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+6$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+2
+$ID,2$
+ þ $MA-X+PU,"2702 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxlwvi/scotland_pulls_up_the_drawbridge_making_it/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+3
+
+
+1172
+1173
+1174
+
+
+$MA-X+PU,"Australian War Crimes Report Released; Australian Soldiers Would Slit the Throats of Afghan Children, and Then Dump Their Bodies in Rivers; 39 Murders Confirmed, Many More Possibly Committed",LM="KCTest(\"https://www.theguardian.com/australia-news/live/2020/nov/19/australian-soldiers-sas-war-crimes-afghanistan-australia-special-forces-inquiry-brereton-report-released-latest-live-updates\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"theguardian.com",LM="KCTest(\"/domain/theguardian.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 5 horas ago by $MA-X+PU,"ULBAZOR",LM="KCTest(\"https://old.reddit.com/user/ULBAZOR\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/80j20o397jj41_NarwhalSalute.png?width=48&amp;height=48&amp;auto=webp&amp;s=5adb621fede4e8e66b952a379ad038fcc1b8ad13\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/3ekkailk5s551_Iamdisappoint.png?width=48&amp;height=48&amp;auto=webp&amp;s=2f60e5e9ab8e3b6ab2c9a79f73bd9335a4d76cbc\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"235 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxullr/australian_war_crimes_report_released_australian/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+4
+
+
+1491
+1492
+1493
+
+
+$MA-X+PU,"Over 500 Fishermen Hit By Mysterious Skin Disease In Senegal",LM="KCTest(\"https://www.ndtv.com/world-news/over-500-fishermen-hit-by-mysterious-skin-disease-in-senegal-2327660\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"ndtv.com",LM="KCTest(\"/domain/ndtv.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 9 horas ago by $MA-X+PU,"iamalwaysscared",LM="KCTest(\"https://old.reddit.com/user/iamalwaysscared\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"214 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxpma5/over_500_fishermen_hit_by_mysterious_skin_disease/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+5
+
+
+759
+760
+761
+
+
+Israel/Palestine$MA-X+PU,"Israel has detained 400 Palestinian children this year",LM="KCTest(\"https://english.alaraby.co.uk/english/news/2020/11/20/israel-has-detained-400-palestinian-children-this-year\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"english.alaraby.co.uk",LM="KCTest(\"/domain/english.alaraby.co.uk/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"monparan",LM="KCTest(\"https://old.reddit.com/user/monparan\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"187 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxt7js/israel_has_detained_400_palestinian_children_this/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+6
+
+
+19.4k
+19.4k
+19.4k
+
+
+$MA-X+PU,"Vietnam Threatens to Shut Down Facebook Over Content: Reuters",LM="KCTest(\"https://www.bloomberg.com/news/articles/2020-11-19/vietnam-warns-of-facebook-closure-over-political-posts-reuters?utm_content=business&amp;utm_medium=social&amp;utm_source=twitter&amp;cmpid=socialflow-twitter-business&amp;utm_campaign=socialflow-organic\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"bloomberg.com",LM="KCTest(\"/domain/bloomberg.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 20 horas ago by $MA-X+PU,"Steaboodoloed",LM="KCTest(\"https://old.reddit.com/user/Steaboodoloed\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1073 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxh7gw/vietnam_threatens_to_shut_down_facebook_over/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+7
+
+
+915
+916
+917
+
+
+Behind Soft Paywall$MA-X+PU,"Tax cheats deprive governments worldwide of S427 billion a year, crippling pandemic response: study",LM="KCTest(\"https://www.washingtonpost.com/us-policy/2020/11/19/global-tax-evasion-data/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"washingtonpost.com",LM="KCTest(\"/domain/washingtonpost.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 11 horas ago by $MA-X+PU,"Pessimist2020",LM="KCTest(\"https://old.reddit.com/user/Pessimist2020\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"85 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxnvmn/tax_cheats_deprive_governments_worldwide_of_427/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+8
+
+
+1045
+1046
+1047
+
+
+$MA-X+PU,"The Nigerian government threatens to sanction CNN for reporting on the killing of peaceful protesters by security forces.",LM="KCTest(\"https://edition.cnn.com/2020/11/19/africa/nigeria-shooting-lekki-toll-gate-investigation-response-intl/index.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"edition.cnn.com",LM="KCTest(\"/domain/edition.cnn.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 12 horas ago by $MA-X+PU,"Pecuthegreat",LM="KCTest(\"https://old.reddit.com/user/Pecuthegreat\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"47 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxmzzr/the_nigerian_government_threatens_to_sanction_cnn/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+9
+
+
+368
+369
+370
+
+
+$MA-X+PU,"Microplastics discovered near summit of Mount Everest",LM="KCTest(\"https://www.independent.co.uk/environment/microplastics-mount-everest-pollution-b1759117.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"independent.co.uk",LM="KCTest(\"/domain/independent.co.uk/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"hildebrand_rarity",LM="KCTest(\"https://old.reddit.com/user/hildebrand_rarity\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"56 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxs605/microplastics_discovered_near_summit_of_mount/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+10
+
+
+4110
+4111
+4112
+
+
+COVID-19$MA-X+PU,"One person dying every 17 seconds from COVID-19 in Europe, WHO says",LM="KCTest(\"https://news.theceomagazine.com/lifestyle/health/world-health-organization/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"news.theceomagazine.com",LM="KCTest(\"/domain/news.theceomagazine.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 20 horas ago by $MA-X+PU,"7MCMXC",LM="KCTest(\"https://old.reddit.com/user/7MCMXC\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"484 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxhbt5/one_person_dying_every_17_seconds_from_covid19_in/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+11
+
+
+442
+443
+444
+
+
+$MA-X+PU,"Archeologists in Spain find 400 tombs in ancient Islamic necropolis",LM="KCTest(\"https://www.cnn.com/travel/article/necropolis-muslim-intl-scli-scn/index.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"cnn.com",LM="KCTest(\"/domain/cnn.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 9 horas ago by $MA-X+PU,"Horror-Storm8229",LM="KCTest(\"https://old.reddit.com/user/Horror-Storm8229\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"58 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxq3oy/archeologists_in_spain_find_400_tombs_in_ancient/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+12
+
+
+55.6k
+55.6k
+55.6k
+
+
+$MA-X+PU,"Mexican Senate Committees Formally Approve Marijuana Legalization Bill For Full Floor Action",LM="KCTest(\"https://www.marijuanamoment.net/mexican-senate-committees-formally-approve-marijuana-legalization-bill-for-full-floor-action/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"marijuanamoment.net",LM="KCTest(\"/domain/marijuanamoment.net/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 1 dia ago by $MA-X+PU,"NotsoPG",LM="KCTest(\"https://old.reddit.com/user/NotsoPG\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+4$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+5$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+7$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+3
+$ID,2$
+ þ $MA-X+PU,"1055 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxbkdt/mexican_senate_committees_formally_approve/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+13
+
+
+341
+342
+343
+
+
+$MA-X+PU,"New documents detail the guns Ä all illegally obtained Ä used by Canada's worst mass murderer",LM="KCTest(\"https://nationalpost.com/news/canada/new-documents-detail-the-guns-all-illegally-obtained-used-by-canadas-worst-mass-murderer?fbclid=IwAR25LnV1d7wA1XXO4TYGl4ciJTYT0EORX1IuOCiq0nTAztc-keloNGTOTMc\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"nationalpost.com",LM="KCTest(\"/domain/nationalpost.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 7 horas ago by $MA-X+PU,"diligentson",LM="KCTest(\"https://old.reddit.com/user/diligentson\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"224 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxraq5/new_documents_detail_the_guns_all_illegally/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+14
+
+
+511
+512
+513
+
+
+$MA-X+PU,"Apple to pay S113 million over deliberately slowing down iPhones",LM="KCTest(\"https://www.cnn.com/2020/11/19/tech/apple-battery-settlement/index.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"cnn.com",LM="KCTest(\"/domain/cnn.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 10 horas ago by $MA-X+PU,"verschiedeneSachen",LM="KCTest(\"https://old.reddit.com/user/verschiedeneSachen\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"123 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxoogq/apple_to_pay_113_million_over_deliberately/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuFQxvXwjURx7nFehd3Q9DSMFjEUzrrbaAzBT27XWcLpILJj66Ss-ipmz-hOXuZtX0ICrNbf_ckTOMNCpts_h0y2xOIVexVVOOU86G8-qCxdkAFmPMxYwKDecEULKKgef03AeZNLYbXTULMyygfKcIp7Fnnq36uHE67OJX0_oS9l69xQ=\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+15
+
+
+2116
+2117
+2118
+
+
+$MA-X+PU,"G20 leaders must urge Saudi Arabia to release prisoners: Amnesty",LM="KCTest(\"https://www.aljazeera.com/news/2020/11/19/g20-leaders-must-urge-saudi-arabia-to-release-prisoners-amnesty\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"aljazeera.com",LM="KCTest(\"/domain/aljazeera.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 19 horas ago by $MA-X+PU,"LittleKale4",LM="KCTest(\"https://old.reddit.com/user/LittleKale4\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"138 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxic9r/g20_leaders_must_urge_saudi_arabia_to_release/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+16
+
+
+186
+187
+188
+
+
+$MA-X+PU,"Brazilians Outraged Over Death of Black Man Killed by Carrefour Security",LM="KCTest(\"https://theglobepost.com/2020/11/20/brazil-black-man-killed-unrest/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"theglobepost.com",LM="KCTest(\"/domain/theglobepost.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"KnownStuff",LM="KCTest(\"https://old.reddit.com/user/KnownStuff\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"12 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxt7ex/brazilians_outraged_over_death_of_black_man/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+17
+
+
+250
+251
+252
+
+
+North Korea$MA-X+PU,"UK sourced PPE from factories secretly using North Korean slave labour - Guardian investigation finds evidence that Chinese PPE factories supplying UK government are breaking UN sanctions",LM="KCTest(\"https://www.theguardian.com/global-development/2020/nov/20/uk-sourced-ppe-from-factories-secretly-using-north-korean-slave-labour?CMP=twt_gu&amp;utm_source=Twitter&amp;utm_medium#Echobox=1605877758\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"theguardian.com",LM="KCTest(\"/domain/theguardian.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 8 horas ago by $MA-X+PU,"TheSuspiciousKoala",LM="KCTest(\"https://old.reddit.com/user/TheSuspiciousKoala\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"26 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxr1l5/uk_sourced_ppe_from_factories_secretly_using/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+18
+
+
+þ
+þ
+þ
+
+
+COVID-19$MA-X+PU,"Boris Johnson to urge Trump and other G20 leaders to do more to fight coronavirus and climate change",LM="KCTest(\"https://www.independent.co.uk/news/uk/politics/boris-johnson-g20-trump-covid-climate-b1759396.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"independent.co.uk",LM="KCTest(\"/domain/independent.co.uk/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 1 hora ago by $MA-X+PU,"Pessimist2020",LM="KCTest(\"https://old.reddit.com/user/Pessimist2020\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"14 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxz4b6/boris_johnson_to_urge_trump_and_other_g20_leaders/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+19
+
+
+73
+74
+75
+
+
+COVID-19$MA-X+PU,"Toronto, Canada Moves back into Covid Lockdown",LM="KCTest(\"https://www.cbc.ca/news/canada/toronto/covid-19-coronavirus-ontario-november-20-toronto-peel-1.5809575\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"cbc.ca",LM="KCTest(\"/domain/cbc.ca/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 2 horas ago by $MA-X+PU,"rawb_dawg",LM="KCTest(\"https://old.reddit.com/user/rawb_dawg\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"11 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxy3qp/toronto_canada_moves_back_into_covid_lockdown/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+20
+
+
+11.8k
+11.8k
+11.8k
+
+
+$MA-X+PU,"French President Emmanuel Macron has asked Muslim leaders to accept a "charter of republican values" as part of a broad clampdown on radical Islam.",LM="KCTest(\"https://www.bbc.com/news/world-europe-55001167\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"bbc.com",LM="KCTest(\"/domain/bbc.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 1 dia ago by $MA-X+PU,"owemeacent",LM="KCTest(\"https://old.reddit.com/user/owemeacent\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/gva4vt20qc751_FaithInHumanityRestored.png?width=48&amp;height=48&amp;auto=webp&amp;s=5f5d88a13a1a514298ec5c7edc6f2506750f3c4a\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1997 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jx9d56/french_president_emmanuel_macron_has_asked_muslim/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+21
+
+
+659
+660
+661
+
+
+COVID-19$MA-X+PU,"Sweden should rethink its decision not to recommend the use of face masks to prevent the spread of the novel coronavirus amid a second wave of infections, the Royal Academy of Sciences, which awards the Nobel prizes, said on Thursday",LM="KCTest(\"https://in.news.yahoo.com/nobel-scientists-urge-face-mask-154757310.html\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"in.news.yahoo.com",LM="KCTest(\"/domain/in.news.yahoo.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 15 horas ago by $MA-X+PU,"ahm713",LM="KCTest(\"https://old.reddit.com/user/ahm713\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/vu6om0xnb7e41_This.png?width=48&amp;height=48&amp;auto=webp&amp;s=597adeb2d7ab45cc61a726b7c7d6877d264ee33d\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"124 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxlar2/sweden_should_rethink_its_decision_not_to/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+22
+
+
+98
+99
+100
+
+
+$MA-X+PU,"Illegal deforestation cover up in Paraguay alleged by gov't whistleblowers: Jaguar Land Rover and BMW using products linked to the forest conversion",LM="KCTest(\"https://news.mongabay.com/2020/11/paraguay-whistleblowers-allege-illegal-deforestation-cover-up/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"news.mongabay.com",LM="KCTest(\"/domain/news.mongabay.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 5 horas ago by $MA-X+PU,"erikmongabay",LM="KCTest(\"https://old.reddit.com/user/erikmongabay\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"2 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxu8eb/illegal_deforestation_cover_up_in_paraguay/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+23
+
+
+120
+121
+122
+
+
+COVID-19$MA-X+PU,"Kim Jong Un admitted COVID-19 in North Korea in July",LM="KCTest(\"https://www.upi.com/Top_News/World-News/2020/11/20/Report-Kim-Jong-Un-admitted-COVID-19-in-North-Korea-in-July/4921605888081/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"upi.com",LM="KCTest(\"/domain/upi.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 6 horas ago by $MA-X+PU,"cynycal",LM="KCTest(\"https://old.reddit.com/user/cynycal\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"12 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxsjgq/kim_jong_un_admitted_covid19_in_north_korea_in/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+24
+
+
+19.8k
+19.8k
+19.8k
+
+
+$MA-X+PU,"CBD is not a narcotic, says EU court as it rules French ban is illegal",LM="KCTest(\"https://www.theguardian.com/society/2020/nov/19/cbd-is-not-a-narcotic-says-eu-court-french-ban\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"theguardian.com",LM="KCTest(\"/domain/theguardian.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 1 dia ago by $MA-X+PU,"hildebrand_rarity",LM="KCTest(\"https://old.reddit.com/user/hildebrand_rarity\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"777 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jx5l24/cbd_is_not_a_narcotic_says_eu_court_as_it_rules/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+25
+
+
+42
+43
+44
+
+
+$MA-X+PU,"Vladivostok snowstorm: Emergency declared amid chaos and power cuts",LM="KCTest(\"https://www.bbc.com/news/world-europe-55015516?xtor=AL-72-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&amp;at_custom2=twitter&amp;at_custom3=%40BBCWorld&amp;at_custom1=%5Bpost+type%5D&amp;at_medium=custom7&amp;at_custom4=0473E0B2-2B5F-11EB-BA5A-4BF84744363C&amp;at_campaign=64\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ ($MA-X+PU,"bbc.com",LM="KCTest(\"/domain/bbc.com/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$)
+submitted 2 horas ago by $MA-X+PU,"sh0tgunben",LM="KCTest(\"https://old.reddit.com/user/sh0tgunben\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"3 coment rios",LM="KCTest(\"https://old.reddit.com/r/worldnews/comments/jxx38s/vladivostok_snowstorm_emergency_declared_amid/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+ver mais: $MA-X+PU,"pr¢ximo >",LM="KCTest(\"https://old.reddit.com/r/worldnews/?count=25&amp;after=t3_jxx38s\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+
+$ID,2$
+ þ sobre
+þ $MA-X+PU,"blog",LM="KCTest(\"https://redditblog.com\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"sobre",LM="KCTest(\"https://www.redditinc.com\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"advertising",LM="KCTest(\"https://www.redditinc.com/advertising\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"careers",LM="KCTest(\"https://www.redditinc.com/careers\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ ajuda
+þ $MA-X+PU,"site rules",LM="KCTest(\"https://old.reddit.com/rules/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"Reddit help center",LM="KCTest(\"https://www.reddithelp.com\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"redditiqueta",LM="KCTest(\"https://old.reddit.com/wiki/reddiquette/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"mod guidelines",LM="KCTest(\"https://old.reddit.com/help/healthycommunities/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"contact us",LM="KCTest(\"https://old.reddit.com/contact/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ apps & tools
+þ $MA-X+PU,"Reddit for iPhone",LM="KCTest(\"https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"Reddit for Android",LM="KCTest(\"https://play.google.com/store/apps/details?id=com.reddit.frontpage\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"mobile website",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ <3
+þ $MA-X+PU,"reddit premium",LM="KCTest(\"https://old.reddit.com/premium/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"reddit coins",LM="KCTest(\"https://old.reddit.com/coins/\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+þ $MA-X+PU,"redditgifts",LM="KCTest(\"https://redditgifts.com\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+$ID,-2$
+
+
+O uso deste site constitui aceita€ƒo dos nossos $MA-X+PU,"User Agreement",LM="KCTest(\"https://old.reddit.com/help/useragreement\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$ e $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://old.reddit.com/help/privacypolicy\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$. (C) 2020 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+$MA-X+PU,"Advertise - lifestyles",LM="KCTest(\"/advertising\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"//reddit.com/static/pixel.png\",\"https://old.reddit.com:443/r/worldnews/\");View;
+"$$BLACK$$BG$
+ã Rendered by PID 22076 on r2-app-02e56b2afa9387404  at 2020-11-20 23:41:37.596243+00:00 running c04c886 country code: BR.
+$FG$

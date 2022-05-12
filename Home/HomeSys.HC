@@ -8,7 +8,7 @@ U0 UserStartUp()
   Print("\n\n    $$MA+B-UL,\"Graphic Dir\",LM=\"#include \\\"::/Home/erick/hello.HC\\\";\\nListdirs(1);\\n\"$$");
   Print("    $$MA+B-UL,\"KC Browser\",LM=\"#include \\\"::/Home/Net/KCBrowser.HC\\\";\\n\"$$\n\n");
   LBts(&Fs->display_flags,DISPLAYf_SHOW);
-  WinToTop;
+  WinToTop;
   WinZBufUpdate;
   Dir;
 }
@@ -44,7 +44,7 @@ U0 StartUpTasks()
   "Boot Time:%7.3fs\n",tS;
   XTalk(user1,"Cd;#include \"Once\";\n");
   Silent;	//no output to scrn
-  ACInit("/*;!*/Bible.TXT*");
+  ACInit("/*;!*/Bible.TXT*;!/NetH");
   Silent(OFF); //no output to scrn
 
 }

@@ -1,0 +1,2425 @@
+URL:
+$MA-X+PU,"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header",LM="KCTest(\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+$WW,1$$BLACK$872
+
+
+
+
+
+
+
+ $PURPLE$$TX+CX,"What are all the possible values for HTTP &quot;Content-Type&quot; header? - Stack Overflow"$
+
+$BLACK$$BG$
+
+ 
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$MA-X+PU,"Stack Overflow
+
+ ",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+ 
+$ID,2$
+þ $MA-X+PU,"About",LM="KCTest(\"/company\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Products
+
+ ",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"For Teams",LM="KCTest(\"/teams\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Stack Overflow
+
+ Public questions &answers
+
+ ",LM="KCTest(\"/questions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Stack Overflow for Teams
+
+ 6c81
+
+ Where developers &technologists share private knowledge with coworkers
+
+ ",LM="KCTest(\"/teams\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Jobs
+
+ Programming &related technical career opportunities
+
+ ",LM="KCTest(\"/jobs?so_source=ProductsMenu&so_medium=StackOverflow\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Talent
+
+ Recruit tech talent &build your employer brand
+
+ ",LM="KCTest(\"https://stackoverflow.com/talent\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Advertising
+
+ Reach developers &technologists worldwide
+
+ ",LM="KCTest(\"https://stackoverflow.com/advertising\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"About the company",LM="KCTest(\"/company\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+
+
+
+
+Loading?
+
+
+ 
+
+
+
+
+
+
+
+$ID,2$
+þ $MA-X+PU,"",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+ þ $MA-X+PU,"Log in",LM="KCTest(\"https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f23714383%2fwhat-are-all-the-possible-values-for-http-content-type-header\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Sign up",LM="KCTest(\"https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ $BLUE$$ID,4$$MA-X+PU,"current community",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $BLACK$$BG$$ID,-4$
+
+$ID,2$
+þ $MA-X+PU,"Stack Overflow
+
+ ",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+$MA-X+PU,"help",LM="KCTest(\"https://stackoverflow.com/help\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"chat",LM="KCTest(\"https://chat.stackoverflow.com/?tab=site&amp;host=stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+þ 
+$MA-X+PU,"Meta Stack Overflow
+
+ ",LM="KCTest(\"https://meta.stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+$ID,-2$
+
+$BLUE$$ID,4$your communities $BLACK$$BG$$ID,-4$
+
+$MA-X+PU,"Sign up",LM="KCTest(\"https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ or $MA-X+PU,"log in",LM="KCTest(\"https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f23714383%2fwhat-are-all-the-possible-values-for-http-content-type-header\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ to customize your list. 
+
+$BLUE$$ID,4$$MA-X+PU,"more stack exchange communities",LM="KCTest(\"https://stackexchange.com/sites\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $BLACK$$BG$$ID,-4$
+$MA-X+PU,"company blog",LM="KCTest(\"https://stackoverflow.blog\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+
+$ID,-2$
+
+
+By using our site, you acknowledge that you have read and understand our $MA-X+PU,"Cookie Policy",LM="KCTest(\"https://stackoverflow.com/legal/cookie-policy\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$, $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://stackoverflow.com/legal/privacy-policy\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$, and our $MA-X+PU,"Terms of Service",LM="KCTest(\"https://stackoverflow.com/legal/terms-of-service/public\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$.
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+$ID,2$
+þ $MA-X+PU,"Home
+
+ ",LM="KCTest(\"/\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $ID,2$
+þ Public
+
+
+ þ $MA-X+PU,"Stack Overflow
+
+ ",LM="KCTest(\"/questions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Tags
+
+ ",LM="KCTest(\"/tags\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Users
+
+ ",LM="KCTest(\"/users\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ Find a Job
+
+
+ þ $MA-X+PU,"Jobs
+
+ ",LM="KCTest(\"/jobs?so_medium=StackOverflow&amp;so_source=SiteNav\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+þ $MA-X+PU,"Companies
+
+ ",LM="KCTest(\"/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+þ $ID,2$
+þ Teams
+
+
+ $MA-X+PU,"What? this?
+
+ ",LM="KCTest(\"javascript:void(0)\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+
+þ $MA-X+PU,"Free 30 Day Trial ",LM="KCTest(\"https://stackoverflow.com/teams\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,-2$
+
+
+
+$IV,1$Teams$IV,0$
+
+
+ Q& for Work
+
+
+ Stack Overflow for Teams is a private, secure spot for you and
+
+ your coworkers to find and share information.
+
+ 
+$MA-X+PU,"Learn more ",LM="KCTest(\"https://stackoverflow.com/teams\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+
+
+
+$PURPLE$$ID,2$$MA-X+PU,"What are all the possible values for HTTP "ontent-Type"header?",LM="KCTest(\"/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-2$
+
+
+ $MA-X+PU,"Ask Question
+
+ ",LM="KCTest(\"/questions/ask\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+
+Asked
+
+ 6 years, 6 months ago
+
+ 
+Active
+
+ $MA-X+PU,"11 months ago",LM="KCTest(\"?lastactivity\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+Viewed
+
+ 361k times
+
+ 
+
+
+
+
+$MA-UL+B,""$
+291
+
+
+ $MA-UL+B,""$$MA-UL+B,"93
+
+ "$$MA-X+PU,"",LM="KCTest(\"/posts/23714383/timeline\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+
+ 
+I have to validate the Content-Type header value before passing it to an HTTP request.
+
+
+Is there a specific list for all the possible values of Content-Type?
+
+
+Otherwise, is there a way to validate the content type before using it in an HTTP request?
+
+ 
+$MA-X+PU,"http",LM="KCTest(\"/questions/tagged/http\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"http-headers",LM="KCTest(\"/questions/tagged/http-headers\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"httprequest",LM="KCTest(\"/questions/tagged/httprequest\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"content-type",LM="KCTest(\"/questions/tagged/content-type\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ 
+
+
+$MA-X+PU,"share",LM="KCTest(\"/q/23714383\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-X+PU,"improve this question",LM="KCTest(\"/posts/23714383/edit\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-UL+B,"follow
+
+ "$|
+
+
+
+
+
+
+ 
+$MA-X+PU,"edited Dec 14 '19 at 21:20",LM="KCTest(\"/posts/23714383/revisions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/775954/matthias-braun\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Matthias Braun",LM="KCTest(\"/users/775954/matthias-braun\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+22.5k1616 gold badges107107 silver badges139139 bronze badges
+
+ 
+
+
+
+asked May 17 '14 at 17:48
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/1101310/awesome\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Awesome",LM="KCTest(\"/users/1101310/awesome\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$Awesome
+
+ 
+3,98355 gold badges2323 silver badges4646 bronze badges
+
+ 
+
+
+
+
+
+
+$ID,2$
+þ 10
+
+ 
+
+Valid media types are supposed to be registered with the IANA - you can see a current list here: $MA-X+PU,"iana.org/assignments/media-types/media-types.xhtml",LM="KCTest(\"http://www.iana.org/assignments/media-types/media-types.xhtml\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ but note this list can update over time. There is not a fixed allowed list.
+
+ -nbsp;$MA-X+PU,"Joe",LM="KCTest(\"/users/57135/joe\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ May 17 '14 at 17:56
+
+ 
+
+
+þ 1
+
+ 
+
+Related post - $MA-X+PU,"ASP MVC - Are there
+
+af0
+
+ any constants for the default content types?",LM="KCTest(\"https://stackoverflow.com/q/10362140/465053\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ -nbsp;$MA-X+PU,"RBT",LM="KCTest(\"/users/465053/rbt\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ Aug 7 '18 at 12:21
+
+ 
+
+
+þ 
+
+@Joe: &quot;Valid media types are supposed to be registered with the IANA&quot; - wait, does this mean custom media types (only for use in an application-specific web API that is only going to be called by a custom client application) are not permitted at all?
+
+ -nbsp;$MA-X+PU,"O. R. Mapper",LM="KCTest(\"/users/1430156/o-r-mapper\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ Nov 5 '18 at 6:52
+
+ 
+
+
+þ 1
+
+ 
+
+@O.R.Mapper i' read it more as &quot;there is an official list, but i would not be surprised to see lots of others in the wild&quot;. In terms of the OP' question, if you were going to try and validate &quot;all types&quot; you' at least want to validate all registered types. What to do with additional ones is more open-ended. As far as I know there is no $BLUE$requirement$BLACK$$BG$ to register custom types.
+
+ -nbsp;$MA-X+PU,"Joe",LM="KCTest(\"/users/57135/joe\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ Nov 5 '18 at 16:07
+
+ 
+
+
+þ 
+
+Please accept the answer which helped you most in solving your problem. It helps future readers. If the answers weren' helpful leave comments below them. So the poster can update them accordingly. Read $MA-X+PU,"What should I do when someone answers my question?",LM="KCTest(\"https://stackoverflow.com/help/someone-answers\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ to know more.
+
+ -nbsp;$MA-X+PU,"Roshana Pitigala",LM="KCTest(\"/users/2408342/roshana-pitigala\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ Sep 4 '19 at 13:39
+
+ 
+
+
+$ID,-2$
+
+$MA-X+PU,"add a comment",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+   $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$RED$$ID,3$4 Answers
+
+ 4
+
+ $BLACK$$BG$$ID,-3$
+
+$MA-X+PU,"Active",LM="KCTest(\"/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header?answertab=active#tab-top\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Oldest",LM="KCTest(\"/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header?answertab=oldest#tab-top\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Votes",LM="KCTest(\"/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header?answertab=votes#tab-top\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+ 
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+ 
+
+
+$MA-UL+B,""$
+283
+
+
+ $MA-UL+B,""$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/posts/48704300/timeline\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+
+ 
+You can find every content type here:
+$MA-X+PU,"http://www.iana.org/assignments/media-types/media-types.xhtml",LM="KCTest(\"http://www.iana.org/assignments/media-types/media-types.xhtml\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+The most common type are:
+
+
+$ID,2$
+ þ Type application 
+application/java-archive
+application/EDI-X12 application/EDIFACT application/javascript application/octet-stream application/ogg application/pdf application/xhtml+xml application/x-shockwave-flash application/json application/ld+json application/xml application/zip application/x-www-form-urlencoded 
+
+þ Type audio 
+audio/mpeg audio/x-ms-wma audio/vnd.rn-realaudio audio/x-wav 
+
+þ Type image
+
+
+image/gif image/jpeg image/png image/tiff image/vnd.microsoft.icon image/x-icon image/vnd.djvu image/svg+xml 
+
+þ Type multipart 
+multipart/mixed multipart/alternative multipart/related (using by MHTML (HTML mail).) multipart/form-data 
+
+þ Type text 
+text/css text/csv text/html text/javascript (obsolete) text/plain text/xml 
+
+þ Type video 
+video/mpeg video/mp4 video/quicktime video/x-ms-wmv video/x-msvideo video/x-flv video/webm 
+
+þ Type vnd : 
+application/vnd.android.package-archive
+application/vnd.oasis.opendocument.text application/vnd.oasis.opendocument.spreadsheet application/vnd.oasis.opendocument.presentation application/vnd.oasis.opendocument.graphics application/vnd.ms-excel application/vnd.openxmlformats-officedocument.spreadsheetml.sheet application/vnd.ms-powerpoint application/vnd.openxmlformats-officedocument.presentationml.presentation application/msword application/vnd.openxmlformats-officedocument.wordprocessingml.document application/vnd.mozilla.xul+xml 
+
+$ID,-2$
+
+
+
+$MA-X+PU,"share",LM="KCTest(\"/a/48704300\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-X+PU,"improve this answer",LM="KCTest(\"/posts/48704300/edit\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-UL+B,"follow
+
+ "$|
+
+
+
+
+
+
+ 
+$MA-X+PU,"edited Nov 22 '19 at 8:19",LM="KCTest(\"/posts/48704300/revisions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"",LM="KCTest(\"
+
+1ccc
+
+/users/4373371/youssefdir\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"YoussefDir",LM="KCTest(\"/users/4373371/youssefdir\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+22511 gold badge22 silver badges1313 bronze badges
+
+ 
+
+
+
+answered Feb 9 '18 at 10:55
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/9256974/lebarillier\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"lebarillier",LM="KCTest(\"/users/9256974/lebarillier\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$lebarillier
+
+ 
+2,87611 gold badge55 silver badges1414 bronze badges
+
+ 
+
+
+
+
+
+
+$ID,2$
+$ID,-2$
+
+$MA-X+PU,"add a comment",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+   $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+ 
+
+
+$MA-UL+B,""$
+51
+
+
+ $MA-UL+B,""$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/posts/23714451/timeline\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+
+ 
+As $MA-X+PU,"is defined",LM="KCTest(\"http://www.w3.org/Protocols/rfc1341/4_Content-Type.html\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ in $MA-X+PU,"RFC 1341",LM="KCTest(\"http://tools.ietf.org/html/rfc1341\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$:
+
+
+$ID,2$
+ In the Extended BNF notation of RFC 822, a Content-Type header field
+ value is defined as follows:
+
+ Content-Type := type "/" subtype *[";" parameter] 
+type := "application" / "audio" / "image" / "message" / "multipart" / "text" / "video" / x-token 
+x-token := &lt; The two characters "X-" followed, with no intervening white space, by any token > 
+subtype := token 
+parameter := attribute "=" value 
+attribute := token 
+value := token / quoted-string 
+token := 1* 
+tspecials := "(" / ")" / "&lt;" / ">" / "@" ; Must be in / "," / ";" / ":" / "\" / &l
+
+3fc0
+
+t;"> ; quoted-string, / "/" / "[" / "]" / "?" / "." ; to use within / "=" ; parameter values
+
+$ID,-2$
+
+
+And $MA-X+PU,"a list of known MIME types",LM="KCTest(\"http://www.freeformatter.com/mime-types-list.html\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ that can follow it (or, as Joe remarks, $MA-X+PU,"the IANA source",LM="KCTest(\"http://www.iana.org/assignments/media-types/media-types.xhtml\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$).
+
+
+As you can see the list is way too big for you to validate against all of them. What you can do is validate against the general format and the type attribute to make sure that is correct (the set of options is small) and just assume that what follows it is correct (and of course catch any exceptions you might encounter when you put it to actual use).
+
+
+Also note the comment above:
+
+
+$ID,2$
+ If another primary type is to be used for any reason, it must be given a name starting with "X-" to indicate its non-standard status and to avoid any potential conflict with a future official name.
+
+$ID,-2$
+
+
+You'll notice that a lot of HTTP requests/responses include an X- header of some sort which are self defined, keep this in mind when validating the types.
+
+ 
+
+
+$MA-X+PU,"share",LM="KCTest(\"/a/23714451\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-X+PU,"improve this answer",LM="KCTest(\"/posts/23714451/edit\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-UL+B,"follow
+
+ "$|
+
+
+
+
+
+
+ 
+$MA-X+PU,"edited Aug 26 '16 at 1:02",LM="KCTest(\"/posts/23714451/revisions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/1145114/luiso\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Luiso",LM="KCTest(\"/users/1145114/luiso\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+3,50822 gold badges2929 silver badges5454 bronze badges
+
+ 
+
+
+
+answered May 17 '14 at 17:57
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/1864167/jeroen-vannevel\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Jeroen Vannevel",LM="KCTest(\"/users/1864167/jeroen-vannevel\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$Jeroen Vannevel
+
+ 
+40.2k2020 gold badges8989 silver badges150150 bronze badges
+
+ 
+
+
+
+
+
+
+$ID,2$
+þ 
+
+RFC 1341 is not relevant to HTTP.
+
+ -nbsp;$MA-X+PU,"Julian Reschke",LM="KCTest(\"/users/50543/julian-reschke\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ May 18 '14 at 12:32
+
+ 
+
+
+þ 2
+
+ 
+
+RFC 1341 describes Content-Type headers which are used in HTTP. How exactly would you say they are unrelated?
+
+ -nbsp;$MA-X+PU,"Jeroen Vannevel",LM="KCTest(\"/users/1864167/jeroen-vannevel\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ May 18 '14 at 12:35
+
+ 
+
+
+þ 2
+
+ 
+
+It has been obsoleted and replaced by newer documents multiple times. What' relevant is what &lt;$MA-X+PU,"greenbytes.de/tech/webdav/...",LM="KCTest(\"http://greenbytes.de/tech/webdav/draft-ietf-httpbis-p2-semantics-26.html#rfc.section.3.1.1.5\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$&gt; (plus the referenced documents) have to say.
+
+ -nbsp;$MA-X+PU,"Julian Reschke",LM="KCTest(\"/users/50543/julian-reschke\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ May 18 '14 at 14:08
+
+ 
+
+
+$ID,-2$
+
+$MA-X+PU,"add a comment",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+   $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+ 
+
+
+$MA-UL+B,""$
+3
+
+
+ $MA-UL+B,""$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/posts/37281577/timeline\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+
+ 
+I would aim at covering a subset of possible "Content-type" values, you question seems to focus on identifying known content types.
+
+
+@Jeroen RFC 1341 reference is great, but for an fairly exhaustive list IANA keeps
+a web page of officially registered media types $MA-X+PU,"here",LM="KCTest(\"http://www.iana.org/assignments/media-types/media-types.xhtml\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$.
+
+ 
+
+
+$MA-X+PU,"share",LM="KCTest(\"/a/37281577\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-X+PU,"improve this answer",LM="KCTest(\"/posts/37281577/edit\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-UL+B,"follow
+
+ "$|
+
+
+
+
+
+
+ 
+$MA-X+PU,"edited Mar 16 '17 at 17:30",LM="KCTest(\"/posts/37281577/revisions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/7659995/md-xf\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"MD XF",LM="KCTest(\"/users/7659995/md-xf\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+6,84277 gold badges
+
+3fc0
+
+3232 silver badges6161 bronze badges
+
+ 
+
+
+
+answered May 17 '16 at 16:19
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/717621/pete-hornsby\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Pete Hornsby",LM="KCTest(\"/users/717621/pete-hornsby\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$Pete Hornsby
+
+ 
+4,00811 gold badge2323 silver badges4040 bronze badges
+
+ 
+
+
+
+
+
+
+$ID,2$
+þ 
+
+Those are not &quot;known&quot; mediatypes (i.e. samples of what has been observed &quot;in the wild&quot;) but mediatypes that went through the IANA registration procedures. They are therefore officially registered. Found it important to point this out :)
+
+ -nbsp;$MA-X+PU,"DaSourcerer",LM="KCTest(\"/users/3012385/dasourcerer\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ May 17 '16 at 16:24
+
+ 
+
+
+$ID,-2$
+
+$MA-X+PU,"add a comment",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+   $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+ 
+
+
+$MA-UL+B,""$
+0
+
+
+ $MA-UL+B,""$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/posts/23715427/timeline\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+
+
+ 
+If you are using jaxrs or any other, then there will be a class called mediatype.User interceptor before sending the request and compare it against this.
+
+ 
+
+
+$MA-X+PU,"share",LM="KCTest(\"/a/23715427\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-X+PU,"improve this answer",LM="KCTest(\"/posts/23715427/edit\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ |
+
+ $MA-UL+B,"follow
+
+ "$|
+
+
+
+
+
+
+ 
+$MA-X+PU,"edited May 17 '14 at 20:26",LM="KCTest(\"/posts/23715427/revisions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/1101310/awesome\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"Awesome",LM="KCTest(\"/users/1101310/awesome\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+3,98355 gold badges2323 silver badges4646 bronze badges
+
+ 
+
+
+
+answered May 17 '14 at 19:45
+
+ 
+$MA-X+PU,"",LM="KCTest(\"/users/3106193/geddamsatish\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"geddamsatish",LM="KCTest(\"/users/3106193/geddamsatish\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$geddamsatish
+
+ 
+16899 bronze badges
+
+ 
+
+
+
+
+
+
+$ID,2$
+$ID,-2$
+
+$MA-X+PU,"add a comment",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+   $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+$RED$$ID,3$Your Answer
+
+ $BLACK$$BG$$ID,-3$
+
+
+
+
+
+
+Thanks for contributing an answer to Stack Overflow!
+$ID,2$
+ þ Please be sure to answer the question. Provide details and share your research!
+$ID,-2$
+But avoid    
+$ID,2$
+ þ Asking for help, clarification, or responding to other answers.
+þ Making statements based on opinion; back them up with references or personal experience.
+$ID,-2$
+To learn more, see our $MA-X+PU,"tips on writing great answers",LM="KCTest(\"/help/how-to-answer\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$.
+
+
+ 
+$MA-UL+B,""$
+Draft saved
+
+
+ Draft discarded
+
+
+ 
+
+
+
+
+$BLUE$$ID,4$Sign up or $MA-X+PU,"log in",LM="KCTest(\"/users/login?ssrc=question_page&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f23714383%2fwhat-are-all-the-possible-values-for-http-content-type-header%23new-answer\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-4$
+
+
+ Sign up using Google
+
+ 
+Sign up using Facebook
+
+ 
+Sign up using Email and Password
+
+ 
+
+$MA-UL+B,"Submit"$
+
+ 
+
+$BLUE$$ID,4$Post as a guest$BLACK$$BG$$ID,-4$
+
+
+ Name
+
+ 
+
+
+
+Email
+
+ 
+Required, but never shown
+
+
+ 
+
+
+
+
+
+
+
+$BLUE$$ID,4$Post as a guest$BLACK$$BG$$ID,-4$
+
+
+ Name
+
+ 
+
+
+
+Email
+
+ 
+Required, but never shown
+
+
+ 
+
+
+
+
+
+
+$MA-UL+B,"Post Your Answer "$$MA-UL+B,"Discard
+
+ "$
+By clicking "Post Your Answer", you agree to our $MA-X+PU,"terms of service",LM="KCTest(\"https://stackoverflow.com/legal/terms-of-service/public\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$, $MA-X+PU,"privacy policy",LM="KCTest(\"https://stackoverflow.com/legal/privacy-policy\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ and $MA-X+PU,"cookie policy",LM="KCTest(\"https://stackoverflow.com/legal/cookie-policy\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$RED$$ID,3$Not the answer you?e looking for? Browse other questions tagged $MA-X+PU,"http",LM="KCTest(\"/questions/tagged/http\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"http-headers",LM="KCTest(\"/questions/tagged/http-headers\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"httprequest",LM="KCTest(\"/questions/tagged/httprequest\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ $MA-X+PU,"content-type",LM="KCTest(\"/questions/tagged/content-type\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$ or $MA-X+PU,"ask your own question",LM="KCTest(\"/questions/ask\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$. $BLACK$$BG$$ID,-3$
+
+
+$ID,2$
+The Overflow Blog
+
+ 
+þ 
+$MA-X+PU,"Podcast 287: How do you make software reliable enough for space travel?",LM="KCTest(\"https://stackoverflow.blog/2020/11/17/podcast-287-how-do-you-make-software-reliable-enough-for-space-travel/\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+þ 
+$MA-X+PU,"The complexitiesÄand rewardsÄof open sourcing corporate software products",LM="KCTest(\"https://stackoverflow.blog/2020/11/17/the-complexities-and-rewards-of-open-sourcing-corporate-software-products/\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+Featured on Meta
+
+ 
+
+
+$MA-X+PU,"A big thank you, Tim Post",LM="KCTest(\"https://meta.stackexchange.com/questions/356603/a-big-thank-you-tim-post\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+þ 
+
+
+
+$MA-X+PU,"Question closed notifications experiment results and graduation",LM="KCTest(\"https://meta.stackexchange.com/questions/356742/question-closed-notifications-experiment-results-and-graduation\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+$ID,-2$
+
+
+
+
+
+
+
+
+
+$MA-X+PU,"Visit chat",LM="KCTest(\"https://chat.stackoverflow.com/\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+$DKGRAY$$ID,5$Linked$BLACK$$BG$$ID,-5$
+
+
+	
+
+ $MA-X+PU,"72
+
+				",LM="KCTest(\"/q/10362140\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"ASP MVC - Are there any constants for the default content types?",LM="KCTest(\"/questions/10362140/asp-mvc-are-there-any-constants-for-the-default-content-types?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"20
+
+				",LM="KCTest(\"/q/14291027\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"what is the use of "esponse.setContentType("ext/html""in servlet",LM="KCTest(\"/questions/14291027/what-is-the-use-of-response-setcontenttypetext-html-in-servlet?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"4
+
+				",LM="KCTest(\"/q/34160673\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Transfer from AWS S3 to Google-Cloud-Storage "NKNOWN"failures",LM="KCTest(\"/questions/34160673/transfer-from-aws-s3-to-google-cloud-storage-unknown-failures?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"0
+
+				",LM="KCTest(\"/q/49992645\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Getting error that USER_AGENT is not defined (Python 3)",LM="KCTest(\"/questions/49992645/getting-error-that-user-agent-is-not-defined-python-3?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"2
+
+				",LM="KCTest(\"/q/42627125\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Send Image and Data from PHP to API",LM="KCTest(\"/questions/42627125/send-image-and-data-from-php-to-api?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"-1
+
+				",LM="KCTest(\"/q/52350261\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Can someone elaborate on exactly what is being asked?",LM="KCTest(\"/questions/52350261/can-someone-elaborate-on-exactly-what-is-being-asked?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"-1
+
+				",LM="KCTest(\"/q/50577345\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"How to pass multiple parameters in rest API'",LM="KCTest(\"/questions/50577345/how-to-pass-multiple-parameters-in-rest-apis?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"1
+
+				",LM="KCTest(\"/q/46265981\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Error Domain=com.alamofire.error.serialization.response Code=-1011 "equest failed: not found (404)"",LM="KCTest(\"/questions/46265981/error-domain-com-alamofire-error-serialization-response-code-1011-request-fail?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"1
+
+				",LM="KCTest(\"/q/58167205\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Unzipping a file directly in google storage bucket",LM="KCTest(\"/questions/58167205/unzipping-a-file-directly-in-google-storage-bucket?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+ $MA-X+PU,"1
+
+				",LM="KCTest(\"/q/59095850\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+				$MA-X+PU,"Which content-types are supported by html5 object tag?",LM="KCTest(\"/questions/59095850/which-content-types-are-supported-by-html5-object-tag?noredirect=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+			
+
+
+		 $MA-X+PU,"See more linked questions",LM="KCTest(\"/questions/linked/23714383\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+$DKGRAY$$ID,5$Related$BLACK$$BG$$ID,-5$
+
+
+ $MA-X+PU,"550
+
+ ",LM="KCTest(\"/q/93551\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"How to encode the filename parameter of Content-Disposition header in HTTP?",LM="KCTest(\"/questions/93551/how-to-encode-the-filename-parameter-of-content-disposition-header-in-http\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"417
+
+ ",LM="KCTest(\"/q/220231\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Accessing the web page' HTTP Headers in JavaScript",LM="KCTest(\"/questions/220231/accessing-the-web-pages-http-headers-in-javascript\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"1538
+
+ ",LM="KCTest(\"/q/356705\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"How to send a header using a HTTP request through a curl call?",LM="KCTest(\"/questions/356705/how-to-send-a-header-using-a-http-request-through-a-curl-call\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"10483
+
+ ",LM="KCTest(\"/q/477816\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"What is the correct JSON content type?",LM="KCTest(\"/questions/477816/what-is-the-correct-json-content-type\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"2276
+
+ ",LM="KCTest(\"/q/978061\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"HTTP GET with request body",LM="KCTest(\"/questions/978061/http-get-with-request-body\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"1158
+
+ ",LM="KCTest(\"/q/3561381\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Custom HTTP headers : naming conventions",LM="KCTest(\"/questions/3561381/custom-http-headers-naming-conventions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"1391
+
+ ",LM="KCTest(\"/q/4007969\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"application/x-www-form-urlencoded or multipart/form-data?",LM="KCTest(\"/questions/4007969/application-x-www-form-urlencoded-or-multipart-form-data\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"760
+
+ ",LM="KCTest(\"/q/5258977\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"Are HTTP headers case-sensitive?",LM="KCTest(\"/questions/5258977/are-http-headers-case-sensitive\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$MA-X+PU,"1520
+
+ ",LM="KCTest(\"/q/14551194\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $MA-X+PU,"How are parameters sent in an HTTP POST request?",LM="KCTest(\"/questions/14551194/how-are-parameters-sent-in-an-http-post-request\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+$DKGRAY$$ID,5$$MA-X+PU,"Hot Network Questions
+
+ ",LM="KCTest(\"https://stackexchange.com/questions?tab=hot\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ $BLACK$$BG$$ID,-5$
+$ID,2$
+þ 
+$MA-X+PU,"What can I do to a 6 month child so she end up smart and have high IQ?
+
+ ",LM="KCTest(\"https://parenting.stackexchange.com/questions/40771/what-can-i-do-to-a-6-month-child-so-she-end-up-smart-and-have-high-iq\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Adding chili powder to a dish makes it dark black
+
+ ",LM="KCTest(\"https://cooking.stackexchange.com/questions/112695/adding-chili-powder-to-a-dish-makes-it-dark-black\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Doesn? the 22nd amendment prevent Donald Trump from running for president again in 2024?
+
+ ",LM="KCTest(\"https://politics.stackexchange.com/questions/60208/doesnt-the-22nd-amendment-prevent-donald-trump-from-running-for-president-again\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"looking for a story where Satan is the sane, stable one
+
+ ",LM="KCTest(\"https://scifi.stackexchange.com/questions/239262/looking-for-a-story-where-satan-is-the-sane-stable-one\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Write a chatbot
+
+ ",LM="KCTest(\"https://codegolf.stackexchange.com/questions/215254/write-a-chatbot\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Undo last command(s) in case of losing connection to a Cisco Router
+
+ ",LM="KCTest(\"https://networkengineering.stackexchange.com/questions/71023/undo-last-commands-in-case-of-losing-connection-to-a-cisco-router\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"DSLR in sand and salt water
+
+ ",LM="KCTest(\"https://photo.stackexchange.com/questions/121406/dslr-in-sand-and-salt-water\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Can I claim/deduct my expenses for a part time recipe tester on my taxes?
+
+ ",LM="KCTest(\"https://money.stackexchange.com/questions/132837/can-i-claim-deduct-my-expenses-for-a-part-time-recipe-tester-on-my-taxes\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Show polygon features within a polygon from another layer in QGIS
+
+ ",LM="KCTest(\"https://gis.stackexchange.com/questions/379432/show-polygon-features-within-a-polygon-from-another-layer-in-qgis\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"How do I invert my matrix?
+
+ ",LM="KCTest(\"https://mathematica.stackexchange.com/questions/234836/how-do-i-invert-my-matrix\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Will my wooden bridge withstand the weight of my small truck?
+
+ ",LM="KCTest(\"https://diy.stackexchange.com/questions/208871/will-my-wooden-bridge-withstand-the-weight-of-my-small-truck\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Representation a matrix as a colored square shape
+
+ ",LM="KCTest(\"https://mathematica.stackexchange.com/questions/234838/representation-a-matrix-as-a-colored-square-shape\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Is it legal to hack a hacker back (in the US)?
+
+ ",LM="KCTest(\"https://law.stackexchange.com/questions/58188/is-it-legal-to-hack-a-hacker-back-in-the-us\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Does there exist an ordering-functor?
+
+ ",LM="KCTest(\"https://mathoverflow.net/questions/376681/does-there-exist-an-ordering-functor\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"I am struggling due to insufficient background in a graduate course and feel like a moron. What do I do?
+
+ ",LM="KCTest(\"https://academia.stackexchange.com/questions/158867/i-am-struggling-due-to-insufficient-background-in-a-graduate-course-and-feel-lik\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"What do I need to watch to understand this character? history in an upcoming episode of &quot;The Mandalorian&quot;?
+
+ ",LM="KCTest(\"https://scifi.stackexchange.com/questions/239275/what-do-i-need-to-watch-to-understand-this-characters-history-in-an-upcoming-ep\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Does string slicing perform copy in memory?
+
+ ",LM="KCTest(\"https://stackoverflow.com/questions/64871329/does-string-slicing-perform-copy-in-memory\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Clarification on an article I read
+
+ ",LM="KCTest(\"https://electronics.stackexchange.com/questions/532814/clarification-on-an-article-i-read\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Is there a clever solution to Arnold? &quot;merchant problem&quot;?
+
+ ",LM="KCTest(\"https://math.stackexchange.com/questions/3910623/is-there-a-clever-solution-to-arnolds-merchant-problem\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Add new Region to existing Page Template
+
+ ",LM="KCTest(\"https://tridion.stackexchange.com/questions/21328/add-new-region-to-existing-page-template\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"A generalization of partition function to the sums of squares
+
+ ",LM="KCTest(\"https://mathoverflow.net/questions/376664/a-generalization-of-partition-function-to-the-sums-of-squares\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"What are these shiny wrist plates worn by astronauts in the SpaceX crew capsule
+
+ ",LM="KCTest(\"https://space.stackexchange.com/questions/48554/what-are-these-shiny-wrist-plates-worn-by-astronauts-in-the-spacex-crew-capsule\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"macOS Big Sur creates duplicate versions of files
+
+ ",LM="KCTest(\"https://apple.stackexchange.com/questions/406610/macos-big-sur-creates-duplicate-versions-of-files\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+þ 
+$MA-X+PU,"Should I show my six month old educational videos?
+
+ ",LM="KCTest(\"https://parenting.stackexchange.com/questions/40769/should-i-show-my-six-month-old-educational-videos\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+ 
+$ID,-2$
+$MA-X+PU,"more hot questions
+
+ ",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+
+
+
+
+ $MA-X+PU,"Question feed
+
+ ",LM="KCTest(\"/feeds/question/23714383\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$PURPLE$$ID,2$Subscribe to RSS
+
+ $BLACK$$BG$$ID,-2$
+Question feed
+
+ To subscribe to this RSS feed, copy and paste this URL into your RSS reader.
+
+
+ 
+
+
+$MA-X+PU,"",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+
+
+$LTBLUE$(IMG )$BLACK$$BG$
+
+
+
+
+
+
+
+
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,6$$MA-X+PU,"Stack Overflow",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+ $ID,2$
+þ $MA-X+PU,"Questions",LM="KCTest(\"/questions\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Jobs",LM="KCTest(\"https://stackoverflow.com/jobs\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Developer Jobs Directory",LM="KCTest(\"https://stackoverflow.com/jobs/directory/developer-jobs\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Salary Calculator",LM="KCTest(\"https://stackoverflow.com/jobs/salary\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Help",LM="KCTest(\"/help\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Mobile",LM="KCTest(\"NULL\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,6$$MA-X+PU,"Products",LM="KCTest(\"https://stackoverflowbusiness.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+ $ID,2$
+þ $MA-X+PU,"Teams",LM="KCTest(\"https://stackoverflow.com/teams\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Talent",LM="KCTest(\"https://stackoverflow.com/talent\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Advertising",LM="KCTest(\"https://stackoverflow.com/advertising\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Enterprise",LM="KCTest(\"https://stackoverflow.com/enterprise\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,6$$MA-X+PU,"Company",LM="KCTest(\"https://stackoverflow.com/company\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+ $ID,2$
+þ $MA-X+PU,"About",LM="KCTest(\"https://stackoverflow.com/company\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Press",LM="KCTest(\"https://stackoverflow.com/company/press\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Work Here",LM="KCTest(\"https://stackoverflow.com/company/work-here\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Legal",LM="KCTest(\"https://stackoverflow.com/legal\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://stackoverflow.com/legal/privacy-policy\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Contact Us",LM="KCTest(\"https://stackoverflow.com/company/contact\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$MA-X+PU,"",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+
+$ID,6$$MA-X+PU,"Stack Exchange Network",LM="KCTest(\"https://stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+ $ID,2$
+þ $MA-X+PU,"Technology",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Life / Arts",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Culture / Recreation",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Science",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Other",LM="KCTest(\"#\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+
+$ID,2$
+þ $MA-X+PU,"Stack Overflow",LM="KCTest(\"https://stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Server Fault",LM="KCTest(\"https://serverfault.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Super User",LM="KCTest(\"https://superuser.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Web Applications",LM="KCTest(\"https://webapps.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Ask Ubuntu",LM="KCTest(\"https://askubuntu.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Webmasters",LM="KCTest(\"https://webmasters.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Game Development",LM="KCTest(\"https://gamedev.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"TeX - LaTeX",LM="KCTest(\"https://tex.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Software Engineering",LM="KCTest(\"https://softwareengineering.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Unix &Linux",LM="KCTest(\"https://unix.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Ask Different (Apple)",LM="KCTest(\"https://apple.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"WordPress Development",LM="KCTest(\"https://wordpress.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Geographic Information Systems",LM="KCTest(\"https://gis.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Electrical Engineering",LM="KCTest(\"https://electronics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Android Enthusiasts",LM="KCTest(\"https://android.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Information Security",LM="KCTest(\"https://security.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Database Administrators",LM="KCTest(\"https://dba.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Drupal Answers",LM="KCTest(\"https://drupal.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"SharePoint",LM="KCTest(\"https://sharepoint.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"User Experienc
+
+4cb8
+
+e",LM="KCTest(\"https://ux.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Mathematica",LM="KCTest(\"https://mathematica.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Salesforce",LM="KCTest(\"https://salesforce.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"ExpressionEngine?Answers",LM="KCTest(\"https://expressionengine.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Stack Overflow em Portugu?",LM="KCTest(\"https://pt.stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Blender",LM="KCTest(\"https://blender.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Network Engineering",LM="KCTest(\"https://networkengineering.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Cryptography",LM="KCTest(\"https://crypto.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Code Review",LM="KCTest(\"https://codereview.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Magento",LM="KCTest(\"https://magento.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Software Recommendations",LM="KCTest(\"https://softwarerecs.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Signal Processing",LM="KCTest(\"https://dsp.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Emacs",LM="KCTest(\"https://emacs.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Raspberry Pi",LM="KCTest(\"https://raspberrypi.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Stack Overflow ?#x430; ?#x443;?#x441;?#x43E;?",LM="KCTest(\"https://ru.stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Code Golf",LM="KCTest(\"https://codegolf.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Stack Overflow en espa?l",LM="KCTest(\"https://es.stackoverflow.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Ethereum",LM="KCTest(\"https://ethereum.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Data Science",LM="KCTest(\"https://datascience.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Arduino",LM="KCTest(\"https://arduino.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Bitcoin",LM="KCTest(\"https://bitcoin.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Software Quality Assurance &Testing",LM="KCTest(\"https://sqa.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Sound Design",LM="KCTest(\"https://sound.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Windows Phone",LM="KCTest(\"https://windowsphone.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"more (28)
+
+ ",LM="KCTest(\"https://stackexchange.com/sites#technology\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Photography",LM="KCTest(\"https://photo.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Science Fiction &Fantasy",LM="KCTest(\"https://scifi.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Graphic Design",LM="KCTest(\"https://graphicdesign.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Movies &TV",LM="KCTest(\"https://movies.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Music: Practice &Theory",LM="KCTest(\"https://music.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Worldbuilding",LM="KCTest(\"https://worldbuilding.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Video Production",LM="KCTest(\"https://video.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Seasoned Advice (cooking)",LM="KCTest(\"https://cooking.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Home Improvement",LM="KCTest(\"https://diy.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Personal Finance &Money",LM="KCTest(\"https://money.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Academia",LM="KCTest(\"https://academia.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Law",LM="KCTest(\"https://law.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Physical Fitness",LM="KCTest(\"https://fitness.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Gardening &Landscaping",LM="KCTest(\"https://gardening.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Parenting",LM="KCTest(\"https://parenting.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"more (10)
+
+ ",LM="KCTest(\"https://stackexchange.com/sites#lifearts\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"English Language &Usage",LM="KCTest(\"https://english.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Skeptics",LM="KCTest(\"https://skeptics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Mi Yodeya (Judaism)",LM="KCTest(\"https://judaism.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Travel",LM="KCTest(\"https://travel.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Christianity",LM="KCTest(\"https://christianity.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"English Language Learners",LM="KCTest(\"https://ell.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Japanese Language",LM="KCTest(\"https://japanese.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Chinese Language",LM="KCTest(\"https://chinese.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"French Language",LM="KCTest(\"https://french.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"German Language",LM="KCTest(\"https://german.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Biblical Hermeneutics",LM="KCTest(\"https://hermeneutics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"History",LM="KCTest(\"https://history.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Spanish Language",LM="KCTest(\"https://spanish.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Islam",LM="KCTest(\"https://islam.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"?#x443;?#x441;?#x438;??#x437;?#x43A;",LM="KCTest(\"https://rus.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Russian Language",LM="KCTest(\"https://russian.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Arqade (gaming)",LM="KCTest(\"https://gaming.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Bicycles",LM="KCTest(\"https://bicycles.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Role-playing Games",LM="KCTest(\"https://rpg.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Anime &Manga",LM="KCTest(\"https://anime.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Puzzling",LM="KCTest(\"https://puzzling.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Motor Vehicle Maintenance &Repair",LM="KCTest(\"https://mechanics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Board &Card Games",LM="KCTest(\"https://boardgames.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Bricks",LM="KCTest(\"https://bricks.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Homebrewing",LM="KCTest(\"https://homebrew.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Martial Arts",LM="KCTest(\"https://martialarts.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"The Great Outdoors",LM="KCTest(\"https://outdoors.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Poker",LM="KCTest(\"https://poker.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Chess",LM="KCTest(\"https://chess.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Sports",LM="KCTest(\"https://sports.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"more (16)
+
+ ",LM="KCTest(\"https://stackexchange.com/sites#culturerecreation\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"MathOverflow",LM="KCTest(\"https://mathoverflow.net\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Mathematics",LM="KCTest(\"https://math.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Cross Validated (stats)",LM="KCTest(\"https://stats.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Theoretical Computer Science",LM="KCTest(\"https://cstheory.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Physics",LM="KCTest(\"https://physics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Chemistry",LM="KCTest(\"https://chemistry.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Biology",LM="KCTest(\"https://biology.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Computer Science",LM="KCTest(\"https://cs.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Philosophy",LM="KCTest(\"https://philosophy.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Linguistics",LM="KCTest(\"https://linguistics.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Psychology &Neuroscience",LM="KCTest(\"https://psychology.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+35
+
+
+
+
+ þ $MA-X+PU,"Computational Science",LM="KCTest(\"htt
+
+572
+
+ps://scicomp.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"more (10)
+
+ ",LM="KCTest(\"https://stackexchange.com/sites#science\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+ 
+$ID,-2$
+
+$ID,2$
+þ $MA-X+PU,"Meta Stack Exchange",LM="KCTest(\"https://meta.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Stack Apps",LM="KCTest(\"https://stackapps.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"API",LM="KCTest(\"https://api.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Data",LM="KCTest(\"https://data.stackexchange.com\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ $ID,-2$
+
+
+
+$ID,2$
+þ $MA-X+PU,"Blog",LM="KCTest(\"https://stackoverflow.blog?blb=1\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Facebook",LM="KCTest(\"https://www.facebook.com/officialstackoverflow/\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Twitter",LM="KCTest(\"https://twitter.com/stackoverflow\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"LinkedIn",LM="KCTest(\"https://linkedin.com/company/stack-overflow\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ þ $MA-X+PU,"Instagram",LM="KCTest(\"https://www.instagram.com/thestackoverflow\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$
+
+
+ 578
+
+ul>
+
+
+
+ site design / logo (C)2020 Stack Exchange Inc; user contributions licensed under $MA-X+PU,"cc by-sa",LM="KCTest(\"https://stackoverflow.com/help/licensing\",\"https://stackoverflow.com:443/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header\");View;
+"$. rev 020.11.17.38023
+
+ 
+$ID,-2$
+
+
+
+Stack Overflow works best with JavaScript enabled
+
+ $LTBLUE$(IMG )$BLACK$$BG$
+
+ 
+
+$FG$

@@ -1,0 +1,54 @@
+URL:
+$MA-X+PU,"https://www.google.com:443/",LM="KCTest(\"https://www.google.com:443/\");View;
+"$
+
+
+$WW,1$$BLACK$34ce
+
+$PURPLE$$TX+CX,"Google"$
+
+$BLACK$$BG$
+
+$IV,1$Pesquisa$IV,0$ $MA-X+PU,"Imagens",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Maps",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Play",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"YouTube",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Notícias",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Gmail",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Drive",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$ $MA-X+PU,"Mais ¯",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$
+$MA-X+PU,"Histórico da Web",LM="KCTest(\"http://www.google.com.br/history/optout?hl=pt-BR\",\"https://www.google.com:443/\");View;
+"$ | $MA-X+PU,"Configurações",LM="KCTest(\"/preferences?hl=pt-BR\",\"https://www.google.com:443/\");View;
+"$ | $MA-X+PU,"Fazer login",LM="KCTest(\"NULL\",\"https://www.google.com:443/\");View;
+"$
+
+
+
+
+
+$LTBLUE$(IMG Google)$BLACK$$BG$
+
+
+$ID,2$$WW,0$ 	
+
+$LTBLUE$(IMG )$BLACK$$BG$
+
+
+	$MA-X+PU,"Pesquisa avançada",LM="KCTest(\"/advanced_search?hl=pt-BR&amp;authuser=0\",\"https://www.google.com:443/\");View;
+"$	
+$ID,-2$$WW,1$
+
+
+
+
+$MA-X+PU,"Soluções de publicidade",LM="KCTest(\"/intl/pt-BR/ads/\",\"https://www.google.com:443/\");View;
+"$$MA-X+PU,"Soluções empresariais",LM="KCTest(\"/services/\",\"https://www.google.com:443/\");View;
+"$$MA-X+PU,"Sobre o Google",LM="KCTest(\"/intl/pt-BR/about.html\",\"https://www.google.com:443/\");View;
+"$$MA-X+PU,"Google.com.br",LM="KCTest(\"https://www.google.com/setprefdomain?prefdom=BR&amp;prev=https://www.google.com.br/&amp;sig=K_8xdxYzSd22J83PPdpgOZUegUvMA%3D\",\"https://www.google.com:443/\");View;
+"$
+
+C2020 - $MA-X+PU,"Privacidade",LM="KCTest(\"/intl/pt-BR/policies/privacy/\",\"https://www.google.com:443/\");View;
+"$ - $MA-X+PU,"Termos",LM="KCTest(\"/intl/pt-BR/policies/terms/\",\"https://www.google.com:443/\");View;
+"$
+ $FG$

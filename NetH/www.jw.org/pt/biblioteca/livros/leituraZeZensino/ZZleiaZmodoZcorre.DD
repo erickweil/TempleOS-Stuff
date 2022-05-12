@@ -1,0 +1,1853 @@
+URL:
+$MA-X+PU,"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/",LM="KCTest(\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+
+$WW,1$$BLACK$00006000
+
+
+
+ $PURPLE$$TX+CX,"Leia de modo correto | Leitura e Ensino"$
+
+$BLACK$$BG$
+ 
+
+$MA-X+PU,"Pular para conte£do
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/#content\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Pular para sum rio",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/#sidebar\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ 
+
+
+$MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-UL+B,"Mudar o idioma do site
+ "$
+
+$MA-UL+B,"FECHAR
+ "$
+$MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ 
+$MA-X+PU,"Buscar no JW.ORG
+ ",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-UL+B,"EXIBIR MENU
+ "$
+
+$MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas B¡blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Textos B¡blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Ajudas para Estudar a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Li€“es on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Casamento e Fam¡lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Crian€as
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"F‚ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"A Hist¢ria e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"A Ci‰ncia e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"B¡blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Revistas
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"S‚ries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Nosso Minist‚rio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Pe€as Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Leituras B¡blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"V¡deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"JW Not¡cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Casos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+00004000
+
+ $MA-X+PU,"Pe€a uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Reuni“es
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Celebra€ƒo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Relatos da Vida de Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-X+PU,"LOGIN
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-UL+B,"FECHAR
+ "$
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/a281a290e9/images/siteLogo-jworg-print.png\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+ $LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/a281a290e9/images/siteLogo-jworg-print-rtl.png\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+ $MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$RED$$ID,3$Testemunhas de Jeov $BLACK$$BG$$ID,-3$
+
+ 
+$MA-X+PU,"Selecione o idioma
+ Portugu‰s (Brasil)
+ ",LM="KCTest(\"/pt/choose-language?locale=pt&prefer=lang&docid=1102018445\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$MA-UL+B,"Pesquisar
+ "$
+
+
+
+
+
+
+$ID,2$
+þ $MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Ensinos B¡blicos
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"Perguntas B¡blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Textos B¡blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Ajudas para Estudar a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Li€“es on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Casamento e Fam¡lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Crian€as
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"F‚ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"A Ci‰ncia e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"A Hist¢ria e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Biblioteca
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"B¡blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Revistas
+ ",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"S‚ries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"V¡deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€as Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Leituras B¡blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Nosso Minist‚rio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Imprensa
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"JW Not¡cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Casos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Recursos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/recursos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Quem Sƒo as Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€a uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Reuni“es
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Celebra€ƒo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+$ID,-2$
+
+
+
+
+
+$ID,2$
+þ $MA-X+PU,"Biblioteca",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Livros e Brochuras",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Melhore Sua Leitura e Seu Ensino",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+Gostaria de ler este artigo em %%?
+
+ $MA-UL+B,"Sim
+ "$$MA-UL+B,"Nƒo
+ "$
+
+LER EM
+
+ Abbey
+ Abc zio
+ Abua
+ Abui
+ Acholi
+ Afric„ner
+ Ahanta
+ Aimar 
+ Aja
+ Akha
+ Alban‰s
+ Alemƒo
+ Altai
+ Alur
+ Am rico
+ Arm‰nio
+ Arm‰nio (ocidental)
+ Assam‰s
+ Ateso
+ Attie
+ Aukan
+ Azerbaijano
+ Azerbaijano (cir¡lico)
+ Baixo-alemƒo
+ Bambara
+ Basco
+ Basquir
+ Bassa (Camar“es)
+ Bataque (karo)
+ Bataque (simalungun)
+ Bataque (toba)
+ Baul‰
+ Bengali
+ Bete
+ Biak
+ Bicol
+ Birman‰s
+ Bislama
+ Bulo
+ B£lgaro
+ Cabila
+ Cabi‰
+ Cabo-verdiano
+ Cakchiquel (ocidental)
+ Cambojano
+ Canar‰s
+ Caonde
+ Cara¡ba
+ Catalƒo
+ Cazaque
+ Cazaque ( rabe)
+ Cebuano
+ Changana (Mo€ambique)
+ Chavacano
+ Chichewa
+ Chin (hakha)
+ Chin‰s canton‰s (simplificado)
+ Chin‰s canton‰s (tradicional)
+ Chin‰s mandarim (simplificado)
+ Chin‰s mandarim (tradicional)
+ Chitonga
+ Chitonga malauiano
+ Chitonga zimbabuano
+ Chitumbuka
+ Chiyao
+ Chokwe
+ Chol
+ Chope
+ Chuabo
+ Chuuqu‰s
+ Chuvache
+ Cibemba
+ Cinamwanga
+ Cingal‰s
+ Cinianja
+ Concani (latino)
+ Congo
+ Coreano
+ Crioulo da Guin‚-Bissau
+ Crioulo da Martinica
+ Crioulo das Seychelles
+ Crioulo de Guadalupe
+ Crioulo de Maur¡cio
+ Crioulo de Reuniƒo
+ Crioulo de Santa L£cia
+ Crioulo do Haiti
+ Cri”
+ Croata
+ Cuanhama
+ Curdo kurmanji
+ Curdo kurmanji (C ucaso)
+ Curdo kurmanji (cir¡lico)
+ Daiaque ngaju
+ Damara
+ Dangme
+ Digor
+ Dinamarqu‰s
+ Di£la
+ Drehu
+ Duala
+ Edo
+ Efique
+ Esan
+ Eslovaco
+ Esloveno
+ Espanhol
+ Estoniano
+ Eve
+ Ewondo
+ Fang
+ Fanti
+ Faro‰s
+ Fijiano
+ Finland‰s
+ Fom
+ Frafra
+ Franc‰s
+ Ga
+ Galego
+ Gal‰s
+ Garifuna
+ Georgiano
+ Ghom l '
+ Gilbert‰s
+ Gitonga
+ Gokana
+ Grego
+ Groenland‰s
+ Guarani
+ Gum
+ Guzerate
+ Gu‚r‚
+ Hau€ 
+ Hebraico
+ Herer¢
+ Hiligaino
+ Hindi
+ Hiri motu
+ Hmong (branco)
+ Holand‰s
+ Huasteco (San Luis Potosi)
+ Hunsrik
+ H£ngaro
+ Iacuba
+ Ibanag
+ Ibinda
+ Ibo
+ Ibƒ
+ Idoma
+ Igede
+ Ilocano
+ Indon‚sio
+ Ingl‰s
+ Ioruba
+ Island‰s
+ Isoko
+ Italiano
+ Japon‰s
+ Javan‰s
+ Kachin
+ Kamba
+ Kana
+ Karen (s'gaw)
+ Kekchi
+ Kikongo
+ Kiluba
+ Kimbundu
+ Kipende
+ Kirundi
+ Kisi
+ Kisonge
+ Kosreano
+ Kriol de Belize
+ Kwangali
+ Kyangonde
+ Lahu
+ Laociano
+ Lenje
+ Letƒo
+ Lingala
+ Lituano
+ Lolo
+ Lomwe
+ Luconzo
+ Luganda
+ Lunda
+ Luo
+ Luvale
+ L¡ngua brasileira de sinais
+ L¡ngua de sinais alemƒ
+ L¡ngua de sinais americana
+ L¡ngua de sinais angolana
+ L¡ngua de sinais argentina
+ L¡ngua de sinais australiana
+ L¡ngua de sinais boliviana
+ L¡ngua de sinais brit„nica
+ L¡ngua de sinais chilena
+ L¡ngua de sinais colombiana
+ L¡ngua de sinais coreana
+ L¡ngua de sinais cubana
+ L¡ngua de sinais equatoriana
+ L¡ngua de sinais eslovaca
+ L¡ngua de sinais espanhola
+ L¡ngua de sinais filipina
+ L¡ngua de sinais finlandesa
+ L¡ngua de sinais francesa
+ L¡ngua de sinais ganense
+ L¡ngua de sinais h£ngara
+ L¡ngua de sinais indiana
+ L¡ngua de sinais indon‚sia
+ L¡ngua de sinais italiana
+ L¡ngua de sinais japonesa
+ L¡ngua de sinais madagascarense
+ L¡ngua de sinais malauiana
+ L¡ngua de sinais mexicana
+ L¡ngua de sinais mo€ambicana
+ L¡ngua de sinais nigeriana
+ L¡ngua de sinais paraguaia
+ L¡ngua de sinais peruana
+ L¡ngua de sinais polonesa
+ L¡ngua de sinais quebequense
+ L¡ngua de sinais russa
+ L¡ngua de sinais sueca
+ L¡ngua de sinais sul-africana
+ L¡ngua de sinais tailandesa
+ L¡ngua de sinais taiwanesa
+ L¡ngua de sinais tcheca
+ L¡ngua de sinais venezuelana
+ L¡ngua de sinais zimbabuana
+ L¡ngua gestual portuguesa
+ Maced”nio
+ Maconde
+ Macua
+ Maia
+ Malaiala
+ Malaio
+ Malgaxe
+ Malt‰s
+ Mam
+ Mambwe-lungu
+ Manyawa
+ Mapudungun
+ Marata
+ Marchal‰s
+ Mari
+ Mazateco (Huautla)
+ Mbunda
+ Medumba
+ Mingr‚lio
+ Misquito
+ Misteca (guerrero)
+ Mixe (norte central)
+ Mizo
+ Mongol
+ Mossi
+ Motu
+ Navajo
+ Ndau
+ Ndongo
+ Nedebele
+ Nedebele (Zimb bue)
+ Nepal‰s
+ Ngabere
+ 00005EA1
+
+ Ngangela
+ Ngiemboon
+ Nias
+ Niueano
+ Noruegu‰s
+ Nsenga (Mo€ambique)
+ Nsenga (Z„mbia)
+ Nyaneka
+ Nyungwe
+ Nzema
+ N uatle (central)
+ N uatle (guerrero)
+ N uatle (huasteca)
+ N uatle (norte de Puebla)
+ Obolo
+ Odia
+ Okpe
+ Oromo
+ Osseto
+ Otetela
+ Otomi (vale de Mezquital)
+ Palauano
+ Pangasino
+ Papiamento (Cura€au)
+ Persa
+ Phimbi
+ Pidgin (Africa Ocidental)
+ Pidgin das Ilhas Salomƒo
+ Polon‰s
+ Pomerano
+ Ponapeano
+ Portugu‰s (Brasil)
+ Portugu‰s (Portugal)
+ Punjabi
+ Punjabi shahmukhi
+ Quich‚
+ Quicuio
+ Quiniaruanda
+ Quirguiz
+ Qu¡chua (Ancash)
+ Qu¡chua (Ayacucho)
+ Qu¡chua (Bol¡via)
+ Qu¡chua (Chimborazo)
+ Qu¡chua (Cuzco)
+ Qu¡chua (Imbabura)
+ Qu¡chua (Tena)
+ Rarotongano
+ Romani (Maced”nia)
+ Romani (Maced”nia) (cir¡lico)
+ Romani (Rom‰nia)
+ Romani (S‚rvia)
+ Romani (lovari, h£ngaro)
+ Romani (sul da Gr‚cia)
+ Romeno
+ Ronga
+ Runyankore
+ Russo
+ Rutoro
+ Samoano
+ Sangir
+ Sango
+ Saramacano
+ Sena
+ Sepedi
+ Sepulana
+ Sesoto (Lesotho)
+ Sesoto (Africa do Sul)
+ Shona
+ Shuar
+ Sidamo
+ Silozi
+ Sranantongo
+ Suazi
+ Sua¡li
+ Sua¡li (Congo)
+ Sueco
+ Sundan‰s
+ S‚rvio (cir¡lico)
+ S‚rvio (latino)
+ Tadjique
+ Tagalo
+ Tailand‰s
+ Taitiano
+ Talian
+ Tandroy
+ Tankarana
+ Tarahumara (central)
+ Tarasco
+ Tcheco
+ Tchiluba
+ Ticuna
+ Tigr¡nia
+ Tiv
+ Tlapaneco
+ Tojolabal
+ Tok pisin
+ Tongan‰s
+ Totonaca
+ Tshwa
+ Tsonga
+ Tsuana
+ Turco
+ Turcomano
+ Tuvaluano
+ Tvi
+ Tzeltal
+ Tzotzil
+ T rtaro
+ T„mil
+ T‚lugo
+ T‚tum dili
+ Ucraniano
+ Udmurte
+ Uigur (cir¡lico)
+ Umbundu
+ Urdu
+ Urhobo
+ Uruund
+ Uzbeque
+ Uzbeque (latino)
+ Valenciano
+ Valisiano
+ Venda
+ Vezo
+ Vietnamita
+ Waray-waray
+ Wayuunaiki
+ Wolaita
+ Wolof
+ Xosa
+ Yap‰s
+ Yemba
+ Zande
+ Zapoteca (Istmo)
+ Zapoteca (Lachiguiri)
+ Zulu
+ Arabe
+ 
+
+
+
+
+
+
+ $IV,1$LICAO 5$IV,0$
+
+
+$PURPLE$$ID,2$Leia de modo correto$BLACK$$BG$$ID,-2$
+
+
+
+
+
+ REPRODUZIR
+
+ $MA-X+PU,"",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?docid=1102018445&amp;output=html&amp;fileformat=MP3&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+
+Leia de modo correto
+
+
+
+
+
+
+
+
+
+ 
+$LTBLUE$(IMG Texto b¡blico)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1102018440/univ/wpub/1102018440_univ_cnt_1_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+
+
+
+
+
+
+
+$RED$$ID,3$$MA-X+PU,"1 Tim¢teo 4:13",LM="KCTest(\"/pt/biblioteca/biblia/biblia-de-estudo/livros/1-Tim%C3%B3teo/4/#v54004013\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-3$
+
+
+
+
+$IV,1$O QUE VOCE DEVE FAZER: $IV,0$Leia exatamente o que est  escrito.
+
+
+
+
+
+
+
+
+
+
+
+ 
+Desculpe-nos. O tocador de m¡dia nƒo carregou.
+
+ $MA-X+PU,"Baixar o v¡deo",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&pub=thv&fileformat=m4v%2Cmp4%2C3gp%2Cmp3&alllangs=0&track=5&langwritten=T&txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ 
+
+$RED$$ID,3$COMO VOCE PODE FAZER ISSO:$BLACK$$BG$$ID,-3$
+
+
+
+
+$ID,2$
+ þ $IV,1$Prepare-se bem. $IV,0$Pense na inten€ƒo das palavras que voc‰ vai ler. Leia grupos de palavras em vez de ler palavra por palavra. Tome cuidado para nƒo acrescentar, pular ou trocar palavras. Preste aten€ƒo nas v¡rgulas, pontos finais e pontos de interroga€ƒo.
+
+
+
+
+
+
+$LTBLUE$(IMG Dica)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1102018440/univ/wpub/1102018440_univ_cnt_2_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+
+
+
+
+
+
+
+Pe€a para um amigo ouvir sua leitura e dizer quais palavras voc‰ leu errado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+þ  $IV,1$Fale cada palavra de modo correto. $IV,0$Se voc‰ nƒo souber como ler uma palavra, escute o  udio da publica€ƒo ou pe€a a ajuda de um bom leitor.
+
+
+
+
+
+þ  $IV,1$Fale de modo claro. $IV,0$Pronuncie bem cada palavra, mantendo a cabe€a erguida e abrindo bem a boca. Fale cada s¡laba.
+
+
+
+
+
+
+$LTBLUE$(IMG Dica)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1102018440/univ/wpub/1102018440_univ_cnt_2_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+
+
+
+
+
+
+
+Leia as palavras do mesmo modo que voc‰ fala no dia a dia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+$ID,-2$
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+$MA-X+PU,"Anterior
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/4-prepare-pessoas-entender-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$MA-X+PU,"Pr¢ximo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/6-explique-por-que-leu-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+
+$RED$$ID,3$Saiba mais$BLACK$$BG$$ID,-3$
+
+ $MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1102019354/univ/wpub/1102019354_univ_sqs_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+
+
+ 
+MELHORE SUA LEITURA E SEU ENSINO Ä VIDEOS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Leia de modo correto
+ ",LM="KCTest(\"/pt/biblioteca/videos/leitura-ensino-videos/5-leia-de-modo-correto-video/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+O que envolve ler exatamento o que est  escrito?
+
+
+
+
+ 
+
+
+$MA-UL+B,"Imprimir
+ "$
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Leia de modo correto
+
+
+ "$
+
+
+
+MELHORE SUA LEITURA E SEU ENSINO
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Leitura e Ensino Ä Leia de modo correto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portugu‰s (Brasil)
+ 
+Leitura e Ensino Ä Leia de modo correto
+ 
+
+
+
+th li€ƒo 5 p. 8
+ 
+
+
+
+$MA-UL+B,"Mostrar tabela de conte£dos
+ "$
+
+
+
+$MA-X+PU,"Anterior
+ ",LM="KCTest(\"/pt/bibl
+
+00004000
+
+ioteca/livros/leitura-e-ensino/4-prepare-pessoas-entender-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,6$$MA-X+PU,"SUMARIO",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $MA-X+PU,"Pr¢ximo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/6-explique-por-que-leu-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$ID,2$
+þ $MA-X+PU,"Carta do Corpo Governante
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/carta-corpo-governante/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 1
+ Comece bem
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/1-comece-bem/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 2
+ Fale de cora€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/2-fale-de-coracao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 3
+ Fa€a perguntas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/3-faca-perguntas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 4
+ Prepare as pessoas para entender o texto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/4-prepare-pessoas-entender-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 5
+ Leia de modo correto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 6
+ Explique por que voc‰ leu o texto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/6-explique-por-que-leu-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 7
+ Use informa€“es verdadeiras
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/7-use-informacoes-verdadeiras/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 8
+ Ensine com ilustra€“es
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/8-ensine-com-ilustracoes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 9
+ Use desenhos, fotos e v¡deos
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/9-use-desenhos-fotos-videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 10
+ Mude o volume, a emo€ƒo e o ritmo durante a apresenta€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/10-volume-emo%C3%A7%C3%A3o-ritmo/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 11
+ Fale de modo animado
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/11-fale-de-modo-animado/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 12
+ Seja simp tico e mostre que se importa
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/12-simp%C3%A1tico-e-mostre-que-se-importa/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 13
+ Mostre como colocar o assunto em pr tica
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/13-mostre-como-colocar-assunto-em-pratica/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 14
+ Chame aten€ƒo para os pontos principais
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/14-chame-atencao-pontos-principais/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 15
+ Fale com convic€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/15-fale-com-conviccao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 16
+ Concentre-se em coisas positivas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/16-concentre-se-em-coisas-positivas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 17
+ Fale de modo f cil de entender
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/17-facil-de-entender/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 18
+ Use informa€“es interessantes
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/18-informacoes-interessantes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 19
+ Toque o cora€ƒo das pessoas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/19-toque-o-coracao-das-pessoas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 20
+ Fa€a uma boa conclusƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/20-faca-boa-conclusao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Registre seu progresso
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/registre-seu-progresso/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+
+$LTBLUE$(IMG Melhore Sua Leitura e Seu Ensino)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/th/T/wpub/th_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+ 
+$LTBLUE$(IMG Melhore Sua Leitura e Seu Ensino)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/a/th/T/wpub/th_T_xs.jpg\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+
+ 
+
+$ID,6$OPCOES DE DOWNLOAD$BLACK$$BG$$ID,-6$
+
+ 
+Leia de modo correto
+
+
+
+
+ $MA-X+PU,"Texto
+ Op€“es de download de publica€“es
+ Melhore Sua Leitura e Seu Ensino
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$ID,2$
+
+þ $MA-X+PU,"PDF
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"EPUB
+ ",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"JWPUB
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Leitor de tela (RTF)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Notetaker (BRL)
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=PDF%2CEPUB%2CJWPUB%2CRTF%2CTXT%2CBRL%2CBES%2CDAISY&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Audio
+ Op€“es de download de  udio
+ Melhore Sua Leitura e Seu Ensino
+
+
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$ID,2$
+
+þ $MA-X+PU,"MP3
+ ",LM="KCTest(\"https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?output=html&amp;pub=th&amp;fileformat=MP3%2CAAC&amp;alllangs=0&amp;langwritten=T&amp;txtCMSLang=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-UL+B,"Compartilhar
+ Compartilhar
+ Melhore Sua Leitura e Seu Ensino
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Melhore Sua Leitura e Seu Ensino
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portugu‰s (Brasil)
+ 
+Melhore Sua Leitura e Seu Ensino
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/th/T/wpub/th_T_lg.jpg
+
+ 
+
+$ID,2$
+þ $MA-UL+B,"Compartilhar
+ Compartilhar
+ Melhore Sua Leitura e Seu Ensino
+
+
+ "$
+
+
+
+LIVROS E BROCHURAS
+
+
+
+
+
+
+ $BLUE$$ID,4$$MA-X+PU,"Melhore Sua Leitura e Seu Ensino
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+Portugu‰s (Brasil)
+ 
+Melhore Sua Leitura e Seu Ensino
+ 
+https://assetsnffrgf-a.akamaihd.net/assets/a/th/T/wpub/th_T_lg.jpg
+
+ 
+
+
+$ID,-2$
+
+
+
+
+
+$MA-X+PU,"Anterior
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/4-prepare-pessoas-entender-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,6$$MA-X+PU,"SUMARIO",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $MA-X+PU,"Pr¢ximo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/6-explique-por-que-leu-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+$ID,2$
+þ $MA-X+PU,"Carta do Corpo Governante
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/carta-corpo-governante/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 1
+ Comece bem
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/1-comece-bem/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 2
+ Fale de cora€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/2-fale-de-coracao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 3
+ Fa€a perguntas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/3-faca-perguntas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 4
+ Prepare as pessoas para entender o texto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/4-prepare-pessoas-entender-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 5
+ Leia de modo correto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 6
+ Explique por que voc‰ leu o texto
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/6-explique-por-que-leu-texto/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 7
+ Use informa€“es verdadeiras
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/7-use-informacoes-verdadeiras/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 8
+ Ensine com ilustra€“es
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/8-ensine-com-ilustracoes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 9
+ Use desenhos, fotos e v¡deos
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/9-use-desenhos-fotos-videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 10
+ Mude o volume, a emo€ƒo e o ritmo durante a apresenta€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/10-volume-emo%C3%A7%C3%A3o-ritmo/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 11
+ Fale de modo animado
+ ",LM="KCTest(\"/pt/biblioteca/livro
+
+00002727
+
+s/leitura-e-ensino/11-fale-de-modo-animado/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 12
+ Seja simp tico e mostre que se importa
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/12-simp%C3%A1tico-e-mostre-que-se-importa/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 13
+ Mostre como colocar o assunto em pr tica
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/13-mostre-como-colocar-assunto-em-pratica/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 14
+ Chame aten€ƒo para os pontos principais
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/14-chame-atencao-pontos-principais/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 15
+ Fale com convic€ƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/15-fale-com-conviccao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 16
+ Concentre-se em coisas positivas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/16-concentre-se-em-coisas-positivas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 17
+ Fale de modo f cil de entender
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/17-facil-de-entender/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 18
+ Use informa€“es interessantes
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/18-informacoes-interessantes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 19
+ Toque o cora€ƒo das pessoas
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/19-toque-o-coracao-das-pessoas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"LICAO 20
+ Fa€a uma boa conclusƒo
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/20-faca-boa-conclusao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Registre seu progresso
+ ",LM="KCTest(\"/pt/biblioteca/livros/leitura-e-ensino/registre-seu-progresso/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+
+
+
+$ID,6$JW.ORG$SY,-3$(R)$SY,0$$IV,1$ / SITE OFICIAL DAS TESTEMUNHAS DE JEOVA$IV,0$$BLACK$$BG$$ID,-6$
+
+ $ID,7$$MA-X+PU,"Ensinos B¡blicos",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"Perguntas B¡blicas Respondidas",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Textos B¡blicos Explicados",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Ajudas para Estudar a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Li€“es on-line",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Paz e Felicidade",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Casamento e Fam¡lia",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Adolescentes",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Crian€as",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"F‚ em Deus",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"A Hist¢ria e a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"A Ci‰ncia e a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Biblioteca",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"B¡blia On-line",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Revistas",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Livros e Brochuras",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"S‚ries de artigos",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Apostilas",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Nosso Minist‚rio do Reino",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"M£sicas",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€as Teatrais em Audio",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Leituras B¡blicas Dramatizadas",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"V¡deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Broadcasting(R)",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio
+
+0000391F
+
+\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Not¡cias",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"JW Not¡cias",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Sala de Imprensa",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Casos Jur¡dicos",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Quem Somos",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"Perguntas Frequentes",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€a uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Reuni“es",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Celebra€ƒo",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Congressos",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Atividades",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Em Todo o Mundo",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Visitas a Betel",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Fale Conosco",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+$ID,7$Links r pidos$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"Pe€a uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ þ $MA-X+PU,"Encontre um local de reuniƒo
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SRCHMTGMAPS\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Encontre um local de congresso
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SEARCHCONV\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Novidades",LM="KCTest(\"/pt/Novidades/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ þ $MA-X+PU,"V¡deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ þ $MA-X+PU,"Buscar",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ þ $MA-X+PU,"Ajuda",LM="KCTest(\"/pt/ajuda-online/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ þ $MA-X+PU,"Informa€“es para m‚dicos",LM="KCTest(\"/pt/biblioteca-medica/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+
+ $ID,-2$
+$ID,2$
+þ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Biblioteca On-line da Torre de Vigiaâ„¢
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Library(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Library Sign Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library-sign-language/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"Watchtower Library
+ ",LM="KCTest(\"/pt/ajuda-online/watchtower-library/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-language/\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Copyright",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$ (C) 2020 Watch Tower Bible and Tract Society of Pennsylvania.
+ $MA-X+PU,"TERMOS DE USO",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+  | $MA-X+PU,"POLITICA DE PRIVACIDADE",LM="KCTest(\"https://www.jw.org/finder?docid=1011512&amp;prefer=content\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+
+
+
+
+$PURPLE$$ID,2$Selecione seu idioma$BLACK$$BG$$ID,-2$
+
+ Idiomas:
+ 
+$MA-UL+B,""$
+IDIOMA
+
+ 
+$BLUE$$BLACK$$BG$Mostrar apenas l¡nguas de sinais
+ $BLUE$$BLACK$$BG$Site dispon¡vel
+ $BLUE$$BLACK$$BG$Apenas download de publica€“es
+ 
+
+
+
+
+
+
+
+$PURPLE$$ID,2$Compartilhar$BLACK$$BG$$ID,-2$
+
+ $MA-UL+B,""$
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+ 
+
+$BLUE$$ID,4$$BLACK$$BG$$ID,-4$
+
+$MA-UL+B,"Selecione o link
+ "$
+
+
+$MA-X+PU,"Compartilhar por e-mail
+ ",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$
+ 
+
+
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"themes/content-theme/images/insight.png?\",\"https://www.jw.org:443/pt/biblioteca/livros/leitura-e-ensino/5-leia-modo-correto/\");View;
+"$$BLACK$$BG$
+ 
+
+$FG$

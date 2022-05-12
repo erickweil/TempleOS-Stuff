@@ -1,0 +1,2101 @@
+URL:
+$MA-X+PU,"https://www.w3schools.com:443/html/html_forms.asp",LM="KCTest(\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$WW,1$$BLACK$
+
+
+
+
+
+
+
+$PURPLE$$TX+CX,"HTML Forms"$
+
+$BLACK$$BG$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $MA-X+PU,"w3schools.com",LM="KCTest(\"//www.w3schools.com\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+ 
+
+
+$MA-X+PU,"LOG IN",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+THE WORLD'S LARGEST WEB DEVELOPER SITE
+
+ 
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"",LM="KCTest(\"/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML",LM="KCTest(\"/html/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS",LM="KCTest(\"/css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JAVASCRIPT",LM="KCTest(\"/js/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"SQL",LM="KCTest(\"/sql/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PYTHON",LM="KCTest(\"/python/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP",LM="KCTest(\"/php/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"BOOTSTRAP",LM="KCTest(\"/bootstrap/bootstrap_ver.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HOW TO",LM="KCTest(\"/howto/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"W3.CSS",LM="KCTest(\"/w3css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JQUERY",LM="KCTest(\"/jquery/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JAVA",LM="KCTest(\"/java/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"MORE ",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+ $MA-X+PU,"&#xe802;",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"&#xe801;",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"&#xe80b;",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"FORUM",LM="KCTest(\"/forum/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+ $MA-X+PU,"CERTIFICATES",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+ $MA-X+PU,"REFERENCES ",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"EXERCISES ",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+X
+
+ 
+
+
+$BLUE$$ID,4$HTML and CSS$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn HTML",LM="KCTest(\"/html/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn CSS",LM="KCTest(\"/css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Bootstrap",LM="KCTest(\"/bootstrap/bootstrap_ver.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn W3.CSS",LM="KCTest(\"/w3css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Colors",LM="KCTest(\"/colors/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Icons",LM="KCTest(\"/icons/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Graphics",LM="KCTest(\"/graphics/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn SVG",LM="KCTest(\"/graphics/svg_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Canvas",LM="KCTest(\"/graphics/canvas_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn How To",LM="KCTest(\"/howto/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Sass",LM="KCTest(\"/sass/default.php\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$ 
+
+$BLUE$$ID,4$XML$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn XML",LM="KCTest(\"/xml/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML AJAX",LM="KCTest(\"/xml/ajax_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML DOM",LM="KCTest(\"/xml/dom_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML DTD",LM="KCTest(\"/xml/xml_dtd_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML Schema",LM="KCTest(\"/xml/schema_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XSLT",LM="KCTest(\"/xml/xsl_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XPath",LM="KCTest(\"/xml/xpath_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XQuery",LM="KCTest(\"/xml/xquery_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+$BLUE$$ID,4$JavaScript$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn JavaScript",LM="KCTest(\"/js/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn jQuery",LM="KCTest(\"/jquery/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn React",LM="KCTest(\"/react/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn AngularJS",LM="KCTest(\"/angular/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn JSON",LM="KCTest(\"/js/js_json_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn AJAX",LM="KCTest(\"/js/js_ajax_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn AppML",LM="KCTest(\"/appml/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn W3.JS",LM="KCTest(\"/w3js/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$Programming$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn Python",LM="KCTest(\"/python/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Java",LM="KCTest(\"/java/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn C++",LM="KCTest(\"/cpp/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn C#",LM="KCTest(\"/cs/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Machine Learning",LM="KCTest(\"/python/python_ml_getting_started.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+
+$BLUE$$ID,4$Server Side$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn SQL",LM="KCTest(\"/sql/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn PHP",LM="KCTest(\"/php/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn ASP",LM="KCTest(\"/asp/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Node.js",LM="KCTest(\"/nodejs/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn Raspberry Pi",LM="KCTest(\"/nodejs/nodejs_raspberrypi.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$ 
+$BLUE$$ID,4$Web Building$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Web Templates",LM="KCTest(\"/w3css/w3css_templates.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Web Statistics",LM="KCTest(\"/browsers/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Web Certificates",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Web Editor",LM="KCTest(\"/tryit/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Web Development",LM="KCTest(\"/whatis/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Test Your Typing Speed",LM="KCTest(\"/typingspeed/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$XML$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Learn XML",LM="KCTest(\"/xml/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML AJAX",LM="KCTest(\"/xml/ajax_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML DOM",LM="KCTest(\"/xml/dom_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML DTD",LM="KCTest(\"/xml/xml_dtd_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XML Schema",LM="KCTest(\"/xml/schema_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XSLT",LM="KCTest(\"/xml/xsl_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XPath",LM="KCTest(\"/xml/xpath_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Learn XQuery",LM="KCTest(\"/xml/xquery_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+X
+
+ 
+
+
+$BLUE$$ID,4$HTML$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"HTML Tag Reference",LM="KCTest(\"/tags/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Browser Support",LM="KCTest(\"/tags/ref_html_browsersupport.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Event Reference",LM="KCTest(\"/tags/ref_eventattributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Color Reference",LM="KCTest(\"/colors/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Attribute Reference",LM="KCTest(\"/tags/ref_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Canvas Reference",LM="KCTest(\"/tags/ref_canvas.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML SVG Reference",LM="KCTest(\"/graphics/svg_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Character Sets",LM="KCTest(\"/charsets/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Google Maps Reference",LM="KCTest(\"/graphics/google_maps_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$CSS$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"CSS Reference",LM="KCTest(\"/cssref/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS Browser Support",LM="KCTest(\"/cssref/css3_browsersupport.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS Selector Reference",LM="KCTest(\"/cssref/css_selectors.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Bootstrap 3 Reference",LM="KCTest(\"/bootstrap/bootstrap_ref_all_classes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Bootstrap 4 Reference",LM="KCTest(\"/bootstrap4/bootstrap_ref_all_classes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"W3.CSS Reference",LM="KCTest(\"/w3css/w3css_references.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Icon Reference",LM="KCTest(\"/icons/icons_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Sass Reference",LM="KCTest(\"/sass/sass_functions_string.php\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$JavaScript$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"JavaScript Reference",LM="KCTest(\"/jsref/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML DOM Reference",LM="KCTest(\"/jsref/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"jQuery Reference",LM="KCTest(\"/jquery/jquery_ref_overview.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"AngularJS Reference",LM="KCTest(\"/angular/angular_ref_directives.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"AppML Reference",LM="KCTest(\"/appml/appml_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"W3.JS Reference",LM="KCTest(\"/w3js/w3js_references.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$Programming$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"Python Reference",LM="KCTest(\"/python/python_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Java Reference",LM="KCTest(\"/java/java_ref_keywords.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$Server Side$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"SQL Reference",LM="KCTest(\"/sql/sql_ref_keywords.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP Reference",LM="KCTest(\"/php/php_ref_overview.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"ASP Reference",LM="KCTest(\"/asp/asp_ref_response.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$XML$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"XML Reference",LM="KCTest(\"/xml/dom_nodetype.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"XML Http Reference",LM="KCTest(\"/xml/dom_http.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"XSLT Reference",LM="KCTest(\"/xml/xsl_elementref.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"XML Schema Reference",LM="KCTest(\"/xml/schema_elements_ref.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$Character Sets$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"HTML Character Sets",LM="KCTest(\"/charsets/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML ASCII",LM="KCTest(\"/charsets/ref_html_ascii.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML ANSI",LM="KCTest(\"/charsets/ref_html_ansi.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Windows-1252",LM="KCTest(\"/charsets/ref_html_ansi.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML ISO-8859-1",LM="KCTest(\"/charsets/ref_html_8859.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML Symbols",LM="KCTest(\"/charsets/ref_html_symbols.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HTML UTF-8",LM="KCTest(\"/charsets/ref_html_utf8.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+X
+
+ 
+
+
+$BLUE$$ID,4$Exercises$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"HTML Exercises",LM="KCTest(\"/html/html_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS Exercises",LM="KCTest(\"/css/css_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JavaScript Exercises",LM="KCTest(\"/js/js_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"SQL Exercises",LM="KCTest(\"/sql/sql_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP Exercises",LM="KCTest(\"/php/php_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Python Exercises",LM="KCTest(\"/python/python_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"jQuery Exercises",LM="KCTest(\"/jquery/jquery_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Bootstrap Exercises",LM="KCTest(\"/bootstrap/bootstrap_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Java Exercises",LM="KCTest(\"/java/java_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"C++ Exercises",LM="KCTest(\"/cpp/cpp_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"C# Exercises",LM="KCTest(\"/cs/cs_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$Quizzes$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"HTML Quiz",LM="KCTest(\"/html/html_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS Quiz",LM="KCTest(\"/css/css_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JavaScript Quiz",LM="KCTest(\"/js/js_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"SQL Quiz",LM="KCTest(\"/sql/sql_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP Quiz",LM="KCTest(\"/php/php_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Python Quiz",LM="KCTest(\"/python/python_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"jQuery Quiz",LM="KCTest(\"/jquery/jquery_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Bootstrap Quiz",LM="KCTest(\"/bootstrap/bootstrap_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Java Quiz",LM="KCTest(\"/java/java_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"C++ Quiz",LM="KCTest(\"/cpp/cpp_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"C# Quiz",LM="KCTest(\"/cs/cs_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"XML Quiz",LM="KCTest(\"/xml/xml_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Certificates",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$$BLACK$$BG$$ID,-4$
+
+
+ $MA-X+PU,"HTML Certificate",LM="KCTest(\"/cert/cert_html_new.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS Certificate",LM="KCTest(\"/cert/cert_css.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JavaScript Certificate",LM="KCTest(\"/cert/cert_javascript.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"SQL Certificate",LM="KCTest(\"/cert/cert_sql.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP Certificate",LM="KCTest(\"/cert/cert_php.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Python Certificate",LM="KCTest(\"/cert/cert_python.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"jQuery Certificate",LM="KCTest(\"/cert/cert_jquery.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Bootstrap Certificate",LM="KCTest(\"/cert/cert_bootstrap.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"XML Certificate",LM="KCTest(\"/cert/cert_xml.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+X
+
+ 
+
+$RED$$ID,3$LOG IN$BLACK$$BG$$ID,-3$
+
+
+ $MA-X+PU,"Why Log In?",LM="KCTest(\"https://mypage.w3schools.com/mypage/index.php\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ Username
+
+
+ 
+
+
+Password
+
+
+ 
+
+
+
+$MA-UL+B,"LOG IN"$
+
+
+ New User? $MA-X+PU,"Sign Up For Free!",LM="KCTest(\"https://mypage.w3schools.com/mypage/login.php?logintyp=1\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Forgot password?",LM="KCTest(\"https://mypage.w3schools.com/mypage/forgot_password.php\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ 
+
+
+
+
+
+
+
+$RED$$ID,3$HTML Tutorial$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML HOME",LM="KCTest(\"default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Introduction",LM="KCTest(\"html_intro.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Editors",LM="KCTest(\"html_editors.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Basic",LM="KCTest(\"html_basic.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Elements",LM="KCTest(\"html_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Attributes",LM="KCTest(\"html_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Headings",LM="KCTest(\"html_headings.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Paragraphs",LM="KCTest(\"html_paragraphs.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Styles",LM="KCTest(\"html_styles.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Formatting",LM="KCTest(\"html_formatting.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Quotations",LM="KCTest(\"html_quotation_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Comments",LM="KCTest(\"html_comments.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Colors",LM="KCTest(\"html_colors.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+ $MA-X+PU,"Colors",LM="KCTest(\"html_colors.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"RGB",LM="KCTest(\"html_colors_rgb.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HEX",LM="KCTest(\"html_colors_hex.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"HSL",LM="KCTest(\"html_colors_hsl.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+$MA-X+PU,"HTML CSS",LM="KCTest(\"html_css.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Links",LM="KCTest(\"html_links.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+ $MA-X+PU,"Links",LM="KCTest(\"html_links.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Link Colors",LM="KCTest(\"html_links_colors.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Link Bookmarks",LM="KCTest(\"html_links_bookmarks.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+$MA-X+PU,"HTML Images",LM="KCTest(\"html_images.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+ $MA-X+PU,"Images",LM="KCTest(\"html_images.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Image Map",LM="KCTest(\"html_images_imagemap.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Background Images",LM="KCTest(\"html_images_background.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"The Picture Element",LM="KCTest(\"html_images_picture.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+$MA-X+PU,"HTML Tables",LM="KCTest(\"html_tables.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Lists",LM="KCTest(\"html_lists.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+$MA-X+PU,"Lists",LM="KCTest(\"html_lists.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"Unordered Lists",LM="KCTest(\"html_lists_unordered.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"Ordered Lists",LM="KCTest(\"html_lists_ordered.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"Other Lists",LM="KCTest(\"html_lists_other.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+$MA-X+PU,"HTML Block & Inline",LM="KCTest(\"html_blocks.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Classes",LM="KCTest(\"html_classes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Id",LM="KCTest(\"html_id.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Iframes",LM="KCTest(\"html_iframe.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML JavaScript",LM="KCTest(\"html_scripts.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML File Paths",LM="KCTest(\"html_filepaths.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Head",LM="KCTest(\"html_head.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Layout",LM="KCTest(\"html_layout.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Responsive",LM="KCTest(\"html_responsive.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Computercode",LM="KCTest(\"html_computercode_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Semantics",LM="KCTest(\"html5_semantic_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Style Guide",LM="KCTest(\"html5_syntax.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Entities",LM="KCTest(\"html_entities.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Symbols",LM="KCTest(\"html_symbols.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Emojis",LM="KCTest(\"html_emojis.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Charset",LM="KCTest(\"html_charset.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML URL Encode",LM="KCTest(\"html_urlencode.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML vs. XHTML",LM="KCTest(\"html_xhtml.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML Forms$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Forms",LM="KCTest(\"html_forms.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Form Attributes",LM="KCTest(\"html_forms_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Form Elements",LM="KCTest(\"html_form_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Input Types",LM="KCTest(\"html_form_input_types.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Input Attributes",LM="KCTest(\"html_form_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Input Form Attributes",LM="KCTest(\"html_form_attributes_form.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML Graphics$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Canvas",LM="KCTest(\"html5_canvas.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML SVG",LM="KCTest(\"html5_svg.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML Media$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Media",LM="KCTest(\"html_media.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Video",LM="KCTest(\"html5_video.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Audio",LM="KCTest(\"html5_audio.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Plug-ins",LM="KCTest(\"html_object.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML YouTube",LM="KCTest(\"html_youtube.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML APIs$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Geolocation",LM="KCTest(\"html5_geolocation.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Drag/Drop",LM="KCTest(\"html5_draganddrop.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Web Storage",LM="KCTest(\"html5_webstorage.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Web Workers",LM="KCTest(\"html5_webworkers.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML SSE",LM="KCTest(\"html5_serversentevents.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML Examples$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Examples",LM="KCTest(\"html_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Quiz",LM="KCTest(\"html_quiz.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Exercises",LM="KCTest(\"html_exercises.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Certificate",LM="KCTest(\"html_exam.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Summary",LM="KCTest(\"html_summary.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Accessibility",LM="KCTest(\"html_accessibility.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+$RED$$ID,3$HTML References$BLACK$$BG$$ID,-3$
+
+
+$MA-X+PU,"HTML Tag List",LM="KCTest(\"/tags/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Attributes",LM="KCTest(\"/tags/ref_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Global Attributes",LM="KCTest(\"/tags/ref_standardattributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Browser Support",LM="KCTest(\"/tags/ref_html_browsersupport.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Events",LM="KCTest(\"/tags/ref_eventattributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Colors",LM="KCTest(\"/tags/ref_colornames.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Canvas",LM="KCTest(\"/tags/ref_canvas.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Audio/Video",LM="KCTest(\"/tags/ref_av_dom.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Doctypes",LM="KCTest(\"/tags/ref_html_dtd.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Character Sets",LM="KCTest(\"/tags/ref_charactersets.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML URL Encode",LM="KCTest(\"/tags/ref_urlencode.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTML Lang Codes",LM="KCTest(\"/tags/ref_language_codes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTTP Messages",LM="KCTest(\"/tags/ref_httpmessages.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"HTTP Methods",LM="KCTest(\"/tags/ref_httpmethods.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"PX to EM Converter",LM="KCTest(\"/tags/ref_pxtoemconversion.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+$MA-X+PU,"Keyboard Shortcuts",LM="KCTest(\"/tags/ref_keyboardshortcuts.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+
+
+
+$PURPLE$$ID,2$HTML Forms$BLACK$$BG$$ID,-2$
+
+
+
+
+ $MA-X+PU,"&#10094; Previous",LM="KCTest(\"html_xhtml.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Next &#10095;",LM="KCTest(\"html_forms_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+An HTML form is used to collect user input. The user input is most often sent to a server for processing. 
+------------------------------------------------------------------------------
+$BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+
+
+
+
+ First name:
+
+
+ 
+Last name:
+
+
+ 
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_form_submit\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+$RED$$ID,3$The <form> Element$BLACK$$BG$$ID,-3$
+
+
+The HTML <form> element is used to create an HTML form for user input:
+
+
+
+
+
+
+ <form>
+
+
+ .
+
+
+$BLUE$form elements$BLACK$$BG$
+
+
+ .
+
+
+ </form>
+
+
+
+
+
+
+
+
+The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+
+
+All
+
+the different form elements are covered in this chapter:
+
+$MA-X+PU,"HTML Form Elements",LM="KCTest(\"html_form_elements.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$.
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+$RED$$ID,3$The <input> Element$BLACK$$BG$$ID,-3$
+
+
+The HTML <input> element is the most used form element. 
+An <input> element can be displayed in many ways, depending on the type attribute.
+
+
+Here are some examples:
+
+
+$ID,2$$WW,0$
+
+ $IV,1$Type$IV,0$	
+
+ $IV,1$Description$IV,0$	
+
+ 
+<input type="text">	
+
+ Displays a single-line text input field	
+
+ 
+<input type="radio">	
+
+ Displays a radio button (for selecting one of many choices)	
+
+ 
+<input type="checkbox">	
+
+ Displays a checkbox (for selecting zero or more of many choices)	
+
+ 
+<input type="submit">	
+
+ Displays a submit button (for submitting the form)	
+
+ 
+<input type="button">	
+
+ Displays a clickable button	
+
+ 
+$ID,-2$$WW,1$
+All the different input types are covered in this chapter:
+
+$MA-X+PU,"HTML Input Types",LM="KCTest(\"html_form_input_types.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$.
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+ 
+
+------------------------------------------------------------------------------
+$RED$$ID,3$Text Fields$BLACK$$BG$$ID,-3$
+
+
+The <input type="text"> defines a single-line input field for text input.
+
+
+
+
+$BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+ A form with input fields for text:
+
+
+
+
+ <form>
+
+
+  <label for="fname">First name:</label><br>
+ <input type="text" id="fname" name="fname"><br>
+ <label for="lname">Last name:</label><br>
+ <input type="text" id="lname" name="lname">
+</form>
+
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_form_text\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+This is how the HTML code above will be displayed in a browser:
+
+
+
+
+First name:
+
+
+
+
+
+Last name:
+
+
+
+
+
+
+
+
+
+$IV,1$Note:$IV,0$ The form itself is not visible. Also note that the default width of an input field is 20 characters.
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+$RED$$ID,3$The <label> Element$BLACK$$BG$$ID,-3$
+
+
+Notice the use of the <label> element in the example above. 
+The <label> tag defines a label for many form elements.
+
+
+The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+
+
+The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+
+
+The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together. 
+------------------------------------------------------------------------------
+$RED$$ID,3$Radio Buttons$BLACK$$BG$$ID,-3$
+
+
+The <input type="radio"> defines a radio button.
+
+
+Radio buttons let a user select ONE of a limited number of choices.
+
+
+
+
+ $BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+ A form with radio buttons:
+
+
+
+
+ <form>
+ <input type="radio" id="male" name="gender" value="male">
+ <label for="male">Male</label><br>
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">Female</label><br>
+ <input type="radio" id="other" name="gender" value="other">
+ <label for="other">Other</label>
+</form>
+
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_form_radio\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+This is how the HTML code above will be displayed in a browser:
+
+
+
+
+Male
+
+
+
+
+Female
+
+
+
+
+Other
+
+
+------------------------------------------------------------------------------
+
+
+
+
+$RED$$ID,3$Checkboxes$BLACK$$BG$$ID,-3$
+
+
+The <input type="checkbox"> defines a $IV,1$checkbox$IV,0$.
+
+
+Checkboxes let a user select ZERO or MORE options of a limited number of choices.
+
+
+
+
+ $BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+ A form with checkboxes:
+
+
+
+
+ <form>
+ <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+ <label for="vehicle1"> I have a bike</label><br>
+ <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+ <label for="vehicle2"> I have a car</label><br>
+ <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+ <label for="vehicle3"> I have a boat</label>
+
+
+ </form>
+
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_input_checkbox\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+This is how the HTML code above will be displayed in a browser:
+
+
+
+
+ I have a bike
+
+
+
+
+ I have a car
+
+
+
+
+ I have a boat
+
+
+------------------------------------------------------------------------------
+
+
+
+
+$RED$$ID,3$The Submit Button$BLACK$$BG$$ID,-3$
+
+
+The <input type="submit"> defines a button for submitting the form data to a form-handler.
+
+
+The form-handler is typically a file on the server with a script for processing input data.
+
+
+The form-handler is specified in the form's action attribute.
+
+
+
+
+$BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+ A form with a submit button:
+
+
+
+
+ <form action="/action_page.php">
+ <label for="fname">First name:</label><br>
+ <input type="text" id="fname" name="fname" value="John"><br>
+ <label for="lname">Last name:</label><br>
+ <input type="text" id="lname" name="lname" value="Doe"><br><br>
+ <input type="submit" value="Submit">
+</form>
+
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_form_submit\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+This is how the HTML code above will be displayed in a browser:
+
+
+
+
+First name:
+
+
+
+
+
+Last name:
+
+
+
+
+
+
+
+
+
+ ------------------------------------------------------------------------------
+$RED$$ID,3$The Name Attribute for <input>$BLACK$$BG$$ID,-3$
+
+
+Notice that each input field must have a name attribute to be submitted.
+
+
+If the name attribute is omitted, the value of the input field will not be sent at all.
+
+
+
+
+$BLUE$$ID,4$Example$BLACK$$BG$$ID,-4$
+
+
+This example will not submit the value of the "First name" input field: 
+<form action="/action_page.php">
+ <label for="fname">First name:</label><br>
+ <input type="text" id="fname" value="John"><br><br>
+ <input type="submit" value="Submit">
+</form>
+
+
+
+
+$MA-X+PU,"Try it Yourself ¯",LM="KCTest(\"tryit.asp?filename=tryhtml_form_submit_id\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+$RED$$ID,3$HTML Exercises$BLACK$$BG$$ID,-3$
+
+
+
+
+$RED$$ID,3$Test Yourself With Exercises$BLACK$$BG$$ID,-3$
+
+
+
+
+$RED$$ID,3$Exercise:$BLACK$$BG$$ID,-3$
+
+
+In the form below, add an input field with the type "button" and the value "OK".
+
+
+
+
+<form>
+
+
+
+
+<>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+$MA-UL+B,"Submit Answer ¯"$
+
+
+$MA-X+PU,"Start the Exercise",LM="KCTest(\"exercise.asp?filename=exercise_html_forms1\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $MA-X+PU,"&#10094; Previous",LM="KCTest(\"html_xhtml.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Next &#10095;",LM="KCTest(\"html_forms_attributes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+$DKGRAY$$ID,5$$MA-X+PU,"COLOR PICKER",LM="KCTest(\"/colors/colors_picker.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"
+
+",LM="KCTest(\"/images/colorpicker.gif\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+ $DKGRAY$$ID,5$SHARE$BLACK$$BG$$ID,-5$
+
+
+ $MA-X+PU,"",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/images/tshirt.jpg\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ $DKGRAY$$ID,5$$MA-X+PU,"HOW TO",LM="KCTest(\"/howto/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$$BLACK$$BG$$ID,-5$
+
+
+ 
+$MA-X+PU,"Tabs",LM="KCTest(\"/howto/howto_js_tabs.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Dropdowns",LM="KCTest(\"/howto/howto_css_dropdown.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Accordions",LM="KCTest(\"/howto/howto_js_accordion.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Side Navigation",LM="KCTest(\"/howto/howto_js_sidenav.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Top Navigation",LM="KCTest(\"/howto/howto_js_topnav.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Modal Boxes",LM="KCTest(\"/howto/howto_css_modals.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Progress Bars",LM="KCTest(\"/howto/howto_js_progressbar.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Parallax",LM="KCTest(\"/howto/howto_css_parallax.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Login Form",LM="KCTest(\"/howto/howto_css_login_form.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"HTML Includes",LM="KCTest(\"/howto/howto_html_include.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Google Maps",LM="KCTest(\"/howto/howto_google_maps.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Range Sliders",LM="KCTest(\"/howto/howto_js_rangeslider.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Tooltips",LM="KCTest(\"/howto/howto_css_tooltip.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Slideshow",LM="KCTest(\"/howto/howto_js_slideshow.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Filter List",LM="KCTest(\"/howto/howto_js_filter_lists.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ $MA-X+PU,"Sort List",LM="KCTest(\"/howto/howto_js_sort_list.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+ 
+
+$ID,6$$MA-X+PU,"Certificates",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$$BLACK$$BG$$ID,-6$
+
+
+ 
+$MA-X+PU,"HTML",LM="KCTest(\"/cert/cert_html.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"CSS",LM="KCTest(\"/cert/cert_css.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"JavaScript",LM="KCTest(\"/cert/cert_javascript.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"Python",LM="KCTest(\"/cert/cert_python.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"SQL",LM="KCTest(\"/cert/cert_sql.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"PHP",LM="KCTest(\"/cert/cert_php.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ $MA-X+PU,"And more",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+ 
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------------------
+$MA-X+PU,"REPORT ERROR",LM="KCTest(\"javascript:void(0);\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+$MA-X+PU,"FORUM",LM="KCTest(\"/forum/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+$MA-X+PU,"ABOUT",LM="KCTest(\"/about/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+$MA-X+PU,"SHOP",LM="KCTest(\"https://shop.w3schools.com/\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+
+
+
+
+X
+
+
+
+
+$RED$$ID,3$Report Error$BLACK$$BG$$ID,-3$
+
+
+
+
+If you want to report an error, or if you want to make a suggestion, do not hesitate to send us an e-mail:
+
+
+help@w3schools.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X 
+$RED$$ID,3$Thank You For Helping Us!$BLACK$$BG$$ID,-3$
+
+
+Your message has been sent to W3Schools.
+
+
+
+
+
+
+
+
+
+
+
+
+
+$DKGRAY$$ID,5$Top Tutorials$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"HTML Tutorial",LM="KCTest(\"/html/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"CSS Tutorial",LM="KCTest(\"/css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"JavaScript Tutorial",LM="KCTest(\"/js/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"How To Tutorial",LM="KCTest(\"/howto/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"SQL Tutorial",LM="KCTest(\"/sql/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Python Tutorial",LM="KCTest(\"/python/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"W3.CSS Tutorial",LM="KCTest(\"/w3css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Bootstrap Tutorial",LM="KCTest(\"/bootstrap/bootstrap_ver.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"PHP Tutorial",LM="KCTest(\"/php/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Java Tutorial",LM="KCTest(\"/java/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"C++ Tutorial",LM="KCTest(\"/cpp/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"jQuery Tutorial",LM="KCTest(\"/jquery/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+$DKGRAY$$ID,5$Top References$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"HTML Reference",LM="KCTest(\"/tags/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"CSS Reference",LM="KCTest(\"/cssref/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"JavaScript Reference",LM="KCTest(\"/jsref/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"SQL Reference",LM="KCTest(\"/sql/sql_ref_keywords.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Python Reference",LM="KCTest(\"/python/python_reference.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"W3.CSS Reference",LM="KCTest(\"/w3css/w3css_references.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Bootstrap Reference",LM="KCTest(\"/bootstrap/bootstrap_ref_all_classes.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"PHP Reference",LM="KCTest(\"/php/php_ref_overview.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"HTML Colors",LM="KCTest(\"/colors/colors_names.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Java Reference",LM="KCTest(\"/java/java_ref_keywords.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Angular Reference",LM="KCTest(\"/angular/angular_ref_directives.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"jQuery Reference",LM="KCTest(\"/jquery/jquery_ref_overview.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+$DKGRAY$$ID,5$Top Examples$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"HTML Examples",LM="KCTest(\"/html/html_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"CSS Examples",LM="KCTest(\"/css/css_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"JavaScript Examples",LM="KCTest(\"/js/js_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"How To Examples",LM="KCTest(\"/howto/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"SQL Examples",LM="KCTest(\"/sql/sql_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Python Examples",LM="KCTest(\"/python/python_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"W3.CSS Examples",LM="KCTest(\"/w3css/w3css_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Bootstrap Examples",LM="KCTest(\"/bootstrap/bootstrap_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"PHP Examples",LM="KCTest(\"/php/php_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Java Examples",LM="KCTest(\"/java/java_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"XML Examples",LM="KCTest(\"/xml/xml_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"jQuery Examples",LM="KCTest(\"/jquery/jquery_examples.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+$DKGRAY$$ID,5$Web Certificates$BLACK$$BG$$ID,-5$
+
+
+$MA-X+PU,"HTML Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"CSS Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"JavaScript Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"SQL Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Python Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"PHP Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"Bootstrap Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"XML Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"jQuery Certificate",LM="KCTest(\"/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+$MA-X+PU,"
+
+Get Certified ¯",LM="KCTest(\"//www.w3schools.com/cert/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+ 
+------------------------------------------------------------------------------
+W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+
+Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.
+
+While using W3Schools, you agree to have read and accepted our $MA-X+PU,"terms of use",LM="KCTest(\"/about/about_copyright.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$, $MA-X+PU,"cookie and privacy policy",LM="KCTest(\"/about/about_privacy.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$.
+
+
+
+$MA-X+PU,"Copyright 1999-2020",LM="KCTest(\"/about/about_copyright.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$ by Refsnes Data. All Rights Reserved.
+
+
+$MA-X+PU,"W3Schools is Powered by W3.CSS",LM="KCTest(\"//www.w3schools.com/w3css/default.asp\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$.
+
+
+
+$MA-X+PU,"
+
+",LM="KCTest(\"/images/w3schoolscom_gray.gif\",\"https://www.w3schools.com:443/html/html_forms.asp\");View;
+"$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$FG$

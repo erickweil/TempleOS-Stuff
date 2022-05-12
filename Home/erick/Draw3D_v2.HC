@@ -247,7 +247,7 @@ U0 Init()
   cam_blockx = -(cam_x-MAP_SCALE/2)/MAP_SCALE;
   cam_blocky = -(cam_y-MAP_SCALE/2)/MAP_SCALE + 2;
   cam_blockz = -(cam_z-MAP_SCALE/2)/MAP_SCALE;
-
+
   cam_é=0;
   cam_é2=0;
   
@@ -427,20 +427,41 @@ U0 MainLoop()
 	  goto fs_done;
 	case 0:
 	  switch (sc.u8[0]) {
+          
 	    case SC_CURSOR_RIGHT:
               MoveCamera(1,0,0);
 	      break;
+           
 	    case SC_CURSOR_LEFT:
               MoveCamera(-1,0,0);
 	      break;
+            
 	    case SC_CURSOR_UP:
 	      MoveCamera(0,0,1);
 	      break;
+            
 	    case SC_CURSOR_DOWN:
 	      MoveCamera(0,0,-1);
 	      break;
 	  }
 	  break;
+        case 'd':
+	    
+          MoveCamera(1,0,0);
+        break;
+        case 'a':
+   
+          MoveCamera(-1,0,0);
+        break;
+        case 'w':
+	    
+          MoveCamera(0,0,1);
+        break;
+        case 's':
+	    
+          MoveCamera(0,0,-1);
+        break;
+
       }
       //Physics;
     }

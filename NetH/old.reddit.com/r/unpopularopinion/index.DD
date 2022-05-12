@@ -1,0 +1,1481 @@
+URL:
+$MA-X+PU,"https://old.reddit.com:443/r/unpopularopinion/",LM="KCTest(\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+$WW,1$$BLACK$$PURPLE$$TX+CX,"For your Opinions that are Unpopular"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"jump to content",LM="KCTest(\"#content\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+my subreddits
+$MA-X+PU,"edit subscriptions",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"popular",LM="KCTest(\"https://old.reddit.com/r/popular/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"tudo",LM="KCTest(\"https://old.reddit.com/r/all/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"random",LM="KCTest(\"https://old.reddit.com/r/random/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"users",LM="KCTest(\"https://old.reddit.com/users/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+ | 
+$ID,2$
+
+þ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"funny",LM="KCTest(\"https://old.reddit.com/r/funny/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"tifu",LM="KCTest(\"https://old.reddit.com/r/tifu/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"videos",LM="KCTest(\"https://old.reddit.com/r/videos/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"aww",LM="KCTest(\"https://old.reddit.com/r/aww/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"todayilearned",LM="KCTest(\"https://old.reddit.com/r/todayilearned/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"gifs",LM="KCTest(\"https://old.reddit.com/r/gifs/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Art",LM="KCTest(\"https://old.reddit.com/r/Art/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"explainlikeimfive",LM="KCTest(\"https://old.reddit.com/r/explainlikeimfive/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"movies",LM="KCTest(\"https://old.reddit.com/r/movies/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Jokes",LM="KCTest(\"https://old.reddit.com/r/Jokes/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"TwoXChromosomes",LM="KCTest(\"https://old.reddit.com/r/TwoXChromosomes/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"mildlyinteresting",LM="KCTest(\"https://old.reddit.com/r/mildlyinteresting/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"LifeProTips",LM="KCTest(\"https://old.reddit.com/r/LifeProTips/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"askscience",LM="KCTest(\"https://old.reddit.com/r/askscience/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"dataisbeautiful",LM="KCTest(\"https://old.reddit.com/r/dataisbeautiful/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"books",LM="KCTest(\"https://old.reddit.com/r/books/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"science",LM="KCTest(\"https://old.reddit.com/r/science/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Showerthoughts",LM="KCTest(\"https://old.reddit.com/r/Showerthoughts/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"gadgets",LM="KCTest(\"https://old.reddit.com/r/gadgets/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Futurology",LM="KCTest(\"https://old.reddit.com/r/Futurology/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"history",LM="KCTest(\"https://old.reddit.com/r/history/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"sports",LM="KCTest(\"https://old.reddit.com/r/sports/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"brasil",LM="KCTest(\"https://old.reddit.com/r/brasil/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"OldSchoolCool",LM="KCTest(\"https://old.reddit.com/r/OldSchoolCool/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"GetMotivated",LM="KCTest(\"https://old.reddit.com/r/GetMotivated/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"DIY",LM="KCTest(\"https://old.reddit.com/r/DIY/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"photoshopbattles",LM="KCTest(\"https://old.reddit.com/r/photoshopbattles/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"nosleep",LM="KCTest(\"https://old.reddit.com/r/nosleep/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Music",LM="KCTest(\"https://old.reddit.com/r/Music/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"space",LM="KCTest(\"https://old.reddit.com/r/space/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"food",LM="KCTest(\"https://old.reddit.com/r/food/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"UpliftingNews",LM="KCTest(\"https://old.reddit.com/r/UpliftingNews/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"EarthPorn",LM="KCTest(\"https://old.reddit.com/r/EarthPorn/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"Documentaries",LM="KCTest(\"https://old.reddit.com/r/Documentaries/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"InternetIsBeautiful",LM="KCTest(\"https://old.reddit.com/r/InternetIsBeautiful/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"WritingPrompts",LM="KCTest(\"https://old.reddit.com/r/WritingPrompts/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"creepy",LM="KCTest(\"https://old.reddit.com/r/creepy/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"philosophy",LM="KCTest(\"https://old.reddit.com/r/philosophy/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"announcements",LM="KCTest(\"https://old.reddit.com/r/announcements/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"listentothis",LM="KCTest(\"https://old.reddit.com/r/listentothis/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"blog",LM="KCTest(\"https://old.reddit.com/r/blog/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ -$MA-X+PU,"futbol",LM="KCTest(\"https://old.reddit.com/r/futbol/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+$MA-X+PU,"mais ¯",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$MA-X+PU,"reddit.com",LM="KCTest(\"/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ $MA-X+PU,"unpopularopinion",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ 
+þ $MA-X+PU,"populares",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"novos",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/new/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"subindo",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/rising/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"controversos",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/controversial/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"no topo",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/top/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"gilded",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/gilded/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+Want to join? $MA-X+PU,"Log in",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ or $MA-X+PU,"sign up",LM="KCTest(\"https://www.reddit.com/login\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ in seconds.|
+$ID,2$
+ 
+þ $MA-X+PU,"portugu‰s (*)",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+
+limit my search to r/unpopularopinion
+
+use the following search parameters to narrow your results:
+subreddit:$BLUE$subreddit$BLACK$$BG$
+find submissions in "subreddit"
+author:$BLUE$username$BLACK$$BG$
+find submissions by "username"
+site:$BLUE$example.com$BLACK$$BG$
+find submissions from "example.com"
+url:$BLUE$text$BLACK$$BG$
+search for "text" in url
+selftext:$BLUE$text$BLACK$$BG$
+search for "text" in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+$MA-X+PU,"see the search faq for details.",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$MA-X+PU,"advanced search: by author, subreddit...",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+
+
+
+
+lembrar de mim$MA-X+PU,"redefinir senha",LM="KCTest(\"/password\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-UL+B,"login"$
+
+
+
+
+
+$MA-X+PU,"Speak Your Mind",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/submit?selftext=true\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Get an ad-free experience with special benefits, and directly support Reddit.get reddit premium"$
+
+
+$PURPLE$$ID,2$$MA-X+PU,"unpopularopinion",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$BLACK$$BG$$ID,-2$
+$MA-X+PU,"join",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"sair",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$1.731.625 leitores
+22.721 users here now
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"DARK MODE",LM="KCTest(\"http://dm.reddit.com//r/unpopularopinion\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$BLACK$$BG$$ID,-4$
+
+
+$DKGRAY$$ID,5$$MA-X+PU,"NORMAL THEME",LM="KCTest(\"http://www.reddit.com//r/unpopularopinion\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$BLACK$$BG$$ID,-5$
+
+
+------------------------------------------------------------------------------
+
+
+$RED$$ID,3$$IV,1$How This Place Works$IV,0$$BLACK$$BG$$ID,-3$
+
+
+$ID,2$
+ þ $IV,1$Upvote:$IV,0$ Opinions that you Disagree with.
+
+
+þ $IV,1$Downvote:$IV,0$ Opinions that you Agree with.
+
+$ID,-2$
+
+
+$RED$$ID,3$$IV,1$Rules$IV,0$$BLACK$$BG$$ID,-3$
+
+
+$ID,2$
+ þ $IV,1$If you see a post that breaks one or more of these rules, please report it so the moderators can take action.$IV,0$
+
+
+$ID,-2$
+
+
+Rule 1: $IV,1$Your post must be an unpopular opinion.$IV,0$
+
+
+$ID,2$
+ þ Your post must be an opinion. Not a question. Not a showerthought. Not a rant. Not a proposal. Not a fact. An opinion. One opinion. A subjective statement about your position on some topic. Please have a clear, self contained opinion as your post title, and use the text field to elaborate and expand on why you think/feel this way.
+
+
+þ Your opinion must be unpopular. Unpopularity is a bit like an onion. It has layers. Be specific as to where you believe your opinion is unpopular.
+
+
+$ID,-2$
+
+
+Rule 2: $IV,1$Do not post low effort/satirical/troll posts.$IV,0$
+
+
+$ID,2$
+ þ We get it, you all think this sub is garbage and is just for popular opinions, and you want to be funny and post "going to be downvoted to oblivion here, but I think racism is bad." We enjoy the memes, but please keep them off the sub.
+
+
+þ If your post is just one sentence it will be removed. Please try and elaborate on your opinion and justify your position.
+
+
+þ Any opinion that is not well thought out, incoherent, internally contradictory or otherwise nonsensical is subject to removal.
+
+
+$ID,-2$
+
+
+Rule 3: $IV,1$Do not post opinions that are heavily posted/have been on the front page recently.$IV,0$
+
+
+$ID,2$
+ þ Recent reposts are not allowed.
+
+
+þ Opinions that are constantly posted here are not allowed.
+
+
+þ Posts relating to highly popular topics aren't allowed outside of the relevant megathreads. You can find a list of the topics and their respective megathreads in a post on the top of the sub.
+
+
+þ $IV,1$POSTS ABOUT POLITICS ARE NOT ALLOWED.$IV,0$
+
+
+þ POSTS DIRECTLY ABOUT THIS SUBREDDIT ARE NOT ALLOWED. No, this isn't censoring criticism, they're just overposted. If you have a meta opinion, put it in the megathread.
+
+
+$ID,-2$
+
+
+Rule 4: $IV,1$Be Civil.$IV,0$
+
+
+$ID,2$
+ þ This applies for both your behaviour on the sub, and the opinions which you post.
+
+
+þ Obey the sitewide rules and $MA-X+PU,"reddiquette",LM="KCTest(\"/wiki/reddiquette\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$.
+
+
+þ No racism, sexism, homophobia, transphobia, or general bigotry.
+
+
+þ Some opinions are so inappropriate/offensive that they'll be removed as hate posts. These posts are usually, but not exclusively, those that target a particular sex, race, sexual orientation, etc, when the user in question is hostile, vulgar or aggressive towards said group.
+
+
+$ID,-2$
+
+
+
+
+
+created by $MA-X+PU,"Young_Zaphod",LM="KCTest(\"https://old.reddit.com/user/Young_Zaphod\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$a community for 8 anos
+
+
+
+
+$PURPLE$$ID,2$MODERADORES$BLACK$$BG$$ID,-2$
+
+$ID,2$
+ þ $MA-X+PU,"message the mods",LM="KCTest(\"/message/compose/?to=/r/unpopularopinion\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"Young_Zaphod",LM="KCTest(\"https://old.reddit.com/user/Young_Zaphod\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"TheUniquestUsername",LM="KCTest(\"https://old.reddit.com/user/TheUniquestUsername\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"Kinrove",LM="KCTest(\"https://old.reddit.com/user/Kinrove\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"conalfisher",LM="KCTest(\"https://old.reddit.com/user/conalfisher\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"RandomName01",LM="KCTest(\"https://old.reddit.com/user/RandomName01\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"dantheman280",LM="KCTest(\"https://old.reddit.com/user/dantheman280\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"AutoModerator",LM="KCTest(\"https://old.reddit.com/user/AutoModerator\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"UnpopularOpinionMods",LM="KCTest(\"https://old.reddit.com/user/UnpopularOpinionMods\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"minibug",LM="KCTest(\"https://old.reddit.com/user/minibug\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"MisfitPotatoReborn",LM="KCTest(\"https://old.reddit.com/user/MisfitPotatoReborn\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"...and 19 more ¯",LM="KCTest(\"/r/unpopularopinion/about/moderators\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$MA-X+PU,"Welcome to Reddit,the front page of the internet.Become a Redditorand join one of thousands of communities.",LM="KCTest(\"/login\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"X",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+
+
+47
+48
+49
+
+
+$MA-X+PU,"Popular Topics Mega-Hub",LM="KCTest(\"/r/unpopularopinion/comments/jw7yk6/popular_topics_megahub/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 2 dias ago by $MA-X+PU,"UnpopularOpinionMods",LM="KCTest(\"https://old.reddit.com/user/UnpopularOpinionMods\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$[$MA-X+PU,"M",LM="KCTest(\"/r/unpopularopinion/about/moderators\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$]$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+ - announcement
+$ID,2$
+ þ $MA-X+PU,"coment rio",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jw7yk6/popular_topics_megahub/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+
+
+
+416
+417
+418
+
+
+$MA-X+PU,"Guys. You are way too late to make an edgy "Scalping Consoles is good" post. It's being reposted a dozen times an hour for days now. Stop please.",LM="KCTest(\"/r/unpopularopinion/comments/jvbkk6/guys_you_are_way_too_late_to_make_an_edgy/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+submitted 4 dias ago by $MA-X+PU,"sibre2001",LM="KCTest(\"https://old.reddit.com/user/sibre2001\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$[$MA-X+PU,"M",LM="KCTest(\"/r/unpopularopinion/about/moderators\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$]$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+ - announcement
+$ID,2$
+ þ $MA-X+PU,"126 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jvbkk6/guys_you_are_way_too_late_to_make_an_edgy/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+1
+
+
+9700
+9701
+9702
+
+
+$MA-X+PU,"Being fit is not an "unrealistic body type"",LM="KCTest(\"/r/unpopularopinion/comments/jxsykj/being_fit_is_not_an_unrealistic_body_type/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 6 horas ago * by $MA-X+PU,"DiorVenttii",LM="KCTest(\"https://old.reddit.com/user/DiorVenttii\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+3$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"1084 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxsykj/being_fit_is_not_an_unrealistic_body_type/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuE5QMuEXYb5ACDL-o3olByrEox_f5nNgH2ho0uKwnN_2U4uxb9VoAFHC9VG0FoDL6xy0Y6OFgnoaEqo2IGiQXjYOWX6WTCt8oEHgRqfyhEQgz8qxmgOuH4oai8PtStsLKiSWzJPLzaLveLG8J0S0Ov5GpMtq2J26fyjgYmJCTK4a5g0=\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+2
+
+
+2714
+2715
+2716
+
+
+$MA-X+PU,"Smoking and drinking during pregnancy should be punishable by law.",LM="KCTest(\"/r/unpopularopinion/comments/jxsx74/smoking_and_drinking_during_pregnancy_should_be/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 6 horas ago by $MA-X+PU,"Airikr666",LM="KCTest(\"https://old.reddit.com/user/Airikr666\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"490 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxsx74/smoking_and_drinking_during_pregnancy_should_be/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+3
+
+
+49.7k
+49.7k
+49.7k
+
+
+$MA-X+PU,"Once someone agrees with you and acknowledges their mistake, that's your cue to shut up.",LM="KCTest(\"/r/unpopularopinion/comments/jxl54m/once_someone_agrees_with_you_and_acknowledges/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 15 horas ago by $MA-X+PU,"fenruxgrey",LM="KCTest(\"https://old.reddit.com/user/fenruxgrey\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/SnooClappingPremium_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/vu6om0xnb7e41_This.png?width=48&amp;height=48&amp;auto=webp&amp;s=597adeb2d7ab45cc61a726b7c7d6877d264ee33d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/Train/Train_silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/gold_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+18$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+13$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+8$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+15$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+10$MA-X+PU,"& 64 more",LM="KCTest(\"/r/unpopularopinion/gilded\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"2332 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxl54m/once_someone_agrees_with_you_and_acknowledges/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+4
+
+
+529
+530
+531
+
+
+$MA-X+PU,"I absolutely despise movie posters as book covers",LM="KCTest(\"/r/unpopularopinion/comments/jxtjkj/i_absolutely_despise_movie_posters_as_book_covers/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"armagedonant",LM="KCTest(\"https://old.reddit.com/user/armagedonant\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"23 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxtjkj/i_absolutely_despise_movie_posters_as_book_covers/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+5
+
+
+1057
+1058
+1059
+
+
+$MA-X+PU,"People should slowly turn to youtube alternatives",LM="KCTest(\"/r/unpopularopinion/comments/jxo6ai/people_should_slowly_turn_to_youtube_alternatives/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 10 horas ago by $MA-X+PU,"evilmaker",LM="KCTest(\"https://old.reddit.com/user/evilmaker\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"194 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxo6ai/people_should_slowly_turn_to_youtube_alternatives/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+6
+
+
+866
+867
+868
+
+
+$MA-X+PU,"Youtube should atleast show the title of the video which has been deleted",LM="KCTest(\"/r/unpopularopinion/comments/jxoz49/youtube_should_atleast_show_the_title_of_the/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 9 horas ago by $MA-X+PU,"celstaman",LM="KCTest(\"https://old.reddit.com/user/celstaman\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"47 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxoz49/youtube_should_atleast_show_the_title_of_the/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+7
+
+
+292
+293
+294
+
+
+$MA-X+PU,"I fucking hate tomatoes",LM="KCTest(\"/r/unpopularopinion/comments/jxummi/i_fucking_hate_tomatoes/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 4 horas ago * by $MA-X+PU,"bitbbulldoggy",LM="KCTest(\"https://old.reddit.com/user/bitbbulldoggy\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"93 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxummi/i_fucking_hate_tomatoes/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+8
+
+
+4533
+4534
+4535
+
+
+$MA-X+PU,"Many, but not all, child prodigies aren't as impressive as they seem and just have wealthy parents",LM="KCTest(\"/r/unpopularopinion/comments/jxgbdy/many_but_not_all_child_prodigies_arent_as/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 21 horas ago by $MA-X+PU,"AcrobaticBeginning4",LM="KCTest(\"https://old.reddit.com/user/AcrobaticBeginning4\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"505 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxgbdy/many_but_not_all_child_prodigies_arent_as/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+9
+
+
+1229
+1230
+1231
+
+
+$MA-X+PU,"The internet needs to stop pushing "everyone's attractive!" And start pushing "treat everyone the same no matter your attraction to them!"",LM="KCTest(\"/r/unpopularopinion/comments/jxkh63/the_internet_needs_to_stop_pushing_everyones/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 16 horas ago by $MA-X+PU,"EwGrossItsMe",LM="KCTest(\"https://old.reddit.com/user/EwGrossItsMe\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"168 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxkh63/the_internet_needs_to_stop_pushing_everyones/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+10
+
+
+2457
+2458
+2459
+
+
+$MA-X+PU,"Family Guy should have been canceled instead of Futurama",LM="KCTest(\"/r/unpopularopinion/comments/jxi21p/family_guy_should_have_been_canceled_instead_of/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 19 horas ago by $MA-X+PU,"calziercke",LM="KCTest(\"https://old.reddit.com/user/calziercke\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"291 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxi21p/family_guy_should_have_been_canceled_instead_of/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+11
+
+
+479
+480
+481
+
+
+$MA-X+PU,"You shouldn't have to get married to be recognized as a "Family"",LM="KCTest(\"/r/unpopularopinion/comments/jxmmgp/you_shouldnt_have_to_get_married_to_be_recognized/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 12 horas ago * by $MA-X+PU,"Greenveins",LM="KCTest(\"https://old.reddit.com/user/Greenveins\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"171 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxmmgp/you_shouldnt_have_to_get_married_to_be_recognized/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+12
+
+
+356
+357
+358
+
+
+$MA-X+PU,"Being told you're smart as a child sucks.",LM="KCTest(\"/r/unpopularopinion/comments/jxng27/being_told_youre_smart_as_a_child_sucks/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 11 horas ago by $MA-X+PU,"ToAsTyBoI-_-",LM="KCTest(\"https://old.reddit.com/user/ToAsTyBoI-_-\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"65 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxng27/being_told_youre_smart_as_a_child_sucks/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+13
+
+
+165
+166
+167
+
+
+$MA-X+PU,"Saying "You're not Alone" does NOT make me feel better.",LM="KCTest(\"/r/unpopularopinion/comments/jxqmho/saying_youre_not_alone_does_not_make_me_feel/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 8 horas ago by $MA-X+PU,"Mumux5",LM="KCTest(\"https://old.reddit.com/user/Mumux5\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"29 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxqmho/saying_youre_not_alone_does_not_make_me_feel/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+14
+
+
+53
+54
+55
+
+
+$MA-X+PU,"People who think of themselves as queens or kings are usually toxic",LM="KCTest(\"/r/unpopularopinion/comments/jxxily/people_who_think_of_themselves_as_queens_or_kings/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 2 horas ago * by $MA-X+PU,"HoodSamaritan420",LM="KCTest(\"https://old.reddit.com/user/HoodSamaritan420\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"18 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxxily/people_who_think_of_themselves_as_queens_or_kings/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+15
+
+
+54
+55
+56
+
+
+$MA-X+PU,"Dance monkey sucks",LM="KCTest(\"/r/unpopularopinion/comments/jxw77w/dance_monkey_sucks/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 3 horas ago by $MA-X+PU,"Chunky-Bee",LM="KCTest(\"https://old.reddit.com/user/Chunky-Bee\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"23 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxw77w/dance_monkey_sucks/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+16
+
+
+270
+271
+272
+
+
+$MA-X+PU,"Children's animation is more mature than adult animation",LM="KCTest(\"/r/unpopularopinion/comments/jxmvb9/childrens_animation_is_more_mature_than_adult/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 12 horas ago by $MA-X+PU,"BooksMcGee",LM="KCTest(\"https://old.reddit.com/user/BooksMcGee\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"105 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxmvb9/childrens_animation_is_more_mature_than_adult/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://alb.reddit.com/i.gif?z=gAAAAABfuE5QcXN_IbxTv5Nfp-cDfuONrR6BPUYFkLLLqeKLaqX-hCjqTBJi7fBN4DRLdm6EuuBYaJ-UKwQmageyNjHyaQcgg0q5UkYSE5DtR2qWk63cIzKJL9GsyHFVuC4sWxPI3Zw0HuC3pvE9RgR4HI74O7ogknNTAMP3GPN7_xpcSlTrBM4=\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+17
+
+
+212
+213
+214
+
+
+$MA-X+PU,"There's too much hate on the internet",LM="KCTest(\"/r/unpopularopinion/comments/jxnrcw/theres_too_much_hate_on_the_internet/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 11 horas ago by $MA-X+PU,"tizbean",LM="KCTest(\"https://old.reddit.com/user/tizbean\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"36 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxnrcw/theres_too_much_hate_on_the_internet/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+18
+
+
+45
+46
+47
+
+
+$MA-X+PU,"People should stop assuming that fast food workers are stupid or have no education",LM="KCTest(\"/r/unpopularopinion/comments/jxwjqb/people_should_stop_assuming_that_fast_food/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 2 horas ago by $MA-X+PU,"Omni-Blades",LM="KCTest(\"https://old.reddit.com/user/Omni-Blades\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"18 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxwjqb/people_should_stop_assuming_that_fast_food/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+19
+
+
+729
+730
+731
+
+
+$MA-X+PU,""My body, my choice" should also make the draft illegal",LM="KCTest(\"/r/unpopularopinion/comments/jxiz3m/my_body_my_choice_should_also_make_the_draft/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 18 horas ago * by $MA-X+PU,"EnochIbis",LM="KCTest(\"https://old.reddit.com/user/EnochIbis\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"272 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxiz3m/my_body_my_choice_should_also_make_the_draft/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+20
+
+
+68
+69
+70
+
+
+$MA-X+PU,"More games should have stylized graphics, rather than trying to look realistic.",LM="KCTest(\"/r/unpopularopinion/comments/jxtqol/more_games_should_have_stylized_graphics_rather/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 5 horas ago by $MA-X+PU,"happygamedev",LM="KCTest(\"https://old.reddit.com/user/happygamedev\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"12 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxtqol/more_games_should_have_stylized_graphics_rather/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+21
+
+
+110
+111
+112
+
+
+$MA-X+PU,"Unless BOTH parties agree to a fist fight, there's no such thing as "fair fight"",LM="KCTest(\"/r/unpopularopinion/comments/jxql2y/unless_both_parties_agree_to_a_fist_fight_theres/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 8 horas ago by $MA-X+PU,"LANGUIDNTORPID_",LM="KCTest(\"https://old.reddit.com/user/LANGUIDNTORPID_\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://www.redditstatic.com/gold/awards/icon/silver_48.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"29 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxql2y/unless_both_parties_agree_to_a_fist_fight_theres/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+22
+
+
+34
+35
+36
+
+
+$MA-X+PU,"children have ruined the online videogame community",LM="KCTest(\"/r/unpopularopinion/comments/jxxp0j/children_have_ruined_the_online_videogame/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 2 horas ago by $MA-X+PU,"SavageDemolition849",LM="KCTest(\"https://old.reddit.com/user/SavageDemolition849\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"26 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxxp0j/children_have_ruined_the_online_videogame/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+23
+
+
+3445
+3446
+3447
+
+
+$MA-X+PU,"Jenny from Forrest Gump is quite possibly the most misunderstood and wrongly vilified character of all time.",LM="KCTest(\"/r/unpopularopinion/comments/jxbzlh/jenny_from_forrest_gump_is_quite_possibly_the/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 1 dia ago * by $MA-X+PU,"throwaway179472",LM="KCTest(\"https://old.reddit.com/user/throwaway179472\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/94pn64yuas941_RocketLike.png?width=48&amp;height=48&amp;auto=webp&amp;s=5b5211166e4b260311ad9f3ea31d3b815110769c\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/klvxk1wggfd41_Helpful.png?width=48&amp;height=48&amp;auto=webp&amp;s=e50064b090879e8a0b55e433f6ee61d5cb5fbe1d\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/5izbv4fn0md41_Wholesome.png?width=48&amp;height=48&amp;auto=webp&amp;s=febdf28b6f39f7da7eb1365325b85e0bb49a9f63\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/niiatoknifn51_Hugz.png?width=48&amp;height=48&amp;auto=webp&amp;s=547d5fb33f5a4a5d6fc154cbd658638cc2b1c3a0\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+2$MA-X+PU,"",LM="KCTest(\"https://preview.redd.it/award_images/t5_22cerq/898sygoknoo41_TakeMyEnergy.png?width=48&amp;height=48&amp;auto=webp&amp;s=83038a4d6181d3c8f5107dbca4ddb735ca6c2231\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+$ID,2$
+ þ $MA-X+PU,"353 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxbzlh/jenny_from_forrest_gump_is_quite_possibly_the/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+24
+
+
+þ
+þ
+þ
+
+
+$MA-X+PU,"I like when flies land on me.",LM="KCTest(\"/r/unpopularopinion/comments/jxybkr/i_like_when_flies_land_on_me/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 1 hora ago by $MA-X+PU,"coZzieFox",LM="KCTest(\"https://old.reddit.com/user/coZzieFox\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"15 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxybkr/i_like_when_flies_land_on_me/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+25
+
+
+129
+130
+131
+
+
+$MA-X+PU,"Being "just American" is not boring",LM="KCTest(\"/r/unpopularopinion/comments/jxp1gm/being_just_american_is_not_boring/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ ($MA-X+PU,"self.unpopularopinion",LM="KCTest(\"/r/unpopularopinion/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$)
+
+submitted 9 horas ago by $MA-X+PU,"alwaysbeenawkward",LM="KCTest(\"https://old.reddit.com/user/alwaysbeenawkward\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"146 coment rios",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/comments/jxp1gm/being_just_american_is_not_boring/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+ver mais: $MA-X+PU,"pr¢ximo >",LM="KCTest(\"https://old.reddit.com/r/unpopularopinion/?count=25&amp;after=t3_jxp1gm\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+
+
+$ID,2$
+ þ sobre
+þ $MA-X+PU,"blog",LM="KCTest(\"https://redditblog.com\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"sobre",LM="KCTest(\"https://www.redditinc.com\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"advertising",LM="KCTest(\"https://www.redditinc.com/advertising\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"careers",LM="KCTest(\"https://www.redditinc.com/careers\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ ajuda
+þ $MA-X+PU,"site rules",LM="KCTest(\"https://old.reddit.com/rules/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"Reddit help center",LM="KCTest(\"https://www.reddithelp.com\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"redditiqueta",LM="KCTest(\"https://old.reddit.com/wiki/reddiquette/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"mod guidelines",LM="KCTest(\"https://old.reddit.com/help/healthycommunities/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"contact us",LM="KCTest(\"https://old.reddit.com/contact/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ apps & tools
+þ $MA-X+PU,"Reddit for iPhone",LM="KCTest(\"https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"Reddit for Android",LM="KCTest(\"https://play.google.com/store/apps/details?id=com.reddit.frontpage\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"mobile website",LM="KCTest(\"#\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ <3
+þ $MA-X+PU,"reddit premium",LM="KCTest(\"https://old.reddit.com/premium/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"reddit coins",LM="KCTest(\"https://old.reddit.com/coins/\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+þ $MA-X+PU,"redditgifts",LM="KCTest(\"https://redditgifts.com\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$
+$ID,-2$
+
+
+O uso deste site constitui aceita€ƒo dos nossos $MA-X+PU,"User Agreement",LM="KCTest(\"https://old.reddit.com/help/useragreement\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$ e $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://old.reddit.com/help/privacypolicy\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$. (C) 2020 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"//reddit.com/static/pixel.png\",\"https://old.reddit.com:443/r/unpopularopinion/\");View;
+"$$BLACK$$BG$
+ã Rendered by PID 31306 on r2-app-0fdccbeea4b8c9b57  at 2020-11-20 23:16:32.366371+00:00 running c04c886 country code: BR.
+$FG$

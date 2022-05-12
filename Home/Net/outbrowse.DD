@@ -1,0 +1,131 @@
+$WW,1$$BLACK$51cf 
+
+$MA-X+PU,"Ir para o contedo principal",LM="KCTest(\"#maincontent\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ 
+Ol Anglica! e outros que estiverem usando um leitor de tela, clique no link para experimentar a verso acessvel, no funciona no DOSVOX:$MA-X+PU,"AVA acessvel",LM="KCTest(\"NULL\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ 
+
+
+
+
+52cf 
+
+$PURPLE$$ID,2$$BLACK$$UL,0$$ID,-2$
+
+Identificao de usurio 
+Senha 
+Lembrar identificao de usurio 
+Acessar 
+
+$MA-X+PU,"Esqueceu o seu usurio ou senha?",LM="KCTest(\"https://virtual.ifro.edu.br/guajara/login/forgot_password.php\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$
+ 
+O uso de Cookies deve ser permitido no seu navegador $MA-X+PU,"",LM="KCTest(\"NULL\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$
+
+
+
+
+
+
+
+$PURPLE$$ID,2$Esta a sua primeira vez aqui?$BLACK$$UL,0$$ID,-2$
+ 
+Respire fundo, conte at 10, e leia atentamente essas instrues
+
+No campo identificao do Usurio, digite o seu CPF, somente os nmeros, sem pontos ou traos. ex: 01239957288;
+No campo senha digite sua senha, verifique se a tecla CAPSLOCK est deixando tudo MAISCULO;
+Verifique se est digitando seu CPF e sua senha corretamente, e se o teclado no est com nenhuma tecla defeituosa;
+Se voc esqueceu sua senha, ou ainda no cadastrou nenhuma senha junto CGTI, voc pode trocar sua senha por esse site:$MA-X+PU,"auth.ifro.edu.br/password/reset",LM="KCTest(\"http://auth.ifro.edu.br/password/reset\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$.
+
+pode tambm contatar a CGTI na sala 05 ou pelo e-mail cgti.guajara@ifro.edu.br para resolver os problemas de acesso
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Voc ainda no se identificou.
+ $MA-X+PU,"Pgina inicial",LM="KCTest(\"https://virtual.ifro.edu.br/guajara/\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$
+ $MA-X+PU,"Obter o aplicativo para dispositivos mveis",LM="KCTest(\"https://download.moodle.org/mobile?version=2018051702.03&amp;lang=pt_br&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ 
+Seja bem vindo, voc ainda no se identificou!
+passe o mouse:
+
+ 
+$PURPLE$$ID,2$Como em entro no site?
+Voc deve preencher o formulrio de Login, 'Identificao do Usurio' o seu CPF e 'Senha' a senha que voc cadastrou
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Senha? que senha? Esqueci minha senhaSe voc ainda no cadastrou sua senha ou esqueceu, pode alter-la clicando $MA-X+PU,"Aqui",LM="KCTest(\"https://auth.ifro.edu.br/password/reset\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ ou contatando a CGTI na sala 05
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$No consigo entrar, e sim, eu sei a minha senhaverifique se digitou corretamente o seu CPF, deve ser digitado apenas os nmeros (ex: 01239957288), verifique tambm a tecla CapsLock
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Onde eu clico mesmo para entrar?pelo jeito voc se perdeu pelo site, clique $MA-X+PU,"Aqui",LM="KCTest(\"https://virtual.ifro.edu.br/guajara/login/index.php\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$
+$BLACK$$UL,0$$ID,-2$
+ Pgina inicial, Aqui onde voc comea!
+passe o mouse:
+
+ 
+$PURPLE$$ID,2$Onde eu encontro as tarefas?
+primeiro escolha uma matria, clique $MA-X+PU,"Aqui",LM="KCTest(\"/guajara/my/?myoverviewtab=courses\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ para ir para a listagem de cursos de sua turma
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Como eu mudo o meu e-mail?passe o mouse no seu nome no canto direito da tela, e selecione a opo Preferncias->Modificar Perfil
+$BLACK$$UL,0$$ID,-2$
+ Meus cursos, Aqui voc encontra os seus cursos!
+passe o mouse:
+
+ 
+$PURPLE$$ID,2$Onde eu encontro as tarefas?
+escolha uma das matrias abaixo para ver as tarefas, ou veja um resumo clicando em 'Linha do tempo'
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$No h nenhum curso!h duas abas, 'Linha do tempo' e 'Cursos', clique em 'Cursos'. se mesmo assim no aparecer, clique $MA-X+PU,"Aqui",LM="KCTest(\"/guajara/course/index.php\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ para encontrar sua disciplina e se inscrever manualmente
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$O professor disse que tem atividade, mas t 'No h atividades pendentes'!a 'Linha do tempo' s mostra atividades postadas que tm um prazo e que ainda no encerraram. o professor pode ter postado sem prazo cadastrado, ter de acessar a disciplina e encontrar l a tarefa.
+$BLACK$$UL,0$$ID,-2$
+ Nesta pgina voc tm as tarefas da disciplina
+passe o mouse:
+
+ 
+$PURPLE$$ID,2$Tpico 1, Tpico 2, Tpico 3... o que isso?
+Enquanto o professor no postar nada ficar o nome padro do tpico. significa que est vazio.
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Como eu fao as tarefas?como que vou saber? leia com ateno as instrues do professor!
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Como envio uma tarefa?Leia com ateno as instrues do professor, faa a atividade no seu computador ou celular, clique no cone de enviar, anexe o seu arquivo, e clique em 'salvar mudanas'
+$BLACK$$UL,0$$ID,-2$
+ $PURPLE$$ID,2$Como fao um Questionrio? s clicar para abrir o questionrio, clicar para fazer, ler com ateno as questes e marcar as respostas.
+$BLACK$$UL,0$$ID,-2$
+ 
+$PURPLE$$ID,2$Voc no tem um e-mail cadastrado!$BLACK$$UL,0$$ID,-2$
+ cadastre um e-mail e voc no ter mais problemas para utilizar a biblioteca.
+ Alm disso, com um e-mail cadastrado, se voc esquecer a sua senha poder recuperar sua conta! 
+$PURPLE$$ID,2$$MA-X+PU,"Clique aqui",LM="KCTest(\"NULL\",\"https://virtual.ifro.edu.br:443/guajara/login/index.php\");
+"$ para alterar agora mesmo seu e-mail!$BLACK$$UL,0$$ID,-2$
+ 
+se no conseguir fazer o procedimento sozinho, procure a CGTI na sala 28 ou pelo e-mail cgti.guajara@ifro.edu.br No posso ajudar. no h ajuda disponvel para a pgina que voc est. 
+
+
+X
+ 
+
+
+
+
+
+
+$FG$

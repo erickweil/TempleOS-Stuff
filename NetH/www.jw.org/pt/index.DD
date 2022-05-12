@@ -1,0 +1,1191 @@
+URL:
+$MA-X+PU,"https://www.jw.org:443/pt/",LM="KCTest(\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+$WW,1$$BLACK$00006000
+
+
+
+ $PURPLE$$TX+CX,"Testemunhas de Jeov  Ä site oficial | jw.org"$
+
+$BLACK$$BG$
+ 
+
+$MA-X+PU,"Pular para conte£do
+ ",LM="KCTest(\"/pt/#content\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+
+$MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-UL+B,"Mudar o idioma do site
+ "$
+
+$MA-UL+B,"FECHAR
+ "$
+$MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ 
+$MA-X+PU,"Buscar no JW.ORG
+ ",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-UL+B,"EXIBIR MENU
+ "$
+
+$MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas B¡blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Textos B¡blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Ajudas para Estudar a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Li€“es on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Casamento e Fam¡lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Crian€as
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"F‚ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"A Hist¢ria e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"A Ci‰ncia e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"B¡blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Revistas
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"S‚ries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Nosso Minist‚rio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Pe€as Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Leituras B¡blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"V¡deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"JW Not¡cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Casos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-UL+B,"Mostrar mais
+ "$
+$MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Pe€a uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Reuni“es
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Celebra€ƒo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Relatos da Vida de Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-X+PU,"LOGIN
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-UL+B,"FECHAR
+ "$
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/04b98afc7d/images/siteLogo-jworg-print.png\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$
+
+ $LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/04b98afc7d/images/siteLogo-jworg-print-rtl.png\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$
+
+ $MA-X+PU,"JW.ORG
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$RED$$ID,3$Testemunhas de Jeov $BLACK$$BG$$ID,-3$
+
+ 
+$MA-X+PU,"Selecione o idioma
+ Portugu‰s (Brasil)
+ ",LM="KCTest(\"/pt/choose-language?locale=pt&prefer=lang&docid=1011200\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-UL+B,"Pesquisar
+ "$
+
+
+
+
+
+
+$ID,2$
+þ $MA-X+PU,"INICIO
+ ",LM="KCTest(\"/pt/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"ENSINOS BIBLICOS
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Ensinos B¡blicos
+ ",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"Perguntas B¡blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Textos B¡blicos Explicados
+ ",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Ajudas para Estudar a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Li€“es on-line
+ ",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Casamento e Fam¡lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Crian€as
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"F‚ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"00004000
+
+
+ A Ci‰ncia e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"A Hist¢ria e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"BIBLIOTECA
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Biblioteca
+ ",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"B¡blia On-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Revistas
+ ",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Livros e Brochuras
+ ",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"S‚ries de artigos
+ ",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"JW Broadcasting(R)
+ ",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"V¡deos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"M£sicas
+ ",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€as Teatrais em Audio
+ ",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Leituras B¡blicas Dramatizadas
+ ",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Apostilas
+ ",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Nosso Minist‚rio do Reino
+ ",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Biblioteca On-line
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"IMPRENSA
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Imprensa
+ ",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"JW Not¡cias
+ ",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Sala de Imprensa
+ ",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Casos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Recursos Jur¡dicos
+ ",LM="KCTest(\"/pt/noticias/casos-juridicos/recursos-juridicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+þ $MA-X+PU,"QUEM SOMOS
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,2$
+
+þ $MA-X+PU,"Quem Sƒo as Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $ID,2$
+þ $MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€a uma visita
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Fale Conosco
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Visitas a Betel
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Reuni“es
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Celebra€ƒo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Congressos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Atividades
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov 
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Em Todo o Mundo
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+þ $MA-UL+B,"FECHAR
+ "$
+$ID,-2$
+
+$ID,-2$
+
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"/pt/noticias/jw-noticias/#newsAlerts\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+
+
+ 
+
+
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Celebra€ƒo da morte de Cristo",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+Convidamos voc‰ para o nosso evento anual em que lembramos a morte de Jesus Cristo. Este ano, a Celebra€ƒo ser  no s bado 27 de mar€o.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+$MA-X+PU,"Saiba mais
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+
+
+$RED$$ID,3$Em Destaque$BLACK$$BG$$ID,-3$
+
+ $MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/2012655/univ/wpub/2012655_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Deus se importa com as mulheres?
+ ",LM="KCTest(\"/pt/biblioteca/revistas/wp20120901/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502012121/univ/wpub/502012121_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"O que o Reino de Deus realizar ?
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/o-que-reino-de-deus-fara/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/501100018/univ/wpub/501100018_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Como controlar as preocupa€“es
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/biblia-sobre-preocupacoes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1001070103/univ/wpub/1001070103_univ_sqs_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Leia a B¡blia on-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/biblia-de-estudo/livros/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+A Tradu€ƒo do Novo Mundo (Edi€ƒo de Estudo) ‚ gr tis. Ela cont‚m m¡dias, notas de rodap‚, refer‰ncias cruzadas e outras ajudas para o estudo da B¡blia.
+
+
+
+
+ 
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1001070103/univ/wpub/1001070103_univ_sqr_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Leia a B¡blia on-line
+ ",LM="KCTest(\"/pt/biblioteca/biblia/biblia-de-estudo/livros/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+A Tradu€ƒo do Novo Mundo (Edi€ƒo de Estudo) ‚ gr tis. Ela cont‚m m¡dias, notas de rodap‚, refer‰ncias cruzadas e outras ajudas para o estudo da B¡blia.
+
+
+
+
+ 
+
+
+$BLUE$$ID,4$Veja os £ltimos v¡deos, m£sicas, artigos e not¡cias.$BLACK$$BG$$ID,-4$
+
+ $MA-X+PU,"Novidades
+ ",LM="KCTest(\"/pt/Novidades/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+
+$RED$$ID,3$Escolha um assunto que voc‰ ache interessante$BLACK$$BG$$ID,-3$
+
+ $MA-X+PU,"Perguntas B¡blicas Respondidas
+ ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Paz e Felicidade
+ ",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"F‚ em Deus
+ ",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Casamento e Fam¡lia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Adolescentes
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Atividades para Crian€as
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"A ci‰ncia e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"A Hist¢ria e a B¡blia
+ ",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $MA-X+PU,"Perguntas Frequentes
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1011538/univ/wpub/1011538_univ_sqr_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Fa€a o curso da B¡blia on-line",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-4$
+
+ Este curso da B¡blia ‚ interativo, f cil de usar, sem compromisso e gr tis.
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1011229/univ/wpub/1011229_univ_sqr_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Reuni“es congregacionais das Testemunhas de Jeov ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-4$
+
+ Saiba onde nos reunimos e como adoramos a Deus. Todos sƒo bem-vindos e nƒo se fazem coletas.
+
+ 
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502012232/univ/wpub/502012232_univ_sqr_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Pe€a uma visita de uma Testemunha de Jeov ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-4$
+
+ Converse sobre um assunto b¡blico com as Testemunhas de Jeov  ou experimente nosso programa de estudo da B¡blia gratuito.
+
+ 
+
+
+$RED$$ID,3$V¡deos$BLACK$$BG$$ID,-3$
+
+ $MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+
+
+
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Por que Jesus morreu?",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/quem-e-jesus-cristo/video-por-que-jesus-morreu/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+Voc‰ j  deve ter ouvido falar que ele morreu para nos livrar do pecado. Mas como o sacrif¡cio de um £nico homem pode salvar milh“es de pessoas?
+
+ 
+$MA-X+PU,"Veja a resposta
+ ",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/quem-e-jesus-cristo/video-por-que-jesus-morreu/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/500700101/univ/wpub/500700101_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Como ‚ trabalhar com as Testemunhas de Jeov
+
+00002000
+
+ ?
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/construcao/trabalhar-com-testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502013393/univ/wpub/502013393_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"O que ‚ um amigo de verdade?
+ ",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/animacoes-no-quadro-branco/que-e-amigo-de-verdade/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502018518/univ/wpub/502018518_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Agora eu vejo as pessoas com outros olhos
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/biblia-muda-vida-das-pessoas/agora-vejo-pessoas-com-outros-olhos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502017855/univ/wpub/502017855_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Por que Deus criou a Terra?
+ ",LM="KCTest(\"/pt/biblioteca/livros/boas-noticias-de-deus/por-que-deus-criou-a-terra/video-criacao-de-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502018101/univ/wpub/502018101_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Mesmo triste, nƒo desista
+ ",LM="KCTest(\"/pt/ensinos-biblicos/criancas/torne-se-amigo-de-jeova/videos/mesmo-triste-nao-desista/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502015540/univ/wpub/502015540_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Eu me cansei das religi“es
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/biblia-muda-vida-das-pessoas/deixei-igreja-encontrei-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502014311/univ/wpub/502014311_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Como ‚ um estudo b¡blico?
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/video-estudo-biblico/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/502014315/univ/wpub/502014315_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"O que acontece em um Salƒo do Reino?
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/video-salao-do-reino/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$MA-X+PU,"",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/m/1102017423/univ/wpub/1102017423_univ_lss_xs.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+$BLUE$$ID,4$$MA-X+PU,"Quem sƒo as Testemunhas de Jeov ?
+ ",LM="KCTest(\"/pt/biblioteca/videos/introducoes-para-servico-de-campo/quem-sao-as-testemunhas-de-jeova-apresentacao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+
+$MA-X+PU,"Veja todos
+ ",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+
+
+ 
+
+$PURPLE$$ID,2$Testemunhas de Jeov  Ä Quem somos n¢s?$BLACK$$BG$$ID,-2$
+
+
+
+
+ Mesmo vindo de centenas de grupos ‚tnicos e falando centenas de idiomas, somos unidos pelos mesmos objetivos. Acima de tudo, queremos honrar a $MA-X+PU,"Jeov ",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/nome-de-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$, o Deus da B¡blia e o Criador de todas as coisas. Fazemos o nosso melhor para imitar a $MA-X+PU,"Jesus Cristo",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/jesus-filho-de-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$ e temos orgulho de ser chamados $MA-X+PU,"cristƒos",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/testemunhas-de-jeova-sao-cristas/\",\"https://www.jw.org:443/pt/\");View;
+"$. Todos n¢s dedicamos tempo … obra de ensinar as pessoas sobre a B¡blia e o $MA-X+PU,"Reino de Deus",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/que-e-reino-de-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$. Visto que damos testemunho, ou falamos, sobre Jeov  Deus e seu Reino, somos conhecidos como $MA-X+PU,"Testemunhas de Jeov ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/nome-testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$.
+
+
+Explore nosso site. $MA-X+PU,"Leia a B¡blia on-line.",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$ Aprenda mais sobre n¢s e $MA-X+PU,"nossas cren€as",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/\");View;
+"$.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+$BLUE$$ID,4$$MA-X+PU,"Quem sƒo as Testemunhas de Jeov ?
+ ",LM="KCTest(\"/pt/biblioteca/videos/introducoes-para-servico-de-campo/quem-sao-as-testemunhas-de-jeova-apresentacao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$BLUE$$ID,4$$MA-X+PU,"Quais sƒo as cren€as principais das Testemunhas de Jeov ?
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/crencas-testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+$BLUE$$ID,4$$MA-X+PU,"Como a obra das Testemunhas de Jeov  ‚ financiada?
+ ",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/obra-mundial-financiada-donativos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ $BLACK$$BG$$ID,-4$
+
+
+
+
+
+$LTBLUE$(IMG Duas Testemunhas de Jeov  pregam para um homem em um arrozal.)$MA-X+PU,"Download Img",LM="KCTest(\"https://assetsnffrgf-a.akamaihd.net/assets/ct/04b98afc7d/images/home-bottom.jpg\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$
+ 
+
+$ID,6$JW.ORG$SY,-3$(R)$SY,0$$IV,1$ / SITE OFICIAL DAS TESTEMUNHAS DE JEOVA$IV,0$$BLACK$$BG$$ID,-6$
+
+ $ID,7$$MA-X+PU,"Ensinos B¡blicos",LM="KCTest(\"/pt/ensinos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"Perguntas B¡blicas Respondidas",LM="KCTest(\"/pt/ensinos-biblicos/perguntas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Textos B¡blicos Explicados",LM="KCTest(\"/pt/ensinos-biblicos/textos-biblicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Ajudas para Estudar a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/ajudas-para-estudar-a-biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Li€“es on-line",LM="KCTest(\"/pt/ensinos-biblicos/licoes-online/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Paz e Felicidade",LM="KCTest(\"/pt/ensinos-biblicos/paz-felicidade/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Casamento e Fam¡lia",LM="KCTest(\"/pt/ensinos-biblicos/familia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Adolescentes",LM="KCTest(\"/pt/ensinos-biblicos/adolescentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Crian€as",LM="KCTest(\"/pt/ensinos-biblicos/criancas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"F‚ em Deus",LM="KCTest(\"/pt/ensinos-biblicos/fe-em-deus/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"A Hist¢ria e a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/historia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"A Ci‰ncia e a B¡blia",LM="KCTest(\"/pt/ensinos-biblicos/ciencia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Biblioteca",LM="KCTest(\"/pt/biblioteca/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"B¡blia On-line",LM="KCTest(\"/pt/biblioteca/biblia/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Revistas",LM="KCTest(\"/pt/biblioteca/revistas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Livros e Brochuras",LM="KCTest(\"/pt/biblioteca/livros/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"S‚ries de artigos",LM="KCTest(\"/pt/biblioteca/series/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Apostilas",LM="KCTest(\"/pt/biblioteca/jw-apostila-do-mes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Nosso Minist‚rio do Reino",LM="KCTest(\"/pt/biblioteca/ministerio-do-reino/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"M£sicas",LM="KCTest(\"/pt/biblioteca/musica-canticos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€as Teatrais em Audio",LM="KCTest(\"/pt/biblioteca/pecas-teatrais-biblicas-em-audio/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Leituras B¡blicas Dramatizadas",LM="KCTest(\"/pt/biblioteca/leituras-biblicas-dramatizadas/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"V¡deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Broadcasting(R)",LM="KCTest(\"/pt/biblioteca/videos/#/pt/categories/VODStudio\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Not¡cias",LM="KCTest(\"/pt/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"JW Not¡cias",LM="KCTest(\"/pt/noticias/jw-noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Sala de Imprensa",LM="KCTest(\"/pt/noticias/noticias/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Casos Jur¡dicos",LM="KCTest(\"/pt/noticias/casos-juridicos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+$ID,7$$MA-X+PU,"Quem Somos",LM="KCTest(\"/pt/testemunhas-de-jeova/\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+þ $MA-X+PU,"Perguntas Frequentes",LM="KCTest(\"/pt/testemunhas-de-jeova/perguntas-frequentes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Pe€a uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Reuni“es",LM="KCTest(\"/pt/testemunhas-de-jeova/reunioes/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Celebra€ƒo",LM="KCTest(\"/pt/testemunhas-de-jeova/celebracao/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Congressos",LM="KCTest(\"/pt/testemunhas-de-jeova/congressos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Atividades",LM="KCTest(\"/pt/testemunhas-de-jeova/atividades/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Relatos da Vida de Testemunhas de Jeov ",LM="KCTest(\"/pt/testemunhas-de-jeova/relatos-da-vida/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Em Todo o Mundo",LM="KCTest(\"/pt/testemunhas-de-jeova/worldwide/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Visitas a Betel",LM="KCTest(\"/pt/testemunhas-de-jeova/visitas-a-betel/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Fale Conosco",LM="KCTest(\"/pt/testemunhas-de-jeova/contato/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+
+$ID,7$Links r pidos$BLACK$$BG$$ID,-6$
+
+ $ID,2$
+00002C15
+
+ þ $MA-X+PU,"Pe€a uma visita",LM="KCTest(\"/pt/testemunhas-de-jeova/peca-uma-visita/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ þ $MA-X+PU,"Encontre um local de reuniƒo
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SRCHMTGMAPS\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Encontre um local de congresso
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_SEARCHCONV\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Novidades",LM="KCTest(\"/pt/Novidades/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ þ $MA-X+PU,"V¡deos",LM="KCTest(\"/pt/biblioteca/videos/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ þ $MA-X+PU,"Buscar",LM="KCTest(\"/pt/busca/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ þ $MA-X+PU,"Ajuda",LM="KCTest(\"/pt/ajuda-online/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ þ $MA-X+PU,"Informa€“es para m‚dicos",LM="KCTest(\"/pt/biblioteca-medica/\",\"https://www.jw.org:443/pt/\");View;
+"$
+
+ $ID,-2$
+$ID,2$
+þ $MA-X+PU,"Donativos
+ (abre nova janela)
+ ",LM="KCTest(\"https://apps.jw.org/T_DONATE\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+$ID,2$
+þ $MA-X+PU,"Biblioteca On-line da Torre de Vigiaâ„¢
+ (abre nova janela)
+ ",LM="KCTest(\"https://wol.jw.org/wol/finder?wtlocale=T\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Log in
+ (abre nova janela)
+ ",LM="KCTest(\"https://my.jw.org/home/pt\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Library(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Library Sign Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-library-sign-language/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"Watchtower Library
+ ",LM="KCTest(\"/pt/ajuda-online/watchtower-library/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+þ $MA-X+PU,"JW Language(R)
+
+ ",LM="KCTest(\"/pt/ajuda-online/jw-language/\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+$ID,-2$
+
+
+$MA-X+PU,"Copyright",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/\");View;
+"$ (C) 2021 Watch Tower Bible and Tract Society of Pennsylvania.
+ $MA-X+PU,"TERMOS DE USO",LM="KCTest(\"https://www.jw.org/finder?docid=1011511&amp;prefer=content\",\"https://www.jw.org:443/pt/\");View;
+"$
+  | $MA-X+PU,"POLITICA DE PRIVACIDADE",LM="KCTest(\"https://www.jw.org/finder?docid=1011512&amp;prefer=content\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+
+
+
+
+$PURPLE$$ID,2$Selecione seu idioma$BLACK$$BG$$ID,-2$
+
+ Idiomas:
+ 
+$MA-UL+B,""$
+IDIOMA
+
+ 
+$BLUE$$BLACK$$BG$Mostrar apenas l¡nguas de sinais
+ $BLUE$$BLACK$$BG$Site dispon¡vel
+ $BLUE$$BLACK$$BG$Apenas download de publica€“es
+ 
+
+
+
+
+
+
+
+$PURPLE$$ID,2$Compartilhar$BLACK$$BG$$ID,-2$
+
+ $MA-UL+B,""$
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$
+ 
+
+$BLUE$$ID,4$$BLACK$$BG$$ID,-4$
+
+$MA-UL+B,"Selecione o link
+ "$
+
+
+$MA-X+PU,"Compartilhar por e-mail
+ ",LM="KCTest(\"NULL\",\"https://www.jw.org:443/pt/\");View;
+"$
+ 
+
+
+
+
+
+
+$LTBLUE$(IMG )$MA-X+PU,"Download Img",LM="KCTest(\"themes/content-theme/images/insight.png?\",\"https://www.jw.org:443/pt/\");View;
+"$$BLACK$$BG$
+ 
+
+$FG$

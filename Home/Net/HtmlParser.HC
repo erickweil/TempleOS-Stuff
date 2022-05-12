@@ -1,11 +1,10 @@
-// Uses Custom Memory
 
-#include "::/Home/Net/HtmlFunctions"
+//ADAM INCLUDED #include "::/Home/Net/HtmlFunctions"
 #include "::/Home/Net/Http"
 //#define HTML_BZ	131072
-////#define HTML_BZ	65536
+#define HTML_BZ	65536
 //#define HTML_BZ	32768
-#define HTML_BZ 6000000
+//#define HTML_BZ 6000000
 // HTML DOM
 // The U8* in this need to be FREE-able
 public class DocNode {
@@ -27,7 +26,7 @@ DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
 {// Create a new DocNode, remember to call DocNodeDel
  //Don't forget these $MA-X+PU,"sizeof(DocNode)",LM="Find(\"sizeof(DocNode)\",\"/*\");View;"$.  CDC
   DocNode *res;
-  res=CMCAlloc(sizeof(DocNode));
+  res=CAlloc(sizeof(DocNode));
 
   res->parent = parent;  
   res->next = NULL;
@@ -36,14 +35,14 @@ DocNode *DocNodeNew(DocNode *parent,U8 *name, U8 *innerText)
 
   if(name && StrLen(name)>0)
   {
-    res->name = CMCAlloc(StrLen(name)+1);
+    res->name = CAlloc(StrLen(name)+1);
     StrCpy(res->name,name);
   }
   else
     res->name = NULL;
   if(innerText && StrLen(innerText)>0)
   {
-    res->innerText = CMCAlloc(StrLen(innerText)+1);
+    res->innerText = CAlloc(StrLen(innerText)+1);
     StrCpy(res->innerText,innerText);
   }
   else
@@ -76,11 +75,11 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
 //  dc->attr = NULL;
 
   if(dc->name)
-    CMFree(dc->name);
+    Free(dc->name);
 //  dc->name = NULL;
 
   if(dc->innerText)
-    CMFree(dc->innerText);
+    Free(dc->innerText);
 //  dc->innerText = NULL;
 
 
@@ -92,13 +91,13 @@ U0 DocNodeDel(DocNode *dc,I64 depth=0,I64 doNext=TRUE)
   //}
   if(!doNext)
   {
-    CMFree(dc);
+    Free(dc);
   }
   else
   {
     _dc = dc;
     dc = dc->next;
-    CMFree(_dc); 
+    Free(_dc); 
 
     while(dc)
     {
@@ -212,7 +211,7 @@ I64 HtmlParseAttr(U8 *buffer,DocNode *parent)
     //Print("='%s'\n",buffer);
     if(StrLen(buffer)>0)
     {
-      newAttr->value = CMCAlloc(StrLen(buffer)+1);
+      newAttr->value = CAlloc(StrLen(buffer)+1);
       StrCpy(newAttr->value,buffer);
     }
 
@@ -480,7 +479,8 @@ if(!HTML)
   Print("\n");
 //  HttpGet("www.google.com","443","/search?q=memory",0);
 //  HttpGet("www.google.com","443","/search?q=templeos",0);
-  HttpGet("stackoverflow.com","443","/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header/",0);
+//  HttpGet("passapassa.com.br","443","/",0);
+  HttpGet("stackoverflow.com","443","/questions/23714383/what-are-all-the-possible-values-for-http-content-type-header/",NULL,0);
   DocNodeAttr *headers = HttpParseHeaders();
   DocNodeAttrDel(headers,TRUE);
 }
@@ -493,11 +493,11 @@ else
 
 DocNode *root = DocNodeNew(NULL,"ROOT",NULL);
 
-U8 *buffer = CMCAlloc(HTML_BZ+1);//Max contiguous string (Later should depend on Content-Size)
+U8 *buffer = CAlloc(HTML_BZ+1);//Max contiguous string (Later should depend on Content-Size)
 
 HtmlParse(root,buffer);
 
-CMFree(buffer);
+Free(buffer);
 
 Print("\n\nFinished Parsing\n\n$$BLACK$$");
 
@@ -529,16 +529,16 @@ if(HTML)
   TestOffline = NULL;
 }
 
-CMFree(iterBuffer);
+Free(iterBuffer);
 iterBuffer=NULL;
 
 //if(YorN){
-CustomMemoryPrint();
+//CustomMemoryPrint();
 //}
 
 
 //CustomMemoryFree();
-CustomMemoryReset();
+//CustomMemoryReset();
 }
 
 //test;
@@ -574,4 +574,4 @@ test(
 "
 
 );
-*/
+*/

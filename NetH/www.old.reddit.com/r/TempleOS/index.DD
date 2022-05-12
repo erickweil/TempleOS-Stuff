@@ -1,0 +1,816 @@
+URL:
+$MA-X+PU,"https://www.old.reddit.com:443/r/TempleOS/",LM="KCTest(\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$WW,1$$BLACK$$PURPLE$$TX+CX,"TempleOS"$
+
+$BLACK$$BG$
+
+$MA-X+PU,"jump to content",LM="KCTest(\"#content\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+my subreddits
+$MA-X+PU,"edit subscriptions",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"popular",LM="KCTest(\"https://old.reddit.com/r/popular/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"tudo",LM="KCTest(\"https://old.reddit.com/r/all/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"random",LM="KCTest(\"https://old.reddit.com/r/random/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"users",LM="KCTest(\"https://old.reddit.com/users/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+  
+$ID,2$
+
+þ $MA-X+PU,"AskReddit",LM="KCTest(\"https://old.reddit.com/r/AskReddit/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"pics",LM="KCTest(\"https://old.reddit.com/r/pics/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"news",LM="KCTest(\"https://old.reddit.com/r/news/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"worldnews",LM="KCTest(\"https://old.reddit.com/r/worldnews/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"funny",LM="KCTest(\"https://old.reddit.com/r/funny/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"tifu",LM="KCTest(\"https://old.reddit.com/r/tifu/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"videos",LM="KCTest(\"https://old.reddit.com/r/videos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"gaming",LM="KCTest(\"https://old.reddit.com/r/gaming/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"aww",LM="KCTest(\"https://old.reddit.com/r/aww/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"todayilearned",LM="KCTest(\"https://old.reddit.com/r/todayilearned/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"gifs",LM="KCTest(\"https://old.reddit.com/r/gifs/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Art",LM="KCTest(\"https://old.reddit.com/r/Art/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"explainlikeimfive",LM="KCTest(\"https://old.reddit.com/r/explainlikeimfive/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"movies",LM="KCTest(\"https://old.reddit.com/r/movies/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Jokes",LM="KCTest(\"https://old.reddit.com/r/Jokes/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"TwoXChromosomes",LM="KCTest(\"https://old.reddit.com/r/TwoXChromosomes/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"mildlyinteresting",LM="KCTest(\"https://old.reddit.com/r/mildlyinteresting/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"LifeProTips",LM="KCTest(\"https://old.reddit.com/r/LifeProTips/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"askscience",LM="KCTest(\"https://old.reddit.com/r/askscience/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"IAmA",LM="KCTest(\"https://old.reddit.com/r/IAmA/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"dataisbeautiful",LM="KCTest(\"https://old.reddit.com/r/dataisbeautiful/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"books",LM="KCTest(\"https://old.reddit.com/r/books/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"science",LM="KCTest(\"https://old.reddit.com/r/science/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Showerthoughts",LM="KCTest(\"https://old.reddit.com/r/Showerthoughts/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"gadgets",LM="KCTest(\"https://old.reddit.com/r/gadgets/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Futurology",LM="KCTest(\"https://old.reddit.com/r/Futurology/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"nottheonion",LM="KCTest(\"https://old.reddit.com/r/nottheonion/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"history",LM="KCTest(\"https://old.reddit.com/r/history/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"sports",LM="KCTest(\"https://old.reddit.com/r/sports/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"brasil",LM="KCTest(\"https://old.reddit.com/r/brasil/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"OldSchoolCool",LM="KCTest(\"https://old.reddit.com/r/OldSchoolCool/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"GetMotivated",LM="KCTest(\"https://old.reddit.com/r/GetMotivated/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"DIY",LM="KCTest(\"https://old.reddit.com/r/DIY/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"photoshopbattles",LM="KCTest(\"https://old.reddit.com/r/photoshopbattles/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"nosleep",LM="KCTest(\"https://old.reddit.com/r/nosleep/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Music",LM="KCTest(\"https://old.reddit.com/r/Music/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"space",LM="KCTest(\"https://old.reddit.com/r/space/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"food",LM="KCTest(\"https://old.reddit.com/r/food/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"UpliftingNews",LM="KCTest(\"https://old.reddit.com/r/UpliftingNews/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"EarthPorn",LM="KCTest(\"https://old.reddit.com/r/EarthPorn/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"Documentaries",LM="KCTest(\"https://old.reddit.com/r/Documentaries/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"InternetIsBeautiful",LM="KCTest(\"https://old.reddit.com/r/InternetIsBeautiful/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"WritingPrompts",LM="KCTest(\"https://old.reddit.com/r/WritingPrompts/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"creepy",LM="KCTest(\"https://old.reddit.com/r/creepy/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"philosophy",LM="KCTest(\"https://old.reddit.com/r/philosophy/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"announcements",LM="KCTest(\"https://old.reddit.com/r/announcements/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"listentothis",LM="KCTest(\"https://old.reddit.com/r/listentothis/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"blog",LM="KCTest(\"https://old.reddit.com/r/blog/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ -$MA-X+PU,"futbol",LM="KCTest(\"https://old.reddit.com/r/futbol/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+$MA-X+PU,"mais ¯",LM="KCTest(\"https://old.reddit.com/subreddits/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+$MA-X+PU,"reddit.com",LM="KCTest(\"/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ $MA-X+PU,"TempleOS",LM="KCTest(\"https://old.reddit.com/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ 
+þ $MA-X+PU,"populares",LM="KCTest(\"https://old.reddit.com/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"novos",LM="KCTest(\"https://old.reddit.com/r/TempleOS/new/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"subindo",LM="KCTest(\"https://old.reddit.com/r/TempleOS/rising/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"controversos",LM="KCTest(\"https://old.reddit.com/r/TempleOS/controversial/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"no topo",LM="KCTest(\"https://old.reddit.com/r/TempleOS/top/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"gilded",LM="KCTest(\"https://old.reddit.com/r/TempleOS/gilded/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+Want to join? $MA-X+PU,"Log in",LM="KCTest(\"https://www.reddit.com/login\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ r $MA-X+PU,"sign up",LM="KCTest(\"https://www.reddit.com/login\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ n seconds.|
+$ID,2$
+ 
+þ $MA-X+PU,"portugu‰s (*)",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+
+limit my search to r/TempleOS
+
+use the following search parameters to narrow your results:
+subreddit:$BLUE$subreddit$BLACK$$BG$
+find submissions in &quot;subreddit&quot;
+author:$BLUE$username$BLACK$$BG$
+find submissions by &quot;username&quot;
+site:$BLUE$example.com$BLACK$$BG$
+find submissions from &quot;example.com&quot;
+url:$BLUE$text$BLACK$$BG$
+search for &quot;text&quot; in url
+selftext:$BLUE$text$BLACK$$BG$
+search for &quot;text&quot; in self post contents
+self:yes (or self:no)
+include (or exclude) self posts
+nsfw:yes (or nsfw:no)
+include (or exclude) results marked as NSFW
+
+e.g. subreddit:aww site:imgur.com dog
+$MA-X+PU,"see the search faq for details.",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+$MA-X+PU,"advanced search: by author, subreddit...",LM="KCTest(\"https://www.reddit.com/wiki/search\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+
+
+
+
+lembrar de mim$MA-X+PU,"redefinir senha",LM="KCTest(\"/password\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$MA-UL+B,"login"$
+
+
+
+$MA-X+PU,"Submit a new link",LM="KCTest(\"https://old.reddit.com/r/TempleOS/submit\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Submit a new text post",LM="KCTest(\"https://old.reddit.com/r/TempleOS/submit?selftext=true\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+
+
+$MA-X+PU,"Get an ad-free experience with special benefits, and directly support Reddit.get reddit premium"$
+
+
+$PURPLE$$ID,2$$MA-X+PU,"TempleOS",LM="KCTest(\"https://old.reddit.com/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$$BLACK$$BG$$ID,-2$
+$MA-X+PU,"join",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$$MA-X+PU,"sair",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$141 leitores
+5 users here now
+
+
+
+created y $MA-X+PU,"jiml78",LM="KCTest(\"https://old.reddit.com/user/jiml78\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$a community for 7 anos
+
+
+$PURPLE$$ID,2$MODERADORES$BLACK$$BG$$ID,-2$
+
+$ID,2$
+ þ $MA-X+PU,"message the mods",LM="KCTest(\"/message/compose/?to=/r/TempleOS\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"MasterChief_John-117",LM="KCTest(\"https://old.reddit.com/user/MasterChief_John-117\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"about moderation team ¯",LM="KCTest(\"/r/TempleOS/about/moderators\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+
+$MA-X+PU,"",LM="KCTest(\"NULL\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+$MA-X+PU,"Welcome to Reddit,the front page of the internet.Become a Redditorand join one of thousands of communities.",LM="KCTest(\"/login\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$$MA-X+PU,"&times;",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+1
+
+
+3
+4
+5
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/jk4kcg/people_turning_terys_words_into_political/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"people turning tery's words into political statements are disgusting",LM="KCTest(\"/r/TempleOS/comments/jk4kcg/people_turning_terys_words_into_political/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 19 dias ago y $MA-X+PU,"KommandantVideo",LM="KCTest(\"https://old.reddit.com/user/KommandantVideo\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1 coment rio",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/jk4kcg/people_turning_terys_words_into_political/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+2
+
+
+7
+8
+9
+
+
+$MA-X+PU,"",LM="KCTest(\"https://www.youtube.com/watch?v=nPIds_0goPs\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"TempleOS Terry Davis ft. Yung Lean New Soundcloud Song Leak 2020 RIP",LM="KCTest(\"https://www.youtube.com/watch?v=nPIds_0goPs\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"youtube.com",LM="KCTest(\"/domain/youtube.com/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 27 dias ago y $MA-X+PU,"newreddit2256",LM="KCTest(\"https://old.reddit.com/user/newreddit2256\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"coment rio",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/jf88j9/templeos_terry_davis_ft_yung_lean_new_soundcloud/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+3
+
+
+3
+4
+5
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/jc2csu/windows_xp_leak_how_can_this_affect_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"Windows XP Leak, how can this affect TempleOS development...",LM="KCTest(\"/r/TempleOS/comments/jc2csu/windows_xp_leak_how_can_this_affect_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 1 m‰s ago y $MA-X+PU,"Silly_Commission_254",LM="KCTest(\"https://old.reddit.com/user/Silly_Commission_254\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1 coment rio",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/jc2csu/windows_xp_leak_how_can_this_affect_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+4
+
+
+1
+2
+3
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/jb3qq9/questions_about_the_random_number_generator/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"Questions about the random number generator",LM="KCTest(\"/r/TempleOS/comments/jb3qq9/questions_about_the_random_number_generator/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 1 m‰s ago y $MA-X+PU,"DrinkTheCumGoblet",LM="KCTest(\"https://old.reddit.com/user/DrinkTheCumGoblet\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"3 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/jb3qq9/questions_about_the_random_number_generator/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+5
+
+
+13
+14
+15
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/j72kux/no_this_cannot_be/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"No, this cannot be ,ù",LM="KCTest(\"/r/TempleOS/comments/j72kux/no_this_cannot_be/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"i.redd.it",LM="KCTest(\"/domain/i.redd.it/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 1 m‰s ago y $MA-X+PU,"lHOq7RWOQihbjUNAdQCA",LM="KCTest(\"https://old.reddit.com/user/lHOq7RWOQihbjUNAdQCA\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"1 coment rio",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/j72kux/no_this_cannot_be/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+6
+
+
+3
+4
+5
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/hw58w2/help/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"HELP",LM="KCTest(\"/r/TempleOS/comments/hw58w2/help/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 3 meses ago y $MA-X+PU,"ttvCurtisTv",LM="KCTest(\"https://old.reddit.com/user/ttvCurtisTv\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"6 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/hw58w2/help/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+7
+
+
+11
+12
+13
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/hqq9at/on_the_wikipedia_page_another_computer_engineer/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"On the Wikipedia page &quot;Another computer engineer said that TempleOS contained innovations that no other developer had accomplished, particularly that it runs on a certain part of a computer processor to maintain its &quot;extremely quick&quot; speed.&quot; Does anyone here know what these innovations might be?",LM="KCTest(\"/r/TempleOS/comments/hqq9at/on_the_wikipedia_page_another_computer_engineer/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 4 meses ago y $MA-X+PU,"TheLibyanPeltist",LM="KCTest(\"https://old.reddit.com/user/TheLibyanPeltist\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/hqq9at/on_the_wikipedia_page_another_computer_engineer/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+8
+
+
+24
+25
+26
+
+
+$MA-X+PU,"",LM="KCTest(\"https://youtu.be/LtlyeDAJR7A\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"Hope this video will bring more attention to here",LM="KCTest(\"https://youtu.be/LtlyeDAJR7A\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"youtu.be",LM="KCTest(\"/domain/youtu.be/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 4 meses ago y $MA-X+PU,"Questwarrior",LM="KCTest(\"https://old.reddit.com/user/Questwarrior\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"5 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/hqia4y/hope_this_video_will_bring_more_attention_to_here/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+9
+
+
+10
+11
+12
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/honld4/the_fate_of_temple_os/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"The Fate of Temple OS",LM="KCTest(\"/r/TempleOS/comments/honld4/the_fate_of_temple_os/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 4 meses ago y $MA-X+PU,"sw4rfega",LM="KCTest(\"https://old.reddit.com/user/sw4rfega\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/honld4/the_fate_of_temple_os/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+10
+
+
+3
+4
+5
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/ha91jc/what_is_your_favourite_feature_of_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"What is your favourite feature of TempleOS?",LM="KCTest(\"/r/TempleOS/comments/ha91jc/what_is_your_favourite_feature_of_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+submitted 5 meses ago y $MA-X+PU,"jagmarjattetrott",LM="KCTest(\"https://old.reddit.com/user/jagmarjattetrott\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"3 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/ha91jc/what_is_your_favourite_feature_of_templeos/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+11
+
+
+10
+11
+12
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/gx6v4d/terry_a_davis_genius_or_simply_dedicated/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"Terry A Davis: Genius Or Simply Dedicated?",LM="KCTest(\"/r/TempleOS/comments/gx6v4d/terry_a_davis_genius_or_simply_dedicated/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+
+submitted 5 meses ago y $MA-X+PU,"dthorpe123",LM="KCTest(\"https://old.reddit.com/user/dthorpe123\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/gx6v4d/terry_a_davis_genius_or_simply_dedicated/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+loading...
+
+
+
+
+
+
+12
+
+
+10
+11
+12
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/gktl77/this_place_is_pretty_quiet/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"This place is pretty quiet...",LM="KCTest(\"/r/TempleOS/comments/gktl77/this_place_is_pretty_quiet/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+submitted 6 meses ago y $MA-X+PU,"Cubo_CZ",LM="KCTest(\"https://old.reddit.com/user/Cubo_CZ\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"3 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/gktl77/this_place_is_pretty_quiet/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+13
+
+
+8
+9
+10
+
+
+$MA-X+PU,"",LM="KCTest(\"/r/TempleOS/comments/co6u3r/is_templeos_good_for_a_gaming_pc_build/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+
+$MA-X+PU,"Is TempleOS good for a gaming PC build?",LM="KCTest(\"/r/TempleOS/comments/co6u3r/is_templeos_good_for_a_gaming_pc_build/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$ ($MA-X+PU,"self.TempleOS",LM="KCTest(\"/r/TempleOS/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$)
+submitted 1 ano ago y $MA-X+PU,"Feminist_Buzzwords",LM="KCTest(\"https://old.reddit.com/user/Feminist_Buzzwords\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,2$
+ þ $MA-X+PU,"4 coment rios",LM="KCTest(\"https://old.reddit.com/r/TempleOS/comments/co6u3r/is_templeos_good_for_a_gaming_pc_build/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"compartilhar",LM="KCTest(\"javascript: void 0;\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"salvar",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"ocultar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+
+þ $MA-X+PU,"denunciar",LM="KCTest(\"javascript:void(0)\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+
+
+
+
+
+
+
+$ID,2$
+ þ sobre
+þ $MA-X+PU,"blog",LM="KCTest(\"https://redditblog.com\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"sobre",LM="KCTest(\"https://www.redditinc.com\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"advertising",LM="KCTest(\"https://www.redditinc.com/advertising\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"careers",LM="KCTest(\"https://www.redditinc.com/careers\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ ajuda
+þ $MA-X+PU,"site rules",LM="KCTest(\"https://old.reddit.com/rules/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"Reddit help center",LM="KCTest(\"https://www.reddithelp.com\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"redditiqueta",LM="KCTest(\"https://old.reddit.com/wiki/reddiquette/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"mod guidelines",LM="KCTest(\"https://old.reddit.com/help/healthycommunities/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"contact us",LM="KCTest(\"https://old.reddit.com/contact/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ apps &tools
+þ $MA-X+PU,"Reddit for iPhone",LM="KCTest(\"https://itunes.apple.com/us/app/reddit-the-official-app/id1064216828?mt=8\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"Reddit for Android",LM="KCTest(\"https://play.google.com/store/apps/details?id=com.reddit.frontpage\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"mobile website",LM="KCTest(\"#\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+$ID,2$
+ þ &lt;3
+þ $MA-X+PU,"reddit premium",LM="KCTest(\"https://old.reddit.com/premium/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"reddit coins",LM="KCTest(\"https://old.reddit.com/coins/\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+þ $MA-X+PU,"redditgifts",LM="KCTest(\"https://redditgifts.com\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$
+$ID,-2$
+
+
+O uso deste site constitui aceita€ƒo dos nossos $MA-X+PU,"User Agreement",LM="KCTest(\"https://old.reddit.com/help/useragreement\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$  $MA-X+PU,"Privacy Policy",LM="KCTest(\"https://old.reddit.com/help/privacypolicy\",\"https://www.old.reddit.com:443/r/TempleOS/\");View;
+"$. C2020 reddit inc. All rights reserved.
+REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+
+$LTBLUE$(IMG )$BLACK$$BG$
+&pi; Rendered by PID 4734 on r2-app-0390d96109c778e49  t 2020-11-17 15:49:32.043671+00:00 running 25e83e4 country code: BR.
+$FG$
